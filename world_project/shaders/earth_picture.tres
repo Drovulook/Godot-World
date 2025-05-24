@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://c6q0c1sijneeb"]
+
+[ext_resource type="Texture2D" uid="uid://d1kxytrvjplvh" path="res://assets/earth.jpg" id="1_3sjgd"]
+
+[resource]
+shading_mode = 0
+albedo_texture = ExtResource("1_3sjgd")
+refraction_enabled = true
+refraction_scale = 1.0

@@ -1,0 +1,41 @@
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Godot 4+ specific ignores
+.godot/
+/android/
+/ios/
+
+# C++ build files
+*.o
+*.os
+*.a
+*.so
+*.dll
+*.dylib
+.scons_node_count
+.sconsign.dblite
+
+# Compiled binaries
+world_project/bin/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# godot-cpp build artifacts
+godot-cpp/bin/
+godot-cpp/gen/
+godot-cpp/.sconsign.dblite
+godot-cpp/.scons_node_count
+
+# Backup files
+*~

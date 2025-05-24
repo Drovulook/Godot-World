@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://cdng1k1wjbjt0"]
+
+[ext_resource type="Script" uid="uid://byypbpe1nyxxp" path="res://camera_3d_script.gd" id="2_cluu8"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7mlwx"]
+sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+
+[sub_resource type="Sky" id="Sky_vtalr"]
+sky_material = SubResource("ProceduralSkyMaterial_7mlwx")
+
+[sub_resource type="Environment" id="Environment_cluu8"]
+background_mode = 2
+sky = SubResource("Sky_vtalr")
+tonemap_mode = 2
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 2.02898, 9.48786, -6.30894)
+light_color = Color(1, 1, 0.831373, 1)
+light_energy = 0.8
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_cluu8")
+
+[node name="Planet" type="Planet" parent="."]
+radius = 10.0
+mesh_per_face_res = 16
+mesh_res = 5
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.525401, 0, -0.753053)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.0778501, -0.618185, 0.782168, -3.72529e-09, 0.784549, 0.620067, -0.996965, -0.0482723, 0.0610772, 4.77284, 4.34643, -0.138308)
+current = true
+script = ExtResource("2_cluu8")

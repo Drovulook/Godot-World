@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cobgss6dxm6n0"]
+
+[ext_resource type="Shader" uid="uid://wn4yln14tusq" path="res://shaders/test_shader.gdshader" id="1_vo683"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_vo683")
+shader_parameter/metallic = 0.0
+shader_parameter/roughness = 5.0
+shader_parameter/light_direction = Vector3(0, 0, -1)
+shader_parameter/light_color = Vector3(1, 1, 1)
+shader_parameter/light_intensity = 1.0
