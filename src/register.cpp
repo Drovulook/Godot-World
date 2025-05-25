@@ -4,8 +4,7 @@
 #include "godot_cpp/godot.hpp"
 
 #include "Planet.h"
-#include "PlanetFace.h"
-#include "FaceMesh.h"
+#include "PlanetMesh.h"
 
 using namespace godot;
 
@@ -14,8 +13,7 @@ void initialize(ModuleInitializationLevel p_level) {
         return;
     }
     GDREGISTER_CLASS(Planet);
-    GDREGISTER_CLASS(PlanetFace);
-    GDREGISTER_CLASS(FaceMesh);
+    GDREGISTER_CLASS(PlanetMesh);
 }
 
 void uninitialize(ModuleInitializationLevel p_level) {

@@ -25,13 +25,8 @@ shadow_enabled = true
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_cluu8")
 
-[node name="Planet" type="Planet" parent="."]
-radius = 10.0
-mesh_per_face_res = 16
-mesh_res = 5
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.525401, 0, -0.753053)
-
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(0.0778501, -0.618185, 0.782168, -3.72529e-09, 0.784549, 0.620067, -0.996965, -0.0482723, 0.0610772, 4.77284, 4.34643, -0.138308)
 current = true
 script = ExtResource("2_cluu8")
+planet = NodePath("")
