@@ -6,6 +6,7 @@
 #include <godot_cpp/classes/resource_loader.hpp>
 #include <godot_cpp/classes/camera3d.hpp>
 #include <godot_cpp/classes/viewport.hpp>
+#include <godot_cpp/classes/project_settings.hpp>
 
 namespace godot {
     Planet::Planet(){
@@ -19,6 +20,19 @@ namespace godot {
     void Planet::_ready() {
         UtilityFunctions::print("Planet::_ready() called");
         set_process(true);
+
+        UtilityFunctions::print("Planet::_ready() - Initializing NCReader");
+        String godot_path = "res://assets/earth_data.nc";
+        String abs_path = ProjectSettings::get_singleton()->globalize_path(godot_path);
+        std::string file_path = abs_path.utf8().get_data();
+        m_elevation_reader = std::make_shared<NCAltitudeReader>(file_path);
+        if (!m_elevation_reader->load_file()) {
+            UtilityFunctions::print("Failed to load elevation data!");
+            m_elevation_reader = nullptr;
+        } else {
+            UtilityFunctions::print("Elevation data loaded successfully!");
+        }
+
         create_texture_map();
         generate_visible_meshes();
     }
@@ -88,30 +102,6 @@ namespace godot {
         }
         m_active_meshes.clear();
 
-        /*for (int x = 0; x < 8; x++) {
-            for (int y = 0; y < 4; y++) {
-                // utiliser m_mesh_per_img_res
-                Vector2 bottom_left_corner_pos = Vector2(2*(x/8.0f - 0.5f), y/4.0f - 0.5f);
-                Vector2 top_right_corner_pos = Vector2(2*((x+1)/8.0f - 0.5f), (y+1)/4.0f - 0.5f);
-                
-                std::string tile_key = std::to_string(x) + "_" + std::to_string(y);
-                Ref<Texture2D> tile;
-                
-                // Vérifier si la texture existe dans le cache
-                auto it = m_tile_cache.find(tile_key);
-                if (it != m_tile_cache.end()) {
-                    tile = it->second;
-                    UtilityFunctions::print("Texture found for tile: ", tile_key.c_str());
-                } else {
-                    UtilityFunctions::print("No texture found for tile: ", tile_key.c_str());
-                }
-
-                PlanetMesh* mesh = memnew(PlanetMesh(m_radius, m_mesh_res, m_material,
-                     m_mercator, tile, bottom_left_corner_pos, top_right_corner_pos));
-                add_child(mesh); // <-- AJOUT À LA SCÈNE
-                m_meshes.push_back(mesh);
-            }
-        }*/
        generate_visible_meshes();
 
     }
@@ -202,6 +192,7 @@ namespace godot {
     }
 
     void Planet::create_mesh_if_needed(int x, int y){
+
         std::string tile_id = std::to_string(x) + "_" + std::to_string(y);
         
         // Vérifier si le mesh existe déjà
@@ -226,7 +217,7 @@ namespace godot {
         }
         
         PlanetMesh* mesh = memnew(PlanetMesh(m_radius, m_mesh_res, m_material,
-             m_mercator, tile, bottom_left_corner_pos, top_right_corner_pos));
+             m_mercator, tile, bottom_left_corner_pos, top_right_corner_pos, m_elevation_reader));
         add_child(mesh);
         m_active_meshes[tile_id] = mesh;
     }
@@ -255,7 +246,7 @@ namespace godot {
 
         ADD_PROPERTY(PropertyInfo(Variant::FLOAT, "radius"), "set_radius", "get_radius");
         ADD_PROPERTY(PropertyInfo(Variant::INT, "mesh_per_img_res", PROPERTY_HINT_RANGE, "1,50,1"), "set_mesh_per_img_res", "get_mesh_per_img_res");
-        ADD_PROPERTY(PropertyInfo(Variant::INT, "mesh_res", PROPERTY_HINT_RANGE, "1,50,1"), "set_mesh_res", "get_mesh_res");
+        ADD_PROPERTY(PropertyInfo(Variant::INT, "mesh_res", PROPERTY_HINT_RANGE, "1,200,1"), "set_mesh_res", "get_mesh_res");
         ADD_PROPERTY(PropertyInfo(Variant::OBJECT, "m_material", PROPERTY_HINT_RESOURCE_TYPE, "ShaderMaterial"), "set_material", "get_material");
         ADD_PROPERTY(PropertyInfo(Variant::BOOL, "m_mercator"), "set_mercator", "get_mercator");
     }

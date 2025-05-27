@@ -5,11 +5,11 @@ namespace godot {
     PlanetMesh::PlanetMesh(float radius, int mesh_res, 
         Ref<ShaderMaterial> material, bool mercator,  
         Ref<Texture2D> tile, Vector2 bottom_left_corner_pos, 
-        Vector2 top_right_corner_pos)
+        Vector2 top_right_corner_pos, std::shared_ptr<NCAltitudeReader> elevation_reader)
         : m_radius(radius), m_mesh_res(mesh_res), m_material(material), 
           m_mercator(mercator), m_tile(tile), 
           m_bottom_left_corner_pos(bottom_left_corner_pos), 
-          m_top_right_corner_pos(top_right_corner_pos) {
+          m_top_right_corner_pos(top_right_corner_pos), m_elevation_reader(elevation_reader){
     }
     PlanetMesh::~PlanetMesh(){
     }
@@ -40,20 +40,21 @@ namespace godot {
                     min_y + (max_y - min_y) * ((float)y / m_mesh_res)
                 );
 
+                float elevation_offset = get_elevation_at_position(flat_pos);
+
                 Vector3 dim3_pos;
                 if (m_mercator) {
                     // Mercator projection
                     dim3_pos = Vector3(
                         flat_pos.x * m_radius,
                         flat_pos.y * m_radius,
-                        noise(flat_pos) * m_radius
+                        elevation_offset * m_radius
                     );
                 } else {
                     float longitude = flat_pos.x * M_PI;
                     float latitude = -(flat_pos.y + 0.5f) * M_PI; 
 
-                    float noise_offset = noise(flat_pos) * 0.1f;
-                    float r = (1 + noise_offset) * m_radius;
+                    float r = (1 + elevation_offset) * m_radius;
 
                     dim3_pos = Vector3(
                         - r * sin(latitude) * cos(longitude),
@@ -129,7 +130,23 @@ namespace godot {
         }
     }
 
-    void PlanetMesh::_bind_methods() {
-        
+    float PlanetMesh::get_elevation_at_position(const Vector2 &flat_pos) const{
+        if (!m_elevation_reader || !m_elevation_reader->is_data_loaded()) {
+            UtilityFunctions::print("No elevation data available.");
+            return 0.0f; // Pas de données d'altitude disponibles
+        }
+
+        float longitude = flat_pos.x * 180.0f; //de -180 à 180
+        float latitude = flat_pos.y * 180.0f; // de -90 à 90
+
+        float elevation = m_elevation_reader->get_elevation_at(latitude, longitude);
+
+        float normalized_elevation = elevation / 8848.0f; // Mont Everest comme référence
+    
+        return normalized_elevation * 0.04f; // Facteur d'échelle pour l'effet visuel
+    }
+
+    void PlanetMesh::_bind_methods()
+    {
     }
 }

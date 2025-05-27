@@ -15,7 +15,9 @@
 #include <godot_cpp/classes/shader.hpp>
 
 #include "PlanetMesh.h"
+#include "NCAltitudeReader.h"
 
+#include <memory>
 #include <vector>
 #include <map>
 
@@ -70,6 +72,8 @@ namespace godot {
 
             std::unordered_map<std::string, Ref<Texture2D>> m_tile_cache;
             std::unordered_map<std::string, PlanetMesh*> m_active_meshes;
+
+            std::shared_ptr<NCAltitudeReader> m_elevation_reader;
 
         protected:
             static void _bind_methods();

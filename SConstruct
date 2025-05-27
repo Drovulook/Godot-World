@@ -1,5 +1,21 @@
 env = SConscript("godot-cpp/SConstruct")
-env.Append(CPPPATH = ["src/"])
+
+# Ajouter les chemins d'inclusion pour netCDF
+env.Append(CPPPATH = [
+    "src/",
+    "/usr/include",  # Pour netcdf.h
+    "libs/netcdf-cxx4/cxx4/",  # Pour l'API C++
+])
+
+# Ajouter les bibliothèques
+env.Append(LIBS = ["netcdf", "netcdf_c++4"])
+env.Append(LIBPATH = [
+    "/usr/lib",
+    "libs/netcdf-cxx4/build/cxx4"
+])
+
+env.Append(CXXFLAGS=["-fexceptions"])
+
 sources = Glob("src/*.cpp")
 
 library = env.SharedLibrary("world_project/bin/World{}{}".format(env['suffix'], env['SHLIBSUFFIX']), source = sources)

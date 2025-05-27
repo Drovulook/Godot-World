@@ -9,6 +9,10 @@
 #include <godot_cpp/classes/shader_material.hpp>
 #include <godot_cpp/classes/shader.hpp>
 
+#include <memory>
+
+#include "NCAltitudeReader.h"
+
 namespace godot {
     class PlanetMesh : public MeshInstance3D {
         GDCLASS(PlanetMesh, MeshInstance3D);
@@ -16,7 +20,8 @@ namespace godot {
         public:
             PlanetMesh(float radius, int mesh_res, Ref<ShaderMaterial> material,
                      bool mercator, Ref<Texture2D> tile, 
-                     Vector2 bottom_left_corner_pos, Vector2 top_right_corner_pos);
+                     Vector2 bottom_left_corner_pos, Vector2 top_right_corner_pos,
+                     std::shared_ptr<NCAltitudeReader> elevation_reader);
             
             PlanetMesh() = default;
             ~PlanetMesh();
@@ -38,8 +43,10 @@ namespace godot {
             Ref<Texture2D> m_tile;
             Vector2 m_bottom_left_corner_pos;
             Vector2 m_top_right_corner_pos;
-
             Ref<ArrayMesh> m_array_mesh;
+            std::shared_ptr<NCAltitudeReader> m_elevation_reader;
+
+            float get_elevation_at_position(const Vector2& flat_pos) const;
 
         protected:
             static void _bind_methods();

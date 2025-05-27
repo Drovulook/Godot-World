@@ -2,25 +2,32 @@
 
 #include <string>
 #include <vector>
+#include <netcdf>
+
+#include <godot_cpp/variant/vector2.hpp>
+#include <godot_cpp/variant/vector2i.hpp>
+#include <godot_cpp/variant/string.hpp>
+#include <godot_cpp/classes/node.hpp>
 
 using namespace godot;
 
-class NCReader {
+class NCAltitudeReader {
 public:
-    NCReader(std::string file_path);
-    ~NCReader();
+    NCAltitudeReader(std::string file_path);
+    ~NCAltitudeReader();
+
+    bool load_file();
 
     bool is_data_loaded() const;
 
     Vector2i get_data_dimensions() const;
     Vector2 get_lat_lon_range() const;
 
-    bool load_netcdf_file(const String& file_path);
-    void print_data_info() const;
-    void print_sample_data(int sample_size = 10) const;
     float get_elevation_at(float latitude, float longitude) const;
 
 private:
+    int m_subsample = 5;
+
     std::string m_file_path;
     std::vector<std::vector<float>> m_elevation_data;
     std::vector<float> m_latitudes;
@@ -28,9 +35,8 @@ private:
     int m_width;
     int m_height;
     bool m_data_loaded;
-
-    bool parse_netcdf_simple(const std::string& file_path);
-        int find_nearest_index(const std::vector<float>& array, float value) const;
+    float m_min_elevation;
+    float m_max_elevation;
 
     
 };
