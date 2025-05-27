@@ -3,7 +3,7 @@
 
 namespace godot {
     PlanetMesh::PlanetMesh(float radius, int mesh_res, 
-        Ref<StandardMaterial3D> material, bool mercator,  
+        Ref<ShaderMaterial> material, bool mercator,  
         Ref<Texture2D> tile, Vector2 bottom_left_corner_pos, 
         Vector2 top_right_corner_pos)
         : m_radius(radius), m_mesh_res(mesh_res), m_material(material), 
@@ -123,8 +123,8 @@ namespace godot {
             if (!m_material.is_valid()) {
                 m_material.instantiate();
             }
-            Ref<StandardMaterial3D> mat = m_material;
-            mat->set_texture(StandardMaterial3D::TEXTURE_ALBEDO, m_tile);
+            Ref<ShaderMaterial> mat = m_material->duplicate();
+            mat->set_shader_parameter("albedo_texture", m_tile);
             set_surface_override_material(0, mat);
         }
     }

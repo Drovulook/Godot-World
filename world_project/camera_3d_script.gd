@@ -1,8 +1,9 @@
 extends Camera3D
 
-@export var planet: NodePath = NodePath("../Planet") # Chemin relatif vers le nœud Planet
+@export var planet: NodePath = NodePath("Planet") # Chemin relatif vers le nœud Planet
 @export var rotate_around_planet_speed: float = 1.0 # Vitesse de rotation autour de la planète
 @export var rotate_cam_speed: float = 1.0 # Vitesse de rotation de la caméra
+@export var radius_mult: float = 1.1
 
 var planet_node: Node3D
 var camera : Camera3D
@@ -37,13 +38,13 @@ func _process(delta):
 		yaw -= rotate_around_planet_speed * delta
 	
 	theta = clamp(theta, -PI/2.0, PI/2.0)
-	yaw = clamp(yaw, -PI/8.0, PI/8.0)
+	yaw = clamp(yaw, -PI/14.0, PI/14.0)
 	pitch = clamp(pitch, -PI/8.0, PI/8.0)
 	
 	update_camera()
 	
 func update_camera():
-	var offset = Vector3(sin(phi) * cos(theta),sin(theta),cos(phi) * cos(theta)) * distance * 1.1
+	var offset = Vector3(sin(phi) * cos(theta),sin(theta),cos(phi) * cos(theta)) * distance * radius_mult
 	
 	camera.global_transform.origin = planet_node.global_transform.origin + offset
 	camera.look_at(planet_node.global_transform.origin, Vector3.UP)

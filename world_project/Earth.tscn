@@ -1,6 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://cdng1k1wjbjt0"]
+[gd_scene load_steps=8 format=3 uid="uid://cdng1k1wjbjt0"]
 
+[ext_resource type="Shader" uid="uid://wn4yln14tusq" path="res://shaders/test_shader.gdshader" id="1_f10a0"]
 [ext_resource type="Script" uid="uid://byypbpe1nyxxp" path="res://camera_3d_script.gd" id="2_cluu8"]
+[ext_resource type="Texture2D" uid="uid://c4r3lqj5ceo2g" path="res://assets/tiles/7_3.jpg" id="2_yprjr"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7mlwx"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -14,19 +16,31 @@ background_mode = 2
 sky = SubResource("Sky_vtalr")
 tonemap_mode = 2
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fxhlq"]
+render_priority = 0
+shader = ExtResource("1_f10a0")
+shader_parameter/albedo_texture = ExtResource("2_yprjr")
+shader_parameter/metallic = 0.0
+shader_parameter/roughness = 1.0
+
 [node name="Node3D" type="Node3D"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 2.02898, 9.48786, -6.30894)
-light_color = Color(1, 1, 0.831373, 1)
-light_energy = 0.8
+transform = Transform3D(-0.866024, -0.433016, 0.250001, 0, 0.499998, 0.866026, -0.500003, 0.749999, -0.43301, 0, 0, -50)
+light_color = Color(1, 1, 0.886275, 1)
+light_energy = 0.5
 shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_cluu8")
 
+[node name="Planet" type="Planet" parent="."]
+radius = 5.385
+m_material = SubResource("ShaderMaterial_fxhlq")
+
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(0.0778501, -0.618185, 0.782168, -3.72529e-09, 0.784549, 0.620067, -0.996965, -0.0482723, 0.0610772, 4.77284, 4.34643, -0.138308)
 current = true
 script = ExtResource("2_cluu8")
-planet = NodePath("")
+planet = NodePath("../Planet")
+rotate_around_planet_speed = 1.5
