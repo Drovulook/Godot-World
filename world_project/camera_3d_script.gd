@@ -4,6 +4,7 @@ extends Camera3D
 @export var rotate_around_planet_speed: float = 1.0 # Vitesse de rotation autour de la planète
 @export var rotate_cam_speed: float = 1.0 # Vitesse de rotation de la caméra
 @export var radius_mult: float = 1.1
+@export var move_forward_backward_speed = 0.1
 
 var planet_node: Node3D
 var camera : Camera3D
@@ -13,6 +14,8 @@ var theta = PI/8.0
 var phi = 0.0
 var pitch = 0.0
 var yaw = 0.0
+
+var move = 0.0
 
 func _ready():
 	camera = self
@@ -36,15 +39,21 @@ func _process(delta):
 		yaw += rotate_around_planet_speed * delta
 	if Input.is_action_pressed("right_cam"):
 		yaw -= rotate_around_planet_speed * delta
+	if Input.is_action_pressed("move_forward"):
+		move -= move_forward_backward_speed * delta
+	if Input.is_action_pressed("move_backward"):
+		move += move_forward_backward_speed * delta
 	
 	theta = clamp(theta, -PI/2.0, PI/2.0)
 	yaw = clamp(yaw, -PI/14.0, PI/14.0)
 	pitch = clamp(pitch, -PI/8.0, PI/8.0)
 	
+	move = clamp(move, 1- radius_mult, 0.2)
+	
 	update_camera()
 	
 func update_camera():
-	var offset = Vector3(sin(phi) * cos(theta),sin(theta),cos(phi) * cos(theta)) * distance * radius_mult
+	var offset = Vector3(sin(phi) * cos(theta),sin(theta),cos(phi) * cos(theta)) * distance * (1 + move) * radius_mult
 	
 	camera.global_transform.origin = planet_node.global_transform.origin + offset
 	camera.look_at(planet_node.global_transform.origin, Vector3.UP)

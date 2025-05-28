@@ -141,10 +141,14 @@ float NCAltitudeReader::get_elevation_at(float latitude, float longitude) const{
     int ind_lat = static_cast<int>(m_height * (latitude + 90) / 180); 
     int ind_lon = static_cast<int>(m_width * (longitude + 180) / 360);
 
-    if (ind_lat < 0 || ind_lat >= m_height || ind_lon < 0 || ind_lon >= m_width) {
-    UtilityFunctions::print("Index out of bounds: lat=", ind_lat, ", lon=", ind_lon);
-    return 0.0f;
-}
+    if (ind_lat >= m_height) {
+        //UtilityFunctions::print("Index out of bounds: lat=", ind_lat, ", max=", m_height);
+        ind_lat =  m_height-1;
+    }
+    if (ind_lon >= m_width) {
+        //UtilityFunctions::print("Index out of bounds: lon=", ind_lon, ", max=", m_width);
+        ind_lon = m_width-1;
+    }
 
     return m_elevation_data[ind_lat][ind_lon]; 
 }

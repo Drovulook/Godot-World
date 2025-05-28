@@ -19,7 +19,6 @@ namespace godot {
 
     void Planet::_ready() {
         UtilityFunctions::print("Planet::_ready() called");
-        set_process(true);
 
         UtilityFunctions::print("Planet::_ready() - Initializing NCReader");
         String godot_path = "res://assets/earth_data.nc";
@@ -32,9 +31,11 @@ namespace godot {
         } else {
             UtilityFunctions::print("Elevation data loaded successfully!");
         }
-
+        set_process(true);
         create_texture_map();
         generate_visible_meshes();
+
+        m_initialized = true;
     }
 
     void Planet::_process(double delta){
@@ -46,7 +47,7 @@ namespace godot {
 
     void Planet::set_radius(float new_radius){
         m_radius = new_radius;
-        generate();
+        if(m_initialized) generate();
     }
 
     float Planet::get_radius() const{
@@ -55,7 +56,7 @@ namespace godot {
 
     void Planet::set_mesh_per_img_res(int res){
         m_mesh_per_img_res = res;
-        generate();
+        if(m_initialized) generate();
     }
 
     int Planet::get_mesh_per_img_res() const{
@@ -64,15 +65,11 @@ namespace godot {
 
     void Planet::set_mesh_res(int res){
         m_mesh_res = res;
-        generate();
+        if(m_initialized) generate();
     }
 
     int Planet::get_mesh_res() const{
         return m_mesh_res;
-    }
-
-    Ref<ShaderMaterial> Planet::get_material() const{
-        return m_material;
     }
 
     bool Planet::get_mercator() const{
@@ -81,21 +78,23 @@ namespace godot {
 
     void Planet::set_mercator(bool state){
         m_mercator = state;
-        generate();
+        if(m_initialized) generate();
     }
 
     void Planet::set_material(Ref<ShaderMaterial> material){
-        UtilityFunctions::print("Planet::set_material() called");
         m_material = material;
-        generate_colors();
 
-        if (m_material.is_valid()) {
+        if (m_material.is_valid() && m_initialized) {
         generate_visible_meshes();
         }
     }
 
+    Ref<ShaderMaterial> Planet::get_material() const{
+        return m_material;
+    }
+
     void Planet::generate() {
-        create_texture_map();
+        //create_texture_map();
 
         for (auto& pair : m_active_meshes) {
             pair.second->queue_free();
@@ -167,7 +166,7 @@ namespace godot {
         Vector3 cam_pos = camera->get_global_transform().origin;
         float dist = world_center.distance_to(cam_pos);
         // Seuil de proximité (ajuste selon tes besoins)
-        float proximity_threshold = m_radius * 1.8f;
+        float proximity_threshold = m_radius * 2.2f;
 
         // Vérifier si dans le frustum de la caméra
         return camera->is_position_in_frustum(world_center) || dist < proximity_threshold;
@@ -202,7 +201,7 @@ namespace godot {
         }
 
         if (!m_material.is_valid()) {
-            UtilityFunctions::print("Material not ready, skipping mesh creation for tile: ", tile_id.c_str());
+            //UtilityFunctions::print("Material not ready, skipping mesh creation for tile: ", tile_id.c_str());
             return;
         }
         
@@ -244,9 +243,11 @@ namespace godot {
         ClassDB::bind_method(D_METHOD("get_mercator"), &Planet::get_mercator);
         ClassDB::bind_method(D_METHOD("set_mercator", "state"), &Planet::set_mercator);
 
+        ClassDB::bind_method(D_METHOD("generate"), &Planet::generate);
+
         ADD_PROPERTY(PropertyInfo(Variant::FLOAT, "radius"), "set_radius", "get_radius");
         ADD_PROPERTY(PropertyInfo(Variant::INT, "mesh_per_img_res", PROPERTY_HINT_RANGE, "1,50,1"), "set_mesh_per_img_res", "get_mesh_per_img_res");
-        ADD_PROPERTY(PropertyInfo(Variant::INT, "mesh_res", PROPERTY_HINT_RANGE, "1,200,1"), "set_mesh_res", "get_mesh_res");
+        ADD_PROPERTY(PropertyInfo(Variant::INT, "mesh_res", PROPERTY_HINT_RANGE, "1,800,1"), "set_mesh_res", "get_mesh_res");
         ADD_PROPERTY(PropertyInfo(Variant::OBJECT, "m_material", PROPERTY_HINT_RESOURCE_TYPE, "ShaderMaterial"), "set_material", "get_material");
         ADD_PROPERTY(PropertyInfo(Variant::BOOL, "m_mercator"), "set_mercator", "get_mercator");
     }

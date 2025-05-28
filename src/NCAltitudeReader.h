@@ -26,7 +26,7 @@ public:
     float get_elevation_at(float latitude, float longitude) const;
 
 private:
-    int m_subsample = 5;
+    int m_subsample = 3;
 
     std::string m_file_path;
     std::vector<std::vector<float>> m_elevation_data;

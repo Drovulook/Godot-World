@@ -12,8 +12,10 @@ void initialize(ModuleInitializationLevel p_level) {
     if(p_level != MODULE_INITIALIZATION_LEVEL_SCENE) {
         return;
     }
-    GDREGISTER_CLASS(Planet);
-    GDREGISTER_CLASS(PlanetMesh);
+    // GDREGISTER_CLASS(Planet);
+    // GDREGISTER_CLASS(PlanetMesh);
+    ClassDB::register_class<Planet>();
+    ClassDB::register_class<PlanetMesh>();
 }
 
 void uninitialize(ModuleInitializationLevel p_level) {

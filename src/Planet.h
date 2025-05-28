@@ -60,6 +60,8 @@ namespace godot {
                 void remove_mesh_if_exists(int x, int y);
 
         private:
+        bool m_initialized = false;
+
             float m_radius = 5.0f;
             Ref<ArrayMesh> m_array_mesh;
             int m_mesh_per_img_res = 5;

@@ -1,5 +1,4 @@
 #include "PlanetMesh.h"
-#include "Noise.h"
 
 namespace godot {
     PlanetMesh::PlanetMesh(float radius, int mesh_res, 
@@ -132,7 +131,7 @@ namespace godot {
 
     float PlanetMesh::get_elevation_at_position(const Vector2 &flat_pos) const{
         if (!m_elevation_reader || !m_elevation_reader->is_data_loaded()) {
-            UtilityFunctions::print("No elevation data available.");
+            //UtilityFunctions::print("No elevation data available.");
             return 0.0f; // Pas de données d'altitude disponibles
         }
 
@@ -143,7 +142,7 @@ namespace godot {
 
         float normalized_elevation = elevation / 8848.0f; // Mont Everest comme référence
     
-        return normalized_elevation * 0.04f; // Facteur d'échelle pour l'effet visuel
+        return normalized_elevation * 0.03f; // Facteur d'échelle pour l'effet visuel
     }
 
     void PlanetMesh::_bind_methods()
