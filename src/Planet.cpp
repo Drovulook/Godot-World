@@ -31,6 +31,7 @@ namespace godot {
         } else {
             UtilityFunctions::print("Elevation data loaded successfully!");
         }
+
         set_process(true);
         create_texture_map();
         generate_visible_meshes();

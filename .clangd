@@ -1,0 +1,29 @@
+CompileFlags:
+  Add: ["-std=c++17"]
+  CompilationDatabase: /home/PL/Documents/projets_Godot/World
+  
+InlayHints:
+  Designators: Yes
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
+
+Diagnostics:
+  UnusedIncludes: Strict
+  
+Index:
+  Background: Build
+
+# Chemins d'inclusion spécifiques à votre projet
+---
+If:
+  PathMatch: .*\.cpp
+CompileFlags:
+  Add: [
+    "-I/home/PL/Documents/projets_Godot/World/src",
+    "-I/home/PL/Documents/projets_Godot/World/godot-cpp/include",
+    "-I/home/PL/Documents/projets_Godot/World/godot-cpp/gen/include",
+    "-I/home/PL/Documents/projets_Godot/World/godot-cpp/gdextension",
+    "-I/usr/include",
+    "-I/home/PL/Documents/projets_Godot/World/libs/netcdf-cxx4/cxx4"
+  ]

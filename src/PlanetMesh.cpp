@@ -1,4 +1,5 @@
 #include "PlanetMesh.h"
+#include "qffzefEF"
 
 namespace godot {
     PlanetMesh::PlanetMesh(float radius, int mesh_res, 
@@ -34,55 +35,25 @@ namespace godot {
         // création d'un mesh carré de côté m_mesh_res
         for (int y = 0; y <= m_mesh_res; ++y) {
             for (int x = 0; x <= m_mesh_res; ++x) {
-                Vector2 flat_pos = Vector2(
-                    min_x + (max_x - min_x) * ((float)x / m_mesh_res),
-                    min_y + (max_y - min_y) * ((float)y / m_mesh_res)
+                float x_pos = min_x + (max_x - min_x) * ((float)x / m_mesh_res);
+                float y_pos = min_y + (max_y - min_y) * ((float)y / m_mesh_res);
+                Vector3 flat_vertex = Vector3(
+                    x_pos,
+                    y_pos,
+                    get_elevation_at_position(Vector2(x_pos, y_pos))
                 );
 
-                float elevation_offset = get_elevation_at_position(flat_pos);
-
-                Vector3 dim3_pos;
-                if (m_mercator) {
-                    // Mercator projection
-                    dim3_pos = Vector3(
-                        flat_pos.x * m_radius,
-                        flat_pos.y * m_radius,
-                        elevation_offset * m_radius
-                    );
-                } else {
-                    float longitude = flat_pos.x * M_PI;
-                    float latitude = -(flat_pos.y + 0.5f) * M_PI; 
-
-                    float r = (1 + elevation_offset) * m_radius;
-
-                    dim3_pos = Vector3(
-                        - r * sin(latitude) * cos(longitude),
-                        -r * cos(latitude),
-                        r * sin(latitude) * sin(longitude)
-                );
-                }
-
-                vertices.push_back(dim3_pos);
+                vertices.push_back(flat_vertex);
 
                 colors.push_back(Color(1.0f, 1.0f, 1.0f, 1.0f)); // White color for now
-                if (m_mercator) {
 
-                    uvs.push_back(Vector2(
-                    (float)x / (float)m_mesh_res,  
-                    1.0f - (float)y / (float)m_mesh_res
-                ));
-                } else {
-                }
                 uvs.push_back(Vector2(
                     (float)x / (float)m_mesh_res,  
                     1.0f - (float)y / (float)m_mesh_res
                 ));
+
             }
         }
-
-        for (int i = 0; i < vertices.size(); ++i) {
-            normals.push_back(vertices[i].normalized());
-            }
         
         for (int y = 0; y < m_mesh_res; ++y) {
             for (int x = 0; x < m_mesh_res; ++x) {
@@ -108,13 +79,13 @@ namespace godot {
             }
         }
 
-         Array arrays;
+        Array arrays;
         arrays.resize(Mesh::ARRAY_MAX);
         arrays[Mesh::ARRAY_VERTEX] = vertices;
         arrays[Mesh::ARRAY_INDEX] = indices;
         arrays[Mesh::ARRAY_TEX_UV] = uvs;
         arrays[Mesh::ARRAY_COLOR] = colors;
-        arrays[Mesh::ARRAY_NORMAL] = normals;
+        //arrays[Mesh::ARRAY_NORMAL] = normals;
 
         m_array_mesh->add_surface_from_arrays(Mesh::PRIMITIVE_TRIANGLES, arrays);
         set_mesh(m_array_mesh);
@@ -125,6 +96,10 @@ namespace godot {
             }
             Ref<ShaderMaterial> mat = m_material->duplicate();
             mat->set_shader_parameter("albedo_texture", m_tile);
+            
+            mat->set_shader_parameter("NOCHANGE_planet_radius", m_radius);
+            mat->set_shader_parameter("NOCHANGE_use_mercator", m_mercator);
+            
             set_surface_override_material(0, mat);
         }
     }
@@ -142,10 +117,9 @@ namespace godot {
 
         float normalized_elevation = elevation / 8848.0f; // Mont Everest comme référence
     
-        return normalized_elevation * 0.03f; // Facteur d'échelle pour l'effet visuel
+        return normalized_elevation ; // Facteur d'échelle pour l'effet visuel
     }
 
-    void PlanetMesh::_bind_methods()
-    {
+    void PlanetMesh::_bind_methods(){
     }
 }

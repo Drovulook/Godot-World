@@ -1,8 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://cdng1k1wjbjt0"]
+[gd_scene load_steps=7 format=3 uid="uid://cdng1k1wjbjt0"]
 
 [ext_resource type="Shader" uid="uid://wn4yln14tusq" path="res://shaders/test_shader.gdshader" id="1_f10a0"]
 [ext_resource type="Script" uid="uid://byypbpe1nyxxp" path="res://camera_3d_script.gd" id="2_cluu8"]
-[ext_resource type="Texture2D" uid="uid://c4r3lqj5ceo2g" path="res://assets/tiles/7_3.jpg" id="2_yprjr"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7mlwx"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -19,33 +18,42 @@ tonemap_mode = 2
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_fxhlq"]
 render_priority = 0
 shader = ExtResource("1_f10a0")
-shader_parameter/albedo_texture = ExtResource("2_yprjr")
-shader_parameter/metallic = 0.01
-shader_parameter/roughness = 0.9
-shader_parameter/saturation = 2.066
-shader_parameter/brightness = 1.556
-shader_parameter/contrast = 1.4
+shader_parameter/metallic = 0.0
+shader_parameter/roughness = 1.0
+shader_parameter/elevation_scale = 0.05
+shader_parameter/saturation = 1.6
+shader_parameter/brightness = 1.0
+shader_parameter/rim_power = 5.0
+shader_parameter/rim_color = Color(1, 1, 1, 1)
+shader_parameter/color_snow_threshold = 0.85
+shader_parameter/altitude_snow_threshold = 0.25
+shader_parameter/snow_brightness = 20.0
+shader_parameter/snow_roughness = 0.7
+shader_parameter/NOCHANGE_planet_radius = 0.0
+shader_parameter/NOCHANGE_use_mercator = false
 
 [node name="Node3D" type="Node3D"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866024, -0.433016, 0.250001, 0, 0.499998, 0.866026, -0.500003, 0.749999, -0.43301, 0, 0, -50)
-light_color = Color(1, 1, 0.886275, 1)
-light_energy = 0.0
+light_color = Color(0.987002, 0.990444, 0.996092, 1)
+light_energy = 0.2
 shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_cluu8")
 
 [node name="Planet" type="Planet" parent="."]
-radius = 7.08
+radius = 7.22
 mesh_res = 400
 m_material = SubResource("ShaderMaterial_fxhlq")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.375355, 0, 0)
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(0.0778501, -0.618185, 0.782168, -3.72529e-09, 0.784549, 0.620067, -0.996965, -0.0482723, 0.0610772, 4.77284, 4.34643, -0.138308)
+transform = Transform3D(0.0778501, -0.618185, 0.782168, -3.72529e-09, 0.784549, 0.620067, -0.996965, -0.0482723, 0.0610772, 5.71357, 4.34643, -0.138308)
 current = true
 script = ExtResource("2_cluu8")
 planet = NodePath("../Planet")
 rotate_around_planet_speed = 1.5
+radius_mult = 1.2
+move_forward_backward_speed = 0.57
