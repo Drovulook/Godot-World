@@ -1,5 +1,4 @@
 #include "PlanetMesh.h"
-#include "qffzefEF"
 
 namespace godot {
     PlanetMesh::PlanetMesh(float radius, int mesh_res, 

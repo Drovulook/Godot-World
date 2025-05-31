@@ -16,10 +16,11 @@ env.Append(
 # Ajouter les bibliothèques
 env.Append(LIBS=["netcdf", "netcdf_c++4"])
 env.Append(LIBPATH=["/usr/lib", "libs/netcdf-cxx4/build/cxx4"])
-
 env.Append(CXXFLAGS=["-fexceptions"])
 
-sources = Glob("src/*.cpp")
+env.VariantDir("build", "src", duplicate=0)
+
+sources = Glob("build/*.cpp")
 
 library = env.SharedLibrary(
     "world_project/bin/World{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),

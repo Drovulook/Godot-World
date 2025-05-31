@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://cdng1k1wjbjt0"]
 
-[ext_resource type="Shader" uid="uid://wn4yln14tusq" path="res://shaders/test_shader.gdshader" id="1_f10a0"]
+[ext_resource type="Shader" uid="uid://wn4yln14tusq" path="res://shaders/earth_shader.gdshader" id="1_f10a0"]
 [ext_resource type="Script" uid="uid://byypbpe1nyxxp" path="res://camera_3d_script.gd" id="2_cluu8"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7mlwx"]
@@ -20,15 +20,18 @@ render_priority = 0
 shader = ExtResource("1_f10a0")
 shader_parameter/metallic = 0.0
 shader_parameter/roughness = 1.0
-shader_parameter/elevation_scale = 0.05
+shader_parameter/elevation_scale = 0.025
 shader_parameter/saturation = 1.6
 shader_parameter/brightness = 1.0
-shader_parameter/rim_power = 5.0
+shader_parameter/rim_power = 8.0
 shader_parameter/rim_color = Color(1, 1, 1, 1)
 shader_parameter/color_snow_threshold = 0.85
 shader_parameter/altitude_snow_threshold = 0.25
 shader_parameter/snow_brightness = 20.0
 shader_parameter/snow_roughness = 0.7
+shader_parameter/wave_speed = 1.0
+shader_parameter/wave_amplitude = 0.005
+shader_parameter/wave_frequency = 100.0
 shader_parameter/NOCHANGE_planet_radius = 0.0
 shader_parameter/NOCHANGE_use_mercator = false
 

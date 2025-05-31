@@ -64,7 +64,7 @@ private:
 
   float m_radius = 5.0f;
   Ref<ArrayMesh> m_array_mesh;
-  int m_mesh_per_img_res = 5;
+  int m_mesh_per_img_res = 2;
   int m_mesh_res = 15;
   Ref<ShaderMaterial> m_material;
 
