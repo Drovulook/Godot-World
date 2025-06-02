@@ -18,10 +18,10 @@ namespace godot {
         GDCLASS(PlanetMesh, MeshInstance3D);
 
         public:
-            PlanetMesh(float radius, int mesh_res, Ref<ShaderMaterial> material,
-                     bool mercator, Ref<Texture2D> tile, 
+            PlanetMesh(float radius, int mesh_res, int mesh_per_img_res, Ref<ShaderMaterial> material,
+                     bool mercator, Ref<Texture2D> tile, int tile_x, int tile_y, int sub_x, int sub_y,
                      Vector2 bottom_left_corner_pos, Vector2 top_right_corner_pos,
-                     std::shared_ptr<NCAltitudeReader> elevation_reader);
+                     std::shared_ptr<NCAltitudeReader> elevation_reader, Ref<Texture2D> country_idx_texture);
             
             PlanetMesh() = default;
             ~PlanetMesh();
@@ -38,15 +38,19 @@ namespace godot {
         private:
             float m_radius;
             int m_mesh_res;
+            int m_mesh_per_img_res;
             Ref<ShaderMaterial> m_material;
             bool m_mercator;
             Ref<Texture2D> m_tile;
+            int m_tile_x;
+            int m_tile_y;
+            int m_sub_x;
+            int m_sub_y;
             Vector2 m_bottom_left_corner_pos;
             Vector2 m_top_right_corner_pos;
             Ref<ArrayMesh> m_array_mesh;
             std::shared_ptr<NCAltitudeReader> m_elevation_reader;
-
-            float get_elevation_at_position(const Vector2& flat_pos) const;
+            Ref<Texture2D> m_country_idx_texture;
 
         protected:
             static void _bind_methods();

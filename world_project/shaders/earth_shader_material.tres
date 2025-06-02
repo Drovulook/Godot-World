@@ -1,0 +1,30 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cobgss6dxm6n0"]
+
+[ext_resource type="Shader" uid="uid://wn4yln14tusq" path="res://shaders/earth_shader.gdshader" id="1_4ep0n"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_4ep0n")
+shader_parameter/metallic = 0.0
+shader_parameter/roughness = 5.0
+shader_parameter/elevation_scale = 0.3
+shader_parameter/saturation = 1.6
+shader_parameter/brightness = 1.0
+shader_parameter/rim_power = 2.0
+shader_parameter/rim_color = Color(1, 1, 1, 1)
+shader_parameter/color_snow_threshold = 0.85
+shader_parameter/altitude_snow_threshold = 0.2
+shader_parameter/snow_brightness = 5.0
+shader_parameter/snow_roughness = 0.3
+shader_parameter/wave_speed = 1.0
+shader_parameter/wave_amplitude = 0.005
+shader_parameter/wave_frequency = 100.0
+shader_parameter/ocean_deep_color = Color(0.0838589, 0.260607, 0.708405, 1)
+shader_parameter/ocean_specular = 0.69
+shader_parameter/ocean_fresnel = 5.0
+shader_parameter/NOCHANGE_planet_radius = 0.0
+shader_parameter/NOCHANGE_use_mercator = false
+shader_parameter/NOCHANGE_elevation_min = 0.0
+shader_parameter/NOCHANGE_elevation_max = 0.0
+shader_parameter/NOCHANGE_tile_x = 0.0
+shader_parameter/NOCHANGE_tile_y = 0.0

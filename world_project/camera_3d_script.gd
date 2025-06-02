@@ -65,10 +65,10 @@ func _process(delta):
 	
 	theta = clamp(theta, -PI/2.0, PI/2.0)
 	# phi = clamp(phi, -PI, PI)
-	yaw = clamp(yaw, -PI/14.0, PI/14.0)
-	pitch = clamp(pitch, -PI/8.0, PI/8.0)
+	yaw = clamp(yaw, -PI/12.0, PI/12.0)
+	pitch = clamp(pitch, -PI/8.0, PI/6.0)
 	
-	move = clamp(move, 1/radius_mult + 0.03, 1/radius_mult + 0.3)
+	move = clamp(move, 1/radius_mult + 0.03, 1/radius_mult + 0.2)
 	
 	update_camera()
 	

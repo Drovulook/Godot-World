@@ -1,14 +1,13 @@
 #include "PlanetMesh.h"
 
 namespace godot {
-    PlanetMesh::PlanetMesh(float radius, int mesh_res, 
-        Ref<ShaderMaterial> material, bool mercator,  
-        Ref<Texture2D> tile, Vector2 bottom_left_corner_pos, 
-        Vector2 top_right_corner_pos, std::shared_ptr<NCAltitudeReader> elevation_reader)
-        : m_radius(radius), m_mesh_res(mesh_res), m_material(material), 
-          m_mercator(mercator), m_tile(tile), 
-          m_bottom_left_corner_pos(bottom_left_corner_pos), 
-          m_top_right_corner_pos(top_right_corner_pos), m_elevation_reader(elevation_reader){
+    PlanetMesh::PlanetMesh(float radius, int mesh_res, int mesh_per_img_res,
+        Ref<ShaderMaterial> material, bool mercator,  Ref<Texture2D> tile, int tile_x, int tile_y, int sub_x, int sub_y,
+        Vector2 bottom_left_corner_pos, Vector2 top_right_corner_pos, std::shared_ptr<NCAltitudeReader> elevation_reader, Ref<Texture2D> country_idx_texture)
+        : m_radius(radius), m_mesh_res(mesh_res), m_mesh_per_img_res(mesh_per_img_res), m_material(material),
+          m_mercator(mercator), m_tile(tile), m_tile_x(tile_x), m_tile_y(tile_y), m_sub_x(sub_x), m_sub_y(sub_y),
+          m_bottom_left_corner_pos(bottom_left_corner_pos),
+          m_top_right_corner_pos(top_right_corner_pos), m_elevation_reader(elevation_reader), m_country_idx_texture(country_idx_texture) {
     }
     PlanetMesh::~PlanetMesh(){
     }
@@ -31,6 +30,10 @@ namespace godot {
         float max_x = m_top_right_corner_pos.x;
         float max_y = m_top_right_corner_pos.y;
 
+        float uv_dim = 1.0f / m_mesh_per_img_res;
+        float uv_offset_x = m_sub_x * uv_dim;      
+        float uv_offset_y = (m_mesh_per_img_res - 1 - m_sub_y) * uv_dim;
+
         // création d'un mesh carré de côté m_mesh_res
         for (int y = 0; y <= m_mesh_res; ++y) {
             for (int x = 0; x <= m_mesh_res; ++x) {
@@ -39,16 +42,18 @@ namespace godot {
                 Vector3 flat_vertex = Vector3(
                     x_pos,
                     y_pos,
-                    get_elevation_at_position(Vector2(x_pos, y_pos))
+                    0.0f
                 );
 
                 vertices.push_back(flat_vertex);
 
                 colors.push_back(Color(1.0f, 1.0f, 1.0f, 1.0f)); // White color for now
 
+                float local_u = (float)x / (float)m_mesh_res;
+                float local_v = 1.0f - (float)y / (float)m_mesh_res;
                 uvs.push_back(Vector2(
-                    (float)x / (float)m_mesh_res,  
-                    1.0f - (float)y / (float)m_mesh_res
+                    uv_offset_x + local_u * uv_dim,  
+                    uv_offset_y + local_v * uv_dim
                 ));
 
             }
@@ -95,28 +100,26 @@ namespace godot {
             }
             Ref<ShaderMaterial> mat = m_material->duplicate();
             mat->set_shader_parameter("albedo_texture", m_tile);
+            mat->set_shader_parameter("country_idx_texture", m_country_idx_texture);
+
+            if (m_elevation_reader && m_elevation_reader->is_data_loaded()) {
+                Ref<ImageTexture> elevation_tex = m_elevation_reader->get_elevation_texture();
+                if (elevation_tex.is_valid()) {
+                    mat->set_shader_parameter("elevation_texture", elevation_tex);
+                    mat->set_shader_parameter("NOCHANGE_min_alt", m_elevation_reader->get_min_elevation());
+                    mat->set_shader_parameter("NOCHANGE_max_alt", m_elevation_reader->get_max_elevation());
+                    mat->set_shader_parameter("NOCHANGE_tile_x", m_tile_x);
+                    mat->set_shader_parameter("NOCHANGE_tile_y", m_tile_y);
+                }else {
+                    UtilityFunctions::print("Elevation texture is not valid. Please check the NCAltitudeReader setup.");
+                }
+            }
             
             mat->set_shader_parameter("NOCHANGE_planet_radius", m_radius);
             mat->set_shader_parameter("NOCHANGE_use_mercator", m_mercator);
-            
+
             set_surface_override_material(0, mat);
         }
-    }
-
-    float PlanetMesh::get_elevation_at_position(const Vector2 &flat_pos) const{
-        if (!m_elevation_reader || !m_elevation_reader->is_data_loaded()) {
-            //UtilityFunctions::print("No elevation data available.");
-            return 0.0f; // Pas de données d'altitude disponibles
-        }
-
-        float longitude = flat_pos.x * 180.0f; //de -180 à 180
-        float latitude = flat_pos.y * 180.0f; // de -90 à 90
-
-        float elevation = m_elevation_reader->get_elevation_at(latitude, longitude);
-
-        float normalized_elevation = elevation / 8848.0f; // Mont Everest comme référence
-    
-        return normalized_elevation ; // Facteur d'échelle pour l'effet visuel
     }
 
     void PlanetMesh::_bind_methods(){

@@ -5,6 +5,7 @@
 
 #include "Planet.h"
 #include "PlanetMesh.h"
+#include "DebugUI.h"
 
 using namespace godot;
 
@@ -16,6 +17,7 @@ void initialize(ModuleInitializationLevel p_level) {
     // GDREGISTER_CLASS(PlanetMesh);
     ClassDB::register_class<Planet>();
     ClassDB::register_class<PlanetMesh>();
+    ClassDB::register_class<DebugUI>();
 }
 
 void uninitialize(ModuleInitializationLevel p_level) {

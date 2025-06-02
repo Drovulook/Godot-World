@@ -31,9 +31,16 @@ namespace godot {
         } else {
             UtilityFunctions::print("Elevation data loaded successfully!");
         }
+        m_elevation_reader->create_elevation_texture();
+        UtilityFunctions::print("texture created");
+
+        if (!Engine::get_singleton()->is_editor_hint()) {
+            m_debug_ui = memnew(DebugUI);
+            add_child(m_debug_ui);
+        }
 
         set_process(true);
-        create_texture_map();
+        create_textures();
         generate_visible_meshes();
 
         m_initialized = true;
@@ -41,8 +48,12 @@ namespace godot {
 
     void Planet::_process(double delta){
         static int frame_counter = 0;
-        if (++frame_counter % 10 == 0) { // Vérifier tous les 10 frames
+        if (++frame_counter % 1 == 0) { // Vérifier tous les 10 frames
             update_visible_meshes();
+
+            if (m_debug_ui && !Engine::get_singleton()->is_editor_hint()) {
+                m_debug_ui->update_mesh_count(m_active_meshes.size());
+            }
         }
     }
 
@@ -95,7 +106,6 @@ namespace godot {
     }
 
     void Planet::generate() {
-        //create_texture_map();
 
         for (auto& pair : m_active_meshes) {
             pair.second->queue_free();
@@ -110,7 +120,7 @@ namespace godot {
 
     }
 
-    void Planet::create_texture_map(){
+    void Planet::create_textures(){
         // Create a texture map for the planet
         for (int x = 0; x < 8; ++x) {
             for (int y = 0; y < 4; ++y) {
@@ -122,6 +132,8 @@ namespace godot {
                 }
             }
         }
+
+        m_country_idx_texture = ResourceLoader::get_singleton()->load("res://assets/Country Index Map.png");
     }
 
     Camera3D *Planet::get_current_camera(){
@@ -140,48 +152,21 @@ namespace godot {
         return nullptr;
     }
 
-    bool Planet::is_tile_visible(int x, int y, Camera3D *camera){
-        if (!camera) return true; // Si pas de caméra, afficher tout
-        
-        // Calculer le centre du tile
-        Vector2 bottom_left = Vector2(2*(x/8.0f - 0.5f), y/4.0f - 0.5f);
-        Vector2 top_right = Vector2(2*((x+1)/8.0f - 0.5f), (y+1)/4.0f - 0.5f);
-        Vector2 tile_center = (bottom_left + top_right) * 0.5f;
-        
-        Vector3 world_center;
-        if (m_mercator) {
-            world_center = Vector3(tile_center.x * m_radius, tile_center.y * m_radius, 0);
-        } else {
-            float longitude = tile_center.x * 2.0f * M_PI;
-            float latitude = (tile_center.y - 0.5f) * M_PI;
-            world_center = Vector3(
-                m_radius * cos(latitude) * cos(longitude),
-                m_radius * sin(latitude),
-                m_radius * cos(latitude) * sin(longitude)
-            );
-        }
-        
-        // Transformer en coordonnées globales
-        world_center = get_global_transform().xform(world_center);
-        
-        Vector3 cam_pos = camera->get_global_transform().origin;
-        float dist = world_center.distance_to(cam_pos);
-        // Seuil de proximité (ajuste selon tes besoins)
-        float proximity_threshold = m_radius * 2.2f;
-
-        // Vérifier si dans le frustum de la caméra
-        return camera->is_position_in_frustum(world_center) || dist < proximity_threshold;
-    }
-
     void Planet::generate_visible_meshes(){
         Camera3D* camera = get_current_camera();
         
         for (int x = 0; x < 8; x++) {
             for (int y = 0; y < 4; y++) {
-                if (is_tile_visible(x, y, camera)) {
-                    create_mesh_if_needed(x, y);
-                } else {
-                    remove_mesh_if_exists(x, y);
+                
+                for (int sub_x = 0; sub_x < m_mesh_per_img_res; sub_x++) {
+                    for (int sub_y = 0; sub_y < m_mesh_per_img_res; sub_y++) {
+                        if (is_submesh_visible(x, y, sub_x, sub_y, camera)) {
+                            create_submesh_if_needed(x, y, sub_x, sub_y);
+                        } 
+                        else {
+                            remove_submesh_if_exists(x, y, sub_x, sub_y);
+                        }
+                    }
                 }
             }
         }
@@ -191,45 +176,137 @@ namespace godot {
         generate_visible_meshes();
     }
 
-    void Planet::create_mesh_if_needed(int x, int y){
-
-        std::string tile_id = std::to_string(x) + "_" + std::to_string(y);
-        
+    void Planet::create_submesh_if_needed(int tile_x, int tile_y, int sub_x, int sub_y){
+        std::string mesh_id = std::to_string(tile_x) + "_" + std::to_string(tile_y) + 
+                         "_" + std::to_string(sub_x) + "_" + std::to_string(sub_y);
+    
         // Vérifier si le mesh existe déjà
-        auto mesh_it = m_active_meshes.find(tile_id);
+        auto mesh_it = m_active_meshes.find(mesh_id);
         if (mesh_it != m_active_meshes.end()) {
             return; // Mesh déjà créé
         }
 
         if (!m_material.is_valid()) {
-            //UtilityFunctions::print("Material not ready, skipping mesh creation for tile: ", tile_id.c_str());
             return;
         }
+
+        Vector2 tile_bottom_left = Vector2(2*(tile_x/8.0f - 0.5f), tile_y/4.0f - 0.5f);
+        Vector2 tile_top_right = Vector2(2*((tile_x+1)/8.0f - 0.5f), (tile_y+1)/4.0f - 0.5f);
         
-        // Créer le mesh
-        Vector2 bottom_left_corner_pos = Vector2(2*(x/8.0f - 0.5f), y/4.0f - 0.5f);
-        Vector2 top_right_corner_pos = Vector2(2*((x+1)/8.0f - 0.5f), (y+1)/4.0f - 0.5f);
-        
+        // Calculer les dimensions du sous-mesh
+        float sub_width = (tile_top_right.x - tile_bottom_left.x) / m_mesh_per_img_res;
+        float sub_height = (tile_top_right.y - tile_bottom_left.y) / m_mesh_per_img_res;
+    
+        Vector2 submesh_bottom_left = Vector2(
+            tile_bottom_left.x + sub_x * sub_width,
+            tile_bottom_left.y + sub_y * sub_height
+        );
+        Vector2 submesh_top_right = Vector2(
+            tile_bottom_left.x + (sub_x + 1) * sub_width,
+            tile_bottom_left.y + (sub_y + 1) * sub_height
+        );
+
+        std::string tile_id = std::to_string(tile_x) + "_" + std::to_string(tile_y);
         Ref<Texture2D> tile;
         auto texture_it = m_tile_cache.find(tile_id);
         if (texture_it != m_tile_cache.end()) {
             tile = texture_it->second;
         }
-        
-        PlanetMesh* mesh = memnew(PlanetMesh(m_radius, m_mesh_res, m_material,
-             m_mercator, tile, bottom_left_corner_pos, top_right_corner_pos, m_elevation_reader));
+
+        PlanetMesh* mesh = memnew(PlanetMesh(m_radius, m_mesh_res, m_mesh_per_img_res, m_material,
+        m_mercator, tile, tile_x, tile_y, sub_x, sub_y, submesh_bottom_left, submesh_top_right, m_elevation_reader, m_country_idx_texture));
         add_child(mesh);
-        m_active_meshes[tile_id] = mesh;
+        m_active_meshes[mesh_id] = mesh;
+
+    
     }
 
-    void Planet::remove_mesh_if_exists(int x, int y){
-        std::string tile_id = std::to_string(x) + "_" + std::to_string(y);
+    void Planet::remove_submesh_if_exists(int tile_x, int tile_y, int sub_x, int sub_y) {
         
-        auto mesh_it = m_active_meshes.find(tile_id);
-        if (mesh_it != m_active_meshes.end()) {
-            mesh_it->second->queue_free();
-            m_active_meshes.erase(mesh_it);
+            std::string mesh_id = std::to_string(tile_x) + "_" + std::to_string(tile_y) + 
+                                "_" + std::to_string(sub_x) + "_" + std::to_string(sub_y);
+            
+            auto mesh_it = m_active_meshes.find(mesh_id);
+            if (mesh_it != m_active_meshes.end()) {
+                PlanetMesh* mesh = mesh_it->second;
+                mesh_it->second->queue_free();
+                m_active_meshes.erase(mesh_it);
+
         }
+    }
+
+    bool Planet::is_submesh_visible(int tile_x, int tile_y, int sub_x, int sub_y, Camera3D *camera){
+        if (!camera) return true;
+    
+        // Calculer les positions du tile principal
+        Vector2 tile_bottom_left = Vector2(2*(tile_x/8.0f - 0.5f), tile_y/4.0f - 0.5f);
+        Vector2 tile_top_right = Vector2(2*((tile_x+1)/8.0f - 0.5f), (tile_y+1)/4.0f - 0.5f);
+        
+        // Calculer les dimensions du sous-mesh
+        float sub_width = (tile_top_right.x - tile_bottom_left.x) / m_mesh_per_img_res;
+        float sub_height = (tile_top_right.y - tile_bottom_left.y) / m_mesh_per_img_res;
+        
+        // Calculer le centre du sous-mesh
+        Vector2 submesh_center = Vector2(
+            tile_bottom_left.x + (sub_x + 0.5f) * sub_width,
+            tile_bottom_left.y + (sub_y + 0.5f) * sub_height
+        );
+
+        Vector2 corners[4] = {
+            Vector2(tile_bottom_left.x + sub_x * sub_width, tile_bottom_left.y + sub_y * sub_height), // bottom-left
+            Vector2(tile_bottom_left.x + (sub_x+1) * sub_width, tile_bottom_left.y + sub_y * sub_height), // bottom-right
+            Vector2(tile_bottom_left.x + (sub_x+1) * sub_width, tile_bottom_left.y + (sub_y+1) * sub_height), // top-right
+            Vector2(tile_bottom_left.x + sub_x * sub_width, tile_bottom_left.y + (sub_y+1) * sub_height) // top-left
+    };
+
+        Vector3 world_center;
+        if (m_mercator) {
+            world_center = Vector3(submesh_center.x * m_radius, submesh_center.y * m_radius, 0);
+        } else {
+            float longitude = submesh_center.x * M_PI;
+            float latitude = -(submesh_center.y + 0.5) * M_PI;
+            world_center = Vector3(
+                -m_radius * sin(latitude) * cos(longitude),
+                -m_radius * cos(latitude),
+                m_radius * sin(latitude) * sin(longitude)
+            );
+        }
+        
+        world_center = get_global_transform().xform(world_center);
+        
+        Vector3 cam_pos = camera->get_global_transform().origin;
+        float dist = world_center.distance_to(cam_pos);
+
+        if (camera->is_position_in_frustum(world_center) || dist < m_radius * 0.3f) {
+            return true;
+        }
+
+        // Test des quatre sommets
+        for (int i = 0; i < 4; i++) {
+            Vector3 world_corner;
+            if (m_mercator) {
+                world_corner = Vector3(corners[i].x * m_radius, corners[i].y * m_radius, 0);
+            } else {
+                float longitude = corners[i].x * M_PI;
+                float latitude = -(corners[i].y + 0.5) * M_PI;
+                world_corner = Vector3(
+                    -m_radius * sin(latitude) * cos(longitude),
+                    -m_radius * cos(latitude),
+                    m_radius * sin(latitude) * sin(longitude)
+                );
+            }
+            
+            world_corner = get_global_transform().xform(world_corner);
+            
+            if (camera->is_position_in_frustum(world_corner)) {
+                return true;
+            }
+        }
+        
+        // Si aucun point n'est visible, le mesh est invisible
+        return false;
+
+
     }
 
     void Planet::_bind_methods(){
