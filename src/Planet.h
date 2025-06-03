@@ -14,6 +14,9 @@
 #include <godot_cpp/classes/shader.hpp>
 #include <godot_cpp/classes/shader_material.hpp>
 
+#include <godot_cpp/classes/input_event.hpp>
+#include <godot_cpp/classes/input_event_mouse_button.hpp>
+
 #include "NCAltitudeReader.h"
 #include "PlanetMesh.h"
 #include "DebugUI.h"
@@ -51,6 +54,11 @@ namespace godot {
     void generate();
     void generate_colors();
 
+    // clic souris
+    void _input(const Ref<InputEvent> &event) override;
+    Vector3 get_country_at_screen_position(Vector2 screen_pos);
+    int get_country_id_at_position(Vector2 uv_coords);
+
   private:
     void create_textures();
     Camera3D *get_current_camera();
@@ -58,7 +66,6 @@ namespace godot {
     void update_visible_meshes();
 
     void create_submesh_if_needed(int tile_x, int tile_y, int sub_x, int sub_y);
-    void remove_submesh_if_exists(int tile_x, int tile_y, int sub_x, int sub_y);
     bool is_submesh_visible(int tile_x, int tile_y, int sub_x, int sub_y, Camera3D* camera);
 
   private:
@@ -81,7 +88,18 @@ namespace godot {
 
     DebugUI* m_debug_ui = nullptr;
 
-    Ref<Texture2D> m_country_idx_texture;
+    Ref<Texture2D> m_province_idx_texture;
+
+    struct TileInfo {
+        Vector2 bottom_left;
+        Vector2 top_right;
+        float sub_width;
+        float sub_height;
+    };
+    std::vector<TileInfo> m_tile_corner_cache;
+
+    Vector3 m_selected_country_color = Vector3(-1, -1, -1); // Couleur du pays sélectionné
+    int m_selected_country_id = -1;
 
   protected:
     static void _bind_methods();

@@ -3,11 +3,11 @@
 namespace godot {
     PlanetMesh::PlanetMesh(float radius, int mesh_res, int mesh_per_img_res,
         Ref<ShaderMaterial> material, bool mercator,  Ref<Texture2D> tile, int tile_x, int tile_y, int sub_x, int sub_y,
-        Vector2 bottom_left_corner_pos, Vector2 top_right_corner_pos, std::shared_ptr<NCAltitudeReader> elevation_reader, Ref<Texture2D> country_idx_texture)
+        Vector2 bottom_left_corner_pos, Vector2 top_right_corner_pos, std::shared_ptr<NCAltitudeReader> elevation_reader, Ref<Texture2D> province_idx_texture)
         : m_radius(radius), m_mesh_res(mesh_res), m_mesh_per_img_res(mesh_per_img_res), m_material(material),
           m_mercator(mercator), m_tile(tile), m_tile_x(tile_x), m_tile_y(tile_y), m_sub_x(sub_x), m_sub_y(sub_y),
           m_bottom_left_corner_pos(bottom_left_corner_pos),
-          m_top_right_corner_pos(top_right_corner_pos), m_elevation_reader(elevation_reader), m_country_idx_texture(country_idx_texture) {
+          m_top_right_corner_pos(top_right_corner_pos), m_elevation_reader(elevation_reader), m_province_idx_texture(province_idx_texture) {
     }
     PlanetMesh::~PlanetMesh(){
     }
@@ -58,7 +58,7 @@ namespace godot {
 
             }
         }
-        
+
         for (int y = 0; y < m_mesh_res; ++y) {
             for (int x = 0; x < m_mesh_res; ++x) {
                 int i = y * (m_mesh_res + 1) + x;
@@ -83,6 +83,7 @@ namespace godot {
             }
         }
 
+
         Array arrays;
         arrays.resize(Mesh::ARRAY_MAX);
         arrays[Mesh::ARRAY_VERTEX] = vertices;
@@ -100,7 +101,7 @@ namespace godot {
             }
             Ref<ShaderMaterial> mat = m_material->duplicate();
             mat->set_shader_parameter("albedo_texture", m_tile);
-            mat->set_shader_parameter("country_idx_texture", m_country_idx_texture);
+            mat->set_shader_parameter("province_idx_texture", m_province_idx_texture);
 
             if (m_elevation_reader && m_elevation_reader->is_data_loaded()) {
                 Ref<ImageTexture> elevation_tex = m_elevation_reader->get_elevation_texture();
@@ -108,8 +109,12 @@ namespace godot {
                     mat->set_shader_parameter("elevation_texture", elevation_tex);
                     mat->set_shader_parameter("NOCHANGE_min_alt", m_elevation_reader->get_min_elevation());
                     mat->set_shader_parameter("NOCHANGE_max_alt", m_elevation_reader->get_max_elevation());
-                    mat->set_shader_parameter("NOCHANGE_tile_x", m_tile_x);
-                    mat->set_shader_parameter("NOCHANGE_tile_y", m_tile_y);
+                    mat->set_shader_parameter("NOCHANGE_tile_x", (float)m_tile_x);
+                    mat->set_shader_parameter("NOCHANGE_tile_y", (float)m_tile_y);
+                    mat->set_shader_parameter("NOCHANGE_sub_x", (float)m_sub_x);
+                    mat->set_shader_parameter("NOCHANGE_sub_y", (float)m_sub_y);
+                    mat->set_shader_parameter("NOCHANGE_mesh_res", (float)m_mesh_res);
+                    mat->set_shader_parameter("NOCHANGE_img_res_in_mesh", (float)m_mesh_per_img_res);
                 }else {
                     UtilityFunctions::print("Elevation texture is not valid. Please check the NCAltitudeReader setup.");
                 }

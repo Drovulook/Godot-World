@@ -39,6 +39,18 @@ namespace godot {
             add_child(m_debug_ui);
         }
 
+        // Précalculer les infos de tiles
+        m_tile_corner_cache.resize(32); // 8x4 tiles
+        for (int x = 0; x < 8; ++x) {
+            for (int y = 0; y < 4; ++y) {
+                int idx = y * 8 + x;
+                m_tile_corner_cache[idx].bottom_left = Vector2(2*(x/8.0f - 0.5f), y/4.0f - 0.5f);
+                m_tile_corner_cache[idx].top_right = Vector2(2*((x+1)/8.0f - 0.5f), (y+1)/4.0f - 0.5f);
+                m_tile_corner_cache[idx].sub_width = (m_tile_corner_cache[idx].top_right.x - m_tile_corner_cache[idx].bottom_left.x) / m_mesh_per_img_res;
+                m_tile_corner_cache[idx].sub_height = (m_tile_corner_cache[idx].top_right.y - m_tile_corner_cache[idx].bottom_left.y) / m_mesh_per_img_res;
+            }
+        }
+
         set_process(true);
         create_textures();
         generate_visible_meshes();
@@ -48,7 +60,7 @@ namespace godot {
 
     void Planet::_process(double delta){
         static int frame_counter = 0;
-        if (++frame_counter % 1 == 0) { // Vérifier tous les 10 frames
+        if (++frame_counter % 1 == 0) { // Vérifier tous les 2 frames
             update_visible_meshes();
 
             if (m_debug_ui && !Engine::get_singleton()->is_editor_hint()) {
@@ -120,6 +132,30 @@ namespace godot {
 
     }
 
+    void Planet::_input(const Ref<InputEvent> &event) {
+        Ref<InputEventMouseButton> mouse_event = event;
+        if (mouse_event.is_valid() && mouse_event->is_pressed() && mouse_event->get_button_index() == MOUSE_BUTTON_LEFT) {
+            Vector2 mouse_pos = mouse_event->get_position();
+            UtilityFunctions::print("Mouse clicked at: ", mouse_pos.x, ", ", mouse_pos.y);
+            Vector3 country_color = get_country_at_screen_position(mouse_pos);
+            
+            if (country_color.x >= 0) { // Si on a trouvé un pays
+                m_selected_country_color = country_color;
+                /*m_selected_country_id = get_country_id_from_color(country_color);
+                UtilityFunctions::print("Selected country ID: ", m_selected_country_id, 
+                                    " Color: ", country_color.x, ", ", country_color.y, ", ", country_color.z);
+            */}
+        }
+    }
+
+    Vector3 Planet::get_country_at_screen_position(Vector2 screen_pos){
+        return Vector3();
+    }
+
+    int Planet::get_country_id_at_position(Vector2 uv_coords){
+        return 0;
+    }
+
     void Planet::create_textures(){
         // Create a texture map for the planet
         for (int x = 0; x < 8; ++x) {
@@ -133,7 +169,7 @@ namespace godot {
             }
         }
 
-        m_country_idx_texture = ResourceLoader::get_singleton()->load("res://assets/Country Index Map.png");
+        m_province_idx_texture = ResourceLoader::get_singleton()->load("res://assets/provinces/Province_Index_Map_Generated.png");
     }
 
     Camera3D *Planet::get_current_camera(){
@@ -155,20 +191,40 @@ namespace godot {
     void Planet::generate_visible_meshes(){
         Camera3D* camera = get_current_camera();
         
+        std::vector<std::string> to_remove;
+        std::vector<std::tuple<int,int,int,int>> to_create;
+        
         for (int x = 0; x < 8; x++) {
             for (int y = 0; y < 4; y++) {
-                
                 for (int sub_x = 0; sub_x < m_mesh_per_img_res; sub_x++) {
                     for (int sub_y = 0; sub_y < m_mesh_per_img_res; sub_y++) {
-                        if (is_submesh_visible(x, y, sub_x, sub_y, camera)) {
-                            create_submesh_if_needed(x, y, sub_x, sub_y);
-                        } 
-                        else {
-                            remove_submesh_if_exists(x, y, sub_x, sub_y);
+                        std::string mesh_id = std::to_string(x) + "_" + std::to_string(y) + 
+                                            "_" + std::to_string(sub_x) + "_" + std::to_string(sub_y);
+                        
+                        bool is_visible = is_submesh_visible(x, y, sub_x, sub_y, camera);
+                        bool exists = m_active_meshes.find(mesh_id) != m_active_meshes.end();
+                        
+                        if (is_visible && !exists) {
+                            to_create.push_back({x, y, sub_x, sub_y});
+                        } else if (!is_visible && exists) {
+                            to_remove.push_back(mesh_id);
                         }
                     }
                 }
             }
+        }
+        
+        // Exécuter les opérations par batch
+        for (const auto& mesh_id : to_remove) {
+            auto it = m_active_meshes.find(mesh_id);
+            if (it != m_active_meshes.end()) {
+                it->second->queue_free();
+                m_active_meshes.erase(it);
+            }
+        }
+        
+        for (const auto& [x, y, sub_x, sub_y] : to_create) {
+            create_submesh_if_needed(x, y, sub_x, sub_y);
         }
     }
 
@@ -214,25 +270,11 @@ namespace godot {
         }
 
         PlanetMesh* mesh = memnew(PlanetMesh(m_radius, m_mesh_res, m_mesh_per_img_res, m_material,
-        m_mercator, tile, tile_x, tile_y, sub_x, sub_y, submesh_bottom_left, submesh_top_right, m_elevation_reader, m_country_idx_texture));
+        m_mercator, tile, tile_x, tile_y, sub_x, sub_y, submesh_bottom_left, submesh_top_right, m_elevation_reader, m_province_idx_texture));
         add_child(mesh);
         m_active_meshes[mesh_id] = mesh;
 
     
-    }
-
-    void Planet::remove_submesh_if_exists(int tile_x, int tile_y, int sub_x, int sub_y) {
-        
-            std::string mesh_id = std::to_string(tile_x) + "_" + std::to_string(tile_y) + 
-                                "_" + std::to_string(sub_x) + "_" + std::to_string(sub_y);
-            
-            auto mesh_it = m_active_meshes.find(mesh_id);
-            if (mesh_it != m_active_meshes.end()) {
-                PlanetMesh* mesh = mesh_it->second;
-                mesh_it->second->queue_free();
-                m_active_meshes.erase(mesh_it);
-
-        }
     }
 
     bool Planet::is_submesh_visible(int tile_x, int tile_y, int sub_x, int sub_y, Camera3D *camera){
@@ -247,17 +289,13 @@ namespace godot {
         float sub_height = (tile_top_right.y - tile_bottom_left.y) / m_mesh_per_img_res;
         
         // Calculer le centre du sous-mesh
+        int tile_idx = tile_y * 8 + tile_x;
+        const TileInfo& tile = m_tile_corner_cache[tile_idx];
+    
         Vector2 submesh_center = Vector2(
-            tile_bottom_left.x + (sub_x + 0.5f) * sub_width,
-            tile_bottom_left.y + (sub_y + 0.5f) * sub_height
+            tile.bottom_left.x + (sub_x + 0.5f) * tile.sub_width,
+            tile.bottom_left.y + (sub_y + 0.5f) * tile.sub_height
         );
-
-        Vector2 corners[4] = {
-            Vector2(tile_bottom_left.x + sub_x * sub_width, tile_bottom_left.y + sub_y * sub_height), // bottom-left
-            Vector2(tile_bottom_left.x + (sub_x+1) * sub_width, tile_bottom_left.y + sub_y * sub_height), // bottom-right
-            Vector2(tile_bottom_left.x + (sub_x+1) * sub_width, tile_bottom_left.y + (sub_y+1) * sub_height), // top-right
-            Vector2(tile_bottom_left.x + sub_x * sub_width, tile_bottom_left.y + (sub_y+1) * sub_height) // top-left
-    };
 
         Vector3 world_center;
         if (m_mercator) {
@@ -277,9 +315,16 @@ namespace godot {
         Vector3 cam_pos = camera->get_global_transform().origin;
         float dist = world_center.distance_to(cam_pos);
 
-        if (camera->is_position_in_frustum(world_center) || dist < m_radius * 0.3f) {
+        if (camera->is_position_in_frustum(world_center) || dist < m_radius * 0.2f) {
             return true;
         }
+
+        Vector2 corners[4] = {
+            Vector2(tile_bottom_left.x + sub_x * sub_width, tile_bottom_left.y + sub_y * sub_height), // bottom-left
+            Vector2(tile_bottom_left.x + (sub_x+1) * sub_width, tile_bottom_left.y + sub_y * sub_height), // bottom-right
+            Vector2(tile_bottom_left.x + (sub_x+1) * sub_width, tile_bottom_left.y + (sub_y+1) * sub_height), // top-right
+            Vector2(tile_bottom_left.x + sub_x * sub_width, tile_bottom_left.y + (sub_y+1) * sub_height) // top-left
+        };
 
         // Test des quatre sommets
         for (int i = 0; i < 4; i++) {

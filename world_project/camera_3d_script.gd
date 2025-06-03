@@ -68,7 +68,7 @@ func _process(delta):
 	yaw = clamp(yaw, -PI/12.0, PI/12.0)
 	pitch = clamp(pitch, -PI/8.0, PI/6.0)
 	
-	move = clamp(move, 1/radius_mult + 0.03, 1/radius_mult + 0.2)
+	move = clamp(move, 1/radius_mult + 0.05, 1/radius_mult + 0.2)
 	
 	update_camera()
 	

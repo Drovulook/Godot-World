@@ -21,7 +21,7 @@ namespace godot {
             PlanetMesh(float radius, int mesh_res, int mesh_per_img_res, Ref<ShaderMaterial> material,
                      bool mercator, Ref<Texture2D> tile, int tile_x, int tile_y, int sub_x, int sub_y,
                      Vector2 bottom_left_corner_pos, Vector2 top_right_corner_pos,
-                     std::shared_ptr<NCAltitudeReader> elevation_reader, Ref<Texture2D> country_idx_texture);
+                     std::shared_ptr<NCAltitudeReader> elevation_reader, Ref<Texture2D> province_idx_texture);
             
             PlanetMesh() = default;
             ~PlanetMesh();
@@ -50,7 +50,7 @@ namespace godot {
             Vector2 m_top_right_corner_pos;
             Ref<ArrayMesh> m_array_mesh;
             std::shared_ptr<NCAltitudeReader> m_elevation_reader;
-            Ref<Texture2D> m_country_idx_texture;
+            Ref<Texture2D> m_province_idx_texture;
 
         protected:
             static void _bind_methods();

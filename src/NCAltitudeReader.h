@@ -30,7 +30,7 @@ public:
     float get_max_elevation();
 
 private:
-    int m_subsample = 5;
+    int m_subsample = 7;
 
     std::string m_file_path;
     std::vector<float> m_latitudes;
