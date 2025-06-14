@@ -28,4 +28,3 @@ library = env.SharedLibrary(
 )
 
 Default(library)
-

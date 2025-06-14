@@ -6,7 +6,7 @@ extends Camera3D
 @export var radius_mult: float = 1.1
 @export var move_forward_backward_speed = 0.1
 @export var zoom_sensitivity = 0.5
-@export var move_factor_from_zoom = 7
+@export var move_factor_from_zoom = 3
 
 var planet_node: Node3D
 var camera : Camera3D
@@ -43,7 +43,7 @@ func _process(delta):
 	
 	var factor = (move - 1/radius_mult) * move_factor_from_zoom
 	if Input.is_action_pressed("up_rotate_around_planet"):
-		theta += rotate_around_planet_speed * delta * factor * factor
+		theta += rotate_around_planet_speed * delta * factor
 	if Input.is_action_pressed("down_rotate_around_planet"):
 		theta -= rotate_around_planet_speed * delta * factor
 	if Input.is_action_pressed("left_rotate_around_planet"):
@@ -68,7 +68,7 @@ func _process(delta):
 	yaw = clamp(yaw, -PI/12.0, PI/12.0)
 	pitch = clamp(pitch, -PI/8.0, PI/6.0)
 	
-	move = clamp(move, 1/radius_mult + 0.05, 1/radius_mult + 0.2)
+	move = clamp(move, 1/radius_mult + 0.01, 1/radius_mult + 0.3)
 	
 	update_camera()
 	

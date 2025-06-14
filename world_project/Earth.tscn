@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cdng1k1wjbjt0"]
 
-[ext_resource type="Material" uid="uid://cobgss6dxm6n0" path="res://shaders/earth_shader_material.tres" id="1_cluu8"]
 [ext_resource type="Script" uid="uid://byypbpe1nyxxp" path="res://camera_3d_script.gd" id="2_cluu8"]
+[ext_resource type="Material" uid="uid://cobgss6dxm6n0" path="res://shaders/earth_shader_material.tres" id="2_f10a0"]
 
 [sub_resource type="Sky" id="Sky_cluu8"]
 
@@ -27,13 +27,13 @@ environment = SubResource("Environment_cluu8")
 [node name="Planet" type="Planet" parent="."]
 radius = 10.0
 mesh_per_img_res = 8
-mesh_res = 25
-m_material = ExtResource("1_cluu8")
+mesh_res = 35
+m_material = ExtResource("2_f10a0")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(0.0778501, -0.618185, 0.782168, -3.72529e-09, 0.784549, 0.620067, -0.996965, -0.0482723, 0.0610772, 10.6542, 4.34643, -0.138308)
 current = true
-far = 16.0
+far = 100.0
 script = ExtResource("2_cluu8")
 planet = NodePath("../Planet")
 rotate_around_planet_speed = 1.5

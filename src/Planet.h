@@ -17,92 +17,96 @@
 #include <godot_cpp/classes/input_event.hpp>
 #include <godot_cpp/classes/input_event_mouse_button.hpp>
 
+#include "DebugUI.h"
 #include "NCAltitudeReader.h"
 #include "PlanetMesh.h"
-#include "DebugUI.h"
+#include "ProvincesManager.h"
+#include "CitiesManager.h"
 
 #include <map>
 #include <memory>
 #include <vector>
 
 namespace godot {
-  class Planet : public Node3D {
-    GDCLASS(Planet, Node3D);
+class Planet : public Node3D {
+  GDCLASS(Planet, Node3D);
 
-  public:
-    Planet();
-    ~Planet();
+public:
+  Planet();
+  ~Planet();
 
-    void _ready() override;
-    void _process(double delta) override;
+  void _ready() override;
+  void _process(double delta) override;
 
-    void set_radius(float new_radius);
-    float get_radius() const;
+  void set_radius(float new_radius);
+  float get_radius() const;
 
-    void set_mesh_per_img_res(int res);
-    int get_mesh_per_img_res() const;
+  void set_mesh_per_img_res(int res);
+  int get_mesh_per_img_res() const;
 
-    void set_mesh_res(int res);
-    int get_mesh_res() const;
+  void set_mesh_res(int res);
+  int get_mesh_res() const;
 
-    void set_material(Ref<ShaderMaterial> material);
-    Ref<ShaderMaterial> get_material() const;
+  void set_material(Ref<ShaderMaterial> material);
+  Ref<ShaderMaterial> get_material() const;
 
-    bool get_mercator() const;
-    void set_mercator(bool state);
+  bool get_mercator() const;
+  void set_mercator(bool state);
 
-    void generate();
-    void generate_colors();
+  void generate();
+  void generate_colors();
 
-    // clic souris
-    void _input(const Ref<InputEvent> &event) override;
-    Vector3 get_country_at_screen_position(Vector2 screen_pos);
-    int get_country_id_at_position(Vector2 uv_coords);
+  void set_province_to_highlight(Vector3 color);
 
-  private:
-    void create_textures();
-    Camera3D *get_current_camera();
-    void generate_visible_meshes();
-    void update_visible_meshes();
+private:
+  void create_textures();
+  Camera3D *get_current_camera();
+  void generate_visible_meshes();
+  void update_visible_meshes();
 
-    void create_submesh_if_needed(int tile_x, int tile_y, int sub_x, int sub_y);
-    bool is_submesh_visible(int tile_x, int tile_y, int sub_x, int sub_y, Camera3D* camera);
+  void create_submesh_if_needed(int tile_x, int tile_y, int sub_x, int sub_y);
+  bool is_submesh_visible(int tile_x, int tile_y, int sub_x, int sub_y,
+                          Camera3D *camera);
 
-  private:
-    bool m_initialized = false;
+private:
+  bool m_initialized = false;
 
-    float m_radius = 5.0f;
-    Ref<ArrayMesh> m_array_mesh;
-    int m_mesh_per_img_res = 2;
-    int m_mesh_res = 15;
-    Ref<ShaderMaterial> m_material;
+  float m_radius = 5.0f;
+  Ref<ArrayMesh> m_array_mesh;
+  int m_mesh_per_img_res = 2;
+  int m_mesh_res = 15;
+  Ref<ShaderMaterial> m_material;
 
-    bool m_mercator = false;
+  bool m_mercator = false;
 
-    std::vector<PlanetMesh *> m_meshes;
+  std::vector<PlanetMesh *> m_meshes;
 
-    std::unordered_map<std::string, Ref<Texture2D>> m_tile_cache;
-    std::unordered_map<std::string, PlanetMesh *> m_active_meshes;
+  std::unordered_map<std::string, Ref<Texture2D>> m_tile_cache;
+  std::unordered_map<std::string, PlanetMesh *> m_active_meshes;
 
-    std::shared_ptr<NCAltitudeReader> m_elevation_reader;
+  std::shared_ptr<NCAltitudeReader> m_elevation_reader;
 
-    DebugUI* m_debug_ui = nullptr;
+  std::shared_ptr<Vector3> m_province_to_highlight =
+      std::make_shared<Vector3>(0, 0, 0);
 
-    Ref<Texture2D> m_province_idx_texture;
+  DebugUI *m_debug_ui = nullptr;
 
-    struct TileInfo {
-        Vector2 bottom_left;
-        Vector2 top_right;
-        float sub_width;
-        float sub_height;
-    };
-    std::vector<TileInfo> m_tile_corner_cache;
+  Ref<Texture2D> m_province_idx_texture;
+  Ref<Texture2D> m_city_idx_texture;
 
-    Vector3 m_selected_country_color = Vector3(-1, -1, -1); // Couleur du pays sélectionné
-    int m_selected_country_id = -1;
+  ProvincesManager *m_provinces_manager = nullptr;
+  CitiesManager *m_cities_manager = nullptr;
 
-  protected:
-    static void _bind_methods();
+  struct TileInfo {
+    Vector2 bottom_left;
+    Vector2 top_right;
+    float sub_width;
+    float sub_height;
   };
+  std::vector<TileInfo> m_tile_corner_cache;
+
+protected:
+  static void _bind_methods();
+};
 
 } // namespace godot

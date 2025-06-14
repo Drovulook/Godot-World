@@ -6,6 +6,8 @@
 #include "Planet.h"
 #include "PlanetMesh.h"
 #include "DebugUI.h"
+#include "ProvincesManager.h"
+#include "CitiesManager.h"
 
 using namespace godot;
 
@@ -18,6 +20,8 @@ void initialize(ModuleInitializationLevel p_level) {
     ClassDB::register_class<Planet>();
     ClassDB::register_class<PlanetMesh>();
     ClassDB::register_class<DebugUI>();
+    ClassDB::register_class<ProvincesManager>();
+    ClassDB::register_class<CitiesManager>();
 }
 
 void uninitialize(ModuleInitializationLevel p_level) {

@@ -43,7 +43,10 @@ godot-cpp/.scons_node_count
 
 *.nc
 
-*.shp;
+# dans cities
+cities/data/**
+
+*.shp;*.shx;*.dbf
 
 # Backup files
 *~

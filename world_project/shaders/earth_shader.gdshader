@@ -1,10 +1,14 @@
 shader_type spatial;
 render_mode cull_back, diffuse_toon, specular_toon;
 
+#include "res://shaders/include/waves.gdshaderinc"
+#include "res://shaders/include/alt_at_edges.gdshaderinc"
+
 //texture
 uniform sampler2D albedo_texture;
-uniform sampler2D province_idx_texture;
 uniform sampler2D elevation_texture;
+uniform sampler2D province_idx_texture;
+uniform sampler2D city_idx_texture;
 
 uniform float metallic : hint_range(0,1) = 0.0;
 uniform float roughness : hint_range(0,1) = 0.8;
@@ -35,6 +39,9 @@ uniform vec3 ocean_deep_color : source_color = vec3(0.0, 0.0, 0.5);
 uniform float ocean_specular : hint_range(0.0, 1.0) = 0.5;
 uniform float ocean_fresnel : hint_range(0.0, 5.0) = 2.0;
 
+//provinces
+uniform vec3 NOCHANGE_province_color_to_highlight = vec3(0.0, 0.0, 0.0);
+
 // vertex
 uniform float NOCHANGE_planet_radius;
 uniform bool NOCHANGE_use_mercator;
@@ -58,92 +65,6 @@ vec2 transform_uv_local_to_global(vec2 uv, bool reverse_y) {
 	}
 }
 
-float compute_avg_alt_at_edges(vec2 global_uv, float current_alt) {
-        // Définir la largeur de la zone de bordure en coordonnées UV
-    float border_width = 2.0 / 4320.0;
-
-    // Calculer les dimensions d'une tuile en coordonnées UV
-    float tile_width_uv = 1.0 / 8.0;  // 8 tuiles en X
-    float tile_height_uv = 1.0 / 4.0; // 4 tuiles en Y
-
-    // Position dans la tuile courante (0 à 1)
-    vec2 tile_local_uv = mod(global_uv * vec2(8.0, 4.0), 1.0);
-
-    // Vérifier si on est près d'un bord de tuile
-    bool near_left = tile_local_uv.x < border_width;
-    bool near_right = tile_local_uv.x > (1.0 - border_width);
-    bool near_bottom = tile_local_uv.y < border_width;
-    bool near_top = tile_local_uv.y > (1.0 - border_width);
-
-    // Si on n'est pas près d'un bord, retourner l'altitude normale
-    if (!near_left && !near_right && !near_bottom && !near_top) {
-        return current_alt;
-    }
-
-	float texel_size = 1.0/4320.0;
-
-	if(near_left) {
-	    float left_alt = (texture(elevation_texture, clamp(global_uv + vec2(-texel_size, 0.0), 0.0, 1.0)).r
-        * (NOCHANGE_max_alt - NOCHANGE_min_alt) + NOCHANGE_min_alt) / 9000.0;
-		//return (current_alt + left_alt)/2.0;
-		return min(current_alt, left_alt);
-	}
-
-	if(near_right) {
-	    float right_alt = (texture(elevation_texture, clamp(global_uv + vec2(texel_size, 0.0), 0.0, 1.0)).r
-        * (NOCHANGE_max_alt - NOCHANGE_min_alt) + NOCHANGE_min_alt) / 9000.0;
-		//return (current_alt + right_alt)/2.0;
-		return min(current_alt, right_alt);
-	}
-
-	if(near_top) {
-		float top_alt = (texture(elevation_texture, clamp(global_uv + vec2(0.0, texel_size), 0.0, 1.0)).r
-        * (NOCHANGE_max_alt - NOCHANGE_min_alt) + NOCHANGE_min_alt) / 9000.0;
-		//return (current_alt + top_alt)/2.0;
-		return min(current_alt, top_alt);
-	}
-
-	if(near_bottom) {
-	    float bottom_alt = (texture(elevation_texture, clamp(global_uv + vec2(0.0, -texel_size), 0.0, 1.0)).r
-        * (NOCHANGE_max_alt - NOCHANGE_min_alt) + NOCHANGE_min_alt) / 9000.0;
-		//return (current_alt + bottom_alt)/2.0;
-		return min(current_alt, bottom_alt);
-	}
-
-}
-
-float calculate_waves(float longitude, float latitude, float time) {
-    float wave_offset = 0.0;
-
-    // Vague principale basée sur longitude et latitude
-    float wave1 = sin(longitude * wave_frequency + time * wave_speed) *
-                  cos(latitude * wave_frequency * 0.7 + time * wave_speed * 1.2);
-
-    // Vague secondaire perpendiculaire
-    float wave2 = sin(latitude * wave_frequency * 1.3 + time * wave_speed * 0.8) *
-                  cos(longitude * wave_frequency * 0.9 + time * wave_speed * 1.5);
-
-    // Petites ondulations
-    float wave3 = sin(longitude * wave_frequency * 2.5 + time * wave_speed * 2.0) *
-                  sin(latitude * wave_frequency * 2.8 + time * wave_speed * 1.8) * 0.3;
-
-	float wave4 = sin(longitude * wave_frequency * 8.0 + time * wave_speed * 3.0) *
-                  cos(latitude * wave_frequency * 6.0 + time * wave_speed * 2.5) * 0.1;
-
-    float combined_wave = (wave1 + wave2 * 0.7 + wave3 + wave4) * wave_amplitude;
-
-    // Calculer la normale à la surface de la sphère à partir de longitude/latitude
-    vec3 surface_normal = vec3(
-        -sin(latitude) * cos(longitude),
-        -cos(latitude),
-        sin(latitude) * sin(longitude)
-    );
-
-    wave_offset = combined_wave * NOCHANGE_planet_radius;
-
-    return wave_offset;
-}
-
 void vertex() {
 	vec3 color_for_vertex = texture(albedo_texture, UV).rgb;
 
@@ -163,7 +84,9 @@ void vertex() {
 		&& color_for_vertex.b > color_for_vertex.g*1.3) ? 1.0 : 0.0;
 
 	if(is_ocean_value > 0.5) { //ocean
-		vertex_elevation = compute_avg_alt_at_edges(global_UV, calculate_waves(longitude, latitude, TIME));
+		vertex_elevation = compute_avg_alt_at_edges(global_UV,
+		calculate_waves(longitude, latitude, TIME, NOCHANGE_planet_radius, wave_speed, wave_amplitude, wave_frequency),
+		elevation_texture, NOCHANGE_min_alt, NOCHANGE_max_alt);
 	}
 
     if (NOCHANGE_use_mercator) {
@@ -187,8 +110,9 @@ void vertex() {
 
 void fragment() {
     vec3 color = texture(albedo_texture, UV).rgb;
-	vec3 province_color = texture(province_idx_texture, transform_uv_local_to_global(UV, true)).rgb;
 	vec3 alt_color = texture(elevation_texture, global_UV).rgb;
+	vec3 province_color = texture(province_idx_texture, transform_uv_local_to_global(UV, true)).rgb;
+	vec3 city_color = texture(city_idx_texture, transform_uv_local_to_global(UV, true)).rgb;
 
 	float processed_roughness = roughness;
 
@@ -229,12 +153,24 @@ void fragment() {
 
 	    if (color.g > color.r * 1.2 && color.g > color.b * 1.2) {
 		    // Saturation supplémentaire pour les verts
-		    float green_sat = (color.g - (color.r + color.b) * 0.1) * 0.1;
+		    float green_sat = (color.g - (color.r + color.b) * 0.2) * 0.2;
 		    color.g = min(color.g + green_sat, 1.0);
 	    }
 	}
+	float pv_color_threshold = 0.00003;
+	if(NOCHANGE_province_color_to_highlight != vec3(0.0)&& ((province_color.r - NOCHANGE_province_color_to_highlight.r) < pv_color_threshold && (province_color.r - NOCHANGE_province_color_to_highlight.r) > -pv_color_threshold)
+	 															&& ((province_color.g - NOCHANGE_province_color_to_highlight.g) < pv_color_threshold && (province_color.g - NOCHANGE_province_color_to_highlight.g) > -pv_color_threshold)
+																&& ((province_color.b - NOCHANGE_province_color_to_highlight.b) < pv_color_threshold && (province_color.b - NOCHANGE_province_color_to_highlight.b) > -pv_color_threshold)
+	)
+	{
+		color = color * 1.5;
+	}
 
-    ALBEDO = clamp(vec3(province_color.b/3.0, province_color.b/3.0, province_color.b/3.0), 0.0, 1.0);
+	if(city_color != vec3(0.0, 0.0, 0.0) && !(is_ocean_value > 0.5)) {
+		color = color * 1.5 + vec3(0.1, 0.1, 0.1);
+	}
+
+    ALBEDO = clamp(color, 0.0, 1.0);
     METALLIC = metallic;
     ROUGHNESS = processed_roughness;
 
