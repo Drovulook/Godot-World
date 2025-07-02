@@ -1,0 +1,393 @@
+{
+    "@type": "Place",
+    "bbox": [
+        28.72294325842969,
+        37.70655297416305,
+        28.7233081716988,
+        37.70744053662537
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/638753",
+            "contributors": [],
+            "created": "2018-01-12T00:07:10Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-01-12T00:07:11Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-01-12T00:07:11Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-01-12T00:07:10Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "6308634257",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Aphrodisias",
+            "uri": "https://pleiades.stoa.org/places/685696905/6308634257"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/638753"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Katelin McCullough",
+            "uri": "https://pleiades.stoa.org/author/kmccullough",
+            "username": "kmccullough"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2018-03-23T19:10:05Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "The Civil Basilica at Aphrodisias was a three-aisled public hall measuring approximately 145 by 30 meters. It opened off the southwest corner of the South Agora.It dates to the late first century CE.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            28.72294325842969,
+                            37.70742299549069,
+                            0.0
+                        ],
+                        [
+                            28.7230592250674,
+                            37.70655297416305,
+                            0.0
+                        ],
+                        [
+                            28.7233081716988,
+                            37.70659563339535,
+                            0.0
+                        ],
+                        [
+                            28.72320818083804,
+                            37.70744053662537,
+                            0.0
+                        ],
+                        [
+                            28.72294325842969,
+                            37.70742299549069,
+                            0.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "basilica",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/685696905/basilica",
+                "location_precision": "precise",
+                "snippet": "Basilica; 30 BC - AD 300",
+                "title": "Basilica"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add summary, two references (Stinson)",
+            "modified": "2023-02-26T03:39:39Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "check in of working copy",
+            "modified": "2018-05-09T19:05:59Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2018-03-23T19:10:04Z",
+            "modifiedBy": "kmccullough"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-01-12T00:09:46Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-01-12T00:09:41Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-01-12T00:07:12Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-01-12T00:07:09Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "685696905",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-08-27T21:31:12Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "basilica"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/basilica"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            28.72294325842969,
+                            37.70742299549069,
+                            0.0
+                        ],
+                        [
+                            28.7230592250674,
+                            37.70655297416305,
+                            0.0
+                        ],
+                        [
+                            28.7233081716988,
+                            37.70659563339535,
+                            0.0
+                        ],
+                        [
+                            28.72320818083804,
+                            37.70744053662537,
+                            0.0
+                        ],
+                        [
+                            28.72294325842969,
+                            37.70742299549069,
+                            0.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Google Earth and Partners Imagery 2016 and following",
+                    "modified": "2023-02-26T03:40:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T07:25:13Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-12-19T20:27:59Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-12-19T20:27:59Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-12-19T20:27:56Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-05-12T19:55:22Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-05-12T19:54:47Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-05-12T19:52:00Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-01-10T23:06:14Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-01-10T18:41:32Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Retract",
+                    "modified": "2011-01-10T18:32:03Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-08-27T21:41:51Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-08-27T21:40:54Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-08-27T21:31:13Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "basilica",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/basilica"
+            ],
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Basilica",
+            "uri": "https://pleiades.stoa.org/places/685696905/basilica"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/basilica"
+    ],
+    "placeTypes": [
+        "basilica"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://aphrodisias.classics.ox.ac.uk/civilbasilica",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/62RSHP77/q/aphrodisias",
+            "citationDetail": "Civil Basilica",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Smith, R.R.R., et al. Aphrodisias Excavations. University of Oxford. 2017.",
+            "otherIdentifier": "",
+            "shortTitle": "Aphrodisias Excavations",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/3MHZ2FIZ",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stinson, Philip. “Imitation and Adaptation in Architectural Design: Two Roman Basilicas at Ephesus and Aphrodisias.” In <i>Neue Zeiten - Neue Sitten</i>, 91–100. Wien: Phoibos, 2007.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Stinson 2007",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/7X5PULHB",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stinson, Philip. “Local Meanings of the Civil Basilica at Aphrodisias: Image, Text, and Monument.” In <i>Basiliques et Agoras de Grèce et d’Asie Mineure</i>, 107–26. Bordeaux: Ausonius Éd, 2012.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Stinson 2012",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        28.723128602666065,
+        37.70700646860542
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Basilica",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/685696905"
+}

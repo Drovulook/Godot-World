@@ -1,0 +1,649 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -5.0,
+        40.0,
+        3.1766232,
+        42.4395125
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "succeeds",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/succeeds",
+            "connectsTo": "https://pleiades.stoa.org/places/530036687",
+            "contributors": [],
+            "created": "2019-06-13T04:06:32Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Ryan Horne",
+                    "uri": "https://pleiades.stoa.org/author/rmhorne",
+                    "username": "rmhorne"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-03-07T00:41:07Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-06-13T04:06:42Z",
+                    "modifiedBy": "rmhorne"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-06-13T04:06:33Z",
+                    "modifiedBy": "rmhorne"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-06-13T04:06:32Z",
+                    "modifiedBy": "rmhorne"
+                }
+            ],
+            "id": "hispania-citerior",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.trismegistos.org/place/16933",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+                    "formattedCitation": "Trismegistos: Hispania Citerior",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "seeAlso"
+                },
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Hispania_Citerior",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Wikipedia: Hispania Citerior",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Hispania Citerior",
+            "uri": "https://pleiades.stoa.org/places/981551/hispania-citerior"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "connectionType": "part_of_physical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_physical",
+            "connectsTo": "https://pleiades.stoa.org/places/540456066",
+            "contributors": [],
+            "created": "2020-10-09T14:12:57Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-10-09T15:30:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-10-09T14:13:12Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2020-10-09T14:13:01Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-10-09T14:12:57Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "iberia-modern-region-peninsula",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Iberia (modern region/peninsula)",
+            "uri": "https://pleiades.stoa.org/places/981551/iberia-modern-region-peninsula"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/530036687",
+        "https://pleiades.stoa.org/places/540456066",
+        "https://pleiades.stoa.org/places/246328"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "name": "M. Joann McDaniel",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "name": "Brian Z. Lund",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Maxime Guénette",
+            "uri": "https://pleiades.stoa.org/author/maximeg",
+            "username": "maximeg"
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "name": "Mary E. Downs",
+            "username": null
+        }
+    ],
+    "created": "2025-02-13T22:20:14Z",
+    "creators": [
+        {
+            "name": "J.J. Wilkes",
+            "username": null
+        },
+        {
+            "name": "S.T. Parker",
+            "username": null
+        },
+        {
+            "name": "R.S. Bagnall",
+            "username": null
+        },
+        {
+            "name": "W.V. Harris",
+            "username": null
+        },
+        {
+            "name": "A.S. Esmonde-Cleary",
+            "username": null
+        },
+        {
+            "name": "C.M. Wells",
+            "username": null
+        },
+        {
+            "name": "J.F. Drinkwater",
+            "username": null
+        },
+        {
+            "name": "R.C. Knapp",
+            "username": null
+        },
+        {
+            "name": "S. Mitchell",
+            "username": null
+        }
+    ],
+    "description": "The Roman imperial province of Hispania Tarraconensis.",
+    "details": "<p>The Barrington Atlas Directory notes: province</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -5.0,
+                            40.0
+                        ],
+                        [
+                            0.0,
+                            40.0
+                        ],
+                        [
+                            0.0,
+                            45.0
+                        ],
+                        [
+                            -5.0,
+                            45.0
+                        ],
+                        [
+                            -5.0,
+                            40.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "batlas-location",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/981551/batlas-location",
+                "location_precision": "rough",
+                "snippet": "Unknown",
+                "title": "Barrington Atlas location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited type for province and added Wikidata entry; GeoNames 8378513: Hispania Tarraconensis",
+            "modified": "2025-02-14T02:39:52Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "TM GEO ID 22600",
+            "modified": "2019-06-13T13:28:06Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "description",
+            "modified": "2014-03-28T15:58:31Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T23:44:27Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T21:40:13Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-07-06T14:14:25Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-07-05T13:05:45Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-07-05T12:50:28Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "981551",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": null,
+            "accuracy_value": null,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [],
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "Mary E. Downs",
+                    "username": null
+                },
+                {
+                    "name": "M. Joann McDaniel",
+                    "username": null
+                },
+                {
+                    "name": "Brian Z. Lund",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-07-05T12:50:29Z",
+            "creators": [
+                {
+                    "name": "R.S. Bagnall",
+                    "username": null
+                },
+                {
+                    "name": "J.F. Drinkwater",
+                    "username": null
+                },
+                {
+                    "name": "A.S. Esmonde-Cleary",
+                    "username": null
+                },
+                {
+                    "name": "W.V. Harris",
+                    "username": null
+                },
+                {
+                    "name": "R.C. Knapp",
+                    "username": null
+                },
+                {
+                    "name": "S. Mitchell",
+                    "username": null
+                },
+                {
+                    "name": "S.T. Parker",
+                    "username": null
+                },
+                {
+                    "name": "C.M. Wells",
+                    "username": null
+                },
+                {
+                    "name": "J.J. Wilkes",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -5.0,
+                            40.0
+                        ],
+                        [
+                            0.0,
+                            40.0
+                        ],
+                        [
+                            0.0,
+                            45.0
+                        ],
+                        [
+                            -5.0,
+                            45.0
+                        ],
+                        [
+                            -5.0,
+                            40.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T23:44:27Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-07-06T14:14:25Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-07-05T13:05:45Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-07-05T12:50:29Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "batlas-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Barrington Atlas: BAtlas 100 F3 Tarraconensis",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Barrington Atlas location",
+            "uri": "https://pleiades.stoa.org/places/981551/batlas-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "Mary E. Downs",
+                    "username": null
+                },
+                {
+                    "name": "M. Joann McDaniel",
+                    "username": null
+                },
+                {
+                    "name": "Brian Z. Lund",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-07-05T12:50:28Z",
+            "creators": [
+                {
+                    "name": "R.S. Bagnall",
+                    "username": null
+                },
+                {
+                    "name": "J.F. Drinkwater",
+                    "username": null
+                },
+                {
+                    "name": "A.S. Esmonde-Cleary",
+                    "username": null
+                },
+                {
+                    "name": "W.V. Harris",
+                    "username": null
+                },
+                {
+                    "name": "R.C. Knapp",
+                    "username": null
+                },
+                {
+                    "name": "S. Mitchell",
+                    "username": null
+                },
+                {
+                    "name": "S.T. Parker",
+                    "username": null
+                },
+                {
+                    "name": "C.M. Wells",
+                    "username": null
+                },
+                {
+                    "name": "J.J. Wilkes",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T23:44:28Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-07-06T14:14:25Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-07-05T13:05:45Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-07-05T12:50:29Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "tarraconensis",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 100 F3 Tarraconensis",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Tarraconensis",
+            "start": null,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/981551/tarraconensis"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/province-2"
+    ],
+    "placeTypes": [
+        "province-2"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 100 F3 Tarraconensis",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "100 F3 Tarraconensis",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.trismegistos.org/place/22600",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "citationDetail": "GEO ID 22600: Hispania Tarraconensis",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TM",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q216791",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Hispania Tarraconensis (Q216791)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.geonames.org/8378513/hispania-tarraconensis.html",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+            "citationDetail": "8378513: Hispania Tarraconensis",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. <i>GeoNames</i>, 2005. https://www.geonames.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "GeoNames",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        -0.9116884000000001,
+        41.21975625
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Tarraconensis",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/981551"
+}

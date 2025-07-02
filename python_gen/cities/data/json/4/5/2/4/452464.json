@@ -1,0 +1,300 @@
+{
+    "@type": "Place",
+    "bbox": [
+        15.58333,
+        40.0,
+        15.58333,
+        40.0
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-10-04T18:07:07Z",
+    "creators": [
+        {
+            "name": "I.E.M. Edlund Berry",
+            "username": null
+        },
+        {
+            "name": "A.M. Small",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 46 C1 Talaos Kolpos",
+    "details": "None",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    15.58333,
+                    40
+                ],
+                "type": "Point"
+            },
+            "id": "imagery-location-of-golfo-di-policastro",
+            "properties": {
+                "description": "Coordinates following GeoNames",
+                "link": "https://pleiades.stoa.org/places/452464/imagery-location-of-golfo-di-policastro",
+                "location_precision": "precise",
+                "snippet": "Water-open; AD 2000 - AD 2099",
+                "title": "Imagery location of Golfo di Policastro"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Initial revision",
+            "modified": "2020-01-16T21:32:11Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T05:15:46Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-10-04T18:22:10Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-10-04T18:12:41Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-10-04T18:07:07Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "452464",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-geonames-accuracy-assessment",
+            "accuracy_value": 30.0,
+            "archaeologicalRemains": "notapplicable",
+            "associationCertainty": "less-certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/less-certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-04-03T00:17:23Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Coordinates following GeoNames",
+            "details": "",
+            "end": 2099,
+            "featureType": [
+                "water-open"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/water-open"
+            ],
+            "geometry": {
+                "coordinates": [
+                    15.58333,
+                    40
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-04-03T18:58:53Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-04-03T00:17:39Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2023-04-03T00:17:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-04-03T00:17:23Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "imagery-location-of-golfo-di-policastro",
+            "locationType": [
+                "associated_modern"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/water-open"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.geonames.org/2523740/golfo-di-policastro.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+                    "citationDetail": "2523740: Golfo di Policastro",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. <i>GeoNames</i>, 2005. https://www.geonames.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "GeoNames",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 2000,
+            "title": "Imagery location of Golfo di Policastro",
+            "uri": "https://pleiades.stoa.org/places/452464/imagery-location-of-golfo-di-policastro"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-10-04T18:07:07Z",
+            "creators": [
+                {
+                    "name": "I.E.M. Edlund Berry",
+                    "username": null
+                },
+                {
+                    "name": "A.M. Small",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T05:15:46Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-10-04T18:22:10Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-10-04T18:12:42Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-10-04T18:07:07Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "talaos-kolpos",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 46 C1 Talaos Kolpos",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Talaos Kolpos",
+            "start": null,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/452464/talaos-kolpos"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/water-open"
+    ],
+    "placeTypes": [
+        "water-open"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 46 C1 Talaos Kolpos",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "46 C1 Talaos Kolpos",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+            "citationDetail": "6.1",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augustus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Str. (Meineke: Perseus)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        15.58333,
+        40.0
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Talaos Kolpos",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/452464"
+}

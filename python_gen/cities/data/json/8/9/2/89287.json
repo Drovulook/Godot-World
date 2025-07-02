@@ -1,0 +1,574 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -3.906772,
+        55.990952,
+        -3.893812,
+        55.995992
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/91357",
+            "contributors": [],
+            "created": "2016-07-13T14:03:07Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T14:03:08Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T14:03:08Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T14:03:07Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "91357",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Antonine Wall",
+            "uri": "https://pleiades.stoa.org/places/89287/91357"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/91357"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Scott Vanderbilt",
+            "uri": "https://pleiades.stoa.org/author/sarcanon",
+            "username": "sarcanon"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Maxime Guénette",
+            "uri": "https://pleiades.stoa.org/author/maximeg",
+            "username": "maximeg"
+        },
+        {
+            "name": "R. Warner",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        }
+    ],
+    "created": "2024-12-18T21:52:04Z",
+    "creators": [
+        {
+            "name": "A.S. Esmonde Cleary",
+            "username": null
+        }
+    ],
+    "description": "Site of a Roman fortlet on the Antonine Wall.",
+    "details": "<p>The Barrington Atlas Directory notes: Seabegs</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.906772,
+                            55.991123
+                        ],
+                        [
+                            -3.906611,
+                            55.990952
+                        ],
+                        [
+                            -3.906369,
+                            55.991028
+                        ],
+                        [
+                            -3.906527,
+                            55.991196
+                        ],
+                        [
+                            -3.906772,
+                            55.991123
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "boundary-of-fortlet-walls-approx",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/89287/boundary-of-fortlet-walls-approx",
+                "location_precision": "precise",
+                "snippet": "Fort, ; 30 BC - AD 300",
+                "title": "Boundary of fortlet walls (approx)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.893812,
+                    55.995992
+                ],
+                "type": "Point"
+            },
+            "id": "darmc-location-19200",
+            "properties": {
+                "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+                "link": "https://pleiades.stoa.org/places/89287/darmc-location-19200",
+                "location_precision": "precise",
+                "snippet": "Unknown; 30 BC - AD 300",
+                "title": "DARMC location 19200"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2024-12-20T15:32:25Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited type for fortlet and fixed broken link for canmore; update references @maximeg",
+            "modified": "2024-12-20T15:31:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Wikipedia \"Seabegs Wood\"",
+            "modified": "2020-02-09T18:18:58Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-09-10T14:19:01Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "improved title, description, location, references",
+            "modified": "2014-01-16T16:50:22Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2014-01-16T16:37:27Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-21T00:01:13Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T09:20:17Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-01-21T05:45:07Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T21:27:10Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2009-11-23T22:43:02Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-11-02T10:43:19Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-11-02T09:57:06Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "89287",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-01-16T16:41:07Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Scott Vanderbilt",
+                    "uri": "https://pleiades.stoa.org/author/sarcanon",
+                    "username": "sarcanon"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "fort",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.906772,
+                            55.991123
+                        ],
+                        [
+                            -3.906527,
+                            55.991196
+                        ],
+                        [
+                            -3.906369,
+                            55.991028
+                        ],
+                        [
+                            -3.906611,
+                            55.990952
+                        ],
+                        [
+                            -3.906772,
+                            55.991123
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2014-01-16T16:49:35Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-01-16T16:41:36Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2014-01-16T16:41:17Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-01-16T16:41:08Z",
+                    "modifiedBy": "sarcanon"
+                }
+            ],
+            "id": "boundary-of-fortlet-walls-approx",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://canmore.rcahms.gov.uk/en/site/46788/",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "Canmore Site 46788",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Boundary of fortlet walls (approx)",
+            "uri": "https://pleiades.stoa.org/places/89287/boundary-of-fortlet-walls-approx"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-b",
+            "accuracy_value": 100.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "DARMC, R. Talbert, T. Elliott, S. Gillies",
+                    "username": null
+                }
+            ],
+            "created": "2011-01-21T05:45:06Z",
+            "creators": [
+                {
+                    "name": "A.S. Esmonde Cleary",
+                    "username": null
+                }
+            ],
+            "description": "1:1 million scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+            "details": "DARMC OBJECTID: 19200",
+            "end": 300,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    -3.893812,
+                    55.995992
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T09:20:18Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-01-21T13:41:55Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-01-21T05:45:07Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+                    "modified": "2011-01-21T05:45:07Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-01-21T05:45:07Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "darmc-location-19200",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "DARMC OBJECTID: 19200",
+            "references": [
+                {
+                    "accessURI": "https://darmc.harvard.edu/",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+                    "citationDetail": "19200",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 19200.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "DARMC",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "DARMC location 19200",
+            "uri": "https://pleiades.stoa.org/places/89287/darmc-location-19200"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fortlet",
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+    ],
+    "placeTypes": [
+        "fortlet",
+        "fort"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 9 D5 Seabegs",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "9 D5 Seabegs",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/VWHSRQVH",
+            "citationDetail": "125",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Keppie, L. J. F. <i>Scotland’s Roman Remains: An Introduction and Handbook</i>. 1st ed. Atlantic Highlands, NJ, USA: Exclusive distribution in the United States of America and Canada by Humanities Press, 1986.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Keppie 1986",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43014428",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZCE8AR3R",
+            "citationDetail": "68-69",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Sheppard Frere, A. L. F. Rivet, N. H. H. Sitwell, and British Academy. <i>Tabula Imperii Romani: Britannia Septentrionalis : Covering Sheets N.30 and O.30, with Parts of Sheets N.29, N.31 and O.29 of the International 1:1,000,000 Map of the World</i>. Oxford: Oxford University Press; British Academy, 1987. http://www.worldcat.org/oclc/43014428.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TIR BritSep",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://canmore.org.uk/site/46788/seabegs-wood",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/R9QC8C2K",
+            "citationDetail": "Site 46788",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Canmore: National Record of the Historic Environment, Part of Historic Environment Scotland</i>, n.d. https://canmore.org.uk/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Canmore",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.historicenvironment.scot/visit-a-place/places/antonine-wall-seabegs-wood/",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Antonine Wall: Seabegs Wood",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://journals.cambridge.org/abstract_S0068113X00014884",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/V35C3NC4",
+            "citationDetail": "143-162",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Keppie, L. J. F., and J. J. Walker. “Fortlets on the Antonine Wall at Seabegs Wood, Kinneil and Cleddans.” <i>Britannia</i> 12 (1981): 143–62. https://doi.org/10.2307/526246.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Keppie 1981",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://visitromanbritain.com/tag/seabegs-wood/",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "The Antonine Wall, Seabegs Wood",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Seabegs_Wood",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Seabegs Wood",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q48798485",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Seabegs Wood fortlet (Q48798485)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        -3.9001910608397923,
+        55.99353332327489
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=0",
+        "dare:feature=fort"
+    ],
+    "title": "Seabegs Wood",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/89287"
+}

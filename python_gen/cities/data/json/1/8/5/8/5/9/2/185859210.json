@@ -1,0 +1,383 @@
+{
+    "@type": "Place",
+    "bbox": [
+        21.3418275,
+        41.0111973,
+        21.3425547,
+        41.0116877
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/481861",
+            "contributors": [],
+            "created": "2018-08-09T00:00:03Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-08-09T00:00:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-08-09T00:00:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-08-09T00:00:03Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "8031354266",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Herakleia",
+            "uri": "https://pleiades.stoa.org/places/185859210/8031354266"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/481861"
+    ],
+    "contributors": [],
+    "created": "2018-08-09T00:00:01Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Roman theater at Herakleia dates to the time of Hadrian and remained in use until the fourth century. Its remains came to light in 1968.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        21.3425547,
+                        41.0114511
+                    ],
+                    [
+                        21.3424991,
+                        41.0115436
+                    ],
+                    [
+                        21.3424495,
+                        41.0116018
+                    ],
+                    [
+                        21.3423964,
+                        41.0116468
+                    ],
+                    [
+                        21.3423023,
+                        41.0116781
+                    ],
+                    [
+                        21.3421455,
+                        41.0116877
+                    ],
+                    [
+                        21.3419875,
+                        41.0116411
+                    ],
+                    [
+                        21.3418823,
+                        41.0115606
+                    ],
+                    [
+                        21.3418275,
+                        41.0114635
+                    ],
+                    [
+                        21.3418431,
+                        41.0113461
+                    ],
+                    [
+                        21.3419123,
+                        41.0112489
+                    ],
+                    [
+                        21.3419458,
+                        41.0111973
+                    ],
+                    [
+                        21.3425547,
+                        41.0114511
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-roman-theater",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/185859210/osm-location-of-roman-theater",
+                "location_precision": "precise",
+                "snippet": "Theatre, ; 30 BC - AD 300",
+                "title": "OSM Location of Roman theater"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Wikidata Theatre of Heraclea Lyncestis (Q70772454)",
+            "modified": "2024-07-04T20:17:32Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-08-14T18:29:09Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2018-08-14T14:57:09Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-08-14T14:56:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2018-08-14T14:56:43Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "title",
+            "modified": "2018-08-09T00:00:31Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-08-09T00:00:05Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-08-09T00:00:01Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "185859210",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-06-18T00:09:03Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "theatre",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/theatre",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        21.3425547,
+                        41.0114511
+                    ],
+                    [
+                        21.3424991,
+                        41.0115436
+                    ],
+                    [
+                        21.3424495,
+                        41.0116018
+                    ],
+                    [
+                        21.3423964,
+                        41.0116468
+                    ],
+                    [
+                        21.3423023,
+                        41.0116781
+                    ],
+                    [
+                        21.3421455,
+                        41.0116877
+                    ],
+                    [
+                        21.3419875,
+                        41.0116411
+                    ],
+                    [
+                        21.3418823,
+                        41.0115606
+                    ],
+                    [
+                        21.3418275,
+                        41.0114635
+                    ],
+                    [
+                        21.3418431,
+                        41.0113461
+                    ],
+                    [
+                        21.3419123,
+                        41.0112489
+                    ],
+                    [
+                        21.3419458,
+                        41.0111973
+                    ],
+                    [
+                        21.3425547,
+                        41.0114511
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-07-04T20:15:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-06-18T13:55:00Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-06-18T00:10:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-06-18T00:09:39Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-06-18T00:09:07Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-06-18T00:09:05Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-roman-theater",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/theatre",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 226160304, version 5, osm:changeset=148181888, 2024-03-03T21:04:29Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/226160304",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 226160304",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=226160304",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM Location of Roman theater",
+            "uri": "https://pleiades.stoa.org/places/185859210/osm-location-of-roman-theater"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/theatre"
+    ],
+    "placeTypes": [
+        "theatre"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Heraclea_Lyncestis",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Heraclea Lyncestis",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q70772454",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Theatre of Heraclea Lyncestis (Q70772454)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        21.3421625034775,
+        41.0114638472209
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "Theater",
+        "extant remains"
+    ],
+    "title": "Roman theater at Herakleia",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/185859210"
+}

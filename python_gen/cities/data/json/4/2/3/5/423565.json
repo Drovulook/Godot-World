@@ -1,0 +1,573 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.5393485,
+        41.8709452,
+        12.5393485,
+        41.8709452
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "flows_into",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/flows_into",
+            "connectsTo": "https://pleiades.stoa.org/places/423025",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-07-13T13:41:44Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "reference, change cnxn type",
+                    "modified": "2022-02-18T03:18:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:41:44Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:41:44Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:41:44Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "423025",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://latin.packhum.org/loc/978/1/93/960-971",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8AK7HSRG",
+                    "citationDetail": "1.31a.40",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "<div class=\"csl-entry\">Plinius Secundus Maior, C. <i>Naturalis Historiae</i>. Edited by Karl Friedrich Theodor Mayhoff. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Lipsiae: Teubner, 1906. http://latin.packhum.org/loc/978/1/0.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Plin., NH (Mayhoff: PHI)",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Roma",
+            "uri": "https://pleiades.stoa.org/places/423565/423025"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423025",
+        "https://pleiades.stoa.org/places/939936150"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling",
+            "username": "bkiesling"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-11-10T22:36:39Z",
+    "creators": [
+        {
+            "name": "L. Quilici",
+            "username": null
+        },
+        {
+            "name": "S. Quilici Gigli",
+            "username": null
+        }
+    ],
+    "description": "The Aqua Marcia was the longest of Rome's 11 aqueducts.",
+    "details": "<p>The Aqua Marcia was constructed by Q. Marcius Rex between 144 and 140 B.C. and followed the course of the Via Tiburtina. The sixteenth century Acqua Felice follows the route of the Aqua Marcia.</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.5387042,
+                        41.8714819
+                    ],
+                    [
+                        12.5393485,
+                        41.8709452
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-aqueduct",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/423565/location-of-aqueduct",
+                "location_precision": "precise",
+                "snippet": "Aqueduct, ; 330 BC - AD 640",
+                "title": "OSM location of Acqua Marcia"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add OSM ref.",
+            "modified": "2024-11-30T18:15:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added two references - Volpe and Tortorici",
+            "modified": "2022-02-18T03:20:41Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added wikidata Q622943: Aqua Marcia",
+            "modified": "2022-02-18T03:08:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added topostext",
+            "modified": "2020-08-02T20:27:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-11-03T14:53:52Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited description, added references",
+            "modified": "2013-12-30T20:29:39Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T04:58:03Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-11T05:13:50Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-10T22:39:48Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-10T22:36:39Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "423565",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-12-30T20:39:08Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "aqueduct",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/aqueduct",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.5387042,
+                        41.8714819
+                    ],
+                    [
+                        12.5393485,
+                        41.8709452
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-07T00:41:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-11-03T14:52:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-11-03T14:52:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-12-30T20:43:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-12-30T20:41:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-12-30T20:39:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-12-30T20:39:12Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-aqueduct",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/aqueduct",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 113758266, version 4, osm:changeset=52033730, 2017-09-14T11:13:24Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/113758266",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 113758266",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=113758266",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "OSM location of Acqua Marcia",
+            "uri": "https://pleiades.stoa.org/places/423565/location-of-aqueduct"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "attested": "aqua Marcia",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                },
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2022-02-18T03:09:04Z",
+            "creators": [
+                {
+                    "name": "L. Quilici",
+                    "username": null
+                },
+                {
+                    "name": "S. Quilici Gigli",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "history": [
+                {
+                    "comment": "reference, Latin name",
+                    "modified": "2022-02-18T11:44:01Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modified": "2022-02-18T03:09:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:58:03Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-11T05:13:50Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-10T22:39:48Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-10T22:36:39Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "aqua-marcia",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 43 C2 Aqua Marcia",
+            "references": [
+                {
+                    "accessURI": "https://latin.packhum.org/loc/978/1/93/960-971",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8AK7HSRG",
+                    "citationDetail": "1.31a.40",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "<div class=\"csl-entry\">Plinius Secundus Maior, C. <i>Naturalis Historiae</i>. Edited by Karl Friedrich Theodor Mayhoff. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Lipsiae: Teubner, 1906. http://latin.packhum.org/loc/978/1/0.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Plin., NH (Mayhoff: PHI)",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Aqua Marcia",
+            "start": -330,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/423565/aqua-marcia"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/aqueduct"
+    ],
+    "placeTypes": [
+        "aqueduct"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 43 C2 Aqua Marcia",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "43 C2 Aqua Marcia",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/GPMCJPKB",
+            "citationDetail": "88-158",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Ashby, Thomas, and Ian Archibald Richmond, eds. <i>The Aqueducts of Ancient Rome</i>. Oxford: The Clarendon Press, 1935.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Ashby 1935",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Aqua_Marcia",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Aqua Marcia",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Aqua Marcia.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0054:id=aqua-marcia",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Platner and Ashby 1929 (Perseus), AQUA MARCIA",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://topostext.org/place/419125AqMa",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MC9RGDVB",
+            "citationDetail": "Aqua Marcia (Rome)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Kiesling, Brady. <i>ToposText – a Reference Tool for Greek Civilization</i>. Version 2.0. Aikaterini Laskaridis Foundation, 2016. https://topostext.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "ToposText",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q622943",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q622943: Aqua Marcia",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/N8KQ8FJ4",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Volpe, Rita, ed. “Aqua marcia: lo scavo di un tratto urbano.” In <i>Studi e materiali dei monumenti comunali di Roma</i>, 252 S. Firenze: All’Insegna del Giglio, 1996.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Volpe 1996",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.jstor.org/stable/44515275",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YB4BV32X",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Tortorici, Edoardo. “La «Terrazza domizianea», l’aqua Marcia ed il taglio della sella tra Campidoglio e Quirinale.” <i>Bullettino della Commissione Archeologica Comunale di Roma</i> 95, no. 2 (1993): 7–24. https://www.jstor.org/stable/44515275.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Tortorici 1993",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.openstreetmap.org/relation/17803357#map=11/41.9299/12.7775",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BA93AHVQ",
+            "citationDetail": "Relation: Acquedotto Aqua Marcia (17803357)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>OpenStreetMap</i>. OpenStreetMap Foundation, 2004. http://www.openstreetmap.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "OSM",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.5393485,
+        41.8709452
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Aqua Marcia",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/423565"
+}

@@ -1,0 +1,376 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.449895,
+        41.9027753,
+        12.449895,
+        41.9027753
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/104629751",
+            "contributors": [],
+            "created": "2018-02-18T13:50:16Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-03-08T20:40:12Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-02-18T15:20:45Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2018-02-18T13:50:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-02-18T13:50:16Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "vaticanus-ager",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Vaticanus Ager",
+            "uri": "https://pleiades.stoa.org/places/463398874/vaticanus-ager"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/104629751",
+        "https://pleiades.stoa.org/places/423053",
+        "https://pleiades.stoa.org/places/578501279"
+    ],
+    "contributors": [],
+    "created": "2017-01-27T16:15:44Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A hill located across the Tiber from Rome's traditional seven hills, the Vaticanus Mons now lies within the territory of Vatican City.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    12.449895,
+                    41.9027753
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-vatican-hill",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/463398874/osm-location-of-vatican-hill",
+                "location_precision": "precise",
+                "snippet": "Hill; AD 1700 - AD 2100",
+                "title": "OSM location of Vatican Hill"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q1053000",
+            "modified": "2025-04-06T19:33:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-07-08T01:29:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update reference",
+            "modified": "2021-10-13T13:34:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Arachne 8005397: Ager und mons Vaticanus Roma, Rom (Metropolitanstadt)",
+            "modified": "2020-05-28T00:53:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-03-08T20:40:11Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-02-18T04:51:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2018-02-18T04:45:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-01-27T16:17:35Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2017-01-27T16:15:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2017-01-27T16:15:44Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "463398874",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "notapplicable",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "contributors": [],
+            "created": "2018-02-18T04:42:41Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 2100,
+            "featureType": [
+                "hill"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/hill"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.449895,
+                    41.9027753
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2024-07-06T17:01:39Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2023-06-23T16:40:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-03-08T20:40:11Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-02-18T04:51:57Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added OSM location",
+                    "modified": "2018-02-18T04:43:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2018-02-18T04:42:42Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-02-18T04:42:41Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-vatican-hill",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/hill"
+            ],
+            "provenance": "OpenStreetMap (Node 5301393723, version 10, osm:changeset=146473465, 2024-01-20T10:43:06Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/node/5301393723",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 5301393723",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=5301393723",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1700,
+            "title": "OSM location of Vatican Hill",
+            "uri": "https://pleiades.stoa.org/places/463398874/osm-location-of-vatican-hill"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/hill"
+    ],
+    "placeTypes": [
+        "hill"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Vatican_Hill",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Vatican Hill",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Vatican Hill.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.trismegistos.org/place/43687",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "citationDetail": "GEO ID 43687: Vaticanus Mons",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TM",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "http://latin.packhum.org/loc/1254/1/354/488-497",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "Gell. NA 16.17.2.5",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "http://latin.packhum.org/loc/684/4/3/761-770",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "Varr. Antiquitates Rerum Divinarum 107.3",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "http://latin.packhum.org/loc/474/57/351/516-522,577-583",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "Cic. Att. 13.33a.1.8, 13.33a.1.9",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "http://latin.packhum.org/loc/474/11/21/8328-8334",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "Cic. Leg. agr. 2.96.8",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SCISHZRH",
+            "citationDetail": "405",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Richardson, Lawrence. <i>A New Topographical Dictionary of Ancient Rome</i>. Baltimore: John Hopkins University Press, 1992.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Richardson 1992",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://arachne.dainst.org/entity/3994",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "citationDetail": "Ager und mons Vaticanus Rom (Metropolitanstadt) (Roma), Italien",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Arachne",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1053000",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Vatican Hill (Q1053000)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.449895,
+        41.9027753
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Vaticanus Mons",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/463398874"
+}

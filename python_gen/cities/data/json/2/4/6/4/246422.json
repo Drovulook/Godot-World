@@ -1,0 +1,571 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -0.5495195,
+        42.5691992,
+        -0.5495195,
+        42.5691992
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/246730",
+            "contributors": [],
+            "created": "2016-07-13T14:02:36Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T14:02:36Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T14:02:36Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T14:02:36Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "246730",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Vascones",
+            "uri": "https://pleiades.stoa.org/places/246422/246730"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/246730"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-11-09T18:58:46Z",
+    "creators": [
+        {
+            "name": "H.S. Sivan",
+            "username": null
+        },
+        {
+            "name": "S.J. Keay",
+            "username": null
+        },
+        {
+            "name": "R.W. Mathisen",
+            "username": null
+        }
+    ],
+    "description": "Iac(c)a was a town of the Vascones in Hispania Tarraconensis.",
+    "details": "<p>The Barrington Atlas Directory notes: Jaca</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.549372,
+                    42.5692515
+                ],
+                "type": "Point"
+            },
+            "id": "location-of-jaca",
+            "properties": {
+                "description": "Location of the modern associated settlement based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/246422/location-of-jaca",
+                "location_precision": "precise",
+                "snippet": "Settlement-modern; AD 1700 - AD 2100",
+                "title": "OSM location of Jaca"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-01-20T03:09:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added cnxn",
+            "modified": "2015-04-11T20:05:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited description; added references",
+            "modified": "2013-08-02T21:41:31Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T03:32:20Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:15:21Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-10T17:48:27Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-09T19:11:16Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-09T18:58:46Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "246422",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-08-02T21:43:00Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location of the modern associated settlement based on OpenStreetMap.",
+            "details": "",
+            "end": 2100,
+            "featureType": [
+                "settlement-modern"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement-modern"
+            ],
+            "geometry": {
+                "coordinates": [
+                    -0.549372,
+                    42.5692515
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2024-01-20T03:09:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-11-30T20:58:55Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2019-06-13T15:53:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-08-17T01:36:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2013-08-17T01:35:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-08-02T21:43:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-08-02T21:43:04Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-08-02T21:43:02Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-jaca",
+            "locationType": [
+                "associated_modern"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement-modern"
+            ],
+            "provenance": "OpenStreetMap (Node 196006930, version 38, osm:changeset=140205821, 2023-08-22T01:47:19Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/node/196006930",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 196006930",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=196006930",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1700,
+            "title": "OSM location of Jaca",
+            "uri": "https://pleiades.stoa.org/places/246422/location-of-jaca"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-11-09T18:58:46Z",
+            "creators": [
+                {
+                    "name": "S.J. Keay",
+                    "username": null
+                },
+                {
+                    "name": "R.W. Mathisen",
+                    "username": null
+                },
+                {
+                    "name": "H.S. Sivan",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T03:32:20Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-10T17:48:27Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-09T19:11:16Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-09T18:58:46Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "iacca",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 25 E3 Iac(c)a",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Iacca",
+            "start": -330,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/246422/iacca"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-11-09T18:58:47Z",
+            "creators": [
+                {
+                    "name": "S.J. Keay",
+                    "username": null
+                },
+                {
+                    "name": "R.W. Mathisen",
+                    "username": null
+                },
+                {
+                    "name": "H.S. Sivan",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T03:32:21Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-10T17:48:27Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-09T19:11:16Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-09T18:58:47Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "iaca",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 25 E3 Iac(c)a",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Iaca",
+            "start": -330,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/246422/iaca"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement-modern"
+    ],
+    "placeTypes": [
+        "settlement",
+        "settlement-modern"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 25 E3 Iac(c)a",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "25 E3 Iac(c)a",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/31397775",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/H6EE4IV4",
+            "citationDetail": "128",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Fatás Cabeza, Guillermo, Adela Cepas, José Ignacio Reguera Cardiel, and José Manuel Abascal Palazón. <i>Tabula Imperii Romani : K30 Madrid : Caesaraugusta - Clunia : escala 1:1.000.000 : base geográfica, Instituto Geográfico Nacional</i>. Tabula Imperii Romani, K30. Madrid. Madrid: Ministerio de Cultura; Union académique internationale; Instituto Geográfico Nacional (Spain), 1993. http://www.worldcat.org/oclc/31397775.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TIR Caesaraugusta",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aalphabetic+letter%3DI%3Aentry+group%3D1%3Aentry%3Diacca",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "citationDetail": "IACCA (Jaca) Huesca, Spain",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PECS (Perseus)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Jaca",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Jaca",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Jaca.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://latin.packhum.org/loc/914/1/553/37-71",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MCDKGDL9",
+            "citationDetail": "21.23.1.",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Titus Livius. <i>Titi Livi Ab Urbe Condita</i>. 5 vols. Clarendon: Oxford U.P, 1908. https://latin.packhum.org/loc/914/1/0#0.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Liv. (OCT: PHI)",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0007.tlg042.perseus-grc1:4",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Plut. Sert. 4",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/567823037",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KKKXAPNB",
+            "citationDetail": "309.7",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Schnetz, Joseph. “Ravennatis Anonymi Cosmographia et Guidonis Geographica.” In <i>Itineraria Romana</i>, Vol. 2. Lipsiae: in aedibus B. G. Teubneri, 1940. http://www.worldcat.org/oclc/567823037.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "GeogRav (Schnetz)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HSGNAEBR",
+            "citationDetail": "IX: 1, 545",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Pauly, August Friedrich von, Georg Wissowa, Wilhelm Kroll, Kurt Witte, Karl Mittelhaus, and Konrat Ziegler, eds. <i>Real-Encyclopaedie der classischen Altertumswissenschaft</i>. 83 vols. Stuttgart: J. B. Metzler, 1894.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "RE",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        -0.5495195,
+        42.5691992
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Iac(c)a",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/246422"
+}

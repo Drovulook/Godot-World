@@ -1,0 +1,441 @@
+{
+    "@type": "Place",
+    "bbox": [
+        33.10784396393626,
+        29.20247375114326,
+        33.39528285344073,
+        29.204377319947923
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Michael Heubel",
+            "uri": "https://pleiades.stoa.org/author/mheubel",
+            "username": "mheubel"
+        },
+        {
+            "homepage": null,
+            "name": "Ryan Horne",
+            "uri": "https://pleiades.stoa.org/author/rmhorne",
+            "username": "rmhorne"
+        },
+        {
+            "name": "Richard Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2009-09-22T08:53:23Z",
+    "creators": [
+        {
+            "name": "D.F. Graf",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 76 C3 Mounychiatis",
+    "details": "None",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            33.10784396393626,
+                            29.204377319947923
+                        ],
+                        [
+                            33.14972247763899,
+                            29.20247375114326
+                        ],
+                        [
+                            33.175420656501956,
+                            29.20247375114326
+                        ],
+                        [
+                            33.203022404169474,
+                            29.20247375114326
+                        ],
+                        [
+                            33.22776879863022,
+                            29.20247375114326
+                        ],
+                        [
+                            33.25061162428608,
+                            29.20247375114326
+                        ],
+                        [
+                            33.27630980314922,
+                            29.203425535545705
+                        ],
+                        [
+                            33.298200844402686,
+                            29.20247375114326
+                        ],
+                        [
+                            33.322947238863435,
+                            29.20247375114326
+                        ],
+                        [
+                            33.34198292691008,
+                            29.203425535545705
+                        ],
+                        [
+                            33.360066830554274,
+                            29.20247375114326
+                        ],
+                        [
+                            33.39528285344073,
+                            29.203425535545705
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "id": "batlas-map-label-location",
+            "properties": {
+                "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+                "link": "https://pleiades.stoa.org/places/746783/batlas-map-label-location",
+                "location_precision": "precise",
+                "snippet": "Label; 330 BC - AD 300",
+                "title": "BAtlas Map Label Location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T08:18:05Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2009-09-22T15:37:54Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-09-22T09:14:35Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-09-22T08:53:23Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "746783",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-500-000-scale",
+            "accuracy_value": 930.0,
+            "archaeologicalRemains": "notapplicable",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Ryan Horne",
+                    "uri": "https://pleiades.stoa.org/author/rmhorne",
+                    "username": "rmhorne"
+                },
+                {
+                    "name": "Richard Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                },
+                {
+                    "homepage": null,
+                    "name": "Michael Heubel",
+                    "uri": "https://pleiades.stoa.org/author/mheubel",
+                    "username": "mheubel"
+                }
+            ],
+            "created": "2022-08-30T11:19:04Z",
+            "creators": [
+                {
+                    "name": "D.F. Graf",
+                    "username": null
+                }
+            ],
+            "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "label"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/label"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            33.10784396393626,
+                            29.204377319947923
+                        ],
+                        [
+                            33.14972247763899,
+                            29.20247375114326
+                        ],
+                        [
+                            33.175420656501956,
+                            29.20247375114326
+                        ],
+                        [
+                            33.203022404169474,
+                            29.20247375114326
+                        ],
+                        [
+                            33.22776879863022,
+                            29.20247375114326
+                        ],
+                        [
+                            33.25061162428608,
+                            29.20247375114326
+                        ],
+                        [
+                            33.27630980314922,
+                            29.203425535545705
+                        ],
+                        [
+                            33.298200844402686,
+                            29.20247375114326
+                        ],
+                        [
+                            33.322947238863435,
+                            29.20247375114326
+                        ],
+                        [
+                            33.34198292691008,
+                            29.203425535545705
+                        ],
+                        [
+                            33.360066830554274,
+                            29.20247375114326
+                        ],
+                        [
+                            33.39528285344073,
+                            29.203425535545705
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-09-02T15:01:51Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-08-30T14:45:36Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-08-30T11:19:04Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "batlas-map-label-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/label"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://github.com/AWMC/geodata/blob/a289d378b75eba8c9b640f0248763e3cbf9d2583/Cultural-Data/regional_name_linework/regional_names_linework.geojson",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/AKGKQTM5",
+                    "citationDetail": "Mounychiatis",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">AWMC Geodata: Regional Name Linework. Geojson. Chapel Hill: Ancient World Mapping Center, University of North Carolina at Chapel Hill, June 20, 2016. Github.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "AWMC Geodata: Regional Name Linework",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/MIAGQ5C6",
+                    "citationDetail": "76 C3 Mounychiatis",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. Barrington Atlas of the Greek and Roman World. Princeton, N.J.: Princeton University Press, 2000.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "BAtlas",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "BAtlas Map Label Location",
+            "uri": "https://pleiades.stoa.org/places/746783/batlas-map-label-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2009-09-22T08:53:23Z",
+            "creators": [
+                {
+                    "name": "D.F. Graf",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T08:18:05Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2009-09-22T15:37:54Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2009-09-22T09:14:35Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2009-09-22T08:53:23Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "mounychiatis",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 76 C3 Mounychiatis",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Mounychiatis",
+            "start": -330,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/746783/mounychiatis"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/labeled feature",
+        "https://pleiades.stoa.org/vocabularies/place-types/label"
+    ],
+    "placeTypes": [
+        "labeled feature",
+        "label"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 76 C3 Mounychiatis",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "76 C3 Mounychiatis",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/p.html#Ptol.-5.16.3",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Ptol. 5.16.3",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        33.251569228721635,
+        29.20281111337932
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Mounychiatis",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/746783"
+}

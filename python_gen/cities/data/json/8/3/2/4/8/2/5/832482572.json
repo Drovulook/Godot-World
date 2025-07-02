@@ -1,0 +1,494 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.4866603,
+        41.8918791,
+        12.4869693,
+        41.8920777
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/423025",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2016-07-13T13:52:54Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "ctype -> at",
+                    "modified": "2018-05-06T11:34:53Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:52:54Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:52:54Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:52:54Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "423025",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Roma",
+            "uri": "https://pleiades.stoa.org/places/832482572/423025"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423025"
+    ],
+    "contributors": [],
+    "created": "2015-05-31T21:14:24Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A modern appellation of the ancient Iron Age necropolis uncovered along the Sacra Via adjacent to the Temple of Antoninus and Faustina in April 1902. Giacomo Boni and others conducted extensive excavations at the site.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.4867698,
+                        41.8920777
+                    ],
+                    [
+                        12.4867763,
+                        41.8920378
+                    ],
+                    [
+                        12.4869353,
+                        41.8919796
+                    ],
+                    [
+                        12.4869693,
+                        41.891978
+                    ],
+                    [
+                        12.4869138,
+                        41.8919114
+                    ],
+                    [
+                        12.4868928,
+                        41.8918791
+                    ],
+                    [
+                        12.4866603,
+                        41.8919883
+                    ],
+                    [
+                        12.4867148,
+                        41.8920134
+                    ],
+                    [
+                        12.4867698,
+                        41.8920777
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/832482572/osm-location",
+                "location_precision": "precise",
+                "snippet": "Cemetery, ; 1000 BC - 550 BC",
+                "title": "OSM location of Necropoli arcaica"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q132422442",
+            "modified": "2025-02-16T02:23:41Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2025-01-01T00:15:29Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-07-05T01:17:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Arachne 8002162: eisenzeitliche Nekropole auf dem Forum Romanum Roma, Rom (Metropolitanstadt)",
+            "modified": "2020-05-28T15:12:47Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-05-06T11:34:08Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2016-03-25T17:11:50Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2015-05-31T21:14:31Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-05-31T21:14:24Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "832482572",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "iron-age-italy-latial-culture-i-1000-900-bc",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/iron-age-italy-latial-culture-i-1000-900-bc"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic"
+                }
+            ],
+            "contributors": [],
+            "created": "2015-05-31T21:15:20Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": -550,
+            "featureType": [
+                "cemetery",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cemetery",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.4867698,
+                        41.8920777
+                    ],
+                    [
+                        12.4867763,
+                        41.8920378
+                    ],
+                    [
+                        12.4869353,
+                        41.8919796
+                    ],
+                    [
+                        12.4869693,
+                        41.891978
+                    ],
+                    [
+                        12.4869138,
+                        41.8919114
+                    ],
+                    [
+                        12.4868928,
+                        41.8918791
+                    ],
+                    [
+                        12.4866603,
+                        41.8919883
+                    ],
+                    [
+                        12.4867148,
+                        41.8920134
+                    ],
+                    [
+                        12.4867698,
+                        41.8920777
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-07-05T01:16:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-05-06T11:34:10Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-20T11:52:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-03-25T17:11:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-03-25T17:11:01Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2015-05-31T21:16:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2015-05-31T21:15:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-05-31T21:15:22Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cemetery",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 131557337, version 8, osm:changeset=138539870, 2023-07-15T10:52:10Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/131557337",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 131557337",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=131557337",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -1000,
+            "title": "OSM location of Necropoli arcaica",
+            "uri": "https://pleiades.stoa.org/places/832482572/osm-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twentieth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twentieth-ce"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "Sepulcretum",
+            "contributors": [],
+            "created": "2016-07-08T21:10:25Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-07-15T20:50:52Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-07-05T01:19:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2024-07-05T01:18:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2016-07-08T21:10:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-08T21:10:25Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2016-07-08.2166810920",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0054%3Aalphabetic+letter%3DS%3Aentry+group%3D1%3Aentry%3Dsepulcretum",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/H6XK259J",
+                    "citationDetail": "SEPULCRETUM",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "<div class=\"csl-entry\">Platner, Samuel Ball, and Thomas Ashby. <i>A Topographical Dictionary of Ancient Rome</i>. London: Oxford University Press, 1929. http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.04.0054.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Platner 1929 (Perseus)",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Sepulcretum",
+            "start": 1900,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/832482572/name.2016-07-08.2166810920"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/cemetery"
+    ],
+    "placeTypes": [
+        "cemetery"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0054%3Aalphabetic+letter%3DS%3Aentry+group%3D1%3Aentry%3Dsepulcretum",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/H6XK259J",
+            "citationDetail": "SEPULCRETUM",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Platner, Samuel Ball, and Thomas Ashby. <i>A Topographical Dictionary of Ancient Rome</i>. London: Oxford University Press, 1929. http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.04.0054.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Platner 1929 (Perseus)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Velian_Hill",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Velian Hill",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Velian Hill.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "https://arachne.dainst.org/entity/824",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "citationDetail": "eisenzeitliche Nekropole auf dem Forum Romanum Rom (Metropolitanstadt) (Roma), Italien",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Arachne",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.info.roma.it/monumenti_dettaglio.asp?ID_schede=12135",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UC92I57E",
+            "citationDetail": "12135: Sepolcretum del Foro Romano",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">“Info.roma.it: La meraviglie di roma.” Accessed February 5, 2020. https://www.info.roma.it.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Info.roma.it",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q132422442",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q132422442",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.48681575713871,
+        41.891975510326255
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Sepulcretum",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/832482572"
+}

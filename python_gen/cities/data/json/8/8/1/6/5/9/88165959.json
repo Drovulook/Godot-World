@@ -1,0 +1,387 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.8007264,
+        41.9667317,
+        12.8009422,
+        41.9668168
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/423081",
+            "contributors": [],
+            "created": "2019-03-17T14:07:24Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-03-17T14:07:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-03-17T14:07:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-03-17T14:07:24Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "6448036568",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Tibur",
+            "uri": "https://pleiades.stoa.org/places/88165959/6448036568"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423081"
+    ],
+    "contributors": [],
+    "created": "2019-03-17T14:07:23Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A second-century B.C. Roman temple located on the acropolis of ancient Tibur. The so-called Temple of the Sibyl is a pseudo-peripteral building executed in the Ionic order. Some portions of the structure, including the side walls and rea wall, survive to the height of the capitals.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.8009345,
+                        41.9667317
+                    ],
+                    [
+                        12.8009422,
+                        41.9668014
+                    ],
+                    [
+                        12.8007365,
+                        41.9668168
+                    ],
+                    [
+                        12.8007264,
+                        41.9667453
+                    ],
+                    [
+                        12.8009345,
+                        41.9667317
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-tempio-della-sibilla",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/88165959/osm-location-of-tempio-della-sibilla",
+                "location_precision": "precise",
+                "snippet": "Temple-2; 330 BC - AD 300",
+                "title": "OSM location of Tempio della Sibilla"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2024-02-24T20:12:20Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2019-03-18T19:51:09Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2019-03-17T14:09:51Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2019-03-17T14:09:44Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2019-03-17T14:07:26Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2019-03-17T14:07:23Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "88165959",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-02-24T20:07:12Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "temple-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.8009345,
+                        41.9667317
+                    ],
+                    [
+                        12.8009422,
+                        41.9668014
+                    ],
+                    [
+                        12.8007365,
+                        41.9668168
+                    ],
+                    [
+                        12.8007264,
+                        41.9667453
+                    ],
+                    [
+                        12.8009345,
+                        41.9667317
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-02-26T11:44:40Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-02-24T20:07:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location.",
+                    "modified": "2024-02-24T20:07:31Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-02-24T20:07:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-02-24T20:07:12Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-tempio-della-sibilla",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "provenance": "OpenStreetMap (Way 208140668, version 4, osm:changeset=147869261, 2024-02-24T20:06:42Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/208140668",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 208140668",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=208140668",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "OSM location of Tempio della Sibilla",
+            "uri": "https://pleiades.stoa.org/places/88165959/osm-location-of-tempio-della-sibilla"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twentieth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twentieth-ce"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "Temple of the Sibyl",
+            "contributors": [],
+            "created": "2024-02-24T20:08:39Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-02-25T22:49:05Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-02-24T20:08:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2024-02-24T20:08:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-02-24T20:08:39Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "temple-of-the-sibyl",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q784000",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Temple of the Sibyl (Q784000)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Temple of the Sibyl",
+            "start": 1900,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/88165959/temple-of-the-sibyl"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "temple-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Tempio_della_Sibilla",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Tempio della Sibilla",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Tempio della Sibilla.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://arachne.dainst.org/entity/11458",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "citationDetail": "sog. Sibyllentempel in Tivoli Tivoli, (Tibur), Rom (Metropolitanstadt)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Arachne",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.800834494600387,
+        41.96677368342953
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "Ionic",
+        "Temple",
+        "extant remains"
+    ],
+    "title": "Temple of the Sibyl",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/88165959"
+}

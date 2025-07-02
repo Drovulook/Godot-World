@@ -8,7 +8,7 @@ PlanetMesh::PlanetMesh(float radius, int mesh_res, int mesh_per_img_res,
                        Vector2 top_right_corner_pos,
                        std::shared_ptr<NCAltitudeReader> elevation_reader,
                        Ref<Texture2D> province_idx_texture, Ref<Texture2D> city_idx_texture,
-                       std::shared_ptr<Vector3> province_to_highlight)
+                       std::shared_ptr<Vector3> province_to_highlight, std::shared_ptr<Vector3> city_to_highlight)
     : m_radius(radius), m_mesh_res(mesh_res),
       m_mesh_per_img_res(mesh_per_img_res), m_material(material),
       m_mercator(mercator), m_tile(tile), m_tile_x(tile_x), m_tile_y(tile_y),
@@ -17,7 +17,8 @@ PlanetMesh::PlanetMesh(float radius, int mesh_res, int mesh_per_img_res,
       m_top_right_corner_pos(top_right_corner_pos),
       m_elevation_reader(elevation_reader),
       m_province_idx_texture(province_idx_texture), m_city_idx_texture(city_idx_texture),
-      m_province_to_highlight(province_to_highlight) {}
+      m_province_to_highlight(province_to_highlight), m_city_to_highlight(city_to_highlight) {}
+
 PlanetMesh::~PlanetMesh() {}
 
 void PlanetMesh::_ready() { generate_mesh(); }
@@ -119,11 +120,10 @@ void PlanetMesh::generate_mesh() {
         mat->set_shader_parameter("NOCHANGE_img_res_in_mesh",
                                   (float)m_mesh_per_img_res);
         // UtilityFunctions::print(*m_province_to_highlight);
-        mat->set_shader_parameter("NOCHANGE_province_color_to_highlight",
-                                  *m_province_to_highlight);
+        mat->set_shader_parameter("NOCHANGE_province_color_to_highlight", *m_province_to_highlight);
+        mat->set_shader_parameter("NOCHANGE_city_color_to_highlight", *m_city_to_highlight);
       } else {
-        UtilityFunctions::print("Elevation texture is not valid. Please check "
-                                "the NCAltitudeReader setup.");
+        UtilityFunctions::print("Elevation texture is not valid. Please check the NCAltitudeReader setup.");
       }
     }
 

@@ -1,0 +1,335 @@
+{
+    "@type": "Place",
+    "bbox": [
+        38.090556,
+        36.068333,
+        38.090556,
+        36.068333
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "neolithic-eastern-med",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neolithic-eastern-med"
+                }
+            ],
+            "connectionType": "on",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on",
+            "connectsTo": "https://pleiades.stoa.org/places/912849",
+            "contributors": [],
+            "created": "2022-07-27T19:48:06Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Zachary Rosalinsky",
+                    "uri": "https://pleiades.stoa.org/author/zrosalinsky",
+                    "username": "zrosalinsky"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -3300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-07-28T13:54:28Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-07-27T19:50:29Z",
+                    "modifiedBy": "zrosalinsky"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2022-07-27T19:48:07Z",
+                    "modifiedBy": "zrosalinsky"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-07-27T19:48:06Z",
+                    "modifiedBy": "zrosalinsky"
+                }
+            ],
+            "id": "euphrates-river",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/1071246423",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/7Q3RYTE4",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Ducos, Pierre. <i>Tell-Mureybet (Syrie, IX - VII millénaires) ; étude archéozoologique et problèmes d’écologie humaine. 1</i>. Paris: Ed. du CNRS, 1978. http://www.worldcat.org/oclc/1071246423.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Ducos 1978",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://en.wikipedia.org/w/index.php?title=Mureybet&oldid=1087699031",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+                    "citationDetail": "Mureybet",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -10000,
+            "title": "Euphrates (river)",
+            "uri": "https://pleiades.stoa.org/places/10236664/euphrates-river"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/912849"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2022-07-28T20:15:23Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Zachary Rosalinsky",
+            "uri": "https://pleiades.stoa.org/author/zrosalinsky",
+            "username": "zrosalinsky"
+        }
+    ],
+    "description": "A settlement mound in Syria that was occupied between 10,200 BCE and 8,000 BCE. The site was submerged by the creation of the Tabqa Dam in 1976. The site was a locus of settlement for the Mureybetian culture (Pre-Pottery Neolithic A).",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    38.090556,
+                    36.068333
+                ],
+                "type": "Point"
+            },
+            "id": "approximate-imagery-location-of-tell-mureybet",
+            "properties": {
+                "description": "Approximate imagery location based on Google Earth representing Tell Mureybet after Ducos 1978.",
+                "link": "https://pleiades.stoa.org/places/10236664/approximate-imagery-location-of-tell-mureybet",
+                "location_precision": "precise",
+                "snippet": "Tell; 10000 BC - 3300 BC",
+                "title": "Approximate imagery location of Tell Mureybet"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "incorporate elements from drafting state stub; https://pleiades.stoa.org/places/661792314, plus added references to wikidata, vici.org; tags added",
+            "modified": "2022-07-29T16:10:12Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2022-07-28T20:15:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2022-07-28T13:54:27Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2022-07-27T19:50:29Z",
+            "modifiedBy": "zrosalinsky"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2022-07-27T19:45:45Z",
+            "modifiedBy": "zrosalinsky"
+        },
+        {
+            "action": "Create",
+            "modified": "2022-07-27T19:45:43Z",
+            "modifiedBy": "zrosalinsky"
+        }
+    ],
+    "id": "10236664",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "notvisible",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "neolithic-eastern-med",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neolithic-eastern-med"
+                }
+            ],
+            "contributors": [],
+            "created": "2022-07-27T19:50:16Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Zachary Rosalinsky",
+                    "uri": "https://pleiades.stoa.org/author/zrosalinsky",
+                    "username": "zrosalinsky"
+                }
+            ],
+            "description": "Approximate imagery location based on Google Earth representing Tell Mureybet after Ducos 1978.",
+            "details": "",
+            "end": -3300,
+            "featureType": [
+                "tell"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tell"
+            ],
+            "geometry": {
+                "coordinates": [
+                    38.090556,
+                    36.068333
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-07-28T13:54:28Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-07-27T19:50:29Z",
+                    "modifiedBy": "zrosalinsky"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2022-07-27T19:50:17Z",
+                    "modifiedBy": "zrosalinsky"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-07-27T19:50:16Z",
+                    "modifiedBy": "zrosalinsky"
+                }
+            ],
+            "id": "approximate-imagery-location-of-tell-mureybet",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tell"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/1071246423",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/7Q3RYTE4",
+                    "citationDetail": "page 3",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Ducos, Pierre. <i>Tell-Mureybet (Syrie, IX - VII millénaires) ; étude archéozoologique et problèmes d’écologie humaine. 1</i>. Paris: Ed. du CNRS, 1978. http://www.worldcat.org/oclc/1071246423.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Ducos 1978",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -10000,
+            "title": "Approximate imagery location of Tell Mureybet",
+            "uri": "https://pleiades.stoa.org/places/10236664/approximate-imagery-location-of-tell-mureybet"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tell"
+    ],
+    "placeTypes": [
+        "tell"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/1071246423",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/7Q3RYTE4",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Ducos, Pierre. <i>Tell-Mureybet (Syrie, IX - VII millénaires) ; étude archéozoologique et problèmes d’écologie humaine. 1</i>. Paris: Ed. du CNRS, 1978. http://www.worldcat.org/oclc/1071246423.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Ducos 1978",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/w/index.php?title=Mureybet&oldid=1087699031",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Mureybet",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://vici.org/vici/22482/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "citationDetail": "22482: Mureybet",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "vici.org",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.persee.fr/doc/paleo_0153-9345_1984_num_10_2_938",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/GHLEGZZU",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Calley, Sylvie. “Le débitage natoufien de Mureybet : étude préliminaire.” <i>Paléorient</i> 10, no. 2 (1984): 35–48. https://doi.org/10.3406/paleo.1984.938.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Calley 1984",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1427189",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q1427189: Mureybet",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        38.090556,
+        36.068333
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "Mureybetian",
+        "PPNA"
+    ],
+    "title": "Tell Mureybet",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/10236664"
+}

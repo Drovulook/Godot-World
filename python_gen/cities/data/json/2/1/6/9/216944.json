@@ -1,0 +1,267 @@
+{
+    "@type": "Place",
+    "bbox": [
+        25.68371,
+        43.013266,
+        25.68371,
+        43.013266
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2009-10-20T14:25:41Z",
+    "creators": [
+        {
+            "name": "A.G. Poulter",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 22 C5 Prisovo",
+    "details": "The Barrington Atlas Directory notes: Prisovo, BUL",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    25.68371,
+                    43.013266
+                ],
+                "type": "Point"
+            },
+            "id": "darmc-location-17563",
+            "properties": {
+                "description": "1M scale point location",
+                "link": "https://pleiades.stoa.org/places/216944/darmc-location-17563",
+                "location_precision": "precise",
+                "snippet": "Unknown; 30 BC - AD 300",
+                "title": "DARMC location 17563"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-11-24T14:59:02Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T19:56:07Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T03:11:33Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-03-09T23:04:21Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:08:34Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2009-10-20T18:16:19Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-10-20T14:37:52Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-10-20T14:25:41Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "216944",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-c",
+            "accuracy_value": 10000.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "DARMC, R. Talbert, T. Elliott, S. Gillies",
+                    "username": null
+                }
+            ],
+            "created": "2011-03-09T23:04:20Z",
+            "creators": [
+                {
+                    "name": "A.G. Poulter",
+                    "username": null
+                }
+            ],
+            "description": "1M scale point location",
+            "details": "DARMC OBJECTID: 17563",
+            "end": 300,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    25.68371,
+                    43.013266
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T03:11:34Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-03-10T05:11:44Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-03-09T23:04:21Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+                    "modified": "2011-03-09T23:04:21Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-03-09T23:04:20Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "darmc-location-17563",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "DARMC OBJECTID: 17563",
+            "references": [
+                {
+                    "accessURI": "https://darmc.harvard.edu/",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+                    "citationDetail": "17563",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 17563.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "DARMC",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "DARMC location 17563",
+            "uri": "https://pleiades.stoa.org/places/216944/darmc-location-17563"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/villa"
+    ],
+    "placeTypes": [
+        "villa"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 22 C5 Prisovo",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "22 C5 Prisovo",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FJ4T5FZ5",
+            "citationDetail": "II 86-90",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Poulter, A. G, ed. <i>Ancient Bulgaria: Papers Presented to the International Symposium on the Ancient History and Archaeology of Bulgaria, University of Nottingham, 1981</i>. 2 vols. Nottingham: University of Nottingham, Dept. of Classical and Archaeological Studies, Archaeology Section, 1983.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Poulter 1983",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1077254",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Prisovo (Q1077254)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        25.68371,
+        43.013266
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=0",
+        "dare:feature=villa"
+    ],
+    "title": "Prisovo",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/216944"
+}

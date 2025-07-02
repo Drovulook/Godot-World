@@ -1,0 +1,226 @@
+{
+    "@type": "Place",
+    "bbox": [
+        11.859725,
+        48.9184881,
+        11.859725,
+        48.9184881
+    ],
+    "connections": [],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/488256473"
+    ],
+    "contributors": [],
+    "created": "2013-07-03T04:04:27Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "An oppidum located on Michelsberg hill in Bavaria, occupied from ca. 500 BC until the first century BC.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    11.859725,
+                    48.9184881
+                ],
+                "type": "Point"
+            },
+            "id": "location-of-michelsberg",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/298394661/location-of-michelsberg",
+                "location_precision": "precise",
+                "snippet": "Hill, ; AD 1700 - AD 2100",
+                "title": "location of Michelsberg"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q4713127",
+            "modified": "2024-12-22T22:01:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2013-07-11T21:15:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2013-07-03T04:38:03Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2013-07-03T04:04:33Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2013-07-03T04:04:27Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "298394661",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-07-03T04:05:50Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 2100,
+            "featureType": [
+                "hill",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/hill",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    11.859725,
+                    48.9184881
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2025-05-04T15:17:07Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2024-12-22T22:01:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-07-11T21:26:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-07-03T04:38:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-07-03T04:06:21Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-07-03T04:05:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-07-03T04:05:53Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-michelsberg",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/hill",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Node 919557438, version 5, osm:changeset=52344045, 2017-09-25T04:55:41Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/node/919557438",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 919557438",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=919557438",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1700,
+            "title": "location of Michelsberg",
+            "uri": "https://pleiades.stoa.org/places/298394661/location-of-michelsberg"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/hill"
+    ],
+    "placeTypes": [
+        "settlement",
+        "hill"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Alcimoennis",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Alcimoennis",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Alcimoennis.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q4713127",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Alcimoennis (Q4713127)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        11.859725,
+        48.9184881
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Alcimoennis",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/298394661"
+}

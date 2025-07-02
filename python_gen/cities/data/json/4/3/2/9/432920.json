@@ -1,0 +1,406 @@
+{
+    "@type": "Place",
+    "bbox": [
+        13.9079801,
+        41.6782005,
+        13.908476,
+        41.6784369
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "succeeds",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/succeeds",
+            "connectsTo": "https://pleiades.stoa.org/places/981864003",
+            "contributors": [],
+            "created": "2023-05-02T15:05:59Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-06-06T16:39:44Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-06-05T22:12:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2023-05-02T15:06:00Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-05-02T15:05:59Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "canneto-sul-trigno",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Canneto sul Trigno",
+            "uri": "https://pleiades.stoa.org/places/432920/canneto-sul-trigno"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/981864003"
+    ],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-11-11T23:26:25Z",
+    "creators": [
+        {
+            "name": "N. Purcell",
+            "username": null
+        }
+    ],
+    "description": "The sanctuary site of Madonnna del Canneto is located at Settefrati within the confines of the Abruzzo national park in Italy. It has a long history as a sacred site, beginning with sacred activities dedicated to Mefitis in the later first millennium BCE.",
+    "details": "<p>The Barrington Atlas Directory notes: Madonnna del Canneto</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        13.9079801,
+                        41.6784147
+                    ],
+                    [
+                        13.9079979,
+                        41.6782005
+                    ],
+                    [
+                        13.908476,
+                        41.6782227
+                    ],
+                    [
+                        13.9084582,
+                        41.6784369
+                    ],
+                    [
+                        13.9079801,
+                        41.6784147
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-santuario-di-canneto",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/432920/location-of-santuario-di-canneto",
+                "location_precision": "precise",
+                "snippet": "Church, ; AD 1700 - AD 2100",
+                "title": "OSM location of Santuario diocesano Maria Santissima di Canneto"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+            "modified": "2024-08-18T23:29:29Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "summary",
+            "modified": "2023-06-05T22:12:25Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-11-15T00:59:04Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-08-14T15:06:33Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2014-02-22T04:49:03Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T20:45:02Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T05:00:56Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-01-21T23:13:53Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:46:35Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-14T13:58:52Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-12T00:53:47Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-11T23:26:25Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "432920",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-02-22T04:49:38Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 2100,
+            "featureType": [
+                "church",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        13.9079801,
+                        41.6784147
+                    ],
+                    [
+                        13.9079979,
+                        41.6782005
+                    ],
+                    [
+                        13.908476,
+                        41.6782227
+                    ],
+                    [
+                        13.9084582,
+                        41.6784369
+                    ],
+                    [
+                        13.9079801,
+                        41.6784147
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-08-18T23:28:47Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-08-16T17:15:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2023-05-02T15:02:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-08-14T15:07:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-08-14T15:07:04Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-02-22T04:50:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-02-22T04:49:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-02-22T04:49:39Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-santuario-di-canneto",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 262801874, version 4, osm:changeset=103867285, 2021-04-29T19:56:37Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/262801874",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 262801874",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=262801874",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1700,
+            "title": "OSM location of Santuario diocesano Maria Santissima di Canneto",
+            "uri": "https://pleiades.stoa.org/places/432920/location-of-santuario-di-canneto"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/sanctuary",
+        "https://pleiades.stoa.org/vocabularies/place-types/church"
+    ],
+    "placeTypes": [
+        "sanctuary",
+        "church"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 44 E2 Madonnna del Canneto",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "44 E2 Madonnna del Canneto",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ISC5UM9C",
+            "citationDetail": "185",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Coarelli, Filippo. “I culti sannitici nel Lazio meridionale.” In <i>Comunità indigene e problemi della romanizzazione nell’Italia centro-meridionale (IV-III sec. av.C.)</i>, edited by J. Mertens and R. Lambrechts, 177–92. Rome, 1991.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Coarelli 1991",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Santuario_di_Canneto",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Santuario di Canneto",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Santuario di Canneto.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "20599",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        13.908228049999998,
+        41.6783187
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "Mefitis",
+        "dare:ancient=0",
+        "dare:major=0",
+        "dare:feature=temple"
+    ],
+    "title": "Madonnna del Canneto",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/432920"
+}

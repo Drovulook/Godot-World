@@ -1,0 +1,574 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.0075471,
+        42.2521002,
+        12.0088182,
+        42.2525393
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "near",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/near",
+            "connectsTo": "https://pleiades.stoa.org/places/413054",
+            "contributors": [],
+            "created": "2020-04-22T18:21:03Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-04-24T18:39:34Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-04-22T18:21:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2020-04-22T18:21:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-04-22T18:21:03Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "blera",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.isvroma.it/public/villa/print/griesbach.pdf",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WUM3674S",
+                    "citationDetail": "2-3",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Griesbach, Jochen. “Villa e mausoleo: mutamenti nel concetto della memoria nel suburbio romano.” <i>Roman villas around the Urbs : interaction with landscape and environment : proceedings of a conference at the Swedish Institute in Rome, 17-18 September 2004</i>, 2005, 1–11. http://www.isvroma.it/public/villa/print/griesbach.pdf.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Griesbach 2005",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Blera",
+            "uri": "https://pleiades.stoa.org/places/943722594/blera"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/413054"
+    ],
+    "contributors": [],
+    "created": "2020-04-22T18:16:07Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A Roman villa in the territory of Blera of which a cistern and a mausoleum remain.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    12.0075471,
+                    42.2521002
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-cisterna-villa-rustica-romana",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/943722594/osm-location-of-cisterna-villa-rustica-romana",
+                "location_precision": "precise",
+                "snippet": "Cistern; 30 BC - AD 300",
+                "title": "OSM location of Cisterna Villa Rustica romana Formello"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.0087666,
+                        42.252547
+                    ],
+                    [
+                        12.0087541,
+                        42.252552
+                    ],
+                    [
+                        12.0087399,
+                        42.2525537
+                    ],
+                    [
+                        12.0087259,
+                        42.2525517
+                    ],
+                    [
+                        12.0087135,
+                        42.2525464
+                    ],
+                    [
+                        12.0087068,
+                        42.2525364
+                    ],
+                    [
+                        12.0086991,
+                        42.2525291
+                    ],
+                    [
+                        12.0086983,
+                        42.2525191
+                    ],
+                    [
+                        12.0087019,
+                        42.2525094
+                    ],
+                    [
+                        12.0087094,
+                        42.252501
+                    ],
+                    [
+                        12.0087201,
+                        42.2524948
+                    ],
+                    [
+                        12.0087328,
+                        42.2524914
+                    ],
+                    [
+                        12.0087464,
+                        42.2524912
+                    ],
+                    [
+                        12.0087594,
+                        42.2524942
+                    ],
+                    [
+                        12.0087704,
+                        42.2525
+                    ],
+                    [
+                        12.0087787,
+                        42.2525087
+                    ],
+                    [
+                        12.0087827,
+                        42.2525188
+                    ],
+                    [
+                        12.0087818,
+                        42.2525294
+                    ],
+                    [
+                        12.0087763,
+                        42.2525392
+                    ],
+                    [
+                        12.0087666,
+                        42.252547
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-mausoleo-romano-villa-rustica",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/943722594/osm-location-of-mausoleo-romano-villa-rustica",
+                "location_precision": "precise",
+                "snippet": "Tomb; 30 BC - AD 300",
+                "title": "OSM location of Mausoleo romano Villa rustica Formello"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2023-12-24T03:23:04Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2020-04-24T18:39:34Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2020-04-22T18:21:13Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created",
+            "modified": "2020-04-22T18:16:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2020-04-22T18:16:07Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "943722594",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2020-04-22T18:17:45Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "cistern"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cistern"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.0075471,
+                    42.2521002
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2023-12-24T03:23:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-04-24T18:39:34Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-04-22T18:21:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added OSM location",
+                    "modified": "2020-04-22T18:18:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2020-04-22T18:17:45Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-04-22T18:17:45Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-cisterna-villa-rustica-romana",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cistern"
+            ],
+            "provenance": "OpenStreetMap (Node 2960026820, version 1, osm:changeset=24104386, 2014-07-12T16:28:54Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/node/2960026820",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 2960026820",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=2960026820",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Cisterna Villa Rustica romana Formello",
+            "uri": "https://pleiades.stoa.org/places/943722594/osm-location-of-cisterna-villa-rustica-romana"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2020-04-22T18:20:03Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "tomb"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.0087666,
+                        42.252547
+                    ],
+                    [
+                        12.0087541,
+                        42.252552
+                    ],
+                    [
+                        12.0087399,
+                        42.2525537
+                    ],
+                    [
+                        12.0087259,
+                        42.2525517
+                    ],
+                    [
+                        12.0087135,
+                        42.2525464
+                    ],
+                    [
+                        12.0087068,
+                        42.2525364
+                    ],
+                    [
+                        12.0086991,
+                        42.2525291
+                    ],
+                    [
+                        12.0086983,
+                        42.2525191
+                    ],
+                    [
+                        12.0087019,
+                        42.2525094
+                    ],
+                    [
+                        12.0087094,
+                        42.252501
+                    ],
+                    [
+                        12.0087201,
+                        42.2524948
+                    ],
+                    [
+                        12.0087328,
+                        42.2524914
+                    ],
+                    [
+                        12.0087464,
+                        42.2524912
+                    ],
+                    [
+                        12.0087594,
+                        42.2524942
+                    ],
+                    [
+                        12.0087704,
+                        42.2525
+                    ],
+                    [
+                        12.0087787,
+                        42.2525087
+                    ],
+                    [
+                        12.0087827,
+                        42.2525188
+                    ],
+                    [
+                        12.0087818,
+                        42.2525294
+                    ],
+                    [
+                        12.0087763,
+                        42.2525392
+                    ],
+                    [
+                        12.0087666,
+                        42.252547
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2023-12-24T03:23:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-04-24T18:39:34Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-04-22T18:21:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added OSM location",
+                    "modified": "2020-04-22T18:20:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2020-04-22T18:20:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-04-22T18:20:03Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-mausoleo-romano-villa-rustica",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+            ],
+            "provenance": "OpenStreetMap (Way 794840512, version 2, osm:changeset=83956493, 2020-04-22T18:19:40Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/794840512",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 794840512",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=794840512",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Mausoleo romano Villa rustica Formello",
+            "uri": "https://pleiades.stoa.org/places/943722594/osm-location-of-mausoleo-romano-villa-rustica"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+        "https://pleiades.stoa.org/vocabularies/place-types/villa",
+        "https://pleiades.stoa.org/vocabularies/place-types/cistern"
+    ],
+    "placeTypes": [
+        "tomb",
+        "villa",
+        "cistern"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://vici.org/vici/58794/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "citationDetail": "58794",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "vici.org",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/X4DR5WAX",
+            "citationDetail": "137ff. n. 258; tav. 7",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Quilici Gigli, Stefania. <i>Blera: Topografia Antica Della Città e Del Territorio</i>. Sonderschriften (Deutsches Archäologisches Institut. Römische Abteilung) 3. Mainz am Rhein: von Zabern, 1976.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Quilici Gigli 1976",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.isvroma.it/public/villa/print/griesbach.pdf",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WUM3674S",
+            "citationDetail": "2-3",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Griesbach, Jochen. “Villa e mausoleo: mutamenti nel concetto della memoria nel suburbio romano.” <i>Roman villas around the Urbs : interaction with landscape and environment : proceedings of a conference at the Swedish Institute in Rome, 17-18 September 2004</i>, 2005, 1–11. http://www.isvroma.it/public/villa/print/griesbach.pdf.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Griesbach 2005",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        12.008161638211604,
+        42.25230397526185
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Formello villa and mausoleum",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/943722594"
+}

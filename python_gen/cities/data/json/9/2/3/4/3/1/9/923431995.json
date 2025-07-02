@@ -1,0 +1,1186 @@
+{
+    "@type": "Place",
+    "bbox": [
+        27.1831033,
+        39.1215824,
+        27.1838343,
+        39.1222617
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/550812",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-07-13T13:56:52Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "changed cnxn type",
+                    "modified": "2018-09-19T13:07:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:56:52Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:56:52Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:56:52Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "550812",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Pergamum",
+            "uri": "https://pleiades.stoa.org/places/923431995/550812"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/599931",
+            "contributors": [],
+            "created": "2016-07-13T13:56:53Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:56:53Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:56:53Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:56:53Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "599931",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Selinous fl.",
+            "uri": "https://pleiades.stoa.org/places/923431995/599931"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/550812",
+        "https://pleiades.stoa.org/places/599931",
+        "https://pleiades.stoa.org/places/956778056"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2014-09-21T00:50:29Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Ryan Horne",
+            "uri": "https://pleiades.stoa.org/author/rmhorne",
+            "username": "rmhorne"
+        }
+    ],
+    "description": "A Roman temple built above the Selinus river was originally constructed to worship Egyptian gods, most likely Isis and/or Serapis. In the Byzantine era, it was converted into a church of St. John. It was subsequently ruined, although the rotunda on the north side is still an active mosque.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    27.183391,
+                    39.121933
+                ],
+                "type": "Point"
+            },
+            "id": "location-of-the-red-basilica",
+            "properties": {
+                "description": "Approximate geographic center-point of the main complex, coordinates after GeoHack.",
+                "link": "https://pleiades.stoa.org/places/923431995/location-of-the-red-basilica",
+                "location_precision": "precise",
+                "snippet": "Temple-2, ; 30 BC - AD 640",
+                "title": "Imagery location of the Red Basilica"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        27.1832091,
+                        39.1221239
+                    ],
+                    [
+                        27.1831033,
+                        39.1219026
+                    ],
+                    [
+                        27.1836979,
+                        39.1217315
+                    ],
+                    [
+                        27.1838037,
+                        39.1219528
+                    ],
+                    [
+                        27.1832091,
+                        39.1221239
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-red-basilica",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/923431995/osm-location-of-red-basilica",
+                "location_precision": "precise",
+                "snippet": "Basilica; 30 BC - AD 640",
+                "title": "OSM location of Red Basilica"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        27.1835695,
+                        39.1216059
+                    ],
+                    [
+                        27.183584,
+                        39.1216244
+                    ],
+                    [
+                        27.1835902,
+                        39.1216455
+                    ],
+                    [
+                        27.1835875,
+                        39.1216671
+                    ],
+                    [
+                        27.1835762,
+                        39.1216869
+                    ],
+                    [
+                        27.1835574,
+                        39.1217029
+                    ],
+                    [
+                        27.183533,
+                        39.1217135
+                    ],
+                    [
+                        27.1835056,
+                        39.1217176
+                    ],
+                    [
+                        27.1834757,
+                        39.1217142
+                    ],
+                    [
+                        27.1834491,
+                        39.1217032
+                    ],
+                    [
+                        27.183429,
+                        39.1216858
+                    ],
+                    [
+                        27.1834176,
+                        39.1216641
+                    ],
+                    [
+                        27.1834165,
+                        39.1216407
+                    ],
+                    [
+                        27.1834256,
+                        39.1216184
+                    ],
+                    [
+                        27.1834441,
+                        39.1215998
+                    ],
+                    [
+                        27.1834674,
+                        39.121588
+                    ],
+                    [
+                        27.1834944,
+                        39.1215824
+                    ],
+                    [
+                        27.1835223,
+                        39.1215837
+                    ],
+                    [
+                        27.1835482,
+                        39.1215918
+                    ],
+                    [
+                        27.1835695,
+                        39.1216059
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-south-rotunda",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/923431995/osm-location-of-south-rotunda",
+                "location_precision": "precise",
+                "snippet": "Building; 30 BC - AD 300",
+                "title": "OSM location of South rotunda"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        27.1838136,
+                        39.12215
+                    ],
+                    [
+                        27.1838281,
+                        39.1221685
+                    ],
+                    [
+                        27.1838343,
+                        39.1221897
+                    ],
+                    [
+                        27.1838316,
+                        39.1222112
+                    ],
+                    [
+                        27.1838203,
+                        39.122231
+                    ],
+                    [
+                        27.1838015,
+                        39.1222471
+                    ],
+                    [
+                        27.1837771,
+                        39.1222577
+                    ],
+                    [
+                        27.1837497,
+                        39.1222617
+                    ],
+                    [
+                        27.1837198,
+                        39.1222584
+                    ],
+                    [
+                        27.1836932,
+                        39.1222473
+                    ],
+                    [
+                        27.183673,
+                        39.1222299
+                    ],
+                    [
+                        27.1836617,
+                        39.1222082
+                    ],
+                    [
+                        27.1836606,
+                        39.1221848
+                    ],
+                    [
+                        27.1836697,
+                        39.1221625
+                    ],
+                    [
+                        27.1836881,
+                        39.122144
+                    ],
+                    [
+                        27.1837115,
+                        39.1221321
+                    ],
+                    [
+                        27.1837385,
+                        39.1221265
+                    ],
+                    [
+                        27.1837664,
+                        39.1221279
+                    ],
+                    [
+                        27.1837923,
+                        39.122136
+                    ],
+                    [
+                        27.1838136,
+                        39.12215
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-kurtulua-camii",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/923431995/osm-location-of-kurtulua-camii",
+                "location_precision": "precise",
+                "snippet": "Building; 30 BC - AD 300",
+                "title": "OSM location of Kurtuluş Camii"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Place type",
+            "modified": "2025-01-29T17:03:21Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2024-03-13T18:16:10Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "wikidata Red Basilica (Q2168194)",
+            "modified": "2024-03-13T17:49:06Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2018-09-20T19:19:53Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-08-03T02:35:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-08-03T02:34:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2015-02-20T01:37:07Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2014-09-21T01:07:06Z",
+            "modifiedBy": "rmhorne"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2014-09-21T01:06:08Z",
+            "modifiedBy": "rmhorne"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2014-09-21T00:50:39Z",
+            "modifiedBy": "rmhorne"
+        },
+        {
+            "action": "Create",
+            "modified": "2014-09-21T00:50:30Z",
+            "modifiedBy": "rmhorne"
+        }
+    ],
+    "id": "923431995",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-geonames-accuracy-assessment",
+            "accuracy_value": 30.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-early-empire-late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2014-09-21T00:54:39Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Ryan Horne",
+                    "uri": "https://pleiades.stoa.org/author/rmhorne",
+                    "username": "rmhorne"
+                }
+            ],
+            "description": "Approximate geographic center-point of the main complex, coordinates after GeoHack.",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "temple-2",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    27.183391,
+                    39.121933
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modified": "2016-08-03T02:35:59Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2015-02-20T01:37:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-02-20T01:34:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-09-21T00:56:17Z",
+                    "modifiedBy": "rmhorne"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2014-09-21T00:55:27Z",
+                    "modifiedBy": "rmhorne"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2014-09-21T00:54:48Z",
+                    "modifiedBy": "rmhorne"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-09-21T00:54:41Z",
+                    "modifiedBy": "rmhorne"
+                }
+            ],
+            "id": "location-of-the-red-basilica",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "GeoHack: Red Basilica",
+            "references": [
+                {
+                    "accessURI": "http://tools.wmflabs.org/geohack/geohack.php?pagename=Red_Basilica&params=39.121933_N_27.183391_E_type:landmark",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "GeoHack: Red Basilica",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Red_Basilica",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "citationDetail": "Red Basilica",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Red Basilica.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Imagery location of the Red Basilica",
+            "uri": "https://pleiades.stoa.org/places/923431995/location-of-the-red-basilica"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-03-13T17:47:07Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "basilica"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/basilica"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        27.1832091,
+                        39.1221239
+                    ],
+                    [
+                        27.1831033,
+                        39.1219026
+                    ],
+                    [
+                        27.1836979,
+                        39.1217315
+                    ],
+                    [
+                        27.1838037,
+                        39.1219528
+                    ],
+                    [
+                        27.1832091,
+                        39.1221239
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-03-20T16:47:07Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-03-13T17:47:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added osm location",
+                    "modified": "2024-03-13T17:47:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-03-13T17:47:07Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-03-13T17:47:07Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-red-basilica",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/basilica"
+            ],
+            "provenance": "OpenStreetMap (Way 1087234401, version 6, osm:changeset=144960837, 2023-12-10T11:05:34Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/1087234401",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 1087234401",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=1087234401",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Red Basilica",
+            "uri": "https://pleiades.stoa.org/places/923431995/osm-location-of-red-basilica"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-03-13T17:55:32Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "<p>The so-called \"South rotunda\" is an architectural feature associated with the Red Basilica at Pergamon.</p>",
+            "end": 300,
+            "featureType": [
+                "building"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/building"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        27.1835695,
+                        39.1216059
+                    ],
+                    [
+                        27.183584,
+                        39.1216244
+                    ],
+                    [
+                        27.1835902,
+                        39.1216455
+                    ],
+                    [
+                        27.1835875,
+                        39.1216671
+                    ],
+                    [
+                        27.1835762,
+                        39.1216869
+                    ],
+                    [
+                        27.1835574,
+                        39.1217029
+                    ],
+                    [
+                        27.183533,
+                        39.1217135
+                    ],
+                    [
+                        27.1835056,
+                        39.1217176
+                    ],
+                    [
+                        27.1834757,
+                        39.1217142
+                    ],
+                    [
+                        27.1834491,
+                        39.1217032
+                    ],
+                    [
+                        27.183429,
+                        39.1216858
+                    ],
+                    [
+                        27.1834176,
+                        39.1216641
+                    ],
+                    [
+                        27.1834165,
+                        39.1216407
+                    ],
+                    [
+                        27.1834256,
+                        39.1216184
+                    ],
+                    [
+                        27.1834441,
+                        39.1215998
+                    ],
+                    [
+                        27.1834674,
+                        39.121588
+                    ],
+                    [
+                        27.1834944,
+                        39.1215824
+                    ],
+                    [
+                        27.1835223,
+                        39.1215837
+                    ],
+                    [
+                        27.1835482,
+                        39.1215918
+                    ],
+                    [
+                        27.1835695,
+                        39.1216059
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-03-20T16:47:07Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-03-16T14:43:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2024-03-16T14:43:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add OSM location",
+                    "modified": "2024-03-13T17:55:49Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-03-13T17:55:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-03-13T17:55:32Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-south-rotunda",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/building"
+            ],
+            "provenance": "OpenStreetMap (Way 1222770549, version 1, osm:changeset=143906050, 2023-11-11T16:12:49Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/1222770549",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 1222770549",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=1222770549",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of South rotunda",
+            "uri": "https://pleiades.stoa.org/places/923431995/osm-location-of-south-rotunda"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-03-13T17:56:46Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "<p><span>The structure referred to as \"Kurtuluş Camii\" is an architectural feature which was once associated with the Red Basilica at Pergamon. It is now used as a mosque.</span></p>",
+            "end": 300,
+            "featureType": [
+                "building"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/building"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        27.1838136,
+                        39.12215
+                    ],
+                    [
+                        27.1838281,
+                        39.1221685
+                    ],
+                    [
+                        27.1838343,
+                        39.1221897
+                    ],
+                    [
+                        27.1838316,
+                        39.1222112
+                    ],
+                    [
+                        27.1838203,
+                        39.122231
+                    ],
+                    [
+                        27.1838015,
+                        39.1222471
+                    ],
+                    [
+                        27.1837771,
+                        39.1222577
+                    ],
+                    [
+                        27.1837497,
+                        39.1222617
+                    ],
+                    [
+                        27.1837198,
+                        39.1222584
+                    ],
+                    [
+                        27.1836932,
+                        39.1222473
+                    ],
+                    [
+                        27.183673,
+                        39.1222299
+                    ],
+                    [
+                        27.1836617,
+                        39.1222082
+                    ],
+                    [
+                        27.1836606,
+                        39.1221848
+                    ],
+                    [
+                        27.1836697,
+                        39.1221625
+                    ],
+                    [
+                        27.1836881,
+                        39.122144
+                    ],
+                    [
+                        27.1837115,
+                        39.1221321
+                    ],
+                    [
+                        27.1837385,
+                        39.1221265
+                    ],
+                    [
+                        27.1837664,
+                        39.1221279
+                    ],
+                    [
+                        27.1837923,
+                        39.122136
+                    ],
+                    [
+                        27.1838136,
+                        39.12215
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-03-20T16:47:07Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-03-16T14:44:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2024-03-16T14:44:07Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add OSM location",
+                    "modified": "2024-03-13T17:57:00Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-03-13T17:56:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-03-13T17:56:46Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-kurtulua-camii",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/building"
+            ],
+            "provenance": "OpenStreetMap (Way 1222770550, version 1, osm:changeset=143906050, 2023-11-11T16:12:49Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/1222770550",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 1222770550",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=1222770550",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Kurtuluş Camii",
+            "uri": "https://pleiades.stoa.org/places/923431995/osm-location-of-kurtulua-camii"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Kızıl Avlu",
+            "contributors": [],
+            "created": "2014-09-21T01:02:08Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Ryan Horne",
+                    "uri": "https://pleiades.stoa.org/author/rmhorne",
+                    "username": "rmhorne"
+                }
+            ],
+            "description": "Turkish name for the Red Basilica",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2015-02-20T01:37:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-02-20T01:35:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-09-21T01:03:11Z",
+                    "modifiedBy": "rmhorne"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2014-09-21T01:02:14Z",
+                    "modifiedBy": "rmhorne"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-09-21T01:02:09Z",
+                    "modifiedBy": "rmhorne"
+                }
+            ],
+            "id": "k131z131l-avlu",
+            "language": "tr",
+            "nameType": "geographic",
+            "provenance": "Wikipedia: Red_Basilica",
+            "references": [
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Red_Basilica",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "citationDetail": "Red Basilica",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Red Basilica.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeAlso"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Kızıl Avlu",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/923431995/k131z131l-avlu"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/church-2",
+        "https://pleiades.stoa.org/vocabularies/place-types/building",
+        "https://pleiades.stoa.org/vocabularies/place-types/basilica",
+        "https://pleiades.stoa.org/vocabularies/place-types/mosque",
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "church-2",
+        "building",
+        "basilica",
+        "mosque",
+        "temple-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Red_Basilica",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Red Basilica",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Red Basilica.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://academic.oup.com/edited-volume/28112",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZAWAMJK4",
+            "citationDetail": "p. 430",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Riggs, Christina, ed. <i>The Oxford Handbook of Roman Egypt</i>. Oxford University Press, 2012. https://doi.org/10.1093/oxfordhb/9780199571451.001.0001.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Riggs 2012",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q2168194",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Red Basilica (Q2168194)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        27.18352368625845,
+        39.12192612506665
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "Serapis",
+        "extant remains",
+        "temple"
+    ],
+    "title": "Red Basilica",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/923431995"
+}

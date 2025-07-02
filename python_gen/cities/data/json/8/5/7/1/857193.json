@@ -1,0 +1,390 @@
+{
+    "@type": "Place",
+    "bbox": [
+        39.50888673269495,
+        40.88984945443094,
+        39.828329372727666,
+        40.895203241694055
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Ryan Horne",
+            "uri": "https://pleiades.stoa.org/author/rmhorne",
+            "username": "rmhorne"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "name": "Diane Braund",
+            "username": null
+        },
+        {
+            "name": "Richard Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2011-05-13T21:38:18Z",
+    "creators": [
+        {
+            "name": "T. Sinclair",
+            "username": null
+        },
+        {
+            "name": "David Braund",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 87 E4 Kolchoi",
+    "details": "<p>The Barrington Atlas Directory notes: behind Trabzon</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            39.50888673269495,
+                            40.895203241694055
+                        ],
+                        [
+                            39.828329372727666,
+                            40.88984945443094
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "id": "batlas-map-label-location",
+            "properties": {
+                "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+                "link": "https://pleiades.stoa.org/places/857193/batlas-map-label-location",
+                "location_precision": "precise",
+                "snippet": "Label; 550 BC - AD 300",
+                "title": "BAtlas Map Label Location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "updates",
+            "modified": "2021-05-15T04:08:29Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2013-10-05T01:04:58Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T08:51:21Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2011-05-13T21:55:09Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2011-05-13T21:48:27Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2011-05-13T21:38:18Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "857193",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-1-million-scale",
+            "accuracy_value": 1860.0,
+            "archaeologicalRemains": "notapplicable",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                },
+                {
+                    "confidence": "less-confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Ryan Horne",
+                    "uri": "https://pleiades.stoa.org/author/rmhorne",
+                    "username": "rmhorne"
+                },
+                {
+                    "name": "Richard Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2022-08-30T11:15:08Z",
+            "creators": [
+                {
+                    "name": "T. Sinclair",
+                    "username": null
+                },
+                {
+                    "name": "David Braund",
+                    "username": null
+                }
+            ],
+            "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "label"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/label"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            39.50888673269495,
+                            40.895203241694055
+                        ],
+                        [
+                            39.828329372727666,
+                            40.88984945443094
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-09-29T14:32:41Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-09-01T16:22:21Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-08-30T11:15:08Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "batlas-map-label-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/label"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://github.com/AWMC/geodata/blob/a289d378b75eba8c9b640f0248763e3cbf9d2583/Cultural-Data/regional_name_linework/regional_names_linework.geojson",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/AKGKQTM5",
+                    "citationDetail": "211332",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">AWMC Geodata: Regional Name Linework. Geojson. Chapel Hill: Ancient World Mapping Center, University of North Carolina at Chapel Hill, June 20, 2016. Github.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "AWMC Geodata: Regional Name Linework",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/MIAGQ5C6",
+                    "citationDetail": "87 E4 Kolchoi",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. Barrington Atlas of the Greek and Roman World. Princeton, N.J.: Princeton University Press, 2000.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "BAtlas",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -550,
+            "title": "BAtlas Map Label Location",
+            "uri": "https://pleiades.stoa.org/places/857193/batlas-map-label-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                },
+                {
+                    "confidence": "less-confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "Diane Braund",
+                    "username": null
+                },
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2011-05-13T21:38:18Z",
+            "creators": [
+                {
+                    "name": "David Braund",
+                    "username": null
+                },
+                {
+                    "name": "T. Sinclair",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "programmatically changed nameType from geographic to ethnic: site-wide cleanup of peoples/tribes imported from the Barrington Atlas",
+                    "modified": "2021-02-25T22:58:02Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T08:51:22Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-05-13T21:55:09Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-05-13T21:48:27Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-05-13T21:38:18Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "kolchoi",
+            "language": "",
+            "nameType": "ethnic",
+            "provenance": "Barrington Atlas: BAtlas 87 E4 Kolchoi",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Kolchoi",
+            "start": -550,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/857193/kolchoi"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/label",
+        "https://pleiades.stoa.org/vocabularies/place-types/people"
+    ],
+    "placeTypes": [
+        "label",
+        "people"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 87 E4 Kolchoi",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "87 E4 Kolchoi",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/x.html#Xen.",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "Xen., Anab. 4.8.8-9, 18-22",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "citesAsEvidence"
+        }
+    ],
+    "reprPoint": [
+        39.668608052711306,
+        40.892526348062496
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Kolchoi",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/857193"
+}

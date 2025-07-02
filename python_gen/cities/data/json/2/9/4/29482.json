@@ -1,0 +1,667 @@
+{
+    "@type": "Place",
+    "bbox": [
+        61.57388907281103,
+        30.413466121032855,
+        62.52567347514315,
+        30.496747256236915
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "name": "M. Joann McDaniel",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "name": "Brian Z. Lund",
+            "username": null
+        },
+        {
+            "name": "Richard Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Michael Heubel",
+            "uri": "https://pleiades.stoa.org/author/mheubel",
+            "username": "mheubel"
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "name": "Mary E. Downs",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Ryan Horne",
+            "uri": "https://pleiades.stoa.org/author/rmhorne",
+            "username": "rmhorne"
+        }
+    ],
+    "created": "2010-09-22T21:55:24Z",
+    "creators": [
+        {
+            "name": "M. Roaf",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 3 H3 Ari(m)aspai",
+    "details": "<p>The Barrington Atlas Directory notes: AFG/IRN</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            61.57388907281103,
+                            30.413466121032855
+                        ],
+                        [
+                            61.73450269070457,
+                            30.413466121032855
+                        ],
+                        [
+                            61.82373247842321,
+                            30.425363426062006
+                        ],
+                        [
+                            61.9486541812293,
+                            30.425363426062006
+                        ],
+                        [
+                            62.16280567175403,
+                            30.44915803612031
+                        ],
+                        [
+                            62.24608680695809,
+                            30.467003993664036
+                        ],
+                        [
+                            62.317470637133,
+                            30.484849951207764
+                        ],
+                        [
+                            62.40075177233706,
+                            30.484849951207764
+                        ],
+                        [
+                            62.52567347514315,
+                            30.496747256236915
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "id": "batlas-map-label-location",
+            "properties": {
+                "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+                "link": "https://pleiades.stoa.org/places/29482/batlas-map-label-location",
+                "location_precision": "precise",
+                "snippet": "Label; 550 BC - AD 300",
+                "title": "BAtlas Map Label Location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "references",
+            "modified": "2022-07-16T00:56:37Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "place type: people",
+            "modified": "2022-07-15T22:30:29Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T04:00:35Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:25:28Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-09-23T16:12:13Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-09-22T21:59:48Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-09-22T21:55:24Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "29482",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-5-million-scale",
+            "accuracy_value": 9310.0,
+            "archaeologicalRemains": "notapplicable",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Ryan Horne",
+                    "uri": "https://pleiades.stoa.org/author/rmhorne",
+                    "username": "rmhorne"
+                },
+                {
+                    "name": "Richard Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                },
+                {
+                    "homepage": null,
+                    "name": "Michael Heubel",
+                    "uri": "https://pleiades.stoa.org/author/mheubel",
+                    "username": "mheubel"
+                }
+            ],
+            "created": "2022-08-30T11:17:22Z",
+            "creators": [
+                {
+                    "name": "M. Roaf",
+                    "username": null
+                }
+            ],
+            "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "label"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/label"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            61.57388907281103,
+                            30.413466121032855
+                        ],
+                        [
+                            61.73450269070457,
+                            30.413466121032855
+                        ],
+                        [
+                            61.82373247842321,
+                            30.425363426062006
+                        ],
+                        [
+                            61.9486541812293,
+                            30.425363426062006
+                        ],
+                        [
+                            62.16280567175403,
+                            30.44915803612031
+                        ],
+                        [
+                            62.24608680695809,
+                            30.467003993664036
+                        ],
+                        [
+                            62.317470637133,
+                            30.484849951207764
+                        ],
+                        [
+                            62.40075177233706,
+                            30.484849951207764
+                        ],
+                        [
+                            62.52567347514315,
+                            30.496747256236915
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-09-10T00:14:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-09-09T15:21:24Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-08-30T11:17:22Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "batlas-map-label-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/label"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://github.com/AWMC/geodata/blob/a289d378b75eba8c9b640f0248763e3cbf9d2583/Cultural-Data/regional_name_linework/regional_names_linework.geojson",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/AKGKQTM5",
+                    "citationDetail": "211084",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">AWMC Geodata: Regional Name Linework. Geojson. Chapel Hill: Ancient World Mapping Center, University of North Carolina at Chapel Hill, June 20, 2016. Github.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "AWMC Geodata: Regional Name Linework",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/MIAGQ5C6",
+                    "citationDetail": "3 H3 Ari(m)aspai",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. Barrington Atlas of the Greek and Roman World. Princeton, N.J.: Princeton University Press, 2000.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "BAtlas",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -550,
+            "title": "BAtlas Map Label Location",
+            "uri": "https://pleiades.stoa.org/places/29482/batlas-map-label-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "Mary E. Downs",
+                    "username": null
+                },
+                {
+                    "name": "M. Joann McDaniel",
+                    "username": null
+                },
+                {
+                    "name": "Brian Z. Lund",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-09-22T21:55:24Z",
+            "creators": [
+                {
+                    "name": "M. Roaf",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:00:36Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-09-23T16:12:13Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-09-22T21:59:48Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-09-22T21:55:24Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "arimaspai",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 3 H3 Ari(m)aspai",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Arimaspai",
+            "start": -550,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/29482/arimaspai"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "Mary E. Downs",
+                    "username": null
+                },
+                {
+                    "name": "M. Joann McDaniel",
+                    "username": null
+                },
+                {
+                    "name": "Brian Z. Lund",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-09-22T21:55:24Z",
+            "creators": [
+                {
+                    "name": "M. Roaf",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:00:36Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-09-23T16:12:13Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-09-22T21:59:48Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-09-22T21:55:25Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "ariaspai",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 3 H3 Ari(m)aspai",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Ariaspai",
+            "start": -550,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/29482/ariaspai"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "Mary E. Downs",
+                    "username": null
+                },
+                {
+                    "name": "M. Joann McDaniel",
+                    "username": null
+                },
+                {
+                    "name": "Brian Z. Lund",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-09-22T21:55:25Z",
+            "creators": [
+                {
+                    "name": "M. Roaf",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -330,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:00:36Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-09-23T16:12:13Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-09-22T21:59:48Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-09-22T21:55:25Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "euergitae",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 3 H3 Ari(m)aspai",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Euergitae",
+            "start": -550,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/29482/euergitae"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/label",
+        "https://pleiades.stoa.org/vocabularies/place-types/people"
+    ],
+    "placeTypes": [
+        "label",
+        "people"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 3 H3 Ari(m)aspai",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "3 H3 Ari(m)aspai",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/859590575",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KEVHDGF5",
+            "citationDetail": "124",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">André, Jacques, and Jean Filliozat. <i>Pline l’Ancien, Livre VI</i>. Paris: Les Belles Lettres, 1980. http://www.worldcat.org/oclc/859590575.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "André 1980",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/794963521",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/D8MHD4QD",
+            "citationDetail": "365-66",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Bosworth, A. B. <i>A Historical Commentary on Arrian’s History of Alexander</i>. 2 vols. New York: Oxford University Press, 1980. http://www.worldcat.org/oclc/794963521.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Bosworth 1980",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        62.050647063501486,
+        30.446008917079386
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Ari(m)aspai",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/29482"
+}

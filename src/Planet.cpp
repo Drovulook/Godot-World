@@ -8,7 +8,7 @@
 #include <godot_cpp/classes/viewport.hpp>
 #include <godot_cpp/variant/utility_functions.hpp>
 
-#include "maths_func.h"
+#include "utils/maths_func.h"
 
 namespace godot {
 Planet::Planet() {}
@@ -38,8 +38,7 @@ void Planet::_ready() {
   }
 
   create_textures();
-  m_provinces_manager =
-      memnew(ProvincesManager(m_province_idx_texture, m_debug_ui));
+  m_provinces_manager = memnew(ProvincesManager(m_province_idx_texture, m_debug_ui));
   add_child(m_provinces_manager);
   m_cities_manager = memnew(CitiesManager(m_city_idx_texture, m_debug_ui));
   add_child(m_cities_manager);
@@ -156,6 +155,11 @@ void Planet::set_province_to_highlight(Vector3 color) {
   generate();
 }
 
+void Planet::set_city_to_highlight(Vector3 color) {
+  m_city_to_highlight = std::make_shared<Vector3>(color);
+  generate();
+}
+
 void Planet::create_textures() {
   // Create a texture map for the planet
   for (int x = 0; x < 8; ++x) {
@@ -173,7 +177,7 @@ void Planet::create_textures() {
   m_province_idx_texture = ResourceLoader::get_singleton()->load(
       "res://assets/provinces/Province_Index_Map_Generated.png");
   m_city_idx_texture = ResourceLoader::get_singleton()->load(
-      "res://assets/cities/cities.png");
+    "res://assets/cities/cities.png");
 }
 
 Camera3D *Planet::get_current_camera() {
@@ -279,7 +283,7 @@ void Planet::create_submesh_if_needed(int tile_x, int tile_y, int sub_x,
   PlanetMesh *mesh = memnew(PlanetMesh(
       m_radius, m_mesh_res, m_mesh_per_img_res, m_material, m_mercator, tile,
       tile_x, tile_y, sub_x, sub_y, submesh_bottom_left, submesh_top_right,
-      m_elevation_reader, m_province_idx_texture, m_city_idx_texture, m_province_to_highlight));
+      m_elevation_reader, m_province_idx_texture, m_city_idx_texture, m_province_to_highlight, m_city_to_highlight));
   add_child(mesh);
   m_active_meshes[mesh_id] = mesh;
 }

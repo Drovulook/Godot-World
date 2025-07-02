@@ -1,0 +1,550 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -3.9428085,
+        55.9813084,
+        -3.9382851,
+        55.9832885
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/91357",
+            "contributors": [],
+            "created": "2016-07-13T14:02:56Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T14:02:56Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T14:02:56Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T14:02:56Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "91357",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Antonine Wall",
+            "uri": "https://pleiades.stoa.org/places/89138/91357"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/91357",
+        "https://pleiades.stoa.org/places/92120"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "James Cowey",
+            "uri": "https://pleiades.stoa.org/author/jcowey",
+            "username": "jcowey"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Maxime Guénette",
+            "uri": "https://pleiades.stoa.org/author/maximeg",
+            "username": "maximeg"
+        },
+        {
+            "homepage": null,
+            "name": "Scott Vanderbilt",
+            "uri": "https://pleiades.stoa.org/author/sarcanon",
+            "username": "sarcanon"
+        },
+        {
+            "name": "R. Warner",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        }
+    ],
+    "created": "2024-12-17T14:09:51Z",
+    "creators": [
+        {
+            "name": "A.S. Esmonde Cleary",
+            "username": null
+        }
+    ],
+    "description": "Site of a Roman fort on the Antonine Wall.",
+    "details": "<p>The Barrington Atlas Directory notes: Castlecary</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -3.9428085,
+                        55.9821703
+                    ],
+                    [
+                        -3.9386672,
+                        55.9832885
+                    ],
+                    [
+                        -3.9382851,
+                        55.9828607
+                    ],
+                    [
+                        -3.9390162,
+                        55.982258
+                    ],
+                    [
+                        -3.9400844,
+                        55.9820109
+                    ],
+                    [
+                        -3.9399269,
+                        55.9818554
+                    ],
+                    [
+                        -3.9421707,
+                        55.9813084
+                    ],
+                    [
+                        -3.9428085,
+                        55.9821703
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-boundary-of-fort-walls-approx",
+            "properties": {
+                "description": "Location after OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/89138/osm-location-boundary-of-fort-walls-approx",
+                "location_precision": "precise",
+                "snippet": "Unknown; 30 BC - AD 300",
+                "title": "OSM Location: Boundary of fort walls (approx)"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2025-01-11T19:42:25Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created darmc citation to preserve project linkage after DARMC location was withdrawn",
+            "modified": "2024-12-17T22:22:43Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited type for fort @maximeg",
+            "modified": "2024-12-17T22:20:06Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2024-12-17T14:09:51Z",
+            "modifiedBy": "maximeg"
+        },
+        {
+            "comment": "adjusted contributors' list",
+            "modified": "2024-09-10T14:54:30Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "adjusted Canmore link by @jcowey",
+            "modified": "2024-09-10T14:54:08Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "added references",
+            "modified": "2016-09-11T14:20:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "description, references",
+            "modified": "2013-03-21T22:38:11Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2013-02-24T00:01:44Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-21T00:00:00Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T09:17:17Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-01-21T05:43:42Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T21:25:56Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2009-11-23T22:42:32Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-11-02T10:43:00Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-11-02T09:54:26Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "89138",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2024-12-17T22:21:10Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Scott Vanderbilt",
+                    "uri": "https://pleiades.stoa.org/author/sarcanon",
+                    "username": "sarcanon"
+                }
+            ],
+            "description": "Location after OpenStreetMap.",
+            "details": "",
+            "end": 300,
+            "featureType": [],
+            "featureTypeURI": [],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -3.9428085,
+                        55.9821703
+                    ],
+                    [
+                        -3.9386672,
+                        55.9832885
+                    ],
+                    [
+                        -3.9382851,
+                        55.9828607
+                    ],
+                    [
+                        -3.9390162,
+                        55.982258
+                    ],
+                    [
+                        -3.9400844,
+                        55.9820109
+                    ],
+                    [
+                        -3.9399269,
+                        55.9818554
+                    ],
+                    [
+                        -3.9421707,
+                        55.9813084
+                    ],
+                    [
+                        -3.9428085,
+                        55.9821703
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "removed deprecated place type; corrected OSM reference from \"node\" to \"way\"; Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-17T22:21:57Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modified": "2024-12-17T22:21:09Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-03-21T22:38:54Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2013-03-21T22:37:16Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-02-24T00:00:45Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2013-02-23T23:59:52Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-02-23T23:58:34Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-02-23T23:58:33Z",
+                    "modifiedBy": "sarcanon"
+                }
+            ],
+            "id": "osm-location-boundary-of-fort-walls-approx",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [],
+            "provenance": "OpenStreetMap (Way 206912938, version 3, osm:changeset=147068013, 2024-02-04T20:13:05Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/way/206912938",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 206912938",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=206912938",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM Location: Boundary of fort walls (approx)",
+            "uri": "https://pleiades.stoa.org/places/89138/osm-location-boundary-of-fort-walls-approx"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort-2"
+    ],
+    "placeTypes": [
+        "fort-2"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 9 D5 Castlecary",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "9 D5 Castlecary",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/VWHSRQVH",
+            "citationDetail": "125",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Keppie, L. J. F. <i>Scotland’s Roman Remains: An Introduction and Handbook</i>. 1st ed. Atlantic Highlands, NJ, USA: Exclusive distribution in the United States of America and Canada by Humanities Press, 1986.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Keppie 1986",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43014428",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZCE8AR3R",
+            "citationDetail": "19",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Sheppard Frere, A. L. F. Rivet, N. H. H. Sitwell, and British Academy. <i>Tabula Imperii Romani: Britannia Septentrionalis : Covering Sheets N.30 and O.30, with Parts of Sheets N.29, N.31 and O.29 of the International 1:1,000,000 Map of the World</i>. Oxford: Oxford University Press; British Academy, 1987. http://www.worldcat.org/oclc/43014428.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TIR BritSep",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://canmore.org.uk/site/45828",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/R9QC8C2K",
+            "citationDetail": "Monument ID 45828",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Canmore: National Record of the Historic Environment, Part of Historic Environment Scotland</i>, n.d. https://canmore.org.uk/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Canmore",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Castlecary",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Castlecary",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Castlecary.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.antoninewall.org/visiting-the-wall/things-to-see-and-do/site-by-site/castlecary",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Antonine Wall: Castlecary",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://roman-britain.co.uk/places/castlecary.htm",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PMV8NEDG",
+            "citationDetail": "Castlecary Antonine Wall Fort",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">White, Kevan, and Mike Haseler. <i>Roman Britain</i>, 2016. https://www.roman-britain.co.uk.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "RBrit",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://romaninscriptionsofbritain.org/inscriptions/2156",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PQ3IFF5P",
+            "citationDetail": "2156",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Vanderbilt, Scott, ed. <i>Roman Inscriptions of Britain (Online)</i>. LatinNow, 2017. https://romaninscriptionsofbritain.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "RIB Online",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "http://romaninscriptionsofbritain.org/inscriptions/2146",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PQ3IFF5P",
+            "citationDetail": "2146",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Vanderbilt, Scott, ed. <i>Roman Inscriptions of Britain (Online)</i>. LatinNow, 2017. https://romaninscriptionsofbritain.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "RIB Online",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "19085",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q81421942",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Castlecary Roman fort (Q81421942)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://portal.historicenvironment.scot/apex/f?p=1505:300:::::VIEWTYPE,VIEWREF:designation,SM90009",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/5DMC846Y",
+            "citationDetail": "Antonine Wall and fort, Castlecary SM90009",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Historic Environment Scotland</i>. Edinburgh. Accessed July 22, 2019. https://www.historicenvironment.scot/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Historic Environment Scotland",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        -3.940533989296284,
+        55.98230092221129
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=0",
+        "dare:feature=fort"
+    ],
+    "title": "Castlecary",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/89138"
+}

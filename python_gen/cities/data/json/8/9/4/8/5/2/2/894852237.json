@@ -1,0 +1,700 @@
+{
+    "@type": "Place",
+    "bbox": [
+        14.4880089,
+        40.7529152,
+        14.4880089,
+        40.7529152
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/433032",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-07-13T13:53:28Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "change type cnxn",
+                    "modified": "2018-09-02T15:11:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:53:28Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:53:28Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:53:28Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "433032",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Pompeii",
+            "uri": "https://pleiades.stoa.org/places/894852237/433032"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "connectionType": "part_of_analytical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_analytical",
+            "connectsTo": "https://pleiades.stoa.org/places/984330150",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2020-12-14T19:44:15Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-12-15T01:34:07Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2020-12-15T01:33:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-14T19:44:21Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2020-12-14T19:44:15Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-14T19:44:15Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "regio-v-pompeii",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": 1700,
+            "title": "Regio V, Pompeii",
+            "uri": "https://pleiades.stoa.org/places/894852237/regio-v-pompeii"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/433032",
+        "https://pleiades.stoa.org/places/984330150"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2015-05-29T14:45:04Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Athanasia Varveri",
+            "uri": "https://pleiades.stoa.org/author/avarveri",
+            "username": "avarveri"
+        }
+    ],
+    "description": "The House of M. Lucretius Fronto (V, 4, a, 11), situated off the north side of the Via di Nola, is an example of a refined domus that is small in size but with opulent Third and Fourth style wall paintings.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4880089,
+                    40.7529152
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-casa-di-lucrezio-frontone",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/894852237/osm-location-of-casa-di-lucrezio-frontone",
+                "location_precision": "precise",
+                "snippet": "Townhouse; AD 1 - AD 99",
+                "title": "OSM location of Casa di Lucrezio Frontone"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2020-12-27T01:20:59Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "updates",
+            "modified": "2020-12-27T01:20:17Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "updates",
+            "modified": "2020-12-11T20:36:31Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2018-09-02T15:14:47Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-01-12T00:35:53Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2015-07-02T16:22:18Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-07-02T16:13:18Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-07-02T16:12:21Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-07-02T16:04:10Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2015-07-02T16:03:01Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2015-06-24T03:17:55Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2015-06-24T03:15:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2015-05-29T14:45:10Z",
+            "modifiedBy": "avarveri"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-05-29T14:45:05Z",
+            "modifiedBy": "avarveri"
+        }
+    ],
+    "id": "894852237",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/first-ce"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-06-29T08:22:11Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 99,
+            "featureType": [
+                "townhouse"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/townhouse"
+            ],
+            "geometry": {
+                "coordinates": [
+                    14.4880089,
+                    40.7529152
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-07-11T17:41:15Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-06-29T08:29:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location whose underlying OSM data is now deprecated",
+                    "modified": "2024-06-29T08:22:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-06-29T08:22:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-06-29T08:22:11Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-casa-di-lucrezio-frontone",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/townhouse"
+            ],
+            "provenance": "OpenStreetMap (Node 2032848649, version 9, osm:changeset=138539870, 2023-07-15T10:52:08Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/node/2032848649",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 2032848649",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=2032848649",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1,
+            "title": "OSM location of Casa di Lucrezio Frontone",
+            "uri": "https://pleiades.stoa.org/places/894852237/osm-location-of-casa-di-lucrezio-frontone"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [],
+            "created": "2015-07-02T16:13:46Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-06-25T19:25:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-09-02T15:10:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2018-09-02T15:10:49Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2015-07-02T16:13:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-07-02T16:13:48Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2015-07-02.6081720546",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://sites.google.com/site/ad79eruption/pompeii/regio-v/reg-v-ins-4/house-of-m-lucretius-fronto",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "House of M. Lucretius Fronto",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "House of Marcus Lucretius Fronto",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/894852237/name.2015-07-02.6081720546"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [],
+            "created": "2015-07-02T16:14:35Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-06-25T19:25:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-09-02T15:09:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2018-09-02T15:09:50Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2015-07-02T16:14:42Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-07-02T16:14:38Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2015-07-02.6579489634",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.pompeiisites.org/Sezione.jsp?idSezione=1464",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "pompeiisites.org: Domus di Marco Lucrezio Frontone",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Domus di Marco Lucrezio Frontone",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/894852237/name.2015-07-02.6579489634"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [],
+            "created": "2015-07-02T16:15:24Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-06-25T19:25:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-09-02T15:11:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2018-09-02T15:11:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2015-07-02T16:15:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-07-02T16:15:26Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2015-07-02.6980400109",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/8667821",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WQBMM724",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">VanderPoel, Halsted B. <i>Corpus Topographicum Pompeianum</i>. 5 vols. Rome: The University of Texas at Austin, 1977. http://www.worldcat.org/oclc/8667821.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "VanderPoel et al. 1977-1986",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "V.4.a.11",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/894852237/name.2015-07-02.6980400109"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/townhouse"
+    ],
+    "placeTypes": [
+        "townhouse"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.stoa.org/projects/ph/house?id=17",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "On-line Companion to Pompeian Households: Casa di M. Lucretius Fronto",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://sites.google.com/site/ad79eruption/pompeii/regio-v/reg-v-ins-4/house-of-m-lucretius-fronto",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SAEEN7M7",
+            "citationDetail": "House of Lucretius Fronto",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Clements, Peter. “AD79: Destruction and Re-Discovery.” Accessed September 10, 2017. https://sites.google.com/site/ad79eruption/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "AD79",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.pompeiisites.org/Sezione.jsp?idSezione=1467",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "pompeiisites.org: The Domus of Marcus Lucretius Fronto",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MC8X284K",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Peters, W. J. Th, and Eric M Moormann. <i>La casa di Marcus Lucretius Fronto a Pompei e le sue pitture</i>. Amsterdam: Thesis Publishers, 1993.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Peters and Moormann 1993",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.skenographia.cch.kcl.ac.uk/fronto/index.html",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Skenographia Project: The House of Marcus Lucretius Fronto",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q24934597",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q24934597",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q27685985",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q27685985",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Casa_di_Marco_Lucrezio_Frontone",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+            "citationDetail": "Casa di Marco Lucrezio Frontone",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        14.4880089,
+        40.7529152
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "wall painting",
+        "domus",
+        "extant remains"
+    ],
+    "title": "House of Marcus Lucretius Fronto",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/894852237"
+}

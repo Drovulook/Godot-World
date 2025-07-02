@@ -1,0 +1,587 @@
+{
+    "@type": "Place",
+    "bbox": [
+        76.17202312977793,
+        9.128421224878537,
+        77.20114001479953,
+        11.918339254214402
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "name": "Richard Talbert",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Ryan Horne",
+            "uri": "https://pleiades.stoa.org/author/rmhorne",
+            "username": "rmhorne"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2010-09-23T00:55:28Z",
+    "creators": [
+        {
+            "name": "M.U. Erdosy",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 5 D4 Bittigo M.",
+    "details": "The Barrington Atlas Directory notes: Malayagiri Tamil: Podigei",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            76.17202312977793,
+                            11.918339254214402
+                        ],
+                        [
+                            76.34453405270062,
+                            11.662547196087644
+                        ],
+                        [
+                            76.45160979796299,
+                            11.466241663106644
+                        ],
+                        [
+                            76.55868554322535,
+                            11.263987477611067
+                        ],
+                        [
+                            76.65981263597314,
+                            11.079579249659218
+                        ],
+                        [
+                            76.75499107620635,
+                            10.859479106619915
+                        ],
+                        [
+                            76.87396412649787,
+                            10.603687048493157
+                        ],
+                        [
+                            76.95724526170193,
+                            10.40143286299758
+                        ],
+                        [
+                            77.02268043936226,
+                            10.211075982531156
+                        ],
+                        [
+                            77.05837235444972,
+                            9.990975839492023
+                        ],
+                        [
+                            77.14760214216835,
+                            9.717337823821538
+                        ],
+                        [
+                            77.17139675222666,
+                            9.455597113180204
+                        ],
+                        [
+                            77.20114001479953,
+                            9.128421224878537
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "id": "batlas-map-label-location",
+            "properties": {
+                "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+                "link": "https://pleiades.stoa.org/places/49922/batlas-map-label-location",
+                "location_precision": "precise",
+                "snippet": "Label; 30 BC - AD 300",
+                "title": "BAtlas Map Label Location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T05:38:25Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Finding mountains by their titles and setting feature types",
+            "modified": "2011-07-18T21:49:10Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T20:04:39Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-09-23T17:00:32Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-09-23T01:38:31Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-09-23T00:55:28Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "49922",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-5-million-scale",
+            "accuracy_value": 9310.0,
+            "archaeologicalRemains": "notapplicable",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Ryan Horne",
+                    "uri": "https://pleiades.stoa.org/author/rmhorne",
+                    "username": "rmhorne"
+                },
+                {
+                    "name": "Richard Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2022-08-30T11:18:15Z",
+            "creators": [
+                {
+                    "name": "M.U. Erdosy",
+                    "username": null
+                }
+            ],
+            "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "label"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/label"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            76.17202312977793,
+                            11.918339254214402
+                        ],
+                        [
+                            76.34453405270062,
+                            11.662547196087644
+                        ],
+                        [
+                            76.45160979796299,
+                            11.466241663106644
+                        ],
+                        [
+                            76.55868554322535,
+                            11.263987477611067
+                        ],
+                        [
+                            76.65981263597314,
+                            11.079579249659218
+                        ],
+                        [
+                            76.75499107620635,
+                            10.859479106619915
+                        ],
+                        [
+                            76.87396412649787,
+                            10.603687048493157
+                        ],
+                        [
+                            76.95724526170193,
+                            10.40143286299758
+                        ],
+                        [
+                            77.02268043936226,
+                            10.211075982531156
+                        ],
+                        [
+                            77.05837235444972,
+                            9.990975839492023
+                        ],
+                        [
+                            77.14760214216835,
+                            9.717337823821538
+                        ],
+                        [
+                            77.17139675222666,
+                            9.455597113180204
+                        ],
+                        [
+                            77.20114001479953,
+                            9.128421224878537
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-09-21T15:58:39Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-08-30T15:44:17Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-08-30T11:18:15Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "batlas-map-label-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/label"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://github.com/AWMC/geodata/blob/a289d378b75eba8c9b640f0248763e3cbf9d2583/Cultural-Data/regional_name_linework/regional_names_linework.geojson",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/AKGKQTM5",
+                    "citationDetail": "211070",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">AWMC Geodata: Regional Name Linework. Geojson. Chapel Hill: Ancient World Mapping Center, University of North Carolina at Chapel Hill, June 20, 2016. Github.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "AWMC Geodata: Regional Name Linework",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/MIAGQ5C6",
+                    "citationDetail": "5 D4 Bittigo",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. Barrington Atlas of the Greek and Roman World. Princeton, N.J.: Princeton University Press, 2000.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "BAtlas",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "BAtlas Map Label Location",
+            "uri": "https://pleiades.stoa.org/places/49922/batlas-map-label-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-09-23T00:55:28Z",
+            "creators": [
+                {
+                    "name": "M.U. Erdosy",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T05:38:26Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-09-23T17:00:32Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-09-23T01:38:31Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-09-23T00:55:29Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "Bittigo-M",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 5 D4 Bittigo M.",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://atlantides.org/bibliography/p.html#Ptol.-7.1.22",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "Ptol. 7.1.22, 33, 65, 68, 74",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "cites"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://atlantides.org/bibliography/l.html#Law-1976",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "Law 1976, 23",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Bittigo M.",
+            "start": -30,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/49922/Bittigo-M"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-09-23T00:55:29Z",
+            "creators": [
+                {
+                    "name": "M.U. Erdosy",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T05:38:26Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-09-23T17:00:32Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-09-23T01:38:31Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-09-23T00:55:29Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "bittigoi",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 5 D4 Bittigo M.",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://atlantides.org/bibliography/p.html#Ptol.-7.1.66",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "Ptol. 7.1.66",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "cites"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://atlantides.org/bibliography/l.html#Law-1943",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "Law 1943, 97",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Bittigoi",
+            "start": -30,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/49922/bittigoi"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/mountain",
+        "https://pleiades.stoa.org/vocabularies/place-types/label"
+    ],
+    "placeTypes": [
+        "mountain",
+        "label"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 5 D4 Bittigo M.",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "5 D4 Bittigo M.",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/p.html#Ptol.-7.1.22",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Ptol. 7.1.22, 33, 65, 68, 74",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/l.html#Law-1976",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Law 1976, 23",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/p.html#Ptol.-7.1.66",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Ptol. 7.1.66",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/l.html#Law-1943",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Law 1943, 97",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        76.81426578787415,
+        10.567355478899778
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Bittigo M.",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/49922"
+}

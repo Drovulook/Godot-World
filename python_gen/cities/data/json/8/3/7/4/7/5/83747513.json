@@ -1,0 +1,467 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.5660451,
+        41.9421212,
+        12.5666293,
+        41.9425357
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "near",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/near",
+            "connectsTo": "https://pleiades.stoa.org/places/699256589",
+            "contributors": [],
+            "created": "2022-03-27T19:20:37Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-03-27T21:39:09Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-03-27T19:20:44Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2022-03-27T19:20:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-03-27T19:20:37Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "via-nomentana",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IWATNX33",
+                    "citationDetail": "no. 34",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">De Franceschini, Marina. <i>Ville dell’Agro Romano</i>. Monografie della carta dell’Agro romano 2. Roma: L’Erma di Bretschneider, 2005.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "De Franceschini 2005",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Via Nomentana",
+            "uri": "https://pleiades.stoa.org/places/83747513/via-nomentana"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/699256589"
+    ],
+    "contributors": [],
+    "created": "2021-12-04T03:52:55Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The ruins of a Roman villa rustica were discovered in the 1990s along via Diego Fabbri. The site dates to the first century B.C. and remained in use at least until the fifth century A.D. The remains of a bath complex are substantial.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.5666048,
+                        41.9424257
+                    ],
+                    [
+                        12.5662126,
+                        41.9425357
+                    ],
+                    [
+                        12.5660451,
+                        41.9423772
+                    ],
+                    [
+                        12.5661584,
+                        41.942257
+                    ],
+                    [
+                        12.5663706,
+                        41.9421212
+                    ],
+                    [
+                        12.5666293,
+                        41.9422528
+                    ],
+                    [
+                        12.5666171,
+                        41.9423393
+                    ],
+                    [
+                        12.5666048,
+                        41.9424257
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-villa-di-podere-anna",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/83747513/osm-location-of-villa-di-podere-anna",
+                "location_precision": "precise",
+                "snippet": "Villa; 30 BC - AD 300",
+                "title": "OSM location of Villa di Podere Anna"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added wikidata Q53637295: Podere Anna Roman villa",
+            "modified": "2022-03-28T15:16:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2022-03-27T19:20:08Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edit typo in summary",
+            "modified": "2021-12-04T17:11:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2021-12-04T12:57:02Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2021-12-04T04:00:46Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary, reference",
+            "modified": "2021-12-04T04:00:13Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "place created",
+            "modified": "2021-12-04T03:52:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2021-12-04T03:52:55Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "83747513",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2021-12-04T03:55:29Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "villa"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/villa"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.5666048,
+                        41.9424257
+                    ],
+                    [
+                        12.5662126,
+                        41.9425357
+                    ],
+                    [
+                        12.5660451,
+                        41.9423772
+                    ],
+                    [
+                        12.5661584,
+                        41.942257
+                    ],
+                    [
+                        12.5663706,
+                        41.9421212
+                    ],
+                    [
+                        12.5666293,
+                        41.9422528
+                    ],
+                    [
+                        12.5666171,
+                        41.9423393
+                    ],
+                    [
+                        12.5666048,
+                        41.9424257
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-02-24T22:36:00Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-01-01T00:45:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-12-04T12:57:02Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-12-04T04:00:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added OSM location",
+                    "modified": "2021-12-04T03:55:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2021-12-04T03:55:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-12-04T03:55:29Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-villa-di-podere-anna",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/villa"
+            ],
+            "provenance": "OpenStreetMap (Way 1009020321, version 6, osm:changeset=137181676, 2023-06-10T18:22:46Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/1009020321",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 1009020321",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=1009020321",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Villa di Podere Anna",
+            "uri": "https://pleiades.stoa.org/places/83747513/osm-location-of-villa-di-podere-anna"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twentieth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twentieth-ce"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "Podere Anna Roman villa",
+            "contributors": [],
+            "created": "2022-03-28T15:17:15Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-03-28T17:22:27Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-03-28T15:17:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2022-03-28T15:17:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-03-28T15:17:15Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "podere-anna-roman-villa",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q53637295",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q53637295: Podere Anna Roman villa",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Podere Anna Roman villa",
+            "start": 1900,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/83747513/podere-anna-roman-villa"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/villa"
+    ],
+    "placeTypes": [
+        "villa"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://www.beniculturali.it/luogo/villa-romana-di-podere-anna",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Villa romana di Podere Anna",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/949205965",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CZN7DAZR",
+            "citationDetail": "517",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Marzano, Annalisa. <i>Roman Villas in Central Italy: A Social and Economic History.</i> Leiden: E.J. Brill, 2007. http://www.worldcat.org/oclc/949205965.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Marzano 2007",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IWATNX33",
+            "citationDetail": "no. 34",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">De Franceschini, Marina. <i>Ville dell’Agro Romano</i>. Monografie della carta dell’Agro romano 2. Roma: L’Erma di Bretschneider, 2005.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "De Franceschini 2005",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q53637295",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q53637295: Podere Anna Roman villa",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.566350343851166,
+        41.94233857056062
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Villa di Podere Anna",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/83747513"
+}

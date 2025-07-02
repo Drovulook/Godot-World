@@ -1,0 +1,812 @@
+{
+    "@type": "Place",
+    "bbox": [
+        23.7242216811,
+        37.9751127984,
+        23.7242216811,
+        37.9751127984
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/579885",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-07-13T13:58:50Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "reference",
+                    "modified": "2024-02-24T03:21:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:58:50Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:58:50Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:58:50Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "579885",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q1263335",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Stoa of Attalos (Q1263335)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Athenae",
+            "uri": "https://pleiades.stoa.org/places/759679649/579885"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "bounds",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/bounds",
+            "connectsTo": "https://pleiades.stoa.org/places/807514119",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2024-02-24T00:53:01Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Chris de Lisle",
+                    "uri": "https://pleiades.stoa.org/author/cdlisle",
+                    "username": "cdlisle"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-02-24T03:19:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add reference",
+                    "modified": "2024-02-24T03:19:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-02-24T00:53:18Z",
+                    "modifiedBy": "cdlisle"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2024-02-24T00:53:02Z",
+                    "modifiedBy": "cdlisle"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-02-24T00:53:01Z",
+                    "modifiedBy": "cdlisle"
+                }
+            ],
+            "id": "agora-of-athens",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q1263335",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Stoa of Attalos (Q1263335)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "Agora of Athens",
+            "uri": "https://pleiades.stoa.org/places/759679649/agora-of-athens"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/579885",
+        "https://pleiades.stoa.org/places/807514119",
+        "https://pleiades.stoa.org/places/935360966"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Shanell Smith",
+            "uri": "https://pleiades.stoa.org/author/ssmith",
+            "username": "ssmith"
+        },
+        {
+            "homepage": null,
+            "name": "Christian Dukes",
+            "uri": "https://pleiades.stoa.org/author/cdukes",
+            "username": "cdukes"
+        },
+        {
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling",
+            "username": "bkiesling"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "name": "Monica Beltran",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Adam Rabinowitz",
+            "uri": "https://pleiades.stoa.org/author/arabinowitz",
+            "username": "arabinowitz"
+        },
+        {
+            "homepage": null,
+            "name": "Noah Kaye",
+            "uri": "https://pleiades.stoa.org/author/nkaye",
+            "username": "nkaye"
+        }
+    ],
+    "created": "2015-05-04T07:50:04Z",
+    "creators": [
+        {
+            "name": "Justina Gil",
+            "username": null
+        },
+        {
+            "name": "Janna Newman",
+            "username": null
+        }
+    ],
+    "description": "The Stoa of Attalos, located on the eastern side of the ancient Athenian agora, is a long, rectangular, two-story building of limestone and marble, with an external and internal colonnade. It was originally constructed around 150 BCE and then reconstructed in the 1950s.",
+    "details": "<p>The Stoa of Attalos, built ca. 150 BCE, was commissioned by King Attalos II of Pergamon as a gift to the city of Athens and its inhabitants. The structure was a two-story stoa, or colonnaded hall, built on the eastern side of the ancient Athenian agora. Its external colonnade was in the Doric order on the ground floor and Ionic on the upper floor, while the internal colonnade was Ionic on the ground floor and Pergamene on the upper floor. It served as a commercial and cultural center for several hundreds of years. Attalos’ monument was destroyed during the Herulian sack in 267 CE and its materials were subsequently reused in a fortification wall. Excavations on the site began in the 1930s, and the structure was then entirely reconstructed by the American School of Classical Studies in the 1950s to serve as a museum.</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    23.7242216811,
+                    37.9751127984
+                ],
+                "type": "Point"
+            },
+            "id": "imagery-location-for-the-stoa-of-attalos",
+            "properties": {
+                "description": "Location of the Stoa of Attalos, as determined by satellite imagery and published plans.",
+                "link": "https://pleiades.stoa.org/places/759679649/imagery-location-for-the-stoa-of-attalos",
+                "location_precision": "precise",
+                "snippet": "Stoa, ; 330 BC - AD 300",
+                "title": "Imagery location for the Stoa of Attalos"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q1263335",
+            "modified": "2025-01-30T04:42:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2024-02-24T03:21:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-02-24T03:20:41Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added topostext",
+            "modified": "2020-12-17T15:05:53Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added Arachne 2100320: Stoa Attalos' II. Athenae / Athēnai, Athen (Regionalbezirk)",
+            "modified": "2020-12-17T15:04:31Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-08-30T16:25:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2015-08-30T07:22:52Z",
+            "modifiedBy": "arabinowitz"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-08-30T07:21:35Z",
+            "modifiedBy": "arabinowitz"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-08-30T07:00:14Z",
+            "modifiedBy": "arabinowitz"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-08-30T06:55:46Z",
+            "modifiedBy": "arabinowitz"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-05-04T15:42:48Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-05-04T15:42:38Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "action": "Retract",
+            "modified": "2015-05-04T15:42:02Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-05-04T15:19:33Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "comment": "So Pleiades keeps rearranging the names when I click \"save\", but Janna Newman should be the principal creator for this monument, with Justina Gil coming in second",
+            "modified": "2015-05-04T15:19:17Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-05-04T15:18:06Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-05-04T15:17:27Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "action": "Retract",
+            "modified": "2015-05-04T15:16:54Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-05-04T15:15:30Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "action": "Retract",
+            "modified": "2015-05-04T15:13:27Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-05-04T08:18:45Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-05-04T07:51:43Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-05-04T07:51:13Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2015-05-04T07:50:13Z",
+            "modifiedBy": "ssmith"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-05-04T07:50:04Z",
+            "modifiedBy": "ssmith"
+        }
+    ],
+    "id": "759679649",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-partners-imagery-2013",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-roman-early-empire",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-roman-early-empire"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Shanell Smith",
+                    "uri": "https://pleiades.stoa.org/author/ssmith",
+                    "username": "ssmith"
+                },
+                {
+                    "homepage": null,
+                    "name": "Christian Dukes",
+                    "uri": "https://pleiades.stoa.org/author/cdukes",
+                    "username": "cdukes"
+                },
+                {
+                    "homepage": null,
+                    "name": "Adam Rabinowitz",
+                    "uri": "https://pleiades.stoa.org/author/arabinowitz",
+                    "username": "arabinowitz"
+                },
+                {
+                    "name": "Monica Beltran",
+                    "username": null
+                }
+            ],
+            "created": "2015-05-04T08:09:49Z",
+            "creators": [
+                {
+                    "name": "Justina Gil",
+                    "username": null
+                },
+                {
+                    "name": "Janna Newman",
+                    "username": null
+                }
+            ],
+            "description": "Location of the Stoa of Attalos, as determined by satellite imagery and published plans.",
+            "details": "\r\n<p>The Stoa of Attalos, as determined using the satillite imagery in Google Earth compared to the plan of the Athenian Agora on page 349, figure 10.16 in Pedley, 5th ed. (2012). The rule of King Attalos II of Pergamon, who built the Stoa, is referenced as being from 159-138 BCE on the same page in Pedley. The estimated date of original construction is therefore c. 150 BCE, in the Hellenistic Period. The monument was destroyed in 267 CE.</p>\r\n",
+            "end": 300,
+            "featureType": [
+                "stoa",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/stoa",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    23.7242216811,
+                    37.9751127984
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modified": "2015-08-30T16:27:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2015-08-30T07:22:53Z",
+                    "modifiedBy": "arabinowitz"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2015-08-30T07:12:09Z",
+                    "modifiedBy": "arabinowitz"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-08-30T07:11:35Z",
+                    "modifiedBy": "arabinowitz"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-05-04T15:14:27Z",
+                    "modifiedBy": "ssmith"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-05-04T08:09:55Z",
+                    "modifiedBy": "ssmith"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-05-04T08:09:51Z",
+                    "modifiedBy": "ssmith"
+                }
+            ],
+            "id": "imagery-location-for-the-stoa-of-attalos",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/stoa",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/oclc/650505960",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "Pedley, J. 2012. Greek Art and Archaeology. 5th edition. Upper Saddle River: Prentice Hall.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "Imagery location for the Stoa of Attalos",
+            "uri": "https://pleiades.stoa.org/places/759679649/imagery-location-for-the-stoa-of-attalos"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Stoa of Attalos",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Shanell Smith",
+                    "uri": "https://pleiades.stoa.org/author/ssmith",
+                    "username": "ssmith"
+                },
+                {
+                    "homepage": null,
+                    "name": "Christian Dukes",
+                    "uri": "https://pleiades.stoa.org/author/cdukes",
+                    "username": "cdukes"
+                },
+                {
+                    "name": "Monica Beltran",
+                    "username": null
+                }
+            ],
+            "created": "2015-05-04T08:17:06Z",
+            "creators": [
+                {
+                    "name": "Justina Gil",
+                    "username": null
+                },
+                {
+                    "name": "Janna Newman",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2015-08-30T07:22:54Z",
+                    "modifiedBy": "arabinowitz"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2015-08-30T07:15:38Z",
+                    "modifiedBy": "arabinowitz"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-08-30T07:15:26Z",
+                    "modifiedBy": "arabinowitz"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-05-04T08:17:12Z",
+                    "modifiedBy": "ssmith"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-05-04T08:17:08Z",
+                    "modifiedBy": "ssmith"
+                }
+            ],
+            "id": "stoa-of-attalos",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/title/greek-art-and-archaeology/oclc/711848499",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "Pedley, John Griffiths. 2012. Greek Art and Archaeology. 5th ed. New Jersey: Pearson Education.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Stoa of Attalos, Stoa of Attalus",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/759679649/stoa-of-attalos"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                }
+            ],
+            "attested": "στοά",
+            "contributors": [],
+            "created": "2016-01-07T22:00:55Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Noah Kaye",
+                    "uri": "https://pleiades.stoa.org/author/nkaye",
+                    "username": "nkaye"
+                }
+            ],
+            "description": "This word is used to describe structure in dedicatory inscription.",
+            "details": "",
+            "end": -30,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-01-07T22:26:15Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-01-07T22:13:58Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-01-07T22:13:05Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-01-07T22:09:20Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2016-01-07T22:01:03Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-01-07T22:00:58Z",
+                    "modifiedBy": "nkaye"
+                }
+            ],
+            "id": "stoa",
+            "language": "grc",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.jstor.org/stable/147170",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "Meritt 1957",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "stoa",
+            "start": -330,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/759679649/stoa"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/stoa"
+    ],
+    "placeTypes": [
+        "stoa"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.agathe.gr/overview/the_site_before_excavation.html",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "American School of Classical Studies. 2015. \"Overview: The Site Before Excavation.\" Athenian Agora Excavations.",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/3J9C7WDD",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "<div class=\"csl-entry\">Pedley, John Griffiths. <i>Greek Art and Archaeology</i>. Upper Saddle River, NJ: Prentice Hall, 2012.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Pedley 2012",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "https://www.jstor.org/stable/10.2972/hesperia.82.1.0203",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Sakka, Niki. “‘A Debt to Ancient Wisdom and Beauty’: The Reconstruction of the Stoa of Attalos in the Ancient Agora of Athens.” <i>Hesperia: The Journal of the American School of Classical Studies at Athens</i> 82, no. 1 (2013): 203–27. https://doi.org/10.2972/hesperia.82.1.0203.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Sakka 2013",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://www.worldcat.org/oclc/42989685",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "<div class=\"csl-entry\">Thompson, Homer A, Alison Frantz, and American School of Classical Studies at Athens. <i>The Stoa of Attalos II in Athens</i>. Princeton, N.J.: American School of Classical Studies at Athens, 1959.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Thompson 1959",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Stoa_of_Attalos",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Stoa of Attalos",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Stoa of Attalos.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://arachne.dainst.org/entity/5880",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "citationDetail": "Stoa Attalos' II. Athen, (Athenae / Athēnai), Athen (Regionalbezirk)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Arachne",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://topostext.org/place/380237BSAt",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MC9RGDVB",
+            "citationDetail": "Stoa of Attalos (Athens Agora) 1 Agora of Athens",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Kiesling, Brady. <i>ToposText – a Reference Tool for Greek Civilization</i>. Version 2.0. Aikaterini Laskaridis Foundation, 2016. https://topostext.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "ToposText",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.geonames.org/7910524/agora-museum-stoa-of-attalus.html",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+            "citationDetail": "7910524: Agora Museum - Stoa of Attalus",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. <i>GeoNames</i>, 2005. https://www.geonames.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "GeoNames",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1263335",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Stoa of Attalos (Q1263335)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        23.7242216811,
+        37.9751127984
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "limestone",
+        "Agora",
+        "stoa",
+        "marble"
+    ],
+    "title": "Stoa of Attalos",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/759679649"
+}

@@ -1,0 +1,319 @@
+{
+    "@type": "Place",
+    "bbox": [
+        5.0745976,
+        44.2388461,
+        5.0747265,
+        44.2389776
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2023-04-04T22:01:19Z",
+    "creators": [
+        {
+            "name": "S. Loseby",
+            "username": null
+        }
+    ],
+    "description": "The Roman bridge at Vaison-la-Romaine is supposedly dated to the first century CE.",
+    "details": "<p>The Barrington Atlas Directory notes: Vasio</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        5.0745976,
+                        44.2388461
+                    ],
+                    [
+                        5.0747265,
+                        44.2389776
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-roman-bridge",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/149498/osm-location-of-roman-bridge",
+                "location_precision": "precise",
+                "snippet": "Bridge; 30 BC - AD 300",
+                "title": "OSM location of Pont Romain"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "edit title, summary, add refs = wikipedia (fr), wikidata",
+            "modified": "2023-05-05T21:24:36Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2023-04-04T22:01:19Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2023-04-04T22:00:17Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T02:31:08Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T00:09:30Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T18:58:49Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-05-19T02:19:34Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-11-01T21:02:38Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-11-01T16:49:12Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "149498",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2023-04-04T20:58:04Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "bridge"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/bridge"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        5.0745976,
+                        44.2388461
+                    ],
+                    [
+                        5.0747265,
+                        44.2389776
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "update title, summary",
+                    "modified": "2023-04-04T22:01:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2023-04-04T21:35:47Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modified": "2023-04-04T20:58:04Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-09-13T13:44:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-09-07T03:36:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-09-07T03:35:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-09-07T03:34:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-09-07T03:34:50Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-roman-bridge",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/bridge"
+            ],
+            "provenance": "OpenStreetMap (Way 33823837, version 15, osm:changeset=132802291, 2023-02-20T17:55:17Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/33823837",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 33823837",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=33823837",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "https://fr.wikipedia.org/wiki/Vasio",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/B4HPCZIK",
+                    "citationDetail": "Vasio",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Wikipédia: L’encyclopédie libre que chacun peut améliorer (2001-), Vasio.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (French)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Pont Romain",
+            "uri": "https://pleiades.stoa.org/places/149498/osm-location-of-roman-bridge"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/bridge"
+    ],
+    "placeTypes": [
+        "bridge"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 15 E1",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "15 E1",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DD6QDJ75",
+            "citationDetail": "128-29",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Gazzola, Piero. <i>Ponti romani</i>. 2 vols. Firenze: L. S. Olschki, 1963.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Gazzola 1968",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://fr.wikipedia.org/wiki/fr:pont%20romain%20de%20Vaison-la-Romaine?uselang=en",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/B4HPCZIK",
+            "citationDetail": "Pont romain de Vaison-la-Romaine",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipédia: L’encyclopédie libre que chacun peut améliorer</i>. Wikimedia Foundation, 2001. https://fr.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (French)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q2179572",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q2179572: Vaison-la-Romaine Roman Bridge",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        5.07466205,
+        44.23891185
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "bridge"
+    ],
+    "title": "Vaison-la-Romaine Roman Bridge",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/149498"
+}

@@ -1,0 +1,851 @@
+{
+    "@type": "Place",
+    "bbox": [
+        54.4326167,
+        17.0375865,
+        54.4355161,
+        17.0399442
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "less-certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "connectionType": "on",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on",
+            "connectsTo": "https://pleiades.stoa.org/places/40228",
+            "contributors": [],
+            "created": "2023-06-05T15:15:54Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-06-05T15:59:53Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-06-05T15:16:17Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2023-06-05T15:15:55Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-06-05T15:15:54Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "moscha-limen",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -330,
+            "title": "Moscha Limen",
+            "uri": "https://pleiades.stoa.org/places/39264/moscha-limen"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/40228"
+    ],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Gabriel Mckee",
+            "uri": "https://pleiades.stoa.org/author/gmckee",
+            "username": "gmckee"
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2010-09-22T22:02:42Z",
+    "creators": [
+        {
+            "name": "D.T. Potts",
+            "username": null
+        }
+    ],
+    "description": "A small, fortified town that served as an outpost for the Ḥaḑramawt kingdom from the first to seventh centuries. The archaeological site and its surrounding landscape are known by the modern name Khor Rori, and the town is tentatively identified as Ptolemy's Abyssapolis, and the port of Moscha Limen of the Periplus Maris Erythraei.",
+    "details": "<p>The Barrington Atlas Directory notes: Khor Rori? OMN</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        54.4338022,
+                        17.0398391
+                    ],
+                    [
+                        54.433365,
+                        17.0399442
+                    ],
+                    [
+                        54.4329734,
+                        17.0398878
+                    ],
+                    [
+                        54.4326167,
+                        17.0393082
+                    ],
+                    [
+                        54.4330995,
+                        17.0385405
+                    ],
+                    [
+                        54.4346612,
+                        17.0375865
+                    ],
+                    [
+                        54.4354168,
+                        17.0381501
+                    ],
+                    [
+                        54.4355161,
+                        17.0388415
+                    ],
+                    [
+                        54.435095,
+                        17.0396698
+                    ],
+                    [
+                        54.4347249,
+                        17.0398801
+                    ],
+                    [
+                        54.4344245,
+                        17.0398519
+                    ],
+                    [
+                        54.4341133,
+                        17.0399391
+                    ],
+                    [
+                        54.4338022,
+                        17.0398391
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-khor-rori",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/39264/osm-location-of-khor-rori",
+                "location_precision": "precise",
+                "snippet": "Settlement; 330 BC - AD 640",
+                "title": "OSM location of Khor Rori"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2023-06-05T15:07:49Z",
+            "modifiedBy": "gmckee"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2023-06-05T15:03:41Z",
+            "modifiedBy": "gmckee"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2023-06-05T14:53:43Z",
+            "modifiedBy": "gmckee"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2023-06-05T14:52:39Z",
+            "modifiedBy": "gmckee"
+        },
+        {
+            "comment": "update references",
+            "modified": "2022-06-30T12:36:30Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added DARMC reference for retracted location",
+            "modified": "2018-09-25T22:30:55Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "summary",
+            "modified": "2018-06-19T13:37:36Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2015-03-30T14:34:16Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T19:31:01Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T04:37:39Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-03-09T23:48:11Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:37:18Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-09-23T16:33:16Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-09-22T23:35:10Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-09-22T22:02:42Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "39264",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "less-certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/less-certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2023-04-04T19:44:41Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "settlement"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        54.4338022,
+                        17.0398391
+                    ],
+                    [
+                        54.433365,
+                        17.0399442
+                    ],
+                    [
+                        54.4329734,
+                        17.0398878
+                    ],
+                    [
+                        54.4326167,
+                        17.0393082
+                    ],
+                    [
+                        54.4330995,
+                        17.0385405
+                    ],
+                    [
+                        54.4346612,
+                        17.0375865
+                    ],
+                    [
+                        54.4354168,
+                        17.0381501
+                    ],
+                    [
+                        54.4355161,
+                        17.0388415
+                    ],
+                    [
+                        54.435095,
+                        17.0396698
+                    ],
+                    [
+                        54.4347249,
+                        17.0398801
+                    ],
+                    [
+                        54.4344245,
+                        17.0398519
+                    ],
+                    [
+                        54.4341133,
+                        17.0399391
+                    ],
+                    [
+                        54.4338022,
+                        17.0398391
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance; less certain (per BAtlDir)",
+                    "modified": "2023-04-04T22:39:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modified": "2023-04-04T19:44:41Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-09-25T22:30:08Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-06-19T13:36:28Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2018-06-19T13:36:21Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2015-03-30T14:36:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2015-03-30T14:35:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-03-30T14:35:31Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-khor-rori",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "provenance": "OpenStreetMap (Way 335581726, version 7, osm:changeset=126845633, 2022-10-01T02:50:11Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/335581726",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 335581726",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=335581726",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "OSM location of Khor Rori",
+            "uri": "https://pleiades.stoa.org/places/39264/osm-location-of-khor-rori"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-09-22T22:02:42Z",
+            "creators": [
+                {
+                    "name": "D.T. Potts",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:37:40Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-09-23T16:33:16Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-09-22T23:35:10Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-09-22T22:02:42Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "abyssa",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 4 D2 Abyssa",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Abyssa",
+            "start": -30,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/39264/abyssa"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-09-22T22:02:42Z",
+            "creators": [
+                {
+                    "name": "D.T. Potts",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:37:40Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "comment": "Time periods copied from sibling. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+                    "modified": "2011-01-20T03:32:52Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-09-23T16:33:16Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-09-22T23:35:10Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-09-22T22:02:42Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "abissagi",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 4 D2 Abyssa",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Abissagi",
+            "start": -30,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/39264/abissagi"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twentieth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twentieth-ce"
+                }
+            ],
+            "attested": "سمهرم",
+            "contributors": [],
+            "created": "2023-06-05T14:31:29Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "Modern Arabicization of the ancient Hadramitic name.",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-06-05T15:59:53Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-06-05T15:08:05Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2023-06-05T14:37:43Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2023-06-05T14:31:29Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-06-05T14:31:29Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "sumhuram",
+            "language": "arb",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q826118",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Khor Rori",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Sumhuram",
+            "start": 1900,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/39264/sumhuram"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "خور روري",
+            "contributors": [],
+            "created": "2023-06-05T15:02:54Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "Modern Arabic name of the site.",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-06-05T15:59:53Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-06-05T15:07:57Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2023-06-05T15:02:56Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-06-05T15:02:54Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "khor-rori",
+            "language": "arb",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q826118",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Khor Rori",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Khor Rori",
+            "start": 2000,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/39264/khor-rori"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 4 D2 Abyssa",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "4 D2 Abyssa",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/I99RZGFE",
+            "citationDetail": "185",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">N. Groom. “The Periplus, Pliny and Arabia.” <i>Arabian Archaeology and Epigraphy</i> 6 (1995): 180–95.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Groom 1995",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Khor_Rori",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Khor Rori",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Khor Rori.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "19716",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://worldcat.org/oclc/227925967",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/W379DBNZ",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Avanzini, Alessandra, ed. <i>A Port in Arabia between Rome and the Indian Ocean, 3rd C. BC-5th C. AD: Khor Rori Report 2</i>. Arabia Antica 5. Roma: L’Erma di Bretschneider, 2008. https://worldcat.org/oclc/227925967.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Avanzini 2008",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://whc.unesco.org/en/list/1010",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIIFWTIR",
+            "citationDetail": "Land of Frankincense",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">UNESCO World Heritage Centre. <i>World Heritage List</i>, 1978. http://whc.unesco.org/en/list/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "WHL",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        54.43415347890724,
+        17.03892419266948
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:ancient=1",
+        "dare:feature=settlement",
+        "dare:major=0"
+    ],
+    "title": "Sumhuram",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/39264"
+}

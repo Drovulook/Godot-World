@@ -1,0 +1,303 @@
+{
+    "@type": "Place",
+    "bbox": [
+        21.2200323,
+        44.7380122,
+        21.2200323,
+        44.7380122
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/207549",
+            "contributors": [],
+            "created": "2018-04-27T19:38:26Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-04-27T19:38:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-04-27T19:38:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-04-27T19:38:26Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "9061549009",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Viminacium",
+            "uri": "https://pleiades.stoa.org/places/227495941/9061549009"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/207549"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2018-04-27T19:38:25Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Roman amphitheater at Viminacium could accommodate roughly 12,000 spectators.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    21.2200323,
+                    44.7380122
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-viminacium-amphitheatre",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/227495941/osm-location-of-viminacium-amphitheatre",
+                "location_precision": "precise",
+                "snippet": "Amphitheatre; 30 BC - AD 300",
+                "title": "OSM location of Viminacium amphitheatre"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "vici.org 4290: Amphitheatre Viminacium",
+            "modified": "2025-01-24T14:46:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-01-24T18:58:21Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "changed citation type for wikipedia to \"seeAlso\" since the wikipedia article is about the entire site, not just the amphitheater",
+            "modified": "2018-05-17T15:06:14Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-05-17T15:05:15Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-04-27T19:40:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "title, summary, reference",
+            "modified": "2018-04-27T19:40:13Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-04-27T19:38:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-04-27T19:38:25Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "227495941",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-01-24T18:56:39Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "amphitheatre"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre"
+            ],
+            "geometry": {
+                "coordinates": [
+                    21.2200323,
+                    44.7380122
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-01-26T22:01:43Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-01-24T18:57:04Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location.",
+                    "modified": "2024-01-24T18:57:00Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-01-24T18:56:39Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-01-24T18:56:39Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-viminacium-amphitheatre",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre"
+            ],
+            "provenance": "OpenStreetMap (Node 6470662356, version 3, osm:changeset=146642999, 2024-01-24T18:56:12Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/node/6470662356",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 6470662356",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=6470662356",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Viminacium amphitheatre",
+            "uri": "https://pleiades.stoa.org/places/227495941/osm-location-of-viminacium-amphitheatre"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre"
+    ],
+    "placeTypes": [
+        "amphitheatre"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Viminacium",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Viminacium",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "http://amphi-theatrum.de/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/NTQZEIIX",
+            "citationDetail": "2572",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Gogräfe, Rüdiger, Marin Buovac, and Maria Engracia Muñoz-Santos. <i>Amphi-theatrum</i>. Mainz: Direktion Landesarchäologie Mainz, 2011. http://amphi-theatrum.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Amphi-theatrum",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q28997289",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Viminacium amphitheatre (Q28997289)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://vici.org/vici/4290/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "citationDetail": "4290: Amphitheatre Viminacium",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "vici.org",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        21.2200323,
+        44.7380122
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "amphitheater"
+    ],
+    "title": "Roman amphitheater at Viminacium",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/227495941"
+}

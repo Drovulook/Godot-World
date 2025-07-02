@@ -1,0 +1,442 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.415455,
+        42.2084848,
+        12.4157032,
+        42.2087459
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "part_of_regional",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_regional",
+            "connectsTo": "https://pleiades.stoa.org/places/532728731",
+            "contributors": [],
+            "created": "2024-07-28T00:59:04Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-07-28T11:17:45Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-07-28T00:59:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn, reference",
+                    "modified": "2024-07-28T00:59:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-07-28T00:59:04Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "ager-faliscus-region",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://it.wikipedia.org/wiki/Santuario_di_Monte_Li_Santi",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+                    "citationDetail": "Santuario di Monte Li Santi",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikipedia (Italian)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Ager Faliscus (region)",
+            "uri": "https://pleiades.stoa.org/places/792532423/ager-faliscus-region"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/532728731"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Ryan Horne",
+            "uri": "https://pleiades.stoa.org/author/rmhorne",
+            "username": "rmhorne"
+        }
+    ],
+    "created": "2013-12-30T15:45:05Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A Faliscan sanctuary located on the slopes of Monte Li Santi.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.4155596,
+                        42.2087459
+                    ],
+                    [
+                        12.415455,
+                        42.208517
+                    ],
+                    [
+                        12.4156066,
+                        42.2084848
+                    ],
+                    [
+                        12.4157032,
+                        42.2087117
+                    ],
+                    [
+                        12.4155596,
+                        42.2087459
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-sanctuary",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/792532423/location-of-sanctuary",
+                "location_precision": "precise",
+                "snippet": "Sanctuary, ; 330 BC - 30 BC",
+                "title": "OSM location of Santuario di Monte Li Santi"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add wikidata Sanctuary of Monte Li Santi (Q3949896)",
+            "modified": "2024-11-08T03:29:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-10-05T11:06:29Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-24T00:49:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2014-08-24T16:38:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2014-02-04T04:56:25Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited description, added references",
+            "modified": "2013-12-30T16:03:10Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2013-12-30T15:45:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2013-12-30T15:45:06Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "792532423",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Ryan Horne",
+                    "uri": "https://pleiades.stoa.org/author/rmhorne",
+                    "username": "rmhorne"
+                }
+            ],
+            "created": "2014-02-04T04:56:44Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": -30,
+            "featureType": [
+                "sanctuary",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.4155596,
+                        42.2087459
+                    ],
+                    [
+                        12.415455,
+                        42.208517
+                    ],
+                    [
+                        12.4156066,
+                        42.2084848
+                    ],
+                    [
+                        12.4157032,
+                        42.2087117
+                    ],
+                    [
+                        12.4155596,
+                        42.2087459
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-07-28T00:58:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-25T16:52:58Z",
+                    "modifiedBy": "rmhorne"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-25T16:52:52Z",
+                    "modifiedBy": "rmhorne"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-24T00:52:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-08-24T16:38:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-02-04T04:57:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-02-04T04:56:49Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-02-04T04:56:46Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-sanctuary",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 254346886, version 4, osm:changeset=65235528, 2018-12-06T11:26:51Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/254346886",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 254346886",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=254346886",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "OSM location of Santuario di Monte Li Santi",
+            "uri": "https://pleiades.stoa.org/places/792532423/location-of-sanctuary"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "Santuario di Monte Li Santi",
+            "contributors": [],
+            "created": "2024-11-08T03:30:38Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-11-08T19:24:00Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-11-08T03:30:43Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add name",
+                    "modified": "2024-11-08T03:30:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-11-08T03:30:38Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "santuario-di-monte-li-santi",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q3949896",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Sanctuary of Monte Li Santi (Q3949896)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Santuario di Monte Li Santi",
+            "start": 2000,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/792532423/santuario-di-monte-li-santi"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+    ],
+    "placeTypes": [
+        "sanctuary"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Santuario_di_Monte_Li_Santi",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Santuario di Monte Li Santi",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Santuario di Monte Li Santi.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Parco_regionale_Valle_del_Treja",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Parco suburbano Valle del Treja",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Parco suburbano Valle del Treja.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q3949896",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Sanctuary of Monte Li Santi (Q3949896)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.41558017113289,
+        42.20861390689204
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Monte Li Santi",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/792532423"
+}

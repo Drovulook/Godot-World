@@ -1,0 +1,339 @@
+{
+    "@type": "Place",
+    "bbox": [
+        36.9534064,
+        36.7352984,
+        36.9534064,
+        36.7352984
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/658446",
+            "contributors": [],
+            "created": "2016-07-13T13:46:33Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:46:33Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:46:33Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:46:33Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "658446",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Cyrrus/Hagioupolis",
+            "uri": "https://pleiades.stoa.org/places/357674130/658446"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/658446"
+    ],
+    "contributors": [],
+    "created": "2015-02-26T13:07:12Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A hexagonal tomb, perhaps that of a Roman centurion, dating to the late second or early third century AD.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        36.9534064,
+                        36.7352984
+                    ],
+                    [
+                        36.9533501,
+                        36.7353199
+                    ],
+                    [
+                        36.9533051,
+                        36.7352845
+                    ],
+                    [
+                        36.9533045,
+                        36.7352296
+                    ],
+                    [
+                        36.9533474,
+                        36.7352038
+                    ],
+                    [
+                        36.9534117,
+                        36.7352318
+                    ],
+                    [
+                        36.9534064,
+                        36.7352984
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/357674130/osm-location",
+                "location_precision": "precise",
+                "snippet": "Tomb, ; 30 BC - AD 640",
+                "title": "OSM location of Hexagonal Mausoleum, Cyrrhus"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added references",
+            "modified": "2021-05-05T14:00:06Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2021-05-04T22:42:16Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2016-08-10T19:49:37Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-08-10T19:48:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2015-02-26T13:07:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-02-26T13:07:13Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "357674130",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-early-empire-late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2015-02-27T02:35:59Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "tomb",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        36.9534064,
+                        36.7352984
+                    ],
+                    [
+                        36.9533501,
+                        36.7353199
+                    ],
+                    [
+                        36.9533051,
+                        36.7352845
+                    ],
+                    [
+                        36.9533045,
+                        36.7352296
+                    ],
+                    [
+                        36.9533474,
+                        36.7352038
+                    ],
+                    [
+                        36.9534117,
+                        36.7352318
+                    ],
+                    [
+                        36.9534064,
+                        36.7352984
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-22T16:20:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-05-04T22:42:16Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-08-10T19:49:15Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-08-10T19:49:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2015-02-27T02:36:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2015-02-27T02:36:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-02-27T02:36:01Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 330352568, version 2, osm:changeset=148888742, 2024-03-20T01:19:16Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/330352568",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 330352568",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=330352568",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Hexagonal Mausoleum, Cyrrhus",
+            "uri": "https://pleiades.stoa.org/places/357674130/osm-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+    ],
+    "placeTypes": [
+        "tomb"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.livius.org/ct-cz/cyrrhus/cyrrhus.html",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/726HWVKS",
+            "citationDetail": "Cyrrhus",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Lendering, Jona. <i>Livius - Articles on Ancient History</i>, 1995. http://www.livius.org/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Livius.org",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q71990767",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q71990767: Hexagonal Mausoleum at Cyrrhus",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.livius.org/pictures/syria/cyrrhus/cyrrhus-hexagonal-mausoleum/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/726HWVKS",
+            "citationDetail": "Cyrrhus, Hexagonal mausoleum",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Lendering, Jona. <i>Livius - Articles on Ancient History</i>, 1995. http://www.livius.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Livius.org",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        36.9534064,
+        36.7352984
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Hexagonal mausoleum",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/357674130"
+}

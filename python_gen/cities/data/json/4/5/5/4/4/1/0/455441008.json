@@ -1,0 +1,438 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.1309826,
+        42.4887038,
+        12.1309826,
+        42.4887038
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/413132",
+            "contributors": [],
+            "created": "2018-06-05T05:03:25Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-06-05T05:03:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-06-05T05:03:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-06-05T05:03:25Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "0050889206",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Ferentium",
+            "uri": "https://pleiades.stoa.org/places/455441008/0050889206"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/413132"
+    ],
+    "contributors": [],
+    "created": "2018-06-05T05:03:23Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Roman theater at Ferentium dates to the early Imperial period.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.1312707,
+                        42.4891909
+                    ],
+                    [
+                        12.1300342,
+                        42.4893393
+                    ],
+                    [
+                        12.1294548,
+                        42.4887538
+                    ],
+                    [
+                        12.1296171,
+                        42.4884576
+                    ],
+                    [
+                        12.1297749,
+                        42.488411
+                    ],
+                    [
+                        12.1297516,
+                        42.488243
+                    ],
+                    [
+                        12.1295456,
+                        42.4880069
+                    ],
+                    [
+                        12.1302659,
+                        42.487899
+                    ],
+                    [
+                        12.1304868,
+                        42.4878906
+                    ],
+                    [
+                        12.130644,
+                        42.487909
+                    ],
+                    [
+                        12.1324573,
+                        42.4883776
+                    ],
+                    [
+                        12.1331905,
+                        42.4885297
+                    ],
+                    [
+                        12.1333331,
+                        42.48865
+                    ],
+                    [
+                        12.1330873,
+                        42.4891337
+                    ],
+                    [
+                        12.132531,
+                        42.4890318
+                    ],
+                    [
+                        12.1325125,
+                        42.4890528
+                    ],
+                    [
+                        12.1323564,
+                        42.4890278
+                    ],
+                    [
+                        12.1321933,
+                        42.4894342
+                    ],
+                    [
+                        12.1312707,
+                        42.4891909
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-roman-theater",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/455441008/osm-location-of-roman-theater",
+                "location_precision": "precise",
+                "snippet": "Theatre, ; 330 BC - AD 300",
+                "title": "OSM Location of Roman theater"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "action": "Publish externally",
+            "modified": "2018-06-05T21:18:30Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-06-05T16:26:51Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "references, summary",
+            "modified": "2018-06-05T16:26:36Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "title",
+            "modified": "2018-06-05T05:03:47Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-06-05T05:03:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-06-05T05:03:23Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "455441008",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-11-27T02:59:49Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "theatre",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/theatre",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.1312707,
+                        42.4891909
+                    ],
+                    [
+                        12.1300342,
+                        42.4893393
+                    ],
+                    [
+                        12.1294548,
+                        42.4887538
+                    ],
+                    [
+                        12.1296171,
+                        42.4884576
+                    ],
+                    [
+                        12.1297749,
+                        42.488411
+                    ],
+                    [
+                        12.1297516,
+                        42.488243
+                    ],
+                    [
+                        12.1295456,
+                        42.4880069
+                    ],
+                    [
+                        12.1302659,
+                        42.487899
+                    ],
+                    [
+                        12.1304868,
+                        42.4878906
+                    ],
+                    [
+                        12.130644,
+                        42.487909
+                    ],
+                    [
+                        12.1324573,
+                        42.4883776
+                    ],
+                    [
+                        12.1331905,
+                        42.4885297
+                    ],
+                    [
+                        12.1333331,
+                        42.48865
+                    ],
+                    [
+                        12.1330873,
+                        42.4891337
+                    ],
+                    [
+                        12.132531,
+                        42.4890318
+                    ],
+                    [
+                        12.1325125,
+                        42.4890528
+                    ],
+                    [
+                        12.1323564,
+                        42.4890278
+                    ],
+                    [
+                        12.1321933,
+                        42.4894342
+                    ],
+                    [
+                        12.1312707,
+                        42.4891909
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-22T02:11:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-12-09T22:37:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-12-09T22:37:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-11-27T03:02:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-11-27T02:59:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-11-27T02:59:51Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-roman-theater",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/theatre",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 248609705, version 8, osm:changeset=138539870, 2023-07-15T10:52:10Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/248609705",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 248609705",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=248609705",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "OSM Location of Roman theater",
+            "uri": "https://pleiades.stoa.org/places/455441008/osm-location-of-roman-theater"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/theatre"
+    ],
+    "placeTypes": [
+        "theatre"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://commons.wikimedia.org/wiki/Category:Ancient_Roman_theatre_(Ferentium)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/L8RBW985",
+            "citationDetail": "Category:Ancient Roman theatre (Ferentium)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">“Wikimedia Commons.” Media file repository. Wikimedia Commons, 2004. https://commons.wikimedia.org/wiki/Main_Page.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikimedia Commons",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Ferentium",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Ferentium",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Ferento",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+            "citationDetail": "Ferento",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        12.1309826,
+        42.4887038
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "theater",
+        "extant remains"
+    ],
+    "title": "Roman theater at Ferentium",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/455441008"
+}

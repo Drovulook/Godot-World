@@ -1,0 +1,427 @@
+{
+    "@type": "Place",
+    "bbox": [
+        1.5,
+        40.0,
+        1.5,
+        40.0
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/1043",
+            "contributors": [],
+            "created": "2016-07-13T13:51:53Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:51:53Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:51:53Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:51:53Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "1043",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Internum Mare",
+            "uri": "https://pleiades.stoa.org/places/265818/1043"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/1043",
+        "https://pleiades.stoa.org/places/266001",
+        "https://pleiades.stoa.org/places/265840",
+        "https://pleiades.stoa.org/places/265817"
+    ],
+    "contributors": [
+        {
+            "name": "R. Warner",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-09-24T19:01:02Z",
+    "creators": [
+        {
+            "name": "P.O. Spann",
+            "username": null
+        }
+    ],
+    "description": "The Balearic Sea or Iberian Sea: coastal waters to the south and east of the Iberian Peninsula.",
+    "details": "<p>The Barrington Atlas Directory notes: S and E coastal waters</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    1.5,
+                    40
+                ],
+                "type": "Point"
+            },
+            "id": "location-of-baliaricum-mare",
+            "properties": {
+                "description": "coordinates after GeoHack.",
+                "link": "https://pleiades.stoa.org/places/265818/location-of-baliaricum-mare",
+                "location_precision": "precise",
+                "snippet": "Water-open; AD 1700 - AD 2100",
+                "title": "Imagery location of Balearic Sea"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-02-26T03:04:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "description",
+            "modified": "2014-02-05T12:18:51Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2014-02-05T12:11:15Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "added connection",
+            "modified": "2013-07-17T18:44:51Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited description; added references",
+            "modified": "2013-04-27T14:44:55Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T03:50:16Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:21:46Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-09-24T19:34:06Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-09-24T19:10:11Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-09-24T19:01:02Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "265818",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-geohack-accuracy-assessment",
+            "accuracy_value": 2000.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-04-27T14:50:14Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "coordinates after GeoHack.",
+            "details": "",
+            "end": 2100,
+            "featureType": [
+                "water-open"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/water-open"
+            ],
+            "geometry": {
+                "coordinates": [
+                    1.5,
+                    40
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "update",
+                    "modified": "2024-02-26T03:03:15Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2014-02-05T12:10:33Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "edited title",
+                    "modified": "2014-01-20T23:00:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-04-27T14:50:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-04-27T14:50:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-04-27T14:50:18Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-baliaricum-mare",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/water-open"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://toolserver.org/~geohack/geohack.php?pagename=Balearic_Sea&params=40_0_N_1_30_E_scale:2500000",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "GeoHack - Balearic Sea",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1700,
+            "title": "Imagery location of Balearic Sea",
+            "uri": "https://pleiades.stoa.org/places/265818/location-of-baliaricum-mare"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Warner",
+                    "username": null
+                },
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-09-24T19:01:02Z",
+            "creators": [
+                {
+                    "name": "P.O. Spann",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T03:50:16Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-09-24T19:34:06Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-09-24T19:10:11Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-09-24T19:01:02Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "baliaricum-mare",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 27 F2 Baliaricum Mare",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Baliaricum Mare",
+            "start": -330,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/265818/baliaricum-mare"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/water-open"
+    ],
+    "placeTypes": [
+        "water-open"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 27 F2 Baliaricum Mare",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "27 F2 Baliaricum Mare",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/t.html#Tovar-1989",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Tovar 1989, 256",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/40415507",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/XH3XVBTP",
+            "citationDetail": "pp. 85-86",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Cepas, Adela, Joseph Guitart i Duran, and Guillermo Fatás Cabeza. <i>Tabula Imperii Romani: K/J-31 Pyrénées Orientales/Baleares: Tarraco - Baliares</i>. Tabula Imperii Romani, K/J-31. Pyreneés Orientales-Baleares. Madrid: Ministerio de Fomento: Ministerio de Educación y Cultura CSIC : Institut D’Estudis Catalans, 1997. http://www.worldcat.org/oclc/40415507.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "TIR Tarraco",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Balearic_Sea",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Balearic Sea",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Balearic Sea.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        1.5,
+        40.0
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Baliaricum Mare",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/265818"
+}

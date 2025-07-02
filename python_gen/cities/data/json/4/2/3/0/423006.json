@@ -1,0 +1,936 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.6529198,
+        41.7302229,
+        12.655657,
+        41.731832
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/422885",
+            "contributors": [],
+            "created": "2022-12-15T14:35:07Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-12-19T11:30:07Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-12-15T14:58:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2022-12-15T14:58:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2022-12-15T14:35:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-12-15T14:35:07Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "castra-albana",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/3173660",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CXU3CJD5",
+                    "citationDetail": "28-38",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Tortorici, Edoardo. <i>Forma Italiae: Castra Albana (regio 1, v. 11)</i>. Forma Italiae, regio 1, v. 11. Rome: De Luca, 1975. http://www.worldcat.org/oclc/3173660.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "FormIt Castra Albana",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Castra Albana",
+            "uri": "https://pleiades.stoa.org/places/423006/castra-albana"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/422885",
+        "https://pleiades.stoa.org/places/517012719"
+    ],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt",
+            "username": "jahlfeldt"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2010-11-10T22:33:17Z",
+    "creators": [
+        {
+            "name": "L. Quilici",
+            "username": null
+        },
+        {
+            "name": "S. Quilici Gigli",
+            "username": null
+        }
+    ],
+    "description": "A villa attributed to Cnaeus Pompeius.",
+    "details": "<p>The Barrington Atlas Directory notes: Pompeo, so-called Villa of Pompey and tomb, near Albano</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    12.655657,
+                    41.731832
+                ],
+                "type": "Point"
+            },
+            "id": "darmc-location-20627",
+            "properties": {
+                "description": "150K scale point location",
+                "link": "https://pleiades.stoa.org/places/423006/darmc-location-20627",
+                "location_precision": "precise",
+                "snippet": "Unknown; 330 BC - AD 640",
+                "title": "DARMC location 20627"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.6547804,
+                    41.7302569
+                ],
+                "type": "Point"
+            },
+            "id": "dare-location",
+            "properties": {
+                "description": "Representative point location, site precision",
+                "link": "https://pleiades.stoa.org/places/423006/dare-location",
+                "location_precision": "precise",
+                "snippet": "Tomb, ; 330 BC - AD 640",
+                "title": "DARE Location"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.6529198,
+                    41.7302229
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-villa-di-pompeo",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/423006/osm-location-of-villa-di-pompeo",
+                "location_precision": "precise",
+                "snippet": "Villa; 30 BC - AD 300",
+                "title": "OSM location of Villa di Pompeo"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "references",
+            "modified": "2022-12-15T14:47:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "vici.org",
+            "modified": "2022-12-15T14:38:22Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2022-12-15T14:37:07Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "updates",
+            "modified": "2021-03-27T21:44:42Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-17T17:09:11Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited description; added references",
+            "modified": "2013-02-16T20:42:16Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T23:45:41Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T04:56:30Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-01-21T23:14:02Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:44:27Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-11T05:13:01Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-10T22:39:13Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-10T22:33:17Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "423006",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-c",
+            "accuracy_value": 10000.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "DARMC, R. Talbert, T. Elliott, S. Gillies",
+                    "username": null
+                }
+            ],
+            "created": "2011-01-21T23:14:01Z",
+            "creators": [
+                {
+                    "name": "L. Quilici",
+                    "username": null
+                },
+                {
+                    "name": "S. Quilici Gigli",
+                    "username": null
+                }
+            ],
+            "description": "150K scale point location",
+            "details": "DARMC OBJECTID: 20627",
+            "end": 640,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.655657,
+                    41.731832
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:56:31Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-01-21T23:22:59Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-01-21T23:14:02Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-01-21T23:14:02Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "darmc-location-20627",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "DARMC OBJECTID: 20627",
+            "references": [
+                {
+                    "accessURI": "https://darmc.harvard.edu/",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+                    "citationDetail": "20627",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 20627.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "DARMC",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "DARMC location 20627",
+            "uri": "https://pleiades.stoa.org/places/423006/darmc-location-20627"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+            "accuracy_value": 10.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2012-10-20T23:45:39Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt",
+                    "username": "jahlfeldt"
+                }
+            ],
+            "description": "Representative point location, site precision",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "tomb",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.6547804,
+                    41.7302569
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-29T15:05:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-10-20T23:45:40Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-10-20T23:45:40Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+                    "modified": "2012-10-20T23:45:40Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-10-20T23:45:39Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "dare-location",
+            "locationType": [
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+            "references": [
+                {
+                    "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "Johan Åhlfeldt, Digital Atlas of the Roman Empire, 2012.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "DARE Location",
+            "uri": "https://pleiades.stoa.org/places/423006/dare-location"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2022-12-15T14:34:16Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "villa"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/villa"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.6529198,
+                    41.7302229
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "added Generic OSM Accuracy Assessment",
+                    "modified": "2023-02-24T14:59:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-12-19T11:30:07Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-12-15T14:47:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-12-15T14:34:16Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-villa-di-pompeo",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/villa"
+            ],
+            "provenance": "OpenStreetMap (Node 1604799798, version 2, osm:changeset=23067845, 2014-06-21T18:32:19Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/node/1604799798",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 1604799798",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=1604799798",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Villa di Pompeo",
+            "uri": "https://pleiades.stoa.org/places/423006/osm-location-of-villa-di-pompeo"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "villa di Pompeo Magno",
+            "contributors": [],
+            "created": "2022-12-15T14:59:14Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-12-19T11:30:07Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-12-15T14:59:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2022-12-15T14:59:15Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-12-15T14:59:14Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "villa-di-pompeo-magno",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YKGM8SAI",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Lancetti, Emanuela. “La cosiddetta villa di Pompeo Magno.” In <i>Albano Laziale : il circuito archeologico monumentale</i>, 43–52. Albano: Musei civici di Albano, 2015.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Lancetti 2015",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "villa di Pompeo Magno",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/423006/villa-di-pompeo-magno"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twentieth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twentieth-ce"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "Pompeo",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2022-12-15T15:00:10Z",
+            "creators": [
+                {
+                    "name": "L. Quilici",
+                    "username": null
+                },
+                {
+                    "name": "S. Quilici Gigli",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-12-19T11:30:08Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-12-15T15:00:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference, provenance",
+                    "modified": "2022-12-15T15:00:44Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2022-12-15T15:00:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-12-15T15:00:10Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "pompeo",
+            "language": "it",
+            "nameType": "label",
+            "provenance": "Barrington Atlas: BAtlas 43 C3 Pompeo",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/43970336",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+                    "citationDetail": "43 C3 Pompeo",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "BAtlas",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Pompeo",
+            "start": 1900,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/423006/pompeo"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                }
+            ],
+            "attested": "Albano Cn. Pompei",
+            "contributors": [],
+            "created": "2022-12-15T15:27:12Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -30,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-12-19T11:30:08Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-12-15T15:27:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2022-12-15T15:27:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-12-15T15:27:12Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "albano-cn-pompei",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://latin.packhum.org/loc/474/30/1/580-598",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "Cic. Rab. Post. 6.10",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Albano Cn. Pompei",
+            "start": -330,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/423006/albano-cn-pompei"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+        "https://pleiades.stoa.org/vocabularies/place-types/villa"
+    ],
+    "placeTypes": [
+        "tomb",
+        "villa"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 43 C3 Pompeo",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "43 C3 Pompeo",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/3173660",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CXU3CJD5",
+            "citationDetail": "pp. 28-38",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Tortorici, Edoardo. <i>Forma Italiae: Castra Albana (regio 1, v. 11)</i>. Forma Italiae, regio 1, v. 11. Rome: De Luca, 1975. http://www.worldcat.org/oclc/3173660.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "FormIt Castra Albana",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Albano_Laziale",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Albano Laziale",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Albano Laziale.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://latin.packhum.org/loc/474/30/1/580-586",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "Cic. Rab. Post. 6.10",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "https://vici.org/vici/11673/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "citationDetail": "11673: Villa des Pompeius Magnus",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "vici.org",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/EM5T5EBW",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Cacciotti, Beatrice. “La cosiddetta villa di Pompeo ad Albano: stato della questione e nuove considerazioni attraverso i marmi antichi della collezione Doria Pamphilj.” In <i>Rivista dell’Istituto nazionale d’archeologia e storia dell’arte, 3.Serie, anno 43, v. 75 (2020)</i>, pages 55-110. Pisa ;  Roma: Serra, 2020.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Cacciotti 2020",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/AV66YCAM",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Chiarucci, P. “La cisterna sinistra della villa imperiale, già di Pompeo Magno in Albano.” In <i>Documenta Albana, 2,12.1990-91</i>, 23–31, Abb, 1990.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Chiarucci 1990",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/7XTEYCTG",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Lancetti, Emanuela. “Studi preliminari sulle decorazioni pittoriche della cd. Villa di Pompeo ad Albano.” In <i>Scienze dell’antichità. Storia, archeologia, antropologia, 25 (2019)</i>, Fasc.2, 115-126. Roma: Università degli studi di Roma “La Sapienza,” 2019.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Lancetti 2019",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YKGM8SAI",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Lancetti, Emanuela. “La cosiddetta villa di Pompeo Magno.” In <i>Albano Laziale : il circuito archeologico monumentale</i>, 43–52. Albano: Musei civici di Albano, 2015.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Lancetti 2015",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        12.654452399999998,
+        41.7307706
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=0",
+        "dare:feature=temple"
+    ],
+    "title": "Pompeo",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/423006"
+}

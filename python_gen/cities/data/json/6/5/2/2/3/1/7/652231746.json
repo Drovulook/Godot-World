@@ -1,0 +1,586 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.773332,
+        41.9405327,
+        12.7740282,
+        41.9411825
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "part_of_analytical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_analytical",
+            "connectsTo": "https://pleiades.stoa.org/places/423127",
+            "contributors": [],
+            "created": "2020-11-23T03:30:04Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Joshua Rosenheim",
+                    "uri": "https://pleiades.stoa.org/author/jrosenheim",
+                    "username": "jrosenheim"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-12-02T11:45:58Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-11-23T18:58:21Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2020-11-23T18:57:57Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "action": "Retract",
+                    "modified": "2020-11-23T18:56:50Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-11-23T04:03:43Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2020-11-23T03:30:31Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2020-11-23T03:30:07Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-11-23T03:30:04Z",
+                    "modifiedBy": "jrosenheim"
+                }
+            ],
+            "id": "villa-hadriani",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Villa Hadriani",
+            "uri": "https://pleiades.stoa.org/places/652231746/villa-hadriani"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423127"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2020-11-23T03:21:20Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Joshua Rosenheim",
+            "uri": "https://pleiades.stoa.org/author/jrosenheim",
+            "username": "jrosenheim"
+        }
+    ],
+    "description": "A sacred precinct at the western end of Villa Hadriani, comprising two temples at opposite (north and south) ends of a plaza or garden, and (on the western edge of this complex) a small colonnaded hemicycle. Here, Hadrian may have planned to build a large, semi-circular temple-tomb for Antinous, in place of which his successors built the colonnaded hemicycle.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.7738387,
+                        41.9409588
+                    ],
+                    [
+                        12.7736985,
+                        41.9411825
+                    ],
+                    [
+                        12.7734163,
+                        41.9410919
+                    ],
+                    [
+                        12.7733646,
+                        41.9410768
+                    ],
+                    [
+                        12.7734052,
+                        41.9410054
+                    ],
+                    [
+                        12.7733332,
+                        41.9409382
+                    ],
+                    [
+                        12.7733904,
+                        41.9409025
+                    ],
+                    [
+                        12.7733817,
+                        41.9408471
+                    ],
+                    [
+                        12.7733901,
+                        41.9407921
+                    ],
+                    [
+                        12.773332,
+                        41.9407655
+                    ],
+                    [
+                        12.7733833,
+                        41.9407238
+                    ],
+                    [
+                        12.7734193,
+                        41.9407366
+                    ],
+                    [
+                        12.7734867,
+                        41.9406939
+                    ],
+                    [
+                        12.7735673,
+                        41.9406667
+                    ],
+                    [
+                        12.7736168,
+                        41.9405861
+                    ],
+                    [
+                        12.7736503,
+                        41.9405974
+                    ],
+                    [
+                        12.7736916,
+                        41.940542
+                    ],
+                    [
+                        12.7737413,
+                        41.9405591
+                    ],
+                    [
+                        12.7737566,
+                        41.9405327
+                    ],
+                    [
+                        12.7740282,
+                        41.9406233
+                    ],
+                    [
+                        12.7738387,
+                        41.9409588
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "antinoeion",
+            "properties": {
+                "description": "Polygon representing the location of the Antinoeion at Hadrian's Villa, derived from an OpenStreetMap way.",
+                "link": "https://pleiades.stoa.org/places/652231746/antinoeion",
+                "location_precision": "precise",
+                "snippet": "Temple-2, Tomb, Garden-hortus; 30 BC - AD 300",
+                "title": "OSM location of Antinoeion at Hadrian's Villa"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2025-04-30T02:31:05Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-07-03T01:19:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added Wikidata reference",
+            "modified": "2020-12-02T15:45:11Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2020-12-02T11:45:58Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2020-11-23T18:58:21Z",
+            "modifiedBy": "jrosenheim"
+        },
+        {
+            "action": "Retract",
+            "modified": "2020-11-23T18:56:50Z",
+            "modifiedBy": "jrosenheim"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2020-11-23T04:03:43Z",
+            "modifiedBy": "jrosenheim"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-11-23T04:03:14Z",
+            "modifiedBy": "jrosenheim"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-11-23T03:59:10Z",
+            "modifiedBy": "jrosenheim"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-11-23T03:56:02Z",
+            "modifiedBy": "jrosenheim"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-11-23T03:51:23Z",
+            "modifiedBy": "jrosenheim"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-11-23T03:46:42Z",
+            "modifiedBy": "jrosenheim"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-11-23T03:24:11Z",
+            "modifiedBy": "jrosenheim"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2020-11-23T03:21:23Z",
+            "modifiedBy": "jrosenheim"
+        },
+        {
+            "action": "Create",
+            "modified": "2020-11-23T03:21:20Z",
+            "modifiedBy": "jrosenheim"
+        }
+    ],
+    "id": "652231746",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2020-11-23T03:25:06Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Joshua Rosenheim",
+                    "uri": "https://pleiades.stoa.org/author/jrosenheim",
+                    "username": "jrosenheim"
+                }
+            ],
+            "description": "Polygon representing the location of the Antinoeion at Hadrian's Villa, derived from an OpenStreetMap way.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "temple-2",
+                "tomb",
+                "garden-hortus"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2",
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/garden-hortus"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.7738387,
+                        41.9409588
+                    ],
+                    [
+                        12.7736985,
+                        41.9411825
+                    ],
+                    [
+                        12.7734163,
+                        41.9410919
+                    ],
+                    [
+                        12.7733646,
+                        41.9410768
+                    ],
+                    [
+                        12.7734052,
+                        41.9410054
+                    ],
+                    [
+                        12.7733332,
+                        41.9409382
+                    ],
+                    [
+                        12.7733904,
+                        41.9409025
+                    ],
+                    [
+                        12.7733817,
+                        41.9408471
+                    ],
+                    [
+                        12.7733901,
+                        41.9407921
+                    ],
+                    [
+                        12.773332,
+                        41.9407655
+                    ],
+                    [
+                        12.7733833,
+                        41.9407238
+                    ],
+                    [
+                        12.7734193,
+                        41.9407366
+                    ],
+                    [
+                        12.7734867,
+                        41.9406939
+                    ],
+                    [
+                        12.7735673,
+                        41.9406667
+                    ],
+                    [
+                        12.7736168,
+                        41.9405861
+                    ],
+                    [
+                        12.7736503,
+                        41.9405974
+                    ],
+                    [
+                        12.7736916,
+                        41.940542
+                    ],
+                    [
+                        12.7737413,
+                        41.9405591
+                    ],
+                    [
+                        12.7737566,
+                        41.9405327
+                    ],
+                    [
+                        12.7740282,
+                        41.9406233
+                    ],
+                    [
+                        12.7738387,
+                        41.9409588
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2025-04-30T02:22:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-07-03T01:18:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-12-02T11:45:58Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-11-23T18:58:21Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "action": "Retract",
+                    "modified": "2020-11-23T18:56:50Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-11-23T04:03:43Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2020-11-23T03:29:10Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2020-11-23T03:25:07Z",
+                    "modifiedBy": "jrosenheim"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-11-23T03:25:06Z",
+                    "modifiedBy": "jrosenheim"
+                }
+            ],
+            "id": "antinoeion",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2",
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/garden-hortus"
+            ],
+            "provenance": "OpenStreetMap (Way 563586518, version 7, osm:changeset=152397216, 2024-06-08T01:31:59Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/563586518",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 563586518",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=563586518",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Antinoeion at Hadrian's Villa",
+            "uri": "https://pleiades.stoa.org/places/652231746/antinoeion"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/garden-hortus",
+        "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "garden-hortus",
+        "tomb",
+        "temple-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/1075767447",
+            "alternateURI": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015048628583&view=2up&seq=144",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YUIT5KIK",
+            "citationDetail": "pages 113-144",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Salza Prina Ricotti, E. “La ricerca della ‘tomba’ di Antinoo a Villa Adriana.” <i>Atti della Pontificia Accademia Romana di Archeologia. Rendiconti</i> 75, no. 2002 (2003): 113–44. https://dialnet.unirioja.es/servlet/articulo?codigo=2468088.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Salza Prina Ricotti 2003",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://vwhl.soic.indiana.edu/villa/index.php",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZYR5UDDZ",
+            "citationDetail": "Antinoeion",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Digital Hadrian’s Villa Project. “The Digital Hadrian’s Villa Project,” 2013. http://vwhl.soic.indiana.edu/villa/index.php.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Digital Hadrian's Villa Project",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/800575474",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZSQCSIFI",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Penna, Agostino. <i>Viaggio pittorico della villa Adriana: composto di Vedute disegnate dal Vero ed incise : con una breve descrizione di ciascun monumento</i>. Roma: nella tipografia di Pietro Aureli, 1831.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Penna 1831",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/60654435",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YY2TAA5I",
+            "citationDetail": "page 262",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Miscellanea filologica critica e antiquaria dell’avvocato Carlo Fea</i>. Tomo primo. Roma: nella stamperia Pagliarini, 1790.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Fea 1790",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/220729070",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MGS6Y8VP",
+            "citationDetail": "pages 217-229",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Grenier, Jean-Claude, and Filippo Coarelli. “La tombe d’Antinoüs à Rome.” <i>Mélanges de l’école française de Rome</i> 98, no. 1 (1986): 217–53. https://doi.org/10.3406/mefr.1986.1498.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Grenier 1986",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q102234817",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Antinoeion (Q102234817)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.773649367834663,
+        41.94083743588299
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "GardRomEmp"
+    ],
+    "title": "Antinoeion at Hadrian's Villa",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/652231746"
+}

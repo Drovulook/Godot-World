@@ -1,0 +1,491 @@
+{
+    "@type": "Place",
+    "bbox": [
+        30.359629,
+        30.3190367,
+        30.3600656,
+        30.319076
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "in",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/in",
+            "connectsTo": "https://pleiades.stoa.org/places/727232",
+            "contributors": [],
+            "created": "2024-10-17T22:29:32Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-10-18T14:44:44Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-10-17T22:29:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn, reference",
+                    "modified": "2024-10-17T22:29:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-10-17T22:29:32Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "sketis",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q3320206",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Monastery of Saint Pishoy (Q3320206)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Sketis",
+            "uri": "https://pleiades.stoa.org/places/727107/sketis"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/727232"
+    ],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt",
+            "username": "jahlfeldt"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2009-09-09T06:40:58Z",
+    "creators": [
+        {
+            "name": "A. Bernand",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 74 C4 Deir Amba Bishoi",
+    "details": "<p>The Barrington Atlas Directory notes: Deir Amba Bishoi, Wadi Natrun</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    30.359629,
+                    30.319076
+                ],
+                "type": "Point"
+            },
+            "id": "dare-location",
+            "properties": {
+                "description": "Representative point location, site precision",
+                "link": "https://pleiades.stoa.org/places/727107/dare-location",
+                "location_precision": "precise",
+                "snippet": "Church; AD 300 - AD 640",
+                "title": "DARE Location"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    30.3600656,
+                    30.3190367
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-deir-amba-bishoi",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/727107/osm-location-of-deir-amba-bishoi",
+                "location_precision": "precise",
+                "snippet": "Church; AD 1700 - AD 2100",
+                "title": "OSM location of Saint Bishoy Monastery"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add wikidata Monastery of Saint Pishoy (Q3320206)",
+            "modified": "2024-10-17T22:28:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2022-05-15T14:29:06Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "darmc 5180",
+            "modified": "2017-08-02T14:36:46Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "reference",
+            "modified": "2017-08-02T14:33:10Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T20:22:36Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T08:07:12Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Fixing modern/alt locations fumbled in intial import",
+            "modified": "2011-12-21T00:00:02Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-03-09T19:13:38Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2009-09-09T17:27:01Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-09-09T17:06:46Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-09-09T06:40:58Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "727107",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+            "accuracy_value": 10.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2012-10-20T20:22:34Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt",
+                    "username": "jahlfeldt"
+                }
+            ],
+            "description": "Representative point location, site precision",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "church"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church"
+            ],
+            "geometry": {
+                "coordinates": [
+                    30.359629,
+                    30.319076
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-10-20T20:22:35Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-10-20T20:22:35Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+                    "modified": "2012-10-20T20:22:35Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-10-20T20:22:34Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "dare-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church"
+            ],
+            "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+            "references": [
+                {
+                    "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "Johan Åhlfeldt, Digital Atlas of the Roman Empire, 2012.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "start": 300,
+            "title": "DARE Location",
+            "uri": "https://pleiades.stoa.org/places/727107/dare-location"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "contributors": [],
+            "created": "2017-08-02T14:34:52Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 2100,
+            "featureType": [
+                "church"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church"
+            ],
+            "geometry": {
+                "coordinates": [
+                    30.3600656,
+                    30.3190367
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2024-10-16T23:42:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-05-16T13:12:10Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "edit title",
+                    "modified": "2022-05-15T14:29:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-08-02T14:35:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added OSM location",
+                    "modified": "2017-08-02T14:35:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2017-08-02T14:34:53Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2017-08-02T14:34:52Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-deir-amba-bishoi",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church"
+            ],
+            "provenance": "OpenStreetMap (Node 768095210, version 7, osm:changeset=142592171, 2023-10-14T20:46:18Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/node/768095210",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 768095210",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=768095210",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1700,
+            "title": "OSM location of Saint Bishoy Monastery",
+            "uri": "https://pleiades.stoa.org/places/727107/osm-location-of-deir-amba-bishoi"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/monastery",
+        "https://pleiades.stoa.org/vocabularies/place-types/church"
+    ],
+    "placeTypes": [
+        "monastery",
+        "church"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 74 C4 Deir Amba Bishoi",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "74 C4 Deir Amba Bishoi",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QTH7T3NR",
+            "citationDetail": "3 (pp. 734-36)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">AS Atiya, ed. <i>The Coptic Encyclopedia</i>. New York, 1991.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "CoptEnc",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Pishoy",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Monastery of Saint Pishoy",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Monastery of Saint Pishoy.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+            "citationDetail": "5180",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 5180.",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q3320206",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Monastery of Saint Pishoy (Q3320206)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        30.3598473,
+        30.31905635
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=0",
+        "dare:feature=church"
+    ],
+    "title": "Deir Amba Bishoi",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/727107"
+}

@@ -1,0 +1,362 @@
+{
+    "@type": "Place",
+    "bbox": [
+        11.2140584,
+        43.8288924,
+        11.2140584,
+        43.8288924
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/413279",
+            "contributors": [],
+            "created": "2019-05-19T17:36:25Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-05-19T17:36:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-05-19T17:36:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-05-19T17:36:25Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "3852060005",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Quinto Fiorentino",
+            "uri": "https://pleiades.stoa.org/places/277432401/3852060005"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/413279"
+    ],
+    "contributors": [],
+    "created": "2019-05-19T17:36:22Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A tomb near Sesto Fiorentino, that dates to the seventh century B.C.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        11.213876,
+                        43.8288692
+                    ],
+                    [
+                        11.2138224,
+                        43.8288112
+                    ],
+                    [
+                        11.2137097,
+                        43.8287028
+                    ],
+                    [
+                        11.2137312,
+                        43.8285906
+                    ],
+                    [
+                        11.2138384,
+                        43.828517
+                    ],
+                    [
+                        11.2139779,
+                        43.8285364
+                    ],
+                    [
+                        11.2140584,
+                        43.8286486
+                    ],
+                    [
+                        11.2141281,
+                        43.8287918
+                    ],
+                    [
+                        11.2140584,
+                        43.8288924
+                    ],
+                    [
+                        11.213876,
+                        43.8288692
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-tomba-della-mula",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/277432401/location-of-tomba-della-mula",
+                "location_precision": "precise",
+                "snippet": "Tumulus, ; 750 BC - 550 BC",
+                "title": "OSM location of Tomba della Mula"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added wikidata Q3531083: Tomba della Mula",
+            "modified": "2021-01-12T14:26:37Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2021-01-12T10:43:40Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2019-05-19T17:38:08Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2019-05-19T17:37:53Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2019-05-19T17:36:26Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2019-05-19T17:36:22Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "277432401",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-02-12T01:19:38Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": -550,
+            "featureType": [
+                "tumulus",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tumulus",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        11.213876,
+                        43.8288692
+                    ],
+                    [
+                        11.2138224,
+                        43.8288112
+                    ],
+                    [
+                        11.2137097,
+                        43.8287028
+                    ],
+                    [
+                        11.2137312,
+                        43.8285906
+                    ],
+                    [
+                        11.2138384,
+                        43.828517
+                    ],
+                    [
+                        11.2139779,
+                        43.8285364
+                    ],
+                    [
+                        11.2140584,
+                        43.8286486
+                    ],
+                    [
+                        11.2141281,
+                        43.8287918
+                    ],
+                    [
+                        11.2140584,
+                        43.8288924
+                    ],
+                    [
+                        11.213876,
+                        43.8288692
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-22T20:57:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-01-12T10:43:40Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-08-18T14:11:00Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-06-05T22:18:50Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-02-12T01:20:21Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-02-12T01:19:42Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-02-12T01:19:40Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-tomba-della-mula",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tumulus",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 113469096, version 5, osm:changeset=103925653, 2021-04-30T16:44:38Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/113469096",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 113469096",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=113469096",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Tomba_della_Mula",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "citationDetail": "Tomba della Mula",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Tomba della Mula.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -750,
+            "title": "OSM location of Tomba della Mula",
+            "uri": "https://pleiades.stoa.org/places/277432401/location-of-tomba-della-mula"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tumulus"
+    ],
+    "placeTypes": [
+        "tumulus"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Tomba_della_Mula",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Tomba della Mula",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q3531083",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q3531083: Tomba della Mula",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        11.2140584,
+        43.8288924
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Tomba della Mula",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/277432401"
+}

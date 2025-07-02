@@ -1,0 +1,561 @@
+{
+    "@type": "Place",
+    "bbox": [
+        14.4862681,
+        40.7485218,
+        14.4862681,
+        40.7485218
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "connectionType": "part_of_analytical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_analytical",
+            "connectsTo": "https://pleiades.stoa.org/places/538911200",
+            "contributors": [],
+            "created": "2020-12-26T16:21:13Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-12-28T14:02:26Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-26T16:22:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2020-12-26T16:21:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-26T16:21:13Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "regio-viii-pompeii",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.pompeiiinpictures.com/pompeiiinpictures/R8/8%2003%2014%20p1.htm",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/JU2FIK6G",
+                    "citationDetail": "VIII.3.14 Pompeii. Casa della Regina Carolina or House of Queen Caroline",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Dunn, Jackie, and Bob Dunn. “PompeiiinPictures Ancient Pompeii Herculaneum Oplontis Stabiae.” PompeiiinPictures  A complete photographic plan of ancient Pompeii as it is today, produced by Jackie and Bob Dunn for those as enthusiastic about Pompeii as we are., December 11, 2018. https://pompeiiinpictures.com/pompeiiinpictures/index.htm.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "PompeiiinPictures",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": 1700,
+            "title": "Regio VIII, Pompeii",
+            "uri": "https://pleiades.stoa.org/places/26245224/regio-viii-pompeii"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/433032",
+            "contributors": [],
+            "created": "2020-12-26T16:22:06Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-12-28T14:02:26Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-26T16:22:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2020-12-26T16:22:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-26T16:22:06Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "pompeii",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Pompeii",
+            "uri": "https://pleiades.stoa.org/places/26245224/pompeii"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/538911200",
+        "https://pleiades.stoa.org/places/433032"
+    ],
+    "contributors": [],
+    "created": "2020-12-26T16:17:36Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A domus at Pompeii partially excavated in the nineteenth century.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4862681,
+                    40.7485218
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-casa-della-regina-carolina-viii-3",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/26245224/osm-location-of-casa-della-regina-carolina-viii-3",
+                "location_precision": "precise",
+                "snippet": "Townhouse; 30 BC - AD 300",
+                "title": "OSM location of Casa della Regina Carolina (VIII 3.14)"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2025-04-08T16:43:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2025-04-08T16:41:07Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-06-04T13:52:04Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2021-11-10T18:59:21Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2020-12-28T14:02:26Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2020-12-26T16:22:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary",
+            "modified": "2020-12-26T16:21:39Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created",
+            "modified": "2020-12-26T16:17:36Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2020-12-26T16:17:36Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "26245224",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2020-12-26T16:18:59Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "townhouse"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/townhouse"
+            ],
+            "geometry": {
+                "coordinates": [
+                    14.4862681,
+                    40.7485218
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2024-06-04T13:48:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2023-06-14T17:11:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-12-28T14:02:26Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-26T16:22:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added OSM location",
+                    "modified": "2020-12-26T16:19:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2020-12-26T16:18:59Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-26T16:18:59Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-casa-della-regina-carolina-viii-3",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/townhouse"
+            ],
+            "provenance": "OpenStreetMap (Node 5010108080, version 9, osm:changeset=138539870, 2023-07-15T10:52:08Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/node/5010108080",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 5010108080",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=5010108080",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Casa della Regina Carolina (VIII 3.14)",
+            "uri": "https://pleiades.stoa.org/places/26245224/osm-location-of-casa-della-regina-carolina-viii-3"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Casa della Regina Carolina",
+            "contributors": [],
+            "created": "2021-11-10T19:11:43Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-04-30T10:54:13Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-04-30T00:15:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2022-04-30T00:15:04Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2021-11-10T19:11:44Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-11-10T19:11:43Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "casa-della-regina-carolina",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q104522265",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q104522265: Casa della Regina Carolina (VIII 3.14)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Casa della Regina Carolina",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/26245224/casa-della-regina-carolina"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [],
+            "attested": "VIII 3.14",
+            "contributors": [],
+            "created": "2021-11-10T19:12:01Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-04-30T10:54:13Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-04-30T00:15:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2022-04-30T00:15:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2021-11-10T19:12:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-11-10T19:12:01Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "viii-3.14",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q104522265",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q104522265: Casa della Regina Carolina (VIII 3.14)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "VIII 3.14",
+            "start": null,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/26245224/viii-3.14"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/townhouse"
+    ],
+    "placeTypes": [
+        "townhouse"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q104522265",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Casa della Regina Carolina (VIII 3.14) (Q27688124)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.pompeiiinpictures.com/pompeiiinpictures/R8/8%2003%2014%20p1.htm",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/JU2FIK6G",
+            "citationDetail": "VIII.3.14 Pompeii. Casa della Regina Carolina or House of Queen Caroline. Excavated 1809, 1812, 1818, 1826 and 1839. Restoration 2015/16",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Dunn, Jackie, and Bob Dunn. “PompeiiinPictures Ancient Pompeii Herculaneum Oplontis Stabiae.” PompeiiinPictures  A complete photographic plan of ancient Pompeii as it is today, produced by Jackie and Bob Dunn for those as enthusiastic about Pompeii as we are., December 11, 2018. https://pompeiiinpictures.com/pompeiiinpictures/index.htm.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "PompeiiinPictures",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.fastionline.org/record_view.php?fst_cd=AIAC_4667",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/5MUH5XWP",
+            "citationDetail": "Casa della Regina Carolina, Regio VIII.3.14",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">International Association of Classical Archaeology (AIAC), and Center for the Study of Ancient Italy of the University of Texas at Austin (CSAI). <i>FastiOnline (Excavation)</i>, 2004. http://www.fastionline.org/excavation/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "FastiOnline (Excavation)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.fastionline.org/record_view.php?fst_cd=AIAC_4667",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/I4672X3J",
+            "citationDetail": "Italy: 492. Barrett, Caitlín, Kathryn Gleason, Annalisa Marzano. 2020. \"The Casa della Regina Carolina (CRC) Project, Pompeii: Preliminary Report on 2018 and 2019 Field Seasons.\"",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">International Association of Classical Archaeology (AIAC). “FastiOnlineDocuments &amp; Research.” Accessed December 1, 2023. https://www.fastionline.org/folder.php?view=home.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "FOLD&R",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/LN4AB3PF",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">García y García, Laurentino. <i>Casa della Regina Carolina: Pompei VIII, 3, 14,15</i>. QNBP, series minor 8. Roma: Arbor Sapientiae, 2023.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "García y García 2023",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.fastionline.org/docs/FOLDER-it-2025-596.pdf",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/I4672X3J",
+            "citationDetail": "Italy 596-1: C. Barrett et al. 2025. \"The Casa della Regina Carolina (CRC) Project, Pompeii: 2022–2023 Field Seasons\"",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">International Association of Classical Archaeology (AIAC). “FastiOnlineDocuments &amp; Research.” Accessed December 1, 2023. https://www.fastionline.org/folder.php?view=home.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "FOLD&R",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        14.4862681,
+        40.7485218
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Casa della Regina Carolina",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/26245224"
+}

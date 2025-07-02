@@ -1,0 +1,1072 @@
+{
+    "@type": "Place",
+    "bbox": [
+        14.4837195,
+        40.7484237,
+        14.4837195,
+        40.7484237
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/433032",
+            "contributors": [],
+            "created": "2016-07-13T13:54:48Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:54:48Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:54:48Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:54:48Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "433032",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Pompeii",
+            "uri": "https://pleiades.stoa.org/places/663121962/433032"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "connectionType": "part_of_analytical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_analytical",
+            "connectsTo": "https://pleiades.stoa.org/places/538911200",
+            "contributors": [],
+            "created": "2020-12-26T18:31:08Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-01-05T22:30:31Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-26T18:31:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2020-12-26T18:31:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-26T18:31:08Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "regio-viii-pompeii",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": 1700,
+            "title": "Regio VIII, Pompeii",
+            "uri": "https://pleiades.stoa.org/places/663121962/regio-viii-pompeii"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/433032",
+        "https://pleiades.stoa.org/places/538911200"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Valeria Vitale",
+            "uri": "https://pleiades.stoa.org/author/vvitale",
+            "username": "vvitale"
+        }
+    ],
+    "created": "2015-05-26T11:26:20Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Athanasia Varveri",
+            "uri": "https://pleiades.stoa.org/author/avarveri",
+            "username": "avarveri"
+        }
+    ],
+    "description": "The Temple of Venus (VIII,1) is located adjacent to Pompeii's Porta Marina. The site was cleared in the early years of the colony to make way for the temple. Seriously damaged by the AD 62 earthquake, the sanctuary was still being rebuilt at the time of its ultimate destruction.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4837195,
+                    40.7484237
+                ],
+                "type": "Point"
+            },
+            "id": "tempio-di-venere",
+            "properties": {
+                "description": "Representative point location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/663121962/tempio-di-venere",
+                "location_precision": "precise",
+                "snippet": "Temple-2, ; 330 BC - AD 300",
+                "title": "OSM location of so-called \"Tempio di Venere\""
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-02-27T22:33:01Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-12-26T18:31:37Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "updates",
+            "modified": "2020-12-11T17:33:10Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-31T02:26:37Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2016-06-29T14:49:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2016-06-29T14:48:32Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2016-06-29T14:48:25Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2015-06-24T20:26:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-05-28T16:44:16Z",
+            "modifiedBy": "avarveri"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2015-05-26T11:26:26Z",
+            "modifiedBy": "avarveri"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-05-26T11:26:21Z",
+            "modifiedBy": "avarveri"
+        }
+    ],
+    "id": "663121962",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-roman-early-empire",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-roman-early-empire"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2015-05-26T11:27:00Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Athanasia Varveri",
+                    "uri": "https://pleiades.stoa.org/author/avarveri",
+                    "username": "avarveri"
+                }
+            ],
+            "description": "Representative point location based on OpenStreetMap.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "temple-2",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    14.4837195,
+                    40.7484237
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2024-02-27T22:32:21Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-31T02:26:57Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-29T14:50:01Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-06-29T14:49:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-29T14:48:49Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-29T14:46:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-09-13T03:19:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added reference",
+                    "modified": "2015-06-24T20:20:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-05-26T11:29:54Z",
+                    "modifiedBy": "avarveri"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-05-26T11:28:56Z",
+                    "modifiedBy": "avarveri"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2015-05-26T11:27:04Z",
+                    "modifiedBy": "avarveri"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-05-26T11:27:02Z",
+                    "modifiedBy": "avarveri"
+                }
+            ],
+            "id": "tempio-di-venere",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Node 318031901, version 30, osm:changeset=140198197, 2023-08-21T19:40:11Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/node/318031901",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 318031901",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=318031901",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "OSM location of so-called \"Tempio di Venere\"",
+            "uri": "https://pleiades.stoa.org/places/663121962/tempio-di-venere"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Tempio di Venere",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2015-10-14T14:54:09Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-06-29T14:49:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-29T14:48:50Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added reference",
+                    "modified": "2016-06-29T14:45:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-10-14T14:54:16Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-10-14T14:54:12Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "name.2015-10-14.2245134551",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/title/corpus-topographicum-pompeianum-2-toponymy/oclc/614940689",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Van der Poel, H. B. 1983. Corpus Topographicum Pompeianum. Pars II Toponymy. Rome: The University of Texas at Austin. p. 296",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "http://www.geonames.org/10378320/tempio-di-venere.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "GeoNames 10378320",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Tempio di Venere",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/663121962/name.2015-10-14.2245134551"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Tempel des Empedokles",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2015-10-14T14:55:53Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-01-12T03:29:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-01-12T03:26:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-01-12T03:25:59Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-10-14T14:56:02Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-10-14T14:55:57Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "tempel-des-empedokles",
+            "language": "de",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.jstor.org/stable/503926",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8NGFNB35",
+                    "citationDetail": "2.296",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Moeller, Walter O. “The Building of Eumachia: A Reconsideration.” <i>American Journal of Archaeology</i> 76, no. 3 (1972): 323–27. doi:10.2307/503926.</div>",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Moeller 1972, 323-327",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Tempel des Empedokles",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/663121962/tempel-des-empedokles"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Aedes of the Ministri Mercurii Maiae, postea Augusti",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2015-10-14T14:58:36Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-01-12T03:29:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-01-12T03:26:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-01-12T03:25:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-10-14T15:02:58Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-10-14T14:58:44Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-10-14T14:58:37Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "aedes-of-the-ministri-mercurii-maiae",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.jstor.org/stable/503926",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8NGFNB35",
+                    "citationDetail": "2.296",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Moeller, Walter O. “The Building of Eumachia: A Reconsideration.” <i>American Journal of Archaeology</i> 76, no. 3 (1972): 323–27. doi:10.2307/503926.</div>",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Moeller 1972, 323-327",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Aedes of the Ministri Mercurii Maiae, postea Augusti",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/663121962/aedes-of-the-ministri-mercurii-maiae"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Templum of Augustus, Aedes of Augustus",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2015-10-14T15:01:49Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-01-12T03:29:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-01-12T03:26:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-01-12T03:26:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-10-14T15:01:59Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-10-14T15:01:51Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "templum-of-augustus",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.jstor.org/stable/503926",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8NGFNB35",
+                    "citationDetail": "2.296",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Moeller, Walter O. “The Building of Eumachia: A Reconsideration.” <i>American Journal of Archaeology</i> 76, no. 3 (1972): 323–27. doi:10.2307/503926.</div>",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Moeller 1972, 323-327",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Templum of Augustus, Aedes of Augustus",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/663121962/templum-of-augustus"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Templum of Venus Pompeiana",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2015-10-14T15:02:38Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-01-12T03:29:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-01-12T03:27:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-01-12T03:27:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-10-14T15:02:46Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-10-14T15:02:41Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "templum-of-venus-pompeiana",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.jstor.org/stable/503926",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8NGFNB35",
+                    "citationDetail": "2.296",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Moeller, Walter O. “The Building of Eumachia: A Reconsideration.” <i>American Journal of Archaeology</i> 76, no. 3 (1972): 323–27. doi:10.2307/503926.</div>",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Moeller 1972, 323-327",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Templum of Venus Pompeiana",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/663121962/templum-of-venus-pompeiana"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Templum of Venus fisica Pompeiana",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2015-10-14T15:05:08Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-01-12T03:29:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-01-12T03:27:45Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-01-12T03:27:39Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-10-14T15:05:15Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-10-14T15:05:10Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "templum-of-venus-fisica-pompeiana",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.jstor.org/stable/503926",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8NGFNB35",
+                    "citationDetail": "2.296",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Moeller, Walter O. “The Building of Eumachia: A Reconsideration.” <i>American Journal of Archaeology</i> 76, no. 3 (1972): 323–27. doi:10.2307/503926.</div>",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Moeller 1972, 323-327",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Templum of Venus fisica Pompeiana",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/663121962/templum-of-venus-fisica-pompeiana"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2015-10-14T15:10:29Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "<p>According to Van der Poel (1983), formerly recorded as II.2 or VIII.2</p>",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-01-12T03:29:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-01-12T03:28:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-01-12T03:28:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-10-14T15:11:21Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-10-14T15:10:36Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-10-14T15:10:31Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "VIII.1",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.jstor.org/stable/503926",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8NGFNB35",
+                    "citationDetail": "2.296",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Moeller, Walter O. “The Building of Eumachia: A Reconsideration.” <i>American Journal of Archaeology</i> 76, no. 3 (1972): 323–27. doi:10.2307/503926.</div>",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Moeller 1972, 323-327",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://atlantides.org/bibliography/",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "pompeiiinpictures, Temple of Venus, VIII.1.3 linked to VIII.1.5",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "VIII.1.3",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/663121962/VIII.1"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "temple-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Tempio_di_Venere_(Pompei)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Tempio di Venere (Pompei)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Tempio di Venere (Pompei).",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.pompeiisites.org/Sezione.jsp?idSezione=134",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RQWYV366",
+            "citationDetail": "Tempio di Venere (VIII,1)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Osanna, Massimo, ed. <i>Pompeii Sites: Portale Ufficiale Parco Archeologico di Pompei</i>. Accessed January 10, 2020. http://pompeiisites.org/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Pompeii Sites",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://sites.google.com/site/ad79eruption/pompeii/public-buildings/temple-of-venus",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SAEEN7M7",
+            "citationDetail": "Temple of Venus",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Clements, Peter. “AD79: Destruction and Re-Discovery.” Accessed September 10, 2017. https://sites.google.com/site/ad79eruption/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "AD79",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.jstor.org/stable/41725289",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/A73CL592",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Carroll, Maureen. “Exploring the Sanctuary of Venus and Its Sacred Grove: Politics, Cult and Identity in Roman Pompeii.” <i>Papers of the British School at Rome</i> 78 (2010): 63–351. https://www.jstor.org/stable/41725289.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Carroll 2010",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.geonames.org/10378320/tempio-di-venere.html",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+            "citationDetail": "10378320: Tempio di Venere",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. “GeoNames,” 2005. http://www.geonames.org/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "GeoNames",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q3983283",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q3983283: Temple of Venus in Pompeii",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        14.4837195,
+        40.7484237
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "Venus",
+        "extant remains"
+    ],
+    "title": "Temple of Venus",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/663121962"
+}

@@ -1,0 +1,310 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.9644002,
+        41.5927174,
+        12.964622,
+        41.5928885
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/422987",
+            "contributors": [],
+            "created": "2020-05-27T18:35:22Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-05-27T18:35:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-05-27T18:35:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-05-27T18:35:22Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "5222354746",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Norba",
+            "uri": "https://pleiades.stoa.org/places/477172416/5222354746"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/422987"
+    ],
+    "contributors": [],
+    "created": "2020-05-27T18:35:21Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "\"La Loggia\" refers to a squared tower that is a part of the polygonal masonry curtain wall of Norba.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.9644559,
+                        41.5927174
+                    ],
+                    [
+                        12.9644002,
+                        41.5928228
+                    ],
+                    [
+                        12.9645515,
+                        41.5928885
+                    ],
+                    [
+                        12.964622,
+                        41.5928004
+                    ],
+                    [
+                        12.9644559,
+                        41.5927174
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-la-loggia",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/477172416/osm-location-of-la-loggia",
+                "location_precision": "precise",
+                "snippet": "Tower-defensive; 550 BC - 30 BC",
+                "title": "OSM location of La Loggia"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q131720917",
+            "modified": "2025-01-09T21:55:13Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2020-06-05T11:10:13Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2020-05-27T19:00:43Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary, reference",
+            "modified": "2020-05-27T19:00:32Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2020-05-27T18:35:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2020-05-27T18:35:21Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "477172416",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-12-22T02:00:02Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -30,
+            "featureType": [
+                "tower-defensive"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tower-defensive"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.9644559,
+                        41.5927174
+                    ],
+                    [
+                        12.9644002,
+                        41.5928228
+                    ],
+                    [
+                        12.9645515,
+                        41.5928885
+                    ],
+                    [
+                        12.964622,
+                        41.5928004
+                    ],
+                    [
+                        12.9644559,
+                        41.5927174
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2025-01-09T16:36:22Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-12-22T02:00:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location whose underlying OSM data is now deprecated",
+                    "modified": "2024-12-22T02:00:28Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-12-22T02:00:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-12-22T02:00:02Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-la-loggia",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tower-defensive"
+            ],
+            "provenance": "OpenStreetMap (Way 1265775579, version 2, osm:changeset=155526999, 2024-08-20T19:43:50Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/1265775579",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 1265775579",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=1265775579",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -550,
+            "title": "OSM location of La Loggia",
+            "uri": "https://pleiades.stoa.org/places/477172416/osm-location-of-la-loggia"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tower-defensive",
+        "https://pleiades.stoa.org/vocabularies/place-types/city-wall",
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+    ],
+    "placeTypes": [
+        "tower-defensive",
+        "city-wall",
+        "fort"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Q366GZKQ",
+            "citationDetail": "222, fig. 70, 71",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Quilici, Lorenzo, and Stefania Quilici Gigli. “Sulle mura di Norba.” In <i>Fortificazioni antiche in Italia : Età repubblicana</i>, 181–244. Roma, 2000.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Quilici and Quilici Gigli 2000",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q131720917",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q131720917",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.964507654236252,
+        41.59280514676851
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "polygonal masonry"
+    ],
+    "title": "La Loggia",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/477172416"
+}

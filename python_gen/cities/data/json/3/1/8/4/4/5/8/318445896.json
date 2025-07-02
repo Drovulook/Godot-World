@@ -1,0 +1,443 @@
+{
+    "@type": "Place",
+    "bbox": [
+        14.2228689,
+        37.0718981,
+        14.2228689,
+        37.0718981
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "part_of_physical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_physical",
+            "connectsTo": "https://pleiades.stoa.org/places/462214",
+            "contributors": [],
+            "created": "2017-10-15T03:20:53Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-10-27T21:52:03Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-10-15T03:30:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2017-10-15T03:20:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2017-10-15T03:20:53Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "gela",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Gela",
+            "uri": "https://pleiades.stoa.org/places/318445896/gela"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/462214"
+    ],
+    "contributors": [],
+    "created": "2017-10-15T03:19:54Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Greek fortifications of Gela that are credited to Timoleon of Corinth.",
+    "details": "<p class=\" \">The walls are commonly known as \"Mura timoleontee di Caposoprano\".</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        14.2228479,
+                        37.0718695
+                    ],
+                    [
+                        14.2228689,
+                        37.071881
+                    ],
+                    [
+                        14.2228908,
+                        37.071893
+                    ],
+                    [
+                        14.2231754,
+                        37.0715483
+                    ],
+                    [
+                        14.2238969,
+                        37.0709833
+                    ],
+                    [
+                        14.22431,
+                        37.0707329
+                    ],
+                    [
+                        14.2239851,
+                        37.0704613
+                    ],
+                    [
+                        14.223967,
+                        37.0704757
+                    ],
+                    [
+                        14.2239503,
+                        37.0704891
+                    ],
+                    [
+                        14.2242292,
+                        37.0707352
+                    ],
+                    [
+                        14.2238591,
+                        37.07096
+                    ],
+                    [
+                        14.2231349,
+                        37.0715292
+                    ],
+                    [
+                        14.2228479,
+                        37.0718695
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-mura-timoleontee",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/318445896/osm-location-of-mura-timoleontee",
+                "location_precision": "precise",
+                "snippet": "Wall-2; 330 BC - 30 BC",
+                "title": "OSM location of Mura Timoleontee"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add wikidata Walls of Timoleon (Q3867240)",
+            "modified": "2024-11-01T02:52:54Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2017-10-27T21:52:03Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2017-10-15T03:30:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-10-15T03:29:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "references",
+            "modified": "2017-10-15T03:28:55Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2017-10-15T03:20:16Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2017-10-15T03:19:54Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "318445896",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                }
+            ],
+            "contributors": [],
+            "created": "2017-10-15T03:20:26Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": -30,
+            "featureType": [
+                "wall-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/wall-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        14.2228479,
+                        37.0718695
+                    ],
+                    [
+                        14.2228689,
+                        37.071881
+                    ],
+                    [
+                        14.2228908,
+                        37.071893
+                    ],
+                    [
+                        14.2231754,
+                        37.0715483
+                    ],
+                    [
+                        14.2238969,
+                        37.0709833
+                    ],
+                    [
+                        14.22431,
+                        37.0707329
+                    ],
+                    [
+                        14.2239851,
+                        37.0704613
+                    ],
+                    [
+                        14.223967,
+                        37.0704757
+                    ],
+                    [
+                        14.2239503,
+                        37.0704891
+                    ],
+                    [
+                        14.2242292,
+                        37.0707352
+                    ],
+                    [
+                        14.2238591,
+                        37.07096
+                    ],
+                    [
+                        14.2231349,
+                        37.0715292
+                    ],
+                    [
+                        14.2228479,
+                        37.0718695
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-11-01T02:53:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add Generic OSM Accuracy Assessment",
+                    "modified": "2023-02-24T02:40:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-10-27T21:52:03Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-10-15T03:30:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2017-10-15T03:20:25Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-mura-timoleontee",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/wall-2"
+            ],
+            "provenance": "OpenStreetMap (Way 183542872, version 6, osm:changeset=34695915, 2015-10-17T15:20:22Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/183542872",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 183542872",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=183542872",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "https://it.wikipedia.org/wiki/Mura_Timoleontee",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+                    "citationDetail": "Mura Timoleontee",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Mura Timoleontee.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (Italian)",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "http://www.geonames.org/8063308/greek-fortifications-of-capo-soprano.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+                    "citationDetail": "8063308: Greek Fortifications of Capo Soprano",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+                    "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. <i>GeoNames</i>, 2005. https://www.geonames.org/.</div>",
+                    "otherIdentifier": " ",
+                    "shortTitle": "GeoNames",
+                    "type": "citesAsRelated"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "OSM location of Mura Timoleontee",
+            "uri": "https://pleiades.stoa.org/places/318445896/osm-location-of-mura-timoleontee"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/city-wall",
+        "https://pleiades.stoa.org/vocabularies/place-types/wall-2"
+    ],
+    "placeTypes": [
+        "city-wall",
+        "wall-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Mura_timoleontee",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Mura timoleontee",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Mura timoleontee.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9EVAIP46",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Premoli, Fulvia. “Gela: restauro consolidamento e protezione delle fortificazioni greche di Capo Soprano ‘Mura Timoleontee’ ; 1950 - 1952.” <i>Anagkē.</i>, 2005, 36–97.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Premoli 2005, 36-97",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/745509718",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MJDPEIJX",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Baas, Philipp, and Johannes Bergemann. <i>Der Gela-Survey: 3000 Jahre Siedlungsgeschichte in Sizilien. 3, Beilagen und Tafeln</i>. Göttinger Studien zur mediterranen Archäologie 1. Munich: Biering &amp; Brinkmann, 2010. http://www.worldcat.org/oclc/745509718.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Baas and Bergemann 2010",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.jstor.org/stable/43605477",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Q5FU6YAJ",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">TRÉZINY, Henri. “Les Fortifications Grecques En Occident à L’époque Classique (491-322 Av. J.-C.).” <i>Pallas</i>, no. 51 (1999): 241–82. http://www.jstor.org/stable/43605477.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Tréziny 1999",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RQWLRH7E",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Timoleon and the Revival of Greek Sicily, 344-314 BC</i>. London: Cambridge University Press, 1975.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Talbert 1975",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q3867240",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Walls of Timoleon (Q3867240)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        14.2228689,
+        37.0718981
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "fortification",
+        "extant remains"
+    ],
+    "title": "Walls of Timoleon",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/318445896"
+}

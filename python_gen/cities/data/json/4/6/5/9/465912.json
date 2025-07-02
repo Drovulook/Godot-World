@@ -1,0 +1,500 @@
+{
+    "@type": "Place",
+    "bbox": null,
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "part_of_physical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_physical",
+            "connectsTo": "https://pleiades.stoa.org/places/462492",
+            "contributors": [],
+            "created": "2020-08-09T19:52:49Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "update reference",
+                    "modified": "2024-11-01T13:59:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-08-10T19:53:40Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-08-09T19:52:59Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2020-08-09T19:52:53Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-08-09T19:52:50Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "sicilia-island",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0543.tlg001.perseus-grc1:1.56",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QPGBM7G4",
+                    "citationDetail": "1.56",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "<div class=\"csl-entry\">Polybius. <i>Polybiou Historiai = Polybii Historiae</i>. Edited by Theodor Büttner-Wobst and Ludwig August Dindorf. 4 vols. Lipsiae: B.G. Teubneri, 1882. http://data.perseus.org/texts/urn:cts:greekLit:tlg0543.tlg001.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Polyb. (Büttner-Wobst: Perseus)",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Sicilia (island)",
+            "uri": "https://pleiades.stoa.org/places/465912/sicilia-island"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/462492"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling",
+            "username": "bkiesling"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-11-11T15:04:03Z",
+    "creators": [
+        {
+            "name": "R.J.A. Wilson",
+            "username": null
+        }
+    ],
+    "description": "Now unlocated, Herkte is described by Polybius as a fortified place in coastal Sicily between Eryx and Palermo.",
+    "details": "<p>The Barrington Atlas Directory notes: fort in W Sicily, apparently near Palermo and/or Ietas (unless confused with Heirkte)</p>",
+    "features": [
+        {
+            "geometry": null,
+            "id": "batlas-location",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/465912/batlas-location",
+                "location_precision": "unlocated",
+                "snippet": "Unknown; 330 BC - 30 BC",
+                "title": "Barrington Atlas location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-11-01T13:58:35Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2022-06-10T01:38:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary",
+            "modified": "2020-08-09T19:52:08Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added topostext",
+            "modified": "2020-08-09T19:49:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-08-09T19:49:26Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2016-09-05T13:33:04Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Changing 'unlocated toponym' type to 'unlocated'",
+            "modified": "2012-07-23T19:34:21Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T05:25:06Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:57:34Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-11T19:59:55Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-11T15:23:05Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-11T15:04:03Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "465912",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": null,
+            "accuracy_value": null,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "less-confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-11-11T15:04:03Z",
+            "creators": [
+                {
+                    "name": "R.J.A. Wilson",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -30,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": null,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T05:25:06Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-11T19:59:55Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-11T15:23:06Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-11T15:04:03Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "batlas-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Barrington Atlas: BAtlas 47 Herkte",
+            "references": [],
+            "review_state": "published",
+            "start": -330,
+            "title": "Barrington Atlas location",
+            "uri": "https://pleiades.stoa.org/places/465912/batlas-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "less-confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                }
+            ],
+            "attested": "Εἱρκτῆ",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                },
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2010-11-11T15:04:03Z",
+            "creators": [
+                {
+                    "name": "R.J.A. Wilson",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -30,
+            "history": [
+                {
+                    "comment": "update reference",
+                    "modified": "2022-06-10T01:38:04Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2020-08-09T19:51:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T05:25:06Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-11T19:59:55Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-11T15:23:06Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-11T15:04:03Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "herkte",
+            "language": "grc",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 47 Herkte",
+            "references": [
+                {
+                    "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0543.tlg001.perseus-grc1:1.56",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QPGBM7G4",
+                    "citationDetail": "1.56",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "<div class=\"csl-entry\">Polybius. <i>Polybiou Historiai = Polybii Historiae</i>. Edited by Theodor Büttner-Wobst and Ludwig August Dindorf. 4 vols. Lipsiae: B.G. Teubneri, 1882. http://data.perseus.org/texts/urn:cts:greekLit:tlg0543.tlg001.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Polyb. (Büttner-Wobst: Perseus)",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Herkte",
+            "start": -330,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/465912/herkte"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unlocated",
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+    ],
+    "placeTypes": [
+        "unlocated",
+        "fort"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 47 Herkte",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "47 Herkte",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.persee.fr/doc/btcgi_0000-0009_1989_num_7_1_3483",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/3X8QE9ZE",
+            "citationDetail": "VII, 343 (J. de La Genière)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Nenci, Giuseppe, Georges Vallet, Ugo Fantasia, and Carmine Ampolo, eds. <i>Bibliografia topografica della colonizzazione greca in Italia e nelle isole tirreniche</i>. 21 vols. Pisa; Roma: Scuola normale superiore ; Ecole française de Rome, 1977. https://www.persee.fr/collection/btcgi.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "BTCGI",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://topostext.org/place/382133HHer",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MC9RGDVB",
+            "citationDetail": "Hercte (Sicily)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Kiesling, Brady. <i>ToposText – a Reference Tool for Greek Civilization</i>. Version 2.0. Aikaterini Laskaridis Foundation, 2016. https://topostext.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "ToposText",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q731916",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Mount Pellegrino (Q731916)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Mount_Pellegrino",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Mount Pellegrino",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.trismegistos.org/place/61071",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "citationDetail": "GEO ID 61071: Herkte",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TM",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "http://data.perseus.org/texts/urn:cts:greekLit:tlg0060.tlg001.perseus-grc3",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/N6CPV4WG",
+            "citationDetail": "23.20.1",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Diodorus. <i>Diodorus of Sicily in Twelve Volumes</i>. Edited by C. H. Oldfather, Charles L. Sherman, C. Bradford Welles, Russel M. Geer, and Francis R. Walton. 12 vols. Loeb Classical Library. Cambridge, Mass., London: Harvard Univ. Press ; W. Heinemann, 1970. http://data.perseus.org/texts/urn:cts:greekLit:tlg0060.tlg001.perseus-grc3.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DiodSic (Oldfather; Perseus)",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "http://data.perseus.org/texts/urn:cts:greekLit:tlg0543.tlg001",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QPGBM7G4",
+            "citationDetail": "1.56.3",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Polybius. <i>Polybiou Historiai = Polybii Historiae</i>. Edited by Theodor Büttner-Wobst and Ludwig August Dindorf. 4 vols. Lipsiae: B.G. Teubneri, 1882. http://data.perseus.org/texts/urn:cts:greekLit:tlg0543.tlg001.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Polyb. (Büttner-Wobst: Perseus)",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "http://data.perseus.org/texts/urn:cts:greekLit:tlg0543.tlg001",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QPGBM7G4",
+            "citationDetail": "1.56.6",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Polybius. <i>Polybiou Historiai = Polybii Historiae</i>. Edited by Theodor Büttner-Wobst and Ludwig August Dindorf. 4 vols. Lipsiae: B.G. Teubneri, 1882. http://data.perseus.org/texts/urn:cts:greekLit:tlg0543.tlg001.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Polyb. (Büttner-Wobst: Perseus)",
+            "type": "citesAsEvidence"
+        }
+    ],
+    "reprPoint": null,
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Herkte",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/465912"
+}

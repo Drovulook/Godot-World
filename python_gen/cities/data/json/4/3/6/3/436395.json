@@ -1,0 +1,342 @@
+{
+    "@type": "Place",
+    "bbox": [
+        13.351922,
+        41.64016,
+        13.351922,
+        41.64016
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "near",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/near",
+            "connectsTo": "https://pleiades.stoa.org/places/432852",
+            "contributors": [],
+            "created": "2019-01-14T13:47:48Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-07-22T10:44:24Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-01-14T13:47:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2019-01-14T13:47:49Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-01-14T13:47:48Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "frusino",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Frusino",
+            "uri": "https://pleiades.stoa.org/places/436395/frusino"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/432852"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-11-11T23:21:38Z",
+    "creators": [
+        {
+            "name": "N. Purcell",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 44 D2 unnamed centuriation (Frusino)",
+    "details": "<p>The Barrington Atlas Directory notes: Frusino</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.0,
+                            41.5
+                        ],
+                        [
+                            13.5,
+                            41.5
+                        ],
+                        [
+                            13.5,
+                            42.0
+                        ],
+                        [
+                            13.0,
+                            42.0
+                        ],
+                        [
+                            13.0,
+                            41.5
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "batlas-location",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/436395/batlas-location",
+                "location_precision": "rough",
+                "snippet": "Unknown; 330 BC - AD 300",
+                "title": "Barrington Atlas location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update",
+            "modified": "2024-01-11T15:39:06Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2019-01-14T13:45:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T05:05:00Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:47:40Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-14T13:58:03Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-12T00:53:03Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-11T23:21:38Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "436395",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": null,
+            "accuracy_value": null,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-11-11T23:21:39Z",
+            "creators": [
+                {
+                    "name": "N. Purcell",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.0,
+                            41.5
+                        ],
+                        [
+                            13.5,
+                            41.5
+                        ],
+                        [
+                            13.5,
+                            42.0
+                        ],
+                        [
+                            13.0,
+                            42.0
+                        ],
+                        [
+                            13.0,
+                            41.5
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T05:05:00Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-14T13:58:03Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-12T00:53:03Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-11T23:21:39Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "batlas-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Barrington Atlas: BAtlas 44 D2",
+            "references": [],
+            "review_state": "published",
+            "start": -330,
+            "title": "Barrington Atlas location",
+            "uri": "https://pleiades.stoa.org/places/436395/batlas-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/centuriation"
+    ],
+    "placeTypes": [
+        "centuriation"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 44 D2",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "44 D2",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.persee.fr/doc/efr_0000-0000_1987_mon_100_1",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TGHR8NTS",
+            "citationDetail": "119-23",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Chouquer, Gérard. <i>Structures agraires en Italie centro-méridionale: cadastres et paysages ruraux</i>. Collection de l’Ecole française de Rome 100. Rome: École francaise de Rome, 1987. http://www.persee.fr/doc/efr_0000-0000_1987_mon_100_1.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Chouquer 1987",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        13.351922,
+        41.64016
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Centuriation (Frusino)",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/436395"
+}

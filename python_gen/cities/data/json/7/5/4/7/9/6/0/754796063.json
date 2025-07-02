@@ -1,0 +1,428 @@
+{
+    "@type": "Place",
+    "bbox": [
+        33.3025135,
+        34.7503031,
+        33.3037071,
+        34.7510569
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/707498",
+            "contributors": [],
+            "created": "2016-07-13T13:53:42Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:53:42Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:53:42Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:53:42Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "707498",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Cyprus (island)",
+            "uri": "https://pleiades.stoa.org/places/754796063/707498"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/707498"
+    ],
+    "contributors": [],
+    "created": "2013-08-01T14:11:49Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A Bronze Age site with monumental architecture in ancient Cyprus.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        33.3025135,
+                        34.7508629
+                    ],
+                    [
+                        33.3030688,
+                        34.7510569
+                    ],
+                    [
+                        33.3037071,
+                        34.7506425
+                    ],
+                    [
+                        33.3028568,
+                        34.7503031
+                    ],
+                    [
+                        33.3027409,
+                        34.7505652
+                    ],
+                    [
+                        33.3025977,
+                        34.750627
+                    ],
+                    [
+                        33.3025135,
+                        34.7508629
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-kalavasos-ayios-dhimitrios",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/754796063/location-of-kalavasos-ayios-dhimitrios",
+                "location_precision": "precise",
+                "snippet": "Settlement, ; 2000 BC - 1000 BC",
+                "title": "location of Kalavasos Ayios Dhimitrios"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q1625222",
+            "modified": "2024-12-21T04:28:59Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2013-08-03T00:18:33Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2013-08-01T17:07:37Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2013-08-01T14:46:43Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2013-08-01T14:11:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2013-08-01T14:11:49Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "754796063",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "2nd-millenium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-08-01T14:12:42Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": -1000,
+            "featureType": [
+                "settlement",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        33.3025135,
+                        34.7508629
+                    ],
+                    [
+                        33.3030688,
+                        34.7510569
+                    ],
+                    [
+                        33.3037071,
+                        34.7506425
+                    ],
+                    [
+                        33.3028568,
+                        34.7503031
+                    ],
+                    [
+                        33.3027409,
+                        34.7505652
+                    ],
+                    [
+                        33.3025977,
+                        34.750627
+                    ],
+                    [
+                        33.3025135,
+                        34.7508629
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-21T04:24:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-08-01T17:08:00Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-08-01T14:46:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-08-01T14:13:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-08-01T14:12:47Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-08-01T14:12:44Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-kalavasos-ayios-dhimitrios",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 232029232, version 3, osm:changeset=96391697, 2020-12-24T14:23:33Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/232029232",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 232029232",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=232029232",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -2000,
+            "title": "location of Kalavasos Ayios Dhimitrios",
+            "uri": "https://pleiades.stoa.org/places/754796063/location-of-kalavasos-ayios-dhimitrios"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [],
+            "created": "2013-08-03T00:17:19Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-09-01T17:08:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-08-03T00:17:43Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2013-08-03T00:17:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-08-03T00:17:21Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2013-08-02.9778329152",
+            "language": "el",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://de.wikipedia.org/wiki/Kalavasos-Ayios_Dhimitrios",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/QVRBJVTM",
+                    "citationDetail": "Kalavasos-Ayios Dhimitrios",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "Wikipedia: Die freie Enzyklopädie (2001-), Kalavasos-Ayios Dhimitrios.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (German)",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Kalavasos Ayios Dhimitrios",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/754796063/name.2013-08-02.9778329152"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://kambe.cast.uark.edu/the-sites/kalavasos-ayios-dhimitrios/",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "KALAVASOS and MARONI BUILT ENVIRONMENTS PROJECT",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://de.wikipedia.org/wiki/Kalavasos-Ayios_Dhimitrios",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/QVRBJVTM",
+            "citationDetail": "Kalavasos-Ayios Dhimitrios",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: Die freie Enzyklopädie (2001-), Kalavasos-Ayios Dhimitrios.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (German)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.persee.fr/doc/cchyp_0761-8271_2002_num_32_1_1404",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/C4PBPIYH",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">South-Todd, Alison. “Late Bronze Age Settlement Patterns in Southern Cyprus : The First Kingdoms ?,” 2002. https://doi.org/10.3406/cchyp.2002.1404.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "South-Todd 2002",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://ajaonline.org/field-report/3934/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9Y3Z4CE7",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Fisher, Kevin D., Sturt W. Manning, and Thomas M. Urban. “New Approaches to Late Bronze Age Urban Landscapes on Cyprus: Investigations at Kalavasos-Ayios Dhimitrios, 2012–2016 | July 2019 (123.3),” July 1, 2019. https://ajaonline.org/field-report/3934/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Fisher et al. 2019",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1625222",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Agios Demetrios (Q1625222)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        33.303070995255794,
+        34.75069244650313
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Kalavasos Ayios Dhimitrios",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/754796063"
+}

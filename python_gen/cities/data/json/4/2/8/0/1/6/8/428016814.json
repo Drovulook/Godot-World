@@ -1,0 +1,310 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -3.6898354,
+        36.7366218,
+        -3.6895766,
+        36.7368846
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/266038",
+            "contributors": [],
+            "created": "2018-05-10T02:32:05Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-05-10T02:32:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-05-10T02:32:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-05-10T02:32:06Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "5259723699",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Sexi/Saxetanum",
+            "uri": "https://pleiades.stoa.org/places/428016814/5259723699"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/266038"
+    ],
+    "contributors": [],
+    "created": "2018-05-10T02:32:04Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Roman baths at Sexi/Saxetanum date to the first century.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -3.6897141,
+                        36.7366218
+                    ],
+                    [
+                        -3.6895766,
+                        36.7367201
+                    ],
+                    [
+                        -3.6897617,
+                        36.7368846
+                    ],
+                    [
+                        -3.6898106,
+                        36.7368475
+                    ],
+                    [
+                        -3.6898354,
+                        36.7367083
+                    ],
+                    [
+                        -3.6897469,
+                        36.7366427
+                    ],
+                    [
+                        -3.6897141,
+                        36.7366218
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-termas-romanas",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/428016814/osm-location-termas-romanas",
+                "location_precision": "precise",
+                "snippet": "Bath; 30 BC - AD 300",
+                "title": "OSM location: Termas Romanas"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2024-12-22T14:15:59Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-06-05T21:36:36Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-05-16T00:29:19Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2018-05-16T00:28:32Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "title",
+            "modified": "2018-05-10T02:32:22Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-05-10T02:32:07Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-05-10T02:32:05Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "428016814",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-12-22T14:15:29Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "bath"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/bath"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -3.6897141,
+                        36.7366218
+                    ],
+                    [
+                        -3.6895766,
+                        36.7367201
+                    ],
+                    [
+                        -3.6897617,
+                        36.7368846
+                    ],
+                    [
+                        -3.6898106,
+                        36.7368475
+                    ],
+                    [
+                        -3.6898354,
+                        36.7367083
+                    ],
+                    [
+                        -3.6897469,
+                        36.7366427
+                    ],
+                    [
+                        -3.6897141,
+                        36.7366218
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2025-01-09T16:35:31Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-12-22T14:15:47Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location whose underlying OSM data is now deprecated",
+                    "modified": "2024-12-22T14:15:43Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-12-22T14:15:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-12-22T14:15:29Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-termas-romanas",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/bath"
+            ],
+            "provenance": "OpenStreetMap (Way 1169672309, version 2, osm:changeset=152883216, 2024-06-19T08:42:47Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/1169672309",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 1169672309",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=1169672309",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location: Termas Romanas",
+            "uri": "https://pleiades.stoa.org/places/428016814/osm-location-termas-romanas"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/bath"
+    ],
+    "placeTypes": [
+        "bath"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Almu%C3%B1%C3%A9car",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Almuñécar",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Almuñécar.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        -3.689722160484502,
+        36.73674724609599
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "baths"
+    ],
+    "title": "Roman baths at Sexi/Saxetanum",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/428016814"
+}

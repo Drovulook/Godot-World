@@ -1,0 +1,308 @@
+{
+    "@type": "Place",
+    "bbox": [
+        22.950827,
+        40.6320578,
+        22.9509361,
+        40.6321348
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/491741",
+            "contributors": [],
+            "created": "2018-06-13T18:16:18Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-06-13T18:16:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-06-13T18:16:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-06-13T18:16:18Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "7787551596",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Thessalonica",
+            "uri": "https://pleiades.stoa.org/places/628342669/7787551596"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/491741"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2018-06-13T18:16:17Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Church of the Saviour, Thessaloniki is a fourteenth century Byzantine church.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        22.950827,
+                        40.632096
+                    ],
+                    [
+                        22.9508615,
+                        40.6321348
+                    ],
+                    [
+                        22.9509361,
+                        40.6320967
+                    ],
+                    [
+                        22.9509015,
+                        40.6320578
+                    ],
+                    [
+                        22.950827,
+                        40.632096
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-church-of-the-saviour",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/628342669/osm-location-of-church-of-the-saviour",
+                "location_precision": "precise",
+                "snippet": "Church-2; AD 1300 - AD 1399",
+                "title": "OSM location of Church of the Saviour"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "cleaned up reference: Kourkoutidou-Nikolaidou 2008",
+            "modified": "2023-02-24T18:16:35Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2020-02-14T22:06:44Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-07-05T15:16:54Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2018-07-05T15:16:47Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-06-13T18:16:20Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-06-13T18:16:17Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "628342669",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "fourteenth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/fourteenth-ce"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-02-24T15:51:40Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 1399,
+            "featureType": [
+                "church-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        22.950827,
+                        40.632096
+                    ],
+                    [
+                        22.9508615,
+                        40.6321348
+                    ],
+                    [
+                        22.9509361,
+                        40.6320967
+                    ],
+                    [
+                        22.9509015,
+                        40.6320578
+                    ],
+                    [
+                        22.950827,
+                        40.632096
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-02-24T18:16:40Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-02-24T15:52:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added osm location",
+                    "modified": "2023-02-24T15:52:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-02-24T15:51:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-02-24T15:51:40Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-church-of-the-saviour",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church-2"
+            ],
+            "provenance": "OpenStreetMap (Way 162077399, version 7, osm:changeset=113153362, 2021-10-30T09:25:33Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/162077399",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 162077399",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=162077399",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1300,
+            "title": "OSM location of Church of the Saviour",
+            "uri": "https://pleiades.stoa.org/places/628342669/osm-location-of-church-of-the-saviour"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/church-2"
+    ],
+    "placeTypes": [
+        "church-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/65FKUAA8",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Kourkoutidou-Nikolaidou, Eutychia. <i>Naos tou Sōtēros Christou, Thessalonikē / The church of Christ the Saviour, Thessaloniki</i>. Athēna, Αθήνα: Ekdoseis Kapon, Εκδόσεις Καπόν, 2008.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Kourkoutidou-Nikolaidou 2008",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Church_of_the_Saviour,_Thessaloniki",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Church of the Saviour, Thessaloniki",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        22.950881547150967,
+        40.63209631819012
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "church",
+        "UWHS"
+    ],
+    "title": "Church of the Saviour, Thessaloniki",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/628342669"
+}

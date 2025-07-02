@@ -1,0 +1,389 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.519861,
+        41.907611,
+        12.519861,
+        41.907611
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/423025",
+            "contributors": [],
+            "created": "2021-05-27T18:08:20Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-05-28T11:38:04Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-05-27T18:08:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2021-05-27T18:08:21Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-05-27T18:08:20Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "roma",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/JPUXRUFP",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Testini, Pasquale. <i>Le Catacombe e Gli Antichi Cimiteri Cristiani in Roma</i>. Roma Cristiana 2. Bologna: Cappelli, 1966.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Testini 1966",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Roma",
+            "uri": "https://pleiades.stoa.org/places/423045/roma"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423025",
+        "https://pleiades.stoa.org/places/272213281"
+    ],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2021-05-27T18:05:20Z",
+    "creators": [
+        {
+            "name": "L. Quilici",
+            "username": null
+        },
+        {
+            "name": "S. Quilici Gigli",
+            "username": null
+        }
+    ],
+    "description": "A catacomb connected with the Christian Saint Hippolytus of Rome along the Via Tiburtina.",
+    "details": "<p>The Barrington Atlas Directory notes: S. Ippolito</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    12.519861,
+                    41.907611
+                ],
+                "type": "Point"
+            },
+            "id": "imagery-location-of-catacomba-di-santippolito",
+            "properties": {
+                "description": "Coordinates following GeoHack",
+                "link": "https://pleiades.stoa.org/places/423045/imagery-location-of-catacomba-di-santippolito",
+                "location_precision": "precise",
+                "snippet": "Cemetery; AD 300 - AD 640",
+                "title": "Imagery location of Catacomba di Sant'Ippolito"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update",
+            "modified": "2024-06-26T11:26:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-06-08T00:02:44Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added DARMC reference to maintain linkage after retracting less precise location",
+            "modified": "2021-05-28T11:37:49Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "updates to summary, references",
+            "modified": "2021-05-28T10:55:52Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2021-05-27T18:05:20Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2014-02-22T20:46:42Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T23:46:18Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T04:56:58Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-01-21T23:16:13Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:44:39Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-11T05:13:07Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-10T22:39:23Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-10T22:34:02Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "423045",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-geohack-accuracy-assessment",
+            "accuracy_value": 2000.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2021-05-27T18:05:04Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Coordinates following GeoHack",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "cemetery"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cemetery"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.519861,
+                    41.907611
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-05-28T11:37:06Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-05-27T18:05:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added imagery location",
+                    "modified": "2021-05-27T18:05:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-05-27T18:05:04Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "imagery-location-of-catacomba-di-santippolito",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cemetery"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://geohack.toolforge.org/geohack.php?language=it&pagename=Catacomba_di_Sant%27Ippolito&params=41.907611_N_12.519861_E_type:landmark",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "GeoHack - Catacomba di Sant'Ippolito",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 300,
+            "title": "Imagery location of Catacomba di Sant'Ippolito",
+            "uri": "https://pleiades.stoa.org/places/423045/imagery-location-of-catacomba-di-santippolito"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/cemetery"
+    ],
+    "placeTypes": [
+        "cemetery"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 43 C2 S. Ippolito",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "43 C2 S. Ippolito",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/JPUXRUFP",
+            "citationDetail": "162",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Testini, Pasquale. <i>Le Catacombe e Gli Antichi Cimiteri Cristiani in Roma</i>. Roma Cristiana 2. Bologna: Cappelli, 1966.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Testini 1966",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Catacomba_di_Sant'Ippolito",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Catacomba di Sant'Ippolito",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Catacomba di Sant'Ippolito.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "23145",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q3663186",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Catacomb of Sant'Ippolito (Q3663186)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.info.roma.it/monumenti_dettaglio.asp?ID_schede=4105",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UC92I57E",
+            "citationDetail": "4105: catacombe di sant'ippolito",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">“Info.roma.it: La meraviglie di roma.” Accessed February 5, 2020. https://www.info.roma.it.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Info.roma.it",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.519861,
+        41.907611
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "catacomb",
+        "paleochristian",
+        "dare:ancient=0",
+        "dare:feature=cemetery"
+    ],
+    "title": "S. Ippolito",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/423045"
+}

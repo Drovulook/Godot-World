@@ -1,0 +1,351 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.5385205,
+        42.5069802,
+        12.5385205,
+        42.5069802
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "part_of_analytical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_analytical",
+            "connectsTo": "https://pleiades.stoa.org/places/238928441",
+            "contributors": [],
+            "created": "2022-12-14T18:19:43Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-12-15T18:59:12Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-12-14T18:19:49Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2022-12-14T18:19:43Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-12-14T18:19:43Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "formina-roman-aqueduct",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://it.wikipedia.org/wiki/Acquedotto_romano_della_Formina",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+                    "citationDetail": "Acquedotto romano della Formina",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikipedia (Italian)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Formina Roman aqueduct",
+            "uri": "https://pleiades.stoa.org/places/722219503/formina-roman-aqueduct"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/238928441"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Elizabeth Robinson",
+            "uri": "https://pleiades.stoa.org/author/erobinson",
+            "username": "erobinson"
+        }
+    ],
+    "created": "2014-06-15T19:01:08Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "An aqueduct bridge near Nequinum dating ca. A.D. 24 - 33.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.5387216,
+                        42.5070458
+                    ],
+                    [
+                        12.5385768,
+                        42.5070368
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location",
+            "properties": {
+                "description": "Representative point derived from an OpenStreetMap way",
+                "link": "https://pleiades.stoa.org/places/722219503/osm-location",
+                "location_precision": "precise",
+                "snippet": "Aqueduct, ; 30 BC - AD 300",
+                "title": "OSM location of Ponte Cardona"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2022-12-14T18:16:49Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2016-12-14T23:07:43Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2016-08-08T03:55:37Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-09-18T18:05:42Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2014-06-15T19:01:17Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2014-06-15T19:01:09Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "722219503",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Elizabeth Robinson",
+                    "uri": "https://pleiades.stoa.org/author/erobinson",
+                    "username": "erobinson"
+                }
+            ],
+            "created": "2014-06-15T19:01:35Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative point derived from an OpenStreetMap way",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "aqueduct",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/aqueduct",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.5387216,
+                        42.5070458
+                    ],
+                    [
+                        12.5385768,
+                        42.5070368
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-21T16:03:39Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-08-04T16:51:09Z",
+                    "modifiedBy": "erobinson"
+                },
+                {
+                    "comment": "Edited title and summary to conform with editorial guidelines, added location type and archaeological remains",
+                    "modified": "2016-08-04T16:51:02Z",
+                    "modifiedBy": "erobinson"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2015-09-18T18:06:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-06-15T19:02:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-06-15T19:01:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-06-15T19:01:38Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/aqueduct",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 114136329, version 6, osm:changeset=93566347, 2020-11-04T23:22:38Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/114136329",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 114136329",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=114136329",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Ponte Cardona",
+            "uri": "https://pleiades.stoa.org/places/722219503/osm-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/aqueduct"
+    ],
+    "placeTypes": [
+        "aqueduct"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.turismonarni.it/home.php?id=6&ss=3&idDettaglio=7&fromPage=elenco#topMenu",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Comune di Narni, PONTE CARDONA",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.keytoumbria.com/Narni/Roman_Bridges.html",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Key to Umbria: Ponte Cardona",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q30897986",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q30897986: Ponte Cardona",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Ponte_Cardona",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+            "citationDetail": "Ponte Cardona",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        12.5385205,
+        42.5069802
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "bridge",
+        "extant remains"
+    ],
+    "title": "Ponte Cardona",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/722219503"
+}

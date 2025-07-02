@@ -1,0 +1,353 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.8345413,
+        37.5870905,
+        12.8353293,
+        37.5874571
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/462489",
+            "contributors": [],
+            "created": "2017-02-01T18:50:57Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-02-01T18:50:57Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-02-01T18:50:57Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2017-02-01T18:50:57Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "0571233845",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Selinus",
+            "uri": "https://pleiades.stoa.org/places/71706222/0571233845"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/462489"
+    ],
+    "contributors": [],
+    "created": "2017-02-01T18:50:55Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "Temple F at Selinus is a Doric temple located on the site's so-called \"East Hill\". Dedicated either to Athena or Dionysus, the temple dates to the middle of the sixth century B.C. The non-canonical ground plan of 6 x 14 columns gives the temple an elongated aspect.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.8345413,
+                        37.5871456
+                    ],
+                    [
+                        12.835293,
+                        37.5870905
+                    ],
+                    [
+                        12.8353293,
+                        37.587402
+                    ],
+                    [
+                        12.8345777,
+                        37.5874571
+                    ],
+                    [
+                        12.8345413,
+                        37.5871456
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-tempio-f",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/71706222/osm-location-of-tempio-f",
+                "location_precision": "precise",
+                "snippet": "Temple-2; 750 BC - 330 BC",
+                "title": "OSM location of Tempio F"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added Arachne 2109328: Tempel F Selinus / Σελινοΰς, Trapani (Provinz)",
+            "modified": "2020-10-31T14:29:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2017-02-01T20:22:43Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "tags, description typo",
+            "modified": "2017-02-01T20:22:18Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-02-01T19:48:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2017-02-01T19:47:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited summary, added references",
+            "modified": "2017-02-01T19:45:44Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "title, description, type",
+            "modified": "2017-02-01T18:51:35Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2017-02-01T18:50:59Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2017-02-01T18:50:55Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "71706222",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                }
+            ],
+            "contributors": [],
+            "created": "2025-05-15T01:16:16Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -330,
+            "featureType": [
+                "temple-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.8345413,
+                        37.5871456
+                    ],
+                    [
+                        12.835293,
+                        37.5870905
+                    ],
+                    [
+                        12.8353293,
+                        37.587402
+                    ],
+                    [
+                        12.8345777,
+                        37.5874571
+                    ],
+                    [
+                        12.8345413,
+                        37.5871456
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2025-05-15T12:10:22Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2025-05-15T01:16:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add osm location - other loc. is deprecated",
+                    "modified": "2025-05-15T01:16:42Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2025-05-15T01:16:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2025-05-15T01:16:16Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-tempio-f",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "provenance": "OpenStreetMap (Way 81201768, version 5, osm:changeset=47103865, 2017-03-23T18:16:30Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/81201768",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 81201768",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=81201768",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -750,
+            "title": "OSM location of Tempio F",
+            "uri": "https://pleiades.stoa.org/places/71706222/osm-location-of-tempio-f"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "temple-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Temple_F_(Selinus)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Temple F (Selinus)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Temple F (Selinus).",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Tempio_F_di_Selinunte",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Tempio F di Selinunte",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Tempio F di Selinunte.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://arachne.uni-koeln.de/item/bauwerk/2109328",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "citationDetail": "2109328: Tempel F Selinus / Σελινοΰς, Trapani (Provinz)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Arachne",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q3983186",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q3983186: Temple F",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.83493532211008,
+        37.587273792872544
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "extant remains",
+        "Doric",
+        "Dionysus",
+        "Temple",
+        "Athena"
+    ],
+    "title": "Temple F at Selinus",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/71706222"
+}

@@ -1,0 +1,360 @@
+{
+    "@type": "Place",
+    "bbox": [
+        9.2619149,
+        41.6476571,
+        9.262326,
+        41.6480515
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/472063",
+            "contributors": [],
+            "created": "2016-07-13T13:37:06Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:37:06Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:37:06Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:37:06Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "472063",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Corsica/Kyrnos (island)",
+            "uri": "https://pleiades.stoa.org/places/94809618/472063"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/472063"
+    ],
+    "contributors": [],
+    "created": "2013-07-18T00:04:39Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A prehistoric site of the Torrean civilization in Corsica.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        9.2621103,
+                        41.6480515
+                    ],
+                    [
+                        9.2619428,
+                        41.6479984
+                    ],
+                    [
+                        9.2619149,
+                        41.6478704
+                    ],
+                    [
+                        9.2619859,
+                        41.6477756
+                    ],
+                    [
+                        9.2619923,
+                        41.6476817
+                    ],
+                    [
+                        9.2621559,
+                        41.6476571
+                    ],
+                    [
+                        9.2622841,
+                        41.6476883
+                    ],
+                    [
+                        9.262326,
+                        41.6477661
+                    ],
+                    [
+                        9.2623222,
+                        41.6478561
+                    ],
+                    [
+                        9.2622092,
+                        41.6479889
+                    ],
+                    [
+                        9.2621103,
+                        41.6480515
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-castellu-daaraghju",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/94809618/osm-location-of-castellu-daaraghju",
+                "location_precision": "precise",
+                "snippet": "Tower-defensive; 3000 BC - 1000 BC",
+                "title": "OSM location of Castellu d’Araghju"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-11-20T18:42:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2013-07-19T20:55:29Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2013-07-18T20:57:36Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2013-07-18T00:04:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2013-07-18T00:04:40Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "94809618",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "3rd-millennium-bc",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/3rd-millennium-bc"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "2nd-millenium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-01-26T21:20:47Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -1000,
+            "featureType": [
+                "tower-defensive"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tower-defensive"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        9.2621103,
+                        41.6480515
+                    ],
+                    [
+                        9.2619428,
+                        41.6479984
+                    ],
+                    [
+                        9.2619149,
+                        41.6478704
+                    ],
+                    [
+                        9.2619859,
+                        41.6477756
+                    ],
+                    [
+                        9.2619923,
+                        41.6476817
+                    ],
+                    [
+                        9.2621559,
+                        41.6476571
+                    ],
+                    [
+                        9.2622841,
+                        41.6476883
+                    ],
+                    [
+                        9.262326,
+                        41.6477661
+                    ],
+                    [
+                        9.2623222,
+                        41.6478561
+                    ],
+                    [
+                        9.2622092,
+                        41.6479889
+                    ],
+                    [
+                        9.2621103,
+                        41.6480515
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-01-26T22:27:21Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-01-26T21:21:15Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location.",
+                    "modified": "2024-01-26T21:21:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-01-26T21:20:47Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-01-26T21:20:47Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-castellu-daaraghju",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tower-defensive"
+            ],
+            "provenance": "OpenStreetMap (Way 610034377, version 3, osm:changeset=118388245, 2022-03-12T07:16:15Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/610034377",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 610034377",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=610034377",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -3000,
+            "title": "OSM location of Castellu d’Araghju",
+            "uri": "https://pleiades.stoa.org/places/94809618/osm-location-of-castellu-daaraghju"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tower-defensive",
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+    ],
+    "placeTypes": [
+        "tower-defensive",
+        "fort"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://fr.wikipedia.org/wiki/Araghju",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/B4HPCZIK",
+            "citationDetail": "Araghju",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipédia: L’encyclopédie libre que chacun peut améliorer (2001-), Araghju.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (French)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q2859432",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Araghju (Q2859432)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://pop.culture.gouv.fr/notice/merimee/PA00099109",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KQ7A48AA",
+            "citationDetail": "PA00099109: Ensemble monumental torréen ou Castello d'Aragio I",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Mérimée</i>. Ministére de la Culture (France), 2014. http://www.culture.gouv.fr/Espace-documentation/Bases-de-donnees/Merimee-consultable-depuis-le-moteur-Collections.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Mérimée",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        9.262117300083975,
+        41.64784387133138
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Araghju",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/94809618"
+}

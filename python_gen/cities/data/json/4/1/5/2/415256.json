@@ -1,0 +1,369 @@
+{
+    "@type": "Place",
+    "bbox": [
+        13.0,
+        43.5,
+        13.5,
+        44.0
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "near",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/near",
+            "connectsTo": "https://pleiades.stoa.org/places/413129",
+            "contributors": [],
+            "created": "2018-11-10T17:49:21Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-10-17T13:56:49Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2022-10-17T00:14:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-11-10T17:49:28Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2018-11-10T17:49:23Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-11-10T17:49:21Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "fanum-fortunae",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/68RZSEM9",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Alfieri, N. “Per la topografia storica di Fanum Fortunae (Fano).” In <i>Rivista storica dell’antichità, 6.1976-77</i>, 147–171, Abb, 1976.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Alfieri 1976",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9377UUFB",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Barrington Atlas of the Greek and Roman World : Map-by-Map Directory</i>. 2 vols. Princeton, N.J.: Princeton University Press, 2000.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "BAtlDir",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Fanum Fortunae",
+            "uri": "https://pleiades.stoa.org/places/415256/fanum-fortunae"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/413129"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-11-12T15:24:17Z",
+    "creators": [
+        {
+            "name": "W.V. Harris",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 42 E1 unnamed centuriation (Fanum Fortunae)",
+    "details": "<p>The Barrington Atlas Directory notes: Fanum Fortunae</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.0,
+                            43.5
+                        ],
+                        [
+                            13.5,
+                            43.5
+                        ],
+                        [
+                            13.5,
+                            44.0
+                        ],
+                        [
+                            13.0,
+                            44.0
+                        ],
+                        [
+                            13.0,
+                            43.5
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "batlas-location",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/415256/batlas-location",
+                "location_precision": "rough",
+                "snippet": "Unknown; 330 BC - AD 640",
+                "title": "Barrington Atlas location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update",
+            "modified": "2022-10-17T00:13:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2018-11-10T17:48:53Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T04:53:01Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:42:36Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-14T14:02:27Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-12T15:52:15Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-12T15:24:17Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "415256",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": null,
+            "accuracy_value": null,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-11-12T15:24:17Z",
+            "creators": [
+                {
+                    "name": "W.V. Harris",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.0,
+                            43.5
+                        ],
+                        [
+                            13.5,
+                            43.5
+                        ],
+                        [
+                            13.5,
+                            44.0
+                        ],
+                        [
+                            13.0,
+                            44.0
+                        ],
+                        [
+                            13.0,
+                            43.5
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:53:02Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-14T14:02:27Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-12T15:52:15Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-12T15:24:17Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "batlas-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Barrington Atlas: BAtlas 42 E1",
+            "references": [],
+            "review_state": "published",
+            "start": -330,
+            "title": "Barrington Atlas location",
+            "uri": "https://pleiades.stoa.org/places/415256/batlas-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/centuriation"
+    ],
+    "placeTypes": [
+        "centuriation"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 42 E1",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "42 E1",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/68RZSEM9",
+            "citationDetail": "166-71",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Alfieri, N. “Per la topografia storica di Fanum Fortunae (Fano).” In <i>Rivista storica dell’antichità, 6.1976-77</i>, 147–171, Abb, 1976.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Alfieri 1976",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        13.25,
+        43.75
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Untitled",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/415256"
+}

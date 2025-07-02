@@ -1,0 +1,643 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -2.3379079,
+        55.0121666,
+        -2.337435,
+        55.012455
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/91358",
+            "contributors": [],
+            "created": "2016-07-13T13:51:12Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:51:12Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:51:12Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:51:12Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "91358",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Hadrian's Wall",
+            "uri": "https://pleiades.stoa.org/places/893595278/91358"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-britain",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-britain"
+                }
+            ],
+            "connectionType": "near",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/near",
+            "connectsTo": "https://pleiades.stoa.org/places/89311",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-07-13T13:51:12Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 410,
+            "history": [
+                {
+                    "comment": "change cnxn type",
+                    "modified": "2018-11-02T19:51:59Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:51:12Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:51:12Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:51:12Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "89311",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": 43,
+            "title": "*Vercovicium",
+            "uri": "https://pleiades.stoa.org/places/893595278/89311"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/91358",
+        "https://pleiades.stoa.org/places/89311"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        }
+    ],
+    "created": "2012-01-01T22:17:52Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Scott Vanderbilt",
+            "uri": "https://pleiades.stoa.org/author/sarcanon",
+            "username": "sarcanon"
+        }
+    ],
+    "description": "One of the milecastles along Hadrian's Wall, approximately 400 meters to the west of Housesteads Roman fort (Vercovicium)",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -2.3379079,
+                        55.0123128
+                    ],
+                    [
+                        -2.3378198,
+                        55.0121666
+                    ],
+                    [
+                        -2.3376645,
+                        55.0121973
+                    ],
+                    [
+                        -2.3375119,
+                        55.0122276
+                    ],
+                    [
+                        -2.3376,
+                        55.0123738
+                    ],
+                    [
+                        -2.337722,
+                        55.0123498
+                    ],
+                    [
+                        -2.3379079,
+                        55.0123128
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-milecastle-37",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/893595278/osm-location-of-milecastle-37",
+                "location_precision": "precise",
+                "snippet": "Fortlet; AD 43 - AD 410",
+                "title": "OSM location of Milecastle 37"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -2.337816,
+                            55.012387
+                        ],
+                        [
+                            -2.337746,
+                            55.012232
+                        ],
+                        [
+                            -2.337435,
+                            55.012282
+                        ],
+                        [
+                            -2.337508,
+                            55.012455
+                        ],
+                        [
+                            -2.337816,
+                            55.012387
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "imagery-location-boundary-of-milecastle-walls",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/893595278/imagery-location-boundary-of-milecastle-walls",
+                "location_precision": "precise",
+                "snippet": "Unknown; 30 BC - AD 640",
+                "title": "Imagery Location: Boundary of milecastle walls"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q16156512",
+            "modified": "2024-12-12T17:47:37Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "references",
+            "modified": "2018-11-02T19:51:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "DARE feature tag fix.",
+            "modified": "2012-10-23T19:39:32Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T21:57:12Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T09:21:02Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Fix Breeze reference",
+            "modified": "2012-01-17T18:32:34Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2012-01-12T17:12:46Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2012-01-01T22:29:36Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Fixed reference",
+            "modified": "2012-01-01T22:28:00Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "action": "Retract",
+            "modified": "2012-01-01T22:27:37Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2012-01-01T22:22:20Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Added reference",
+            "modified": "2012-01-01T22:18:49Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Added.",
+            "modified": "2012-01-01T22:17:56Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "action": "Create",
+            "modified": "2012-01-01T22:17:52Z",
+            "modifiedBy": "sarcanon"
+        }
+    ],
+    "id": "893595278",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-britain",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-britain"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-12-12T17:46:19Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 410,
+            "featureType": [
+                "fortlet"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fortlet"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -2.3379079,
+                        55.0123128
+                    ],
+                    [
+                        -2.3378198,
+                        55.0121666
+                    ],
+                    [
+                        -2.3376645,
+                        55.0121973
+                    ],
+                    [
+                        -2.3375119,
+                        55.0122276
+                    ],
+                    [
+                        -2.3376,
+                        55.0123738
+                    ],
+                    [
+                        -2.337722,
+                        55.0123498
+                    ],
+                    [
+                        -2.3379079,
+                        55.0123128
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2025-01-29T15:55:27Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-12-12T17:46:44Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add OSM location",
+                    "modified": "2024-12-12T17:46:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-12-12T17:46:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-12-12T17:46:19Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-milecastle-37",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fortlet"
+            ],
+            "provenance": "OpenStreetMap (Way 304530503, version 5, osm:changeset=157206671, 2024-09-28T11:48:16Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/304530503",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 304530503",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=304530503",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 43,
+            "title": "OSM location of Milecastle 37",
+            "uri": "https://pleiades.stoa.org/places/893595278/osm-location-of-milecastle-37"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-geoeye-2011",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2012-01-01T22:20:01Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Scott Vanderbilt",
+                    "uri": "https://pleiades.stoa.org/author/sarcanon",
+                    "username": "sarcanon"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -2.337816,
+                            55.012387
+                        ],
+                        [
+                            -2.337508,
+                            55.012455
+                        ],
+                        [
+                            -2.337435,
+                            55.012282
+                        ],
+                        [
+                            -2.337746,
+                            55.012232
+                        ],
+                        [
+                            -2.337816,
+                            55.012387
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T09:21:03Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-01-12T17:12:46Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-01-10T04:07:01Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Retract",
+                    "modified": "2012-01-10T04:04:57Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-01-10T03:59:30Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Retract",
+                    "modified": "2012-01-10T03:58:10Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-01-01T22:21:50Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "comment": "Added.",
+                    "modified": "2012-01-01T22:20:05Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-01-01T22:20:01Z",
+                    "modifiedBy": "sarcanon"
+                }
+            ],
+            "id": "imagery-location-boundary-of-milecastle-walls",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.pastscape.org.uk/hob.aspx?hob_id=15146",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "English Heritage monument number 15146",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Imagery Location: Boundary of milecastle walls",
+            "uri": "https://pleiades.stoa.org/places/893595278/imagery-location-boundary-of-milecastle-walls"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fortlet"
+    ],
+    "placeTypes": [
+        "fortlet"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/VF8CRNVF",
+            "citationDetail": "250-254",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Breeze, David J. <i>Handbook to the Roman Wall</i>. 14th ed. 1 vols. Newcastle upon Tyne: Society of Antiquaries of Newcastle upon Tyne, 2006.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Breeze 2006",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.pastscape.org.uk/hob.aspx?hob_id=15146",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2GLEU38X",
+            "citationDetail": "monument number 15146",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Historic England. <i>PastScape: Information on England’s Archaeology and Architecture</i>, 2015. https://www.pastscape.org.uk/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PastScape",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Milecastle_37",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Milecastle 37",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q16156512",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Milecastle 37 (Q16156512)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        -2.3376667713591432,
+        55.012304963853126
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=2",
+        "dare:feature=tower"
+    ],
+    "title": "Milecastle 37 (Housesteads)",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/893595278"
+}

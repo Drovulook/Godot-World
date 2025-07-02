@@ -1,0 +1,354 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.7548092,
+        41.5128708,
+        12.7553958,
+        41.5132989
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/423060",
+            "contributors": [],
+            "created": "2018-12-30T21:35:12Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-12-30T21:35:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-12-30T21:35:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-12-30T21:35:12Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "7125320261",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Satricum",
+            "uri": "https://pleiades.stoa.org/places/297163719/7125320261"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423060"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "John Muccigrosso",
+            "uri": "https://pleiades.stoa.org/author/jmuccigr",
+            "username": "jmuccigr"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2018-12-30T21:35:07Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A sanctuary dedicated to Mater Matuta that was in use between the seventh and fifth centuries B.C.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.7551881,
+                        41.5132989
+                    ],
+                    [
+                        12.7553958,
+                        41.5131259
+                    ],
+                    [
+                        12.7550168,
+                        41.5128708
+                    ],
+                    [
+                        12.7548092,
+                        41.5130438
+                    ],
+                    [
+                        12.7551881,
+                        41.5132989
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-tempio-di-mater-matuta",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/297163719/osm-location-of-tempio-di-mater-matuta",
+                "location_precision": "precise",
+                "snippet": "Temple-2; 750 BC - 330 BC",
+                "title": "OSM location of Tempio di Mater Matuta"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added reference to Temples of the Classical World provided by @jmuccigr",
+            "modified": "2025-04-09T12:52:21Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "added wikidata reference",
+            "modified": "2022-04-01T22:29:53Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-11-09T15:20:16Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "reference",
+            "modified": "2020-05-27T18:34:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2019-02-21T11:32:02Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-12-30T21:35:55Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2018-12-30T21:35:41Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-12-30T21:35:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-12-30T21:35:08Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "297163719",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                }
+            ],
+            "contributors": [],
+            "created": "2025-04-07T12:36:08Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -330,
+            "featureType": [
+                "temple-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.7551881,
+                        41.5132989
+                    ],
+                    [
+                        12.7553958,
+                        41.5131259
+                    ],
+                    [
+                        12.7550168,
+                        41.5128708
+                    ],
+                    [
+                        12.7548092,
+                        41.5130438
+                    ],
+                    [
+                        12.7551881,
+                        41.5132989
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2025-04-09T12:51:14Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2025-04-07T12:36:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added osm location",
+                    "modified": "2025-04-07T12:36:28Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2025-04-07T12:36:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2025-04-07T12:36:08Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-tempio-di-mater-matuta",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "provenance": "OpenStreetMap (Way 229738179, version 3, osm:changeset=147915009, 2024-02-26T03:24:25Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/229738179",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 229738179",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=229738179",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -750,
+            "title": "OSM location of Tempio di Mater Matuta",
+            "uri": "https://pleiades.stoa.org/places/297163719/osm-location-of-tempio-di-mater-matuta"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "temple-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/JED78UEV",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Waele, Jozef Arthur Karel Emmanuel de. <i>I templi della Mater Matuta di Satricum</i>. Rome]; [s.n., 1981.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "de Waele 1961",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2CNSTJYG",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Gnade, M., and Reimer Stobbe. “Riflessioni sul santuario di Mater Matuta sull’acropoli di Satricum alla luce delle recenti scoperte archeologiche.” In <i>Ostraka, Rivista di antichità, Vol.spec.2012</i>, 453–63. Napoli: Loffredo editore, 2012.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Gnade 2012",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q101421641",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q101421641: Temple of Mater Matuta at Satricum",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://romeresearchgroup.org/items/1000876",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZV7SNRDS",
+            "citationDetail": "1000876: Temple of Mater Matuta",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">John D. Muccigrosso, and Louis I. Hamilton. <i>Temples of the Classical World</i>. Rome Research Group. Accessed October 15, 2024. https://romeresearchgroup.org/database-of-temples/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TCW",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.755102490933519,
+        41.513084851804486
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Temple of Mater Matuta at Satricum",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/297163719"
+}

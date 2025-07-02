@@ -1,0 +1,322 @@
+{
+    "@type": "Place",
+    "bbox": [
+        16.0462758,
+        41.2274487,
+        16.0463547,
+        41.2275634
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/442525",
+            "contributors": [],
+            "created": "2018-05-01T02:22:32Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-05-01T02:22:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-05-01T02:22:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-05-01T02:22:32Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "3522266610",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Canusium",
+            "uri": "https://pleiades.stoa.org/places/829122898/3522266610"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/442525"
+    ],
+    "contributors": [],
+    "created": "2018-05-01T02:22:30Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Arch of Trajan at Canosa dates to the second century CE.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        16.0463547,
+                        41.2275589
+                    ],
+                    [
+                        16.0463413,
+                        41.2274487
+                    ],
+                    [
+                        16.0462758,
+                        41.2274533
+                    ],
+                    [
+                        16.0462892,
+                        41.2275634
+                    ],
+                    [
+                        16.0463547,
+                        41.2275589
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-arco-di-traiano",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/829122898/osm-location-arco-di-traiano",
+                "location_precision": "precise",
+                "snippet": "Arch; 30 BC - AD 300",
+                "title": "OSM location: Arco di Traiano"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q3621793",
+            "modified": "2024-12-21T02:55:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2021-04-30T10:57:19Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-05-01T02:51:36Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "references",
+            "modified": "2018-05-01T02:47:59Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-05-01T02:22:34Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-05-01T02:22:30Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "829122898",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-12-21T02:57:10Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "arch"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/arch"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        16.0463547,
+                        41.2275589
+                    ],
+                    [
+                        16.0463413,
+                        41.2274487
+                    ],
+                    [
+                        16.0462758,
+                        41.2274533
+                    ],
+                    [
+                        16.0462892,
+                        41.2275634
+                    ],
+                    [
+                        16.0463547,
+                        41.2275589
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2025-01-09T20:20:27Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-12-21T02:57:39Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location whose underlying OSM data is now deprecated",
+                    "modified": "2024-12-21T02:57:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-12-21T02:57:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-12-21T02:57:10Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-arco-di-traiano",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/arch"
+            ],
+            "provenance": "OpenStreetMap (Way 407614006, version 4, osm:changeset=152046735, 2024-05-30T17:16:47Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/407614006",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 407614006",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=407614006",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location: Arco di Traiano",
+            "uri": "https://pleiades.stoa.org/places/829122898/osm-location-arco-di-traiano"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/city-gate",
+        "https://pleiades.stoa.org/vocabularies/place-types/arch"
+    ],
+    "placeTypes": [
+        "city-gate",
+        "arch"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Arch_of_Trajan_(Canosa)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Arch of Trajan (Canosa)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.persee.fr/doc/mefr_0223-5102_1993_num_105_2_1822",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FYPT4Y4A",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Todisco, Luigi. “Rilievi romani a Trani, Castel del Monte, Canosa.” <i>Mélanges de l’école française de Rome</i> 105, no. 2 (1993): 873–94. https://doi.org/10.3406/mefr.1993.1822.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Todisco 1993",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TCJIX438",
+            "citationDetail": "151, 163, 171-172, 236-237",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">De Maria, Sandro. <i>Gli archi onorari di Roma e dell’Italia romana</i>. Bibliotheca archaeologica 7. Roma: “L’Erma” di Bretschneider, 1988.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "De Maria 1988",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q3621793",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Arch of Trajan (Q3621793)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        16.046315259072028,
+        41.22750607328022
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Arch of Trajan at Canosa",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/829122898"
+}

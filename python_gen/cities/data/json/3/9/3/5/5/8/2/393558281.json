@@ -1,0 +1,331 @@
+{
+    "@type": "Place",
+    "bbox": [
+        31.2185497,
+        29.8737765,
+        31.2185497,
+        29.8737765
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/796289136",
+            "contributors": [],
+            "created": "2016-08-31T20:56:10Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-08-31T20:56:11Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-08-31T20:56:11Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-08-31T20:56:10Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "9707622347",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Saqqarah",
+            "uri": "https://pleiades.stoa.org/places/393558281/9707622347"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/796289136"
+    ],
+    "contributors": [],
+    "created": "2016-08-31T20:55:58Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "A Fifth Dynasty pyramid at Saqqarah.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    31.2186161,
+                    29.8736742
+                ],
+                "type": "Point"
+            },
+            "id": "location-of-pyramid-of-userkaf",
+            "properties": {
+                "description": "Userkaf (Fifth Dynasty); Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/393558281/location-of-pyramid-of-userkaf",
+                "location_precision": "precise",
+                "snippet": "Tomb, ; 2670 BC - 2168 BC",
+                "title": "OSM location of Pyramid of Userkaf"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-11-01T02:05:34Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "updated references",
+            "modified": "2020-08-19T20:10:34Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-11-03T13:12:26Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2016-09-02T03:00:11Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2016-08-31T20:57:39Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2016-08-31T20:57:35Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "title, description, and place type",
+            "modified": "2016-08-31T20:57:24Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2016-08-31T20:56:15Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2016-08-31T20:55:58Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "393558281",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "old-kingdom-egypt",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/old-kingdom-egypt"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-02-21T20:43:53Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Userkaf (Fifth Dynasty); Location based on OpenStreetMap",
+            "details": "",
+            "end": -2168,
+            "featureType": [
+                "tomb",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    31.2186161,
+                    29.8736742
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2024-11-01T02:05:42Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2023-11-19T02:25:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2023-07-15T01:30:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-08-01T11:48:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-03-11T11:34:11Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-03-03T21:44:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-02-21T20:44:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-02-21T20:43:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-02-21T20:43:54Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-pyramid-of-userkaf",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Node 1139038016, version 4, osm:changeset=146946044, 2024-02-01T13:28:35Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/node/1139038016",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 1139038016",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=1139038016",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Pyramid_of_Userkaf",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "citationDetail": "Pyramid of Userkaf",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Pyramid of Userkaf.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -2670,
+            "title": "OSM location of Pyramid of Userkaf",
+            "uri": "https://pleiades.stoa.org/places/393558281/location-of-pyramid-of-userkaf"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+        "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+    ],
+    "placeTypes": [
+        "tomb",
+        "pyramid"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Pyramid_of_Userkaf",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Pyramid of Userkaf",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Pyramid of Userkaf.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1570082",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Pyramid of Userkaf (Q1570082)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "http://www.geonames.org/351937/pyramid-of-userkaf.html",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+            "citationDetail": "351937: Pyramid of Userkaf",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. “GeoNames,” 2005. http://www.geonames.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "GeoNames",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        31.2185497,
+        29.8737765
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Pyramid of Userkaf",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/393558281"
+}

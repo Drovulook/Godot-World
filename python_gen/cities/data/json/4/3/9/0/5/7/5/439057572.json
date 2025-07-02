@@ -1,0 +1,418 @@
+{
+    "@type": "Place",
+    "bbox": [
+        29.6116737,
+        39.2049315,
+        29.6116737,
+        39.2049315
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/609292",
+            "contributors": [],
+            "created": "2018-08-15T13:58:40Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-08-15T13:58:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-08-15T13:58:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-08-15T13:58:40Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "5205520134",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Aizanoi",
+            "uri": "https://pleiades.stoa.org/places/439057572/5205520134"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/609292"
+    ],
+    "contributors": [],
+    "created": "2018-08-15T13:58:39Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Stadium at Aizanoi is adjacent to the theater.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        29.6116737,
+                        39.2049315
+                    ],
+                    [
+                        29.6112837,
+                        39.2050373
+                    ],
+                    [
+                        29.6110834,
+                        39.2050917
+                    ],
+                    [
+                        29.6111793,
+                        39.205519
+                    ],
+                    [
+                        29.6109605,
+                        39.2056583
+                    ],
+                    [
+                        29.6112122,
+                        39.2066104
+                    ],
+                    [
+                        29.6113261,
+                        39.2068728
+                    ],
+                    [
+                        29.6112032,
+                        39.2072095
+                    ],
+                    [
+                        29.6113771,
+                        39.2074905
+                    ],
+                    [
+                        29.6119255,
+                        39.2076762
+                    ],
+                    [
+                        29.6122581,
+                        39.2076159
+                    ],
+                    [
+                        29.6125188,
+                        39.2073279
+                    ],
+                    [
+                        29.6125826,
+                        39.2071105
+                    ],
+                    [
+                        29.6126237,
+                        39.2069703
+                    ],
+                    [
+                        29.6125158,
+                        39.2068473
+                    ],
+                    [
+                        29.6120034,
+                        39.2066476
+                    ],
+                    [
+                        29.6119404,
+                        39.2064107
+                    ],
+                    [
+                        29.6122641,
+                        39.2061576
+                    ],
+                    [
+                        29.6120873,
+                        39.2054586
+                    ],
+                    [
+                        29.6117666,
+                        39.2054888
+                    ],
+                    [
+                        29.6116737,
+                        39.2049315
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-stadium",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/439057572/osm-location-of-stadium",
+                "location_precision": "precise",
+                "snippet": "Stadion, ; 30 BC - AD 300",
+                "title": "OSM location of stadium"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "action": "Publish externally",
+            "modified": "2018-08-15T20:01:39Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-08-15T13:59:30Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2018-08-15T13:59:21Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-08-15T13:58:42Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-08-15T13:58:39Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "439057572",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-05-24T02:04:03Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "stadion",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/stadion",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        29.6116737,
+                        39.2049315
+                    ],
+                    [
+                        29.6112837,
+                        39.2050373
+                    ],
+                    [
+                        29.6110834,
+                        39.2050917
+                    ],
+                    [
+                        29.6111793,
+                        39.205519
+                    ],
+                    [
+                        29.6109605,
+                        39.2056583
+                    ],
+                    [
+                        29.6112122,
+                        39.2066104
+                    ],
+                    [
+                        29.6113261,
+                        39.2068728
+                    ],
+                    [
+                        29.6112032,
+                        39.2072095
+                    ],
+                    [
+                        29.6113771,
+                        39.2074905
+                    ],
+                    [
+                        29.6119255,
+                        39.2076762
+                    ],
+                    [
+                        29.6122581,
+                        39.2076159
+                    ],
+                    [
+                        29.6125188,
+                        39.2073279
+                    ],
+                    [
+                        29.6125826,
+                        39.2071105
+                    ],
+                    [
+                        29.6126237,
+                        39.2069703
+                    ],
+                    [
+                        29.6125158,
+                        39.2068473
+                    ],
+                    [
+                        29.6120034,
+                        39.2066476
+                    ],
+                    [
+                        29.6119404,
+                        39.2064107
+                    ],
+                    [
+                        29.6122641,
+                        39.2061576
+                    ],
+                    [
+                        29.6120873,
+                        39.2054586
+                    ],
+                    [
+                        29.6117666,
+                        39.2054888
+                    ],
+                    [
+                        29.6116737,
+                        39.2049315
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-22T02:51:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-07-20T01:09:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-05-24T02:09:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-05-24T02:06:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-05-24T02:04:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-05-24T02:04:05Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-stadium",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/stadion",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 173577165, version 2, osm:changeset=125390631, 2022-08-26T06:48:10Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/173577165",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 173577165",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=173577165",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of stadium",
+            "uri": "https://pleiades.stoa.org/places/439057572/osm-location-of-stadium"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/stadion"
+    ],
+    "placeTypes": [
+        "stadion"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Aizanoi#Theatre_and_stadium",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Aizanoi",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        29.6116737,
+        39.2049315
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Stadium at Aizanoi",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/439057572"
+}

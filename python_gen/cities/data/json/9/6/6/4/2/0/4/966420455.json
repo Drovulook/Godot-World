@@ -1,0 +1,438 @@
+{
+    "@type": "Place",
+    "bbox": [
+        10.0166569,
+        44.0633706,
+        10.0174008,
+        44.0640879
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/403235",
+            "contributors": [],
+            "created": "2018-05-05T14:51:31Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-05-05T14:51:31Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-05-05T14:51:31Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-05-05T14:51:31Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "8914694973",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Luna",
+            "uri": "https://pleiades.stoa.org/places/966420455/8914694973"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "part_of_analytical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_analytical",
+            "connectsTo": "https://pleiades.stoa.org/places/677723893",
+            "contributors": [],
+            "created": "2021-10-09T15:17:14Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-03-23T10:44:16Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-03-23T02:23:45Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added reference",
+                    "modified": "2022-03-23T02:23:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2021-10-09T15:17:15Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-10-09T15:17:14Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "ager-lunensis-survey-area",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.jstor.org/stable/40310830",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9QPR8X3B",
+                    "citationDetail": "82",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Smith, Catherine Delano, Derek Gadd, Nigel Mills, and Bryan Ward Perkins. “Luni and the Ager Lunensis: The Rise and Fall of a Roman Town and Its Territory.” <i>Papers of the British School at Rome</i> 41 (1986): 81–146. http://www.jstor.org/stable/40310830.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Ward Perkins 1986",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Ager Lunensis Survey area",
+            "uri": "https://pleiades.stoa.org/places/966420455/ager-lunensis-survey-area"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/403235",
+        "https://pleiades.stoa.org/places/677723893"
+    ],
+    "contributors": [],
+    "created": "2018-05-05T14:51:30Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The forum of Luna, founded as a colony in 177 B.C.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        10.0170215,
+                        44.0640879
+                    ],
+                    [
+                        10.0174008,
+                        44.0639685
+                    ],
+                    [
+                        10.0170362,
+                        44.0633706
+                    ],
+                    [
+                        10.0166569,
+                        44.06349
+                    ],
+                    [
+                        10.0170215,
+                        44.0640879
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-forum-of-luna",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap; verified in Google Earth.",
+                "link": "https://pleiades.stoa.org/places/966420455/location-of-forum-of-luna",
+                "location_precision": "precise",
+                "snippet": "Forum; 330 BC - AD 640",
+                "title": "OSM location of Foro"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Place type",
+            "modified": "2025-01-29T03:04:50Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update Arachne reference",
+            "modified": "2023-07-07T01:50:34Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-10-26T03:24:46Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "reference",
+            "modified": "2020-04-03T18:34:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-05-05T14:54:02Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-05-05T14:53:55Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "title, summary, reference",
+            "modified": "2018-05-05T14:53:09Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-05-05T14:51:33Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-05-05T14:51:30Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "966420455",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-04-06T17:17:47Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap; verified in Google Earth.",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "forum"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/forum"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        10.0170215,
+                        44.0640879
+                    ],
+                    [
+                        10.0174008,
+                        44.0639685
+                    ],
+                    [
+                        10.0170362,
+                        44.0633706
+                    ],
+                    [
+                        10.0166569,
+                        44.06349
+                    ],
+                    [
+                        10.0170215,
+                        44.0640879
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2025-05-25T19:34:01Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Feature type",
+                    "modified": "2025-01-29T03:05:07Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2023-07-07T01:49:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2018-05-05T14:53:44Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-04-06T21:00:11Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-04-06T17:39:39Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-04-06T17:18:53Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-04-06T17:17:50Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-04-06T17:17:49Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-forum-of-luna",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/forum"
+            ],
+            "provenance": "OpenStreetMap (Way 77287971, version 1, osm:changeset=5765498, 2010-09-13T00:16:27Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/77287971",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 77287971",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=77287971",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "OSM location of Foro",
+            "uri": "https://pleiades.stoa.org/places/966420455/location-of-forum-of-luna"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/forum"
+    ],
+    "placeTypes": [
+        "forum"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Luna_(colonia_romana)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+            "citationDetail": "Luna (colonia romana)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://books.openedition.org/cvz/1432",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZWZ9GITY",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Cavalieri, Marco. “Étude Des Complexes Monumentaux En Italie Du Nord Entre Le Iie et Le Ive s. : Rupture, Continuité Ou Transformation ?” In <i>Urbanisme Civique En Temps de Crise : Les Espaces Publics d’Hispanie et de l’Occident Romain Entre Le Iie et Le Ive Siècle</i>, edited by Laurent Brassous and Alejandro Quevedo, 83–102. Collection de La Casa de Velázquez. Madrid: Casa de Velázquez, 2017. http://books.openedition.org/cvz/1432.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Cavalieri 2017",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://arachne.dainst.org/entity/2300727",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "citationDetail": "Forum von Luna La Spezia (Provinz) (Luna), Italien",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Arachne",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UD9ZQRUB",
+            "citationDetail": "115 ff., 357",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Lackner, Eva-Maria. <i>Republikanische Fora</i>. München: Biering &amp; Brinkmann, 2008.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Lackner 2008",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        10.017028849999999,
+        44.06372925
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "extant remains",
+        "forum"
+    ],
+    "title": "Roman forum of Luna",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/966420455"
+}

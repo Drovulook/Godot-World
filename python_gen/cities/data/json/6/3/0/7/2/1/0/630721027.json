@@ -1,0 +1,649 @@
+{
+    "@type": "Place",
+    "bbox": [
+        65.6581402,
+        31.6018578,
+        65.6594814,
+        31.6034478
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/59669",
+            "contributors": [],
+            "created": "2022-06-21T12:36:00Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-06-21T12:36:00Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-06-21T12:36:00Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-06-21T12:36:00Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "9606516817",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Alexandria/Alexandropolis/Cufis",
+            "uri": "https://pleiades.stoa.org/places/630721027/9606516817"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/59669"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2022-06-21T12:35:59Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Carolin Johansson",
+            "uri": "https://pleiades.stoa.org/author/cjohansson",
+            "username": "cjohansson"
+        },
+        {
+            "homepage": null,
+            "name": "Rune Rattenborg",
+            "uri": "https://pleiades.stoa.org/author/rrattenborg",
+            "username": "rrattenborg"
+        }
+    ],
+    "description": "Tradition holds that the Iron Age and Achaemenid citadel of Old Kandahar was re-established during the time of Alexander the Great. It functioned as a local seat of power for at least two millennia.",
+    "details": "<p><span>Centre point location extracted from polygon drawn around entire site as identified on Google Earth base imagery in QGIS 3.x.</span></p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    65.6589,
+                    31.6026
+                ],
+                "type": "Point"
+            },
+            "id": "imagery-location-of-old-kandahar-citadel",
+            "properties": {
+                "description": "Location of citadel of Old Kandahar",
+                "link": "https://pleiades.stoa.org/places/630721027/imagery-location-of-old-kandahar-citadel",
+                "location_precision": "precise",
+                "snippet": "Archaeological-site, Citadel, Settlement; 1000 BC - AD 1000",
+                "title": "CIGS location of Old Kandahar citadel"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        65.6593151,
+                        31.6027442
+                    ],
+                    [
+                        65.6593151,
+                        31.6029178
+                    ],
+                    [
+                        65.6594814,
+                        31.6031645
+                    ],
+                    [
+                        65.6592078,
+                        31.6034478
+                    ],
+                    [
+                        65.6587679,
+                        31.6031508
+                    ],
+                    [
+                        65.6584407,
+                        31.602895
+                    ],
+                    [
+                        65.6581617,
+                        31.6024244
+                    ],
+                    [
+                        65.6581402,
+                        31.6021091
+                    ],
+                    [
+                        65.658446,
+                        31.6018578
+                    ],
+                    [
+                        65.6586981,
+                        31.6018807
+                    ],
+                    [
+                        65.6589717,
+                        31.6021777
+                    ],
+                    [
+                        65.6593258,
+                        31.6022599
+                    ],
+                    [
+                        65.6593472,
+                        31.6024655
+                    ],
+                    [
+                        65.6593633,
+                        31.6026163
+                    ],
+                    [
+                        65.6593151,
+                        31.6027442
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-old-kandahar",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/630721027/osm-location-of-old-kandahar",
+                "location_precision": "precise",
+                "snippet": "Citadel",
+                "title": "OSM location of Old Kandahar"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "action": "Publish externally",
+            "modified": "2022-06-21T16:23:10Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2022-06-21T13:09:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2022-06-21T13:09:36Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update summary, correct wikidata reference, add wikipedia reference",
+            "modified": "2022-06-21T12:39:05Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2022-06-21T12:36:01Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2022-06-21T12:35:59Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "630721027",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "1st-millennium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/1st-millennium-bce"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "achaemenid-central-asia",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/achaemenid-central-asia"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-central-asia",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-central-asia"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "1st-millennium-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/1st-millennium-ce"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antiquity-in-central-asia",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antiquity-in-central-asia"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2023-06-08T13:58:19Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Carolin Johansson",
+                    "uri": "https://pleiades.stoa.org/author/cjohansson",
+                    "username": "cjohansson"
+                },
+                {
+                    "homepage": null,
+                    "name": "Rune Rattenborg",
+                    "uri": "https://pleiades.stoa.org/author/rrattenborg",
+                    "username": "rrattenborg"
+                }
+            ],
+            "description": "Location of citadel of Old Kandahar",
+            "details": "<p><span>Centre point location extracted from polygon drawn around entire site as identified on Google Earth base imagery in QGIS 3.x.</span></p>",
+            "end": 1000,
+            "featureType": [
+                "archaeological-site",
+                "citadel",
+                "settlement"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site",
+                "https://pleiades.stoa.org/vocabularies/place-types/citadel",
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "geometry": {
+                "coordinates": [
+                    65.6589,
+                    31.6026
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Standardized title",
+                    "modified": "2023-06-10T15:36:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modified": "2023-06-08T13:58:19Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-06-21T16:23:10Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2022-06-21T12:39:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-06-21T10:23:33Z",
+                    "modifiedBy": "rrattenborg"
+                },
+                {
+                    "comment": "Add Wikidata identifier",
+                    "modified": "2022-06-21T10:23:10Z",
+                    "modifiedBy": "rrattenborg"
+                },
+                {
+                    "comment": "Draft location",
+                    "modified": "2022-06-21T10:21:15Z",
+                    "modifiedBy": "rrattenborg"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-06-21T10:21:11Z",
+                    "modifiedBy": "rrattenborg"
+                }
+            ],
+            "id": "imagery-location-of-old-kandahar-citadel",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site",
+                "https://pleiades.stoa.org/vocabularies/place-types/citadel",
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/3XZZ7FYA",
+                    "citationDetail": "199 and no. 522",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Ball, Warwick. <i>Archaeological Gazetteer of Afghanistan: Revised Edition</i>. Revised. Oxford University Press, 2019.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Ball 2019",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SCKF4PVF",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Helms, S.W. “Excavations at The City and the Famous Fortress of Kandahar, the Foremost Place in All of Asia.” <i>Afghan Studies London</i> 3–4 (1982): 1–24.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Helms 1982",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TT8ULBE3",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Helms, Svend W. <i>Excavations at Old Kandahar in Afganistan 1976-1978: Conducted on Behalf of the Society for South Asian Studies (Society for Afghan Studies): Stratigraphy, Pottery and Other Finds</i>. Society for South Asian Studies Monograph 2. Oxford: Archaeopress, 1997.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Helms 1997",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "http://www.achemenet.com/pdf/arta/ARTA_2015.001-Fisher-Stolper.pdf",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/E875VYAV",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+                    "formattedCitation": "<div class=\"csl-entry\">Fisher, Michael T., and Matthew W. Stolper. “Achaemenid Elamite Administrative Tablets, 3: Fragments from Old Kandahar, Afghanistan.” <i>ARTA</i> 2015, no. 001 (2015): 1–26. http://www.achemenet.com/pdf/arta/ARTA_2015.001-Fisher-Stolper.pdf.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Fisher and Stolper 2015",
+                    "type": "seeAlso"
+                },
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q7084310",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Old Kandahar (Q7084310)",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -1000,
+            "title": "CIGS location of Old Kandahar citadel",
+            "uri": "https://pleiades.stoa.org/places/630721027/imagery-location-of-old-kandahar-citadel"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [],
+            "contributors": [],
+            "created": "2023-05-22T14:40:19Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": null,
+            "featureType": [
+                "citadel"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/citadel"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        65.6593151,
+                        31.6027442
+                    ],
+                    [
+                        65.6593151,
+                        31.6029178
+                    ],
+                    [
+                        65.6594814,
+                        31.6031645
+                    ],
+                    [
+                        65.6592078,
+                        31.6034478
+                    ],
+                    [
+                        65.6587679,
+                        31.6031508
+                    ],
+                    [
+                        65.6584407,
+                        31.602895
+                    ],
+                    [
+                        65.6581617,
+                        31.6024244
+                    ],
+                    [
+                        65.6581402,
+                        31.6021091
+                    ],
+                    [
+                        65.658446,
+                        31.6018578
+                    ],
+                    [
+                        65.6586981,
+                        31.6018807
+                    ],
+                    [
+                        65.6589717,
+                        31.6021777
+                    ],
+                    [
+                        65.6593258,
+                        31.6022599
+                    ],
+                    [
+                        65.6593472,
+                        31.6024655
+                    ],
+                    [
+                        65.6593633,
+                        31.6026163
+                    ],
+                    [
+                        65.6593151,
+                        31.6027442
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-06-10T15:36:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-06-10T15:36:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added osm location",
+                    "modified": "2023-05-22T14:40:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-05-22T14:40:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-05-22T14:40:19Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-old-kandahar",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/citadel"
+            ],
+            "provenance": "OpenStreetMap (Way 941969492, version 2, osm:changeset=105131414, 2021-05-22T12:39:31Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/941969492",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 941969492",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=941969492",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "OSM location of Old Kandahar",
+            "uri": "https://pleiades.stoa.org/places/630721027/osm-location-of-old-kandahar"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site",
+        "https://pleiades.stoa.org/vocabularies/place-types/citadel"
+    ],
+    "placeTypes": [
+        "settlement",
+        "archaeological-site",
+        "citadel"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/3XZZ7FYA",
+            "citationDetail": "199 and no. 522",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Ball, Warwick. <i>Archaeological Gazetteer of Afghanistan: Revised Edition</i>. Revised. Oxford University Press, 2019.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Ball 2019",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SCKF4PVF",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Helms, S.W. “Excavations at The City and the Famous Fortress of Kandahar, the Foremost Place in All of Asia.” <i>Afghan Studies London</i> 3–4 (1982): 1–24.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Helms 1982",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TT8ULBE3",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Helms, Svend W. <i>Excavations at Old Kandahar in Afganistan 1976-1978: Conducted on Behalf of the Society for South Asian Studies (Society for Afghan Studies): Stratigraphy, Pottery and Other Finds</i>. Society for South Asian Studies Monograph 2. Oxford: Archaeopress, 1997.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Helms 1997",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.achemenet.com/pdf/arta/ARTA_2015.001-Fisher-Stolper.pdf",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/E875VYAV",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "<div class=\"csl-entry\">Fisher, Michael T., and Matthew W. Stolper. “Achaemenid Elamite Administrative Tablets, 3: Fragments from Old Kandahar, Afghanistan.” <i>ARTA</i> 2015, no. 001 (2015): 1–26. http://www.achemenet.com/pdf/arta/ARTA_2015.001-Fisher-Stolper.pdf.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Fisher and Stolper 2015",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q7084310",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Old Kandahar (Q7084310)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Old_Kandahar",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Old Kandahar s.v. \"The citadel\"",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        65.65886893530356,
+        31.602608558218453
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "ANE",
+        "Cuneiform"
+    ],
+    "title": "Old Kandahar citadel",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/630721027"
+}

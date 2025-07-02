@@ -1,0 +1,337 @@
+{
+    "@type": "Place",
+    "bbox": [
+        8.620319,
+        45.4445278,
+        8.620964,
+        45.4445767
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/383717",
+            "contributors": [],
+            "created": "2019-01-15T15:41:40Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-01-15T15:41:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-01-15T15:41:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-01-15T15:41:40Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "9007946796",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Novaria",
+            "uri": "https://pleiades.stoa.org/places/905076845/9007946796"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/383717"
+    ],
+    "contributors": [],
+    "created": "2019-01-15T15:41:39Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A segment of the Roman defensive wall.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        8.620319,
+                        45.4445278
+                    ],
+                    [
+                        8.620964,
+                        45.4445336
+                    ],
+                    [
+                        8.6209638,
+                        45.44456
+                    ],
+                    [
+                        8.6203767,
+                        45.4445423
+                    ],
+                    [
+                        8.6203839,
+                        45.4445767
+                    ],
+                    [
+                        8.6203229,
+                        45.4445746
+                    ],
+                    [
+                        8.620319,
+                        45.4445278
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-roman-walls",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/905076845/osm-location-of-roman-walls",
+                "location_precision": "precise",
+                "snippet": "City-wall; 30 BC - AD 640",
+                "title": "OSM location of Mura Romane"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2024-12-21T02:14:49Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-12-21T02:11:43Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2019-02-01T21:18:26Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2019-01-15T16:23:09Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2019-01-15T16:23:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2019-01-15T15:42:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2019-01-15T15:41:43Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2019-01-15T15:41:39Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "905076845",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-early-empire-late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2015-05-18T20:39:09Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "city-wall"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/city-wall"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        8.620319,
+                        45.4445278
+                    ],
+                    [
+                        8.620964,
+                        45.4445336
+                    ],
+                    [
+                        8.6209638,
+                        45.44456
+                    ],
+                    [
+                        8.6203767,
+                        45.4445423
+                    ],
+                    [
+                        8.6203839,
+                        45.4445767
+                    ],
+                    [
+                        8.6203229,
+                        45.4445746
+                    ],
+                    [
+                        8.620319,
+                        45.4445278
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-04T21:46:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-02-01T21:18:26Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-01-15T16:23:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2019-01-15T16:21:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2015-05-18T20:40:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2015-05-18T20:39:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-05-18T20:39:13Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-roman-walls",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/city-wall"
+            ],
+            "provenance": "OpenStreetMap (Way 193643037, version 3, osm:changeset=156870718, 2024-09-20T14:28:03Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/193643037",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 193643037",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=193643037",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Mura Romane",
+            "uri": "https://pleiades.stoa.org/places/905076845/osm-location-of-roman-walls"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/city-wall"
+    ],
+    "placeTypes": [
+        "city-wall"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://commons.wikimedia.org/wiki/Category:Ancient_Roman_architecture_in_Novara",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/L8RBW985",
+            "citationDetail": "Category:Ancient Roman architecture in Novara",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">“Wikimedia Commons.” Media file repository. Wikimedia Commons, 2004. https://commons.wikimedia.org/wiki/Main_Page.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikimedia Commons",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=novaria",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "citationDetail": "NOVARIA (Novara) Piedmont, Italy",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "PECS (Perseus)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        8.620629787755098,
+        45.44454293677358
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "opus caementicium",
+        "opus incertum"
+    ],
+    "title": "Roman walls, Novaria",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/905076845"
+}

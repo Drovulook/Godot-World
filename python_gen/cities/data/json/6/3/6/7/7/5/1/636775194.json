@@ -1,0 +1,462 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -2.1457353,
+        48.4720398,
+        -2.1457353,
+        48.4720398
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/69507",
+            "contributors": [],
+            "created": "2016-07-13T13:53:04Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:53:04Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:53:04Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:53:04Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "69507",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Fanum Martis/Civitas Coriosolitum",
+            "uri": "https://pleiades.stoa.org/places/636775194/69507"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/69507"
+    ],
+    "contributors": [],
+    "created": "2013-07-09T16:31:06Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "Haut Bécherel is the site of a major Gallo-Roman sanctuary sacred to Mars.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -2.1457353,
+                        48.4720398
+                    ],
+                    [
+                        -2.1455232,
+                        48.4719896
+                    ],
+                    [
+                        -2.14556,
+                        48.4718507
+                    ],
+                    [
+                        -2.145737,
+                        48.4711831
+                    ],
+                    [
+                        -2.1461132,
+                        48.471231
+                    ],
+                    [
+                        -2.1465513,
+                        48.4712806
+                    ],
+                    [
+                        -2.1465952,
+                        48.4711581
+                    ],
+                    [
+                        -2.1466078,
+                        48.4711231
+                    ],
+                    [
+                        -2.1470481,
+                        48.4712022
+                    ],
+                    [
+                        -2.1471999,
+                        48.4712772
+                    ],
+                    [
+                        -2.1475117,
+                        48.4715149
+                    ],
+                    [
+                        -2.1474427,
+                        48.471661
+                    ],
+                    [
+                        -2.1473823,
+                        48.4717964
+                    ],
+                    [
+                        -2.1472111,
+                        48.4721801
+                    ],
+                    [
+                        -2.1471416,
+                        48.4722572
+                    ],
+                    [
+                        -2.1457353,
+                        48.4720398
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-haut-becherel-sanctuary",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/636775194/location-of-haut-becherel-sanctuary",
+                "location_precision": "precise",
+                "snippet": "Sanctuary; 30 BC - AD 300",
+                "title": "OSM location of Temple de Mars"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added wikidata, update references",
+            "modified": "2022-05-30T18:11:34Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-02-14T14:23:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-09-09T13:05:07Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2014-07-12T03:45:08Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2013-07-30T16:29:07Z",
+            "modifiedBy": "bdturner"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2013-07-09T17:04:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added connection",
+            "modified": "2013-07-09T16:35:52Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2013-07-09T16:31:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2013-07-09T16:31:07Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "636775194",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-07-09T16:32:34Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "sanctuary"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -2.1457353,
+                        48.4720398
+                    ],
+                    [
+                        -2.1455232,
+                        48.4719896
+                    ],
+                    [
+                        -2.14556,
+                        48.4718507
+                    ],
+                    [
+                        -2.145737,
+                        48.4711831
+                    ],
+                    [
+                        -2.1461132,
+                        48.471231
+                    ],
+                    [
+                        -2.1465513,
+                        48.4712806
+                    ],
+                    [
+                        -2.1465952,
+                        48.4711581
+                    ],
+                    [
+                        -2.1466078,
+                        48.4711231
+                    ],
+                    [
+                        -2.1470481,
+                        48.4712022
+                    ],
+                    [
+                        -2.1471999,
+                        48.4712772
+                    ],
+                    [
+                        -2.1475117,
+                        48.4715149
+                    ],
+                    [
+                        -2.1474427,
+                        48.471661
+                    ],
+                    [
+                        -2.1473823,
+                        48.4717964
+                    ],
+                    [
+                        -2.1472111,
+                        48.4721801
+                    ],
+                    [
+                        -2.1471416,
+                        48.4722572
+                    ],
+                    [
+                        -2.1457353,
+                        48.4720398
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-21T20:42:04Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "update title, summary, remains",
+                    "modified": "2022-05-30T18:12:15Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-09-09T13:05:23Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-07-30T16:31:30Z",
+                    "modifiedBy": "bdturner"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-07-09T17:04:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-07-09T16:33:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-07-09T16:32:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-07-09T16:32:35Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-haut-becherel-sanctuary",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "provenance": "OpenStreetMap (Way 121710471, version 7, osm:changeset=107066958, 2021-06-28T07:01:18Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/121710471",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 121710471",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=121710471",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Temple de Mars",
+            "uri": "https://pleiades.stoa.org/places/636775194/location-of-haut-becherel-sanctuary"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+    ],
+    "placeTypes": [
+        "sanctuary"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.corseul.fr/patrimoine.php?id=8",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Le Temple de Mars ou Sanctuaire du Haut-Bécherel",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CGVLRYUC",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Provost, Alain, Vincenzo Mutarelli, and Yvan Maligorne. <i>Corseul le monument romain du Haut-B??cherel: sanctuaire public des Coriosolites</i>. Rennes: Presses universitaires de Rennes, 2010.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Provost 2010",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://fr.wikipedia.org/wiki/Temple_de_Mars_de_Corseul",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/B4HPCZIK",
+            "citationDetail": "Temple de Mars de Corseul",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipédia: L’encyclopédie libre que chacun peut améliorer (2001-), Temple de Mars de Corseul.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (French)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.culture.gouv.fr/Espace-documentation/Bases-de-donnees/Merimee-consultable-depuis-le-moteur-Collections",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KQ7A48AA",
+            "citationDetail": "PA00089068",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Mérimée</i>. Ministére de la Culture (France), 2014. http://www.culture.gouv.fr/Espace-documentation/Bases-de-donnees/Merimee-consultable-depuis-le-moteur-Collections.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Mérimée",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=fanum-martis-1",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "citationDetail": "FANUM MARTIS (Corseul) Côtes du Nord, France",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PECS (Perseus)",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q14628539",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q14628539: Temple de Mars, Corseul",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        -2.1457353,
+        48.4720398
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "Mars"
+    ],
+    "title": "Haut Bécherel",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/636775194"
+}

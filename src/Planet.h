@@ -20,8 +20,8 @@
 #include "DebugUI.h"
 #include "NCAltitudeReader.h"
 #include "PlanetMesh.h"
-#include "ProvincesManager.h"
-#include "CitiesManager.h"
+#include "managers/ProvincesManager.h"
+#include "managers/CitiesManager.h"
 
 #include <map>
 #include <memory>
@@ -57,6 +57,7 @@ public:
   void generate_colors();
 
   void set_province_to_highlight(Vector3 color);
+  void set_city_to_highlight(Vector3 color);
 
 private:
   void create_textures();
@@ -69,8 +70,8 @@ private:
                           Camera3D *camera);
 
 private:
-  bool m_initialized = false;
 
+  bool m_initialized = false;
   float m_radius = 5.0f;
   Ref<ArrayMesh> m_array_mesh;
   int m_mesh_per_img_res = 2;
@@ -87,6 +88,8 @@ private:
   std::shared_ptr<NCAltitudeReader> m_elevation_reader;
 
   std::shared_ptr<Vector3> m_province_to_highlight =
+      std::make_shared<Vector3>(0, 0, 0);
+  std::shared_ptr<Vector3> m_city_to_highlight =
       std::make_shared<Vector3>(0, 0, 0);
 
   DebugUI *m_debug_ui = nullptr;

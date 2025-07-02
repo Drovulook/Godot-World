@@ -1,0 +1,405 @@
+{
+    "@type": "Place",
+    "bbox": [
+        28.72188157615049,
+        37.70741370186054,
+        28.72241886656425,
+        37.70819509060871
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/638753",
+            "contributors": [],
+            "created": "2018-01-12T00:06:57Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-01-12T00:06:57Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-01-12T00:06:57Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-01-12T00:06:57Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "6173057242",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Aphrodisias",
+            "uri": "https://pleiades.stoa.org/places/38314636/6173057242"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/638753",
+        "https://pleiades.stoa.org/places/827863015"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Katelin McCullough",
+            "uri": "https://pleiades.stoa.org/author/kmccullough",
+            "username": "kmccullough"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2018-03-23T18:04:28Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "The largest of the public bath complexes at Aphrodisias dating to the early second century CE.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            28.72188157615049,
+                            37.70815907101679,
+                            0.0
+                        ],
+                        [
+                            28.72194127313608,
+                            37.70741370186054,
+                            0.0
+                        ],
+                        [
+                            28.72241886656425,
+                            37.70744406232603,
+                            0.0
+                        ],
+                        [
+                            28.72233379103351,
+                            37.70819509060871,
+                            0.0
+                        ],
+                        [
+                            28.72188157615049,
+                            37.70815907101679,
+                            0.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "imagery-location-hadrianic-baths",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/38314636/imagery-location-hadrianic-baths",
+                "location_precision": "precise",
+                "snippet": "Bath; 30 BC - AD 300",
+                "title": "Imagery Location: Hadrianic Baths"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added Thomas 2023",
+            "modified": "2023-08-21T23:57:31Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "summary",
+            "modified": "2022-08-06T01:26:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "check in of working copy",
+            "modified": "2018-05-09T18:56:43Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2018-03-23T18:04:28Z",
+            "modifiedBy": "kmccullough"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2018-03-23T17:47:42Z",
+            "modifiedBy": "kmccullough"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2018-03-20T15:00:21Z",
+            "modifiedBy": "kmccullough"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-01-12T00:07:50Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-01-12T00:07:45Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-01-12T00:06:58Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-01-12T00:06:56Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "38314636",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-08-27T21:32:46Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "bath"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/bath"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            28.72188157615049,
+                            37.70815907101679,
+                            0.0
+                        ],
+                        [
+                            28.72194127313608,
+                            37.70741370186054,
+                            0.0
+                        ],
+                        [
+                            28.72241886656425,
+                            37.70744406232603,
+                            0.0
+                        ],
+                        [
+                            28.72233379103351,
+                            37.70819509060871,
+                            0.0
+                        ],
+                        [
+                            28.72188157615049,
+                            37.70815907101679,
+                            0.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Google Earth and Partners Imagery 2016 and following",
+                    "modified": "2023-03-01T02:37:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added feature type",
+                    "modified": "2018-05-09T18:58:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T07:25:13Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-12-19T20:27:59Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-12-19T20:27:59Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-12-19T20:27:56Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-05-12T19:55:22Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-05-12T19:54:47Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-05-12T19:52:00Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-01-10T23:06:14Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-01-10T18:41:32Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Retract",
+                    "modified": "2011-01-10T18:32:04Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-08-27T21:42:01Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-08-27T21:41:01Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-08-27T21:32:46Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "imagery-location-hadrianic-baths",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/bath"
+            ],
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Imagery Location: Hadrianic Baths",
+            "uri": "https://pleiades.stoa.org/places/38314636/imagery-location-hadrianic-baths"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/bath"
+    ],
+    "placeTypes": [
+        "bath"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://aphrodisias.classics.ox.ac.uk/hadrianicbaths",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/62RSHP77/q/aphrodisias",
+            "citationDetail": "Hadrianic Baths",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Smith, R.R.R., et al. Aphrodisias Excavations. University of Oxford. 2017.",
+            "otherIdentifier": "",
+            "shortTitle": "Aphrodisias Excavations",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://publications.dainst.org/journals/istmitt/article/view/4053",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DU8M33NZ",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Thomas, Joshua J. “The Colossal Figured Consoles of the Hadrianic Baths at Aphrodisias.” <i>Istanbuler Mitteilungen</i> 72 (July 13, 2023): 1-91 (§). https://doi.org/10.34780/wa2r-w842.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Thomas 2023",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        28.722144580890763,
+        37.707799701548474
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "baths"
+    ],
+    "title": "Hadrianic Baths",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/38314636"
+}

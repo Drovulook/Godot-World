@@ -1,0 +1,327 @@
+{
+    "@type": "Place",
+    "bbox": [
+        31.2205117,
+        29.850594,
+        31.2213822,
+        29.851334
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/796289136",
+            "contributors": [],
+            "created": "2023-11-19T04:56:36Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-11-19T04:56:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-11-19T04:56:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-11-19T04:56:36Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "7961102619",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Saqqarah",
+            "uri": "https://pleiades.stoa.org/places/108282408/7961102619"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/796289136"
+    ],
+    "contributors": [],
+    "created": "2023-11-19T04:56:34Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Pyramid of Djedkare Isesi in South Saqqara was built for the Fifth Dynasty pharaoh Djedkare Isesi.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        31.2205117,
+                        29.8512971
+                    ],
+                    [
+                        31.2213406,
+                        29.851334
+                    ],
+                    [
+                        31.2213822,
+                        29.8506309
+                    ],
+                    [
+                        31.2205533,
+                        29.850594
+                    ],
+                    [
+                        31.2205117,
+                        29.8512971
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-pyramid-of-djedkare-isesi",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/108282408/osm-location-of-pyramid-of-djedkare-isesi",
+                "location_precision": "precise",
+                "snippet": "Pyramid; 2670 BC - 2168 BC",
+                "title": "OSM location of Pyramid of Djedkare-Isesi"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add wikidata Pyramid of Djedkare-Isesi (Q1232134)",
+            "modified": "2024-10-19T03:02:08Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2023-11-20T12:14:56Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2023-11-20T03:53:59Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "reference x 2",
+            "modified": "2023-11-20T03:53:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2023-11-19T04:57:33Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2023-11-19T04:56:36Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2023-11-19T04:56:34Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "108282408",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "old-kingdom-egypt",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/old-kingdom-egypt"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-11-19T04:55:58Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -2168,
+            "featureType": [
+                "pyramid"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        31.2205117,
+                        29.8512971
+                    ],
+                    [
+                        31.2213406,
+                        29.851334
+                    ],
+                    [
+                        31.2213822,
+                        29.8506309
+                    ],
+                    [
+                        31.2205533,
+                        29.850594
+                    ],
+                    [
+                        31.2205117,
+                        29.8512971
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-11-20T12:14:56Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-11-20T03:53:59Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added osm location",
+                    "modified": "2023-11-19T04:56:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-11-19T04:55:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-11-19T04:55:58Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-pyramid-of-djedkare-isesi",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+            ],
+            "provenance": "OpenStreetMap (Way 58169337, version 11, osm:changeset=140307414, 2023-08-24T07:35:08Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/58169337",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 58169337",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=58169337",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -2670,
+            "title": "OSM location of Pyramid of Djedkare-Isesi",
+            "uri": "https://pleiades.stoa.org/places/108282408/osm-location-of-pyramid-of-djedkare-isesi"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+    ],
+    "placeTypes": [
+        "pyramid"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Pyramid_of_Djedkare_Isesi",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Pyramid of Djedkare Isesi",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8EC3W4QG",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Jánosi, Peter. “Die Pyramidenanlage Der ‘Anonymen Königin’ Des Djedkare-Isesi.” In <i>Mitteilungen Des Deutschen Archäologischen Instituts. Abteilung Kairo, 45.1989</i>, 187–202, [2] p. of plates. Mainz: Philipp von Zabern, 1990.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Jánosi 1990",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZLFTLBWZ",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Klemm, Dietrich D., and Rosemarie Klemm. <i>The Stones of the Pyramids: Provenance of the Building Stones of the Old Kingdom Pyramids of Egypt</i>. Berlin ;  New York: De Gruyter, 2010.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Klemm 2010",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1232134",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Pyramid of Djedkare-Isesi (Q1232134)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        31.220946950000005,
+        29.850964
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "pyramid"
+    ],
+    "title": "Pyramid of Djedkare-Isesi",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/108282408"
+}

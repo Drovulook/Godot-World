@@ -1,0 +1,626 @@
+{
+    "@type": "Place",
+    "bbox": [
+        67.5869725,
+        29.3636495,
+        67.5890142,
+        29.3657539
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "part_of_regional",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_regional",
+            "connectsTo": "https://pleiades.stoa.org/places/84624811",
+            "contributors": [],
+            "created": "2021-05-12T17:00:29Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-05-12T17:01:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-05-12T17:00:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2021-05-12T17:00:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-05-12T17:00:29Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "balochistan-region",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Balochistan (region)",
+            "uri": "https://pleiades.stoa.org/places/841214211/balochistan-region"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/84624811"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2021-05-12T14:34:01Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Gabriel Mckee",
+            "uri": "https://pleiades.stoa.org/author/gmckee",
+            "username": "gmckee"
+        }
+    ],
+    "description": "Archaeological site in Balochistan, Pakistan associated with the Indus Valley civilization. The site shows signs of habitation from the early third-early second millennium BCE.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    67.588,
+                    29.365
+                ],
+                "type": "Point"
+            },
+            "id": "wikidata-location-of-nausharo",
+            "properties": {
+                "description": "Point representing the location of the Nausharo site, coordinates following GeoHack.",
+                "link": "https://pleiades.stoa.org/places/841214211/wikidata-location-of-nausharo",
+                "location_precision": "precise",
+                "snippet": "Settlement; 3000 BC - 1000 BC",
+                "title": "GeoHack location of Nausharo"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        67.5886864,
+                        29.3652202
+                    ],
+                    [
+                        67.5884097,
+                        29.3657082
+                    ],
+                    [
+                        67.5879642,
+                        29.3657539
+                    ],
+                    [
+                        67.587462,
+                        29.3656733
+                    ],
+                    [
+                        67.5872326,
+                        29.3655159
+                    ],
+                    [
+                        67.5869725,
+                        29.3650774
+                    ],
+                    [
+                        67.5869725,
+                        29.3645888
+                    ],
+                    [
+                        67.5870911,
+                        29.3642068
+                    ],
+                    [
+                        67.5873737,
+                        29.364005
+                    ],
+                    [
+                        67.5873819,
+                        29.3638209
+                    ],
+                    [
+                        67.58765,
+                        29.3636495
+                    ],
+                    [
+                        67.5879833,
+                        29.363654
+                    ],
+                    [
+                        67.5882885,
+                        29.3637627
+                    ],
+                    [
+                        67.5887332,
+                        29.3639624
+                    ],
+                    [
+                        67.5890142,
+                        29.3641584
+                    ],
+                    [
+                        67.5890098,
+                        29.3645574
+                    ],
+                    [
+                        67.5889127,
+                        29.3648744
+                    ],
+                    [
+                        67.5886864,
+                        29.3652202
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-nausharo",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/841214211/osm-location-of-nausharo",
+                "location_precision": "precise",
+                "snippet": "Archaeological-site; 3000 BC - 1000 BC",
+                "title": "OSM location of Nausharo"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "action": "Publish externally",
+            "modified": "2021-05-12T17:01:02Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added wikidata Q2039702: Nausharo as related",
+            "modified": "2021-05-12T17:00:04Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2021-05-12T14:37:06Z",
+            "modifiedBy": "gmckee"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2021-05-12T14:34:02Z",
+            "modifiedBy": "gmckee"
+        },
+        {
+            "action": "Create",
+            "modified": "2021-05-12T14:34:01Z",
+            "modifiedBy": "gmckee"
+        }
+    ],
+    "id": "841214211",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-geohack-accuracy-assessment",
+            "accuracy_value": 2000.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "3rd-millennium-bc",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/3rd-millennium-bc"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "2nd-millenium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2021-05-12T14:36:58Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "Point representing the location of the Nausharo site, coordinates following GeoHack.",
+            "details": "",
+            "end": -1000,
+            "featureType": [
+                "settlement"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "geometry": {
+                "coordinates": [
+                    67.588,
+                    29.365
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-05-12T17:01:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "update title, summary",
+                    "modified": "2021-05-12T16:58:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-05-12T14:37:06Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2021-05-12T14:36:58Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-05-12T14:36:58Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "wikidata-location-of-nausharo",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q2039702",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Nausharo",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -3000,
+            "title": "GeoHack location of Nausharo",
+            "uri": "https://pleiades.stoa.org/places/841214211/wikidata-location-of-nausharo"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "3rd-millennium-bc",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/3rd-millennium-bc"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "2nd-millenium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-11-07T00:39:09Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -1000,
+            "featureType": [
+                "archaeological-site"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        67.5886864,
+                        29.3652202
+                    ],
+                    [
+                        67.5884097,
+                        29.3657082
+                    ],
+                    [
+                        67.5879642,
+                        29.3657539
+                    ],
+                    [
+                        67.587462,
+                        29.3656733
+                    ],
+                    [
+                        67.5872326,
+                        29.3655159
+                    ],
+                    [
+                        67.5869725,
+                        29.3650774
+                    ],
+                    [
+                        67.5869725,
+                        29.3645888
+                    ],
+                    [
+                        67.5870911,
+                        29.3642068
+                    ],
+                    [
+                        67.5873737,
+                        29.364005
+                    ],
+                    [
+                        67.5873819,
+                        29.3638209
+                    ],
+                    [
+                        67.58765,
+                        29.3636495
+                    ],
+                    [
+                        67.5879833,
+                        29.363654
+                    ],
+                    [
+                        67.5882885,
+                        29.3637627
+                    ],
+                    [
+                        67.5887332,
+                        29.3639624
+                    ],
+                    [
+                        67.5890142,
+                        29.3641584
+                    ],
+                    [
+                        67.5890098,
+                        29.3645574
+                    ],
+                    [
+                        67.5889127,
+                        29.3648744
+                    ],
+                    [
+                        67.5886864,
+                        29.3652202
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-11-07T15:18:24Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-11-07T00:39:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add OSM location",
+                    "modified": "2023-11-07T00:39:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-11-07T00:39:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-11-07T00:39:09Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-nausharo",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+            ],
+            "provenance": "OpenStreetMap (Way 942302004, version 4, osm:changeset=138538511, 2023-07-15T10:16:43Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/942302004",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 942302004",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=942302004",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -3000,
+            "title": "OSM location of Nausharo",
+            "uri": "https://pleiades.stoa.org/places/841214211/osm-location-of-nausharo"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Nausharo",
+            "contributors": [],
+            "created": "2021-05-12T16:59:22Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-05-12T17:01:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-05-12T16:59:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2021-05-12T16:59:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-05-12T16:59:22Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "nausharo",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q2039702",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q2039702: Nausharo",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Nausharo",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/841214211/nausharo"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+    ],
+    "placeTypes": [
+        "settlement",
+        "archaeological-site"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/1230413306",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4QKT7TS5",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Barthélemy de Saizieu, Blanche. <i>Parures de l’Indus, Nausharo, Balouchistan, IIIe millénaire av. J.-C: entre faire et dire, être et paraître</i>, 2021.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Barthélemy de Saizieu 2021",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Nausharo",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Nausharo",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q2039702",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q2039702: Nausharo",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        67.58798245467328,
+        29.36484693737956
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Nausharo",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/841214211"
+}

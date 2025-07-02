@@ -1,0 +1,917 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.500278,
+        41.875782,
+        12.500791,
+        41.876134
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/423025",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-07-13T13:37:09Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "changed cnxn type to 'at'; added reference",
+                    "modified": "2020-01-11T01:39:53Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:37:09Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:37:09Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:37:09Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "423025",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q1540716",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q1540716",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Roma",
+            "uri": "https://pleiades.stoa.org/places/999196280/423025"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423025"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling",
+            "username": "bkiesling"
+        }
+    ],
+    "created": "2012-12-28T15:18:51Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A family tomb of the Cornelii Scipiones near the Porta San Sebastiano in use from the third century B.C. to the first century A.D.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    12.500278,
+                    41.875833
+                ],
+                "type": "Point"
+            },
+            "id": "location-of-the-sep.-scipionum",
+            "properties": {
+                "description": "verified in Google Earth 2012",
+                "link": "https://pleiades.stoa.org/places/999196280/location-of-the-sep.-scipionum",
+                "location_precision": "precise",
+                "snippet": "Tomb, ; 330 BC - AD 300",
+                "title": "Imagery location of the Sep. Scipionum"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.5002994,
+                        41.8759417
+                    ],
+                    [
+                        12.5004109,
+                        41.875782
+                    ],
+                    [
+                        12.500791,
+                        41.875991
+                    ],
+                    [
+                        12.5006492,
+                        41.876134
+                    ],
+                    [
+                        12.5002994,
+                        41.8759417
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-sepolcro-degli-scipioni",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/999196280/osm-location-of-sepolcro-degli-scipioni",
+                "location_precision": "precise",
+                "snippet": "Tomb; 330 BC - AD 300",
+                "title": "OSM location of Sepolcro degli Scipioni"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add BMCR 2024.07.19",
+            "modified": "2024-07-12T00:54:18Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-07-05T01:48:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "add D'Andrea 2023",
+            "modified": "2023-11-06T13:52:17Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Coarelli 1996",
+            "modified": "2023-06-28T02:16:05Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "LTUR",
+            "modified": "2023-06-28T02:14:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update arachne references x 2",
+            "modified": "2023-06-28T02:12:41Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "add references x 2",
+            "modified": "2023-06-28T02:09:33Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added Stefani 2022",
+            "modified": "2022-09-25T01:47:13Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2022-01-31T04:27:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added topostext",
+            "modified": "2020-07-23T20:57:01Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Arachne 8002084: Grabbezirk der Scipionen Roma, Rom (Metropolitanstadt)",
+            "modified": "2020-05-28T14:52:09Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "reference",
+            "modified": "2020-05-25T03:24:26Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Arachne 2103103: Scipionengrab Roma, Rom (Metropolitanstadt)",
+            "modified": "2020-05-25T02:08:33Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "reference cleanup",
+            "modified": "2020-01-11T01:34:58Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-29T02:16:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-08T18:43:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2016-06-30T21:41:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2015-10-11T18:04:47Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2013-04-12T21:08:25Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2012-12-29T14:25:19Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2012-12-28T15:27:10Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2012-12-28T15:18:53Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2012-12-28T15:18:51Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "999196280",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2012-12-28T15:20:33Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "verified in Google Earth 2012",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "tomb",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.500278,
+                    41.875833
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-08T18:43:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-30T21:47:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-04-12T21:08:27Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-12-29T14:25:43Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2012-12-28T15:20:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-12-28T15:20:33Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-the-sep.-scipionum",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -330,
+            "title": "Imagery location of the Sep. Scipionum",
+            "uri": "https://pleiades.stoa.org/places/999196280/location-of-the-sep.-scipionum"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2022-09-25T01:48:15Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "tomb"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.5002994,
+                        41.8759417
+                    ],
+                    [
+                        12.5004109,
+                        41.875782
+                    ],
+                    [
+                        12.500791,
+                        41.875991
+                    ],
+                    [
+                        12.5006492,
+                        41.876134
+                    ],
+                    [
+                        12.5002994,
+                        41.8759417
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-07-05T01:47:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-09-26T15:47:39Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-09-25T01:48:45Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added osm location",
+                    "modified": "2022-09-25T01:48:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2022-09-25T01:48:15Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-09-25T01:48:15Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-sepolcro-degli-scipioni",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+            ],
+            "provenance": "OpenStreetMap (Way 254710670, version 5, osm:changeset=141515915, 2023-09-20T14:05:09Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/254710670",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 254710670",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=254710670",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "OSM location of Sepolcro degli Scipioni",
+            "uri": "https://pleiades.stoa.org/places/999196280/osm-location-of-sepolcro-degli-scipioni"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "hypogaeum Scipionum",
+            "contributors": [],
+            "created": "2012-12-28T15:24:11Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-04-12T21:08:29Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-12-29T14:25:45Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2012-12-28T15:24:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-12-28T15:24:12Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "hypogaeum-scipionum",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "romanized": "hypogaeum Scipionum",
+            "start": -330,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/999196280/hypogaeum-scipionum"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "sepolcro degli Scipioni ",
+            "contributors": [],
+            "created": "2012-12-28T15:24:50Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-04-12T21:08:32Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-12-29T14:25:44Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2012-12-28T15:24:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-12-28T15:24:50Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "sepolcro-degli-scipioni",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "romanized": "sepolcro degli Scipioni ",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/999196280/sepolcro-degli-scipioni"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "tomb of the Scipios",
+            "contributors": [],
+            "created": "2012-12-28T15:28:00Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-04-12T21:08:33Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-12-29T14:25:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2012-12-28T15:28:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-12-28T15:28:00Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "tomb-of-the-scipios",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "romanized": "tomb of the Scipios",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/999196280/tomb-of-the-scipios"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+    ],
+    "placeTypes": [
+        "tomb"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Tomb_of_the_Scipios",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Tomb of the Scipios",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Tomb of the Scipios.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/EYN86LHL",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Coarelli, Filippo. <i>Il sepolcro degli Scipioni a Roma</i>. Itinerari d’arte e di cultura. Roma: F.lli Palombi, 1988.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Coarelli 1988",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.sovraintendenzaroma.it/i_luoghi/roma_antica/monumenti/sepolcro_degli_scipioni",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Roma Capitale, Sepolcro degli Scipioni",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.geonames.org/8015037/sepolcro-degli-scipioni.html",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+            "citationDetail": "8015037: Sepolcro degli Scipioni",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. “GeoNames,” 2005. http://www.geonames.org/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "GeoNames",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0054%3Aalphabetic+letter%3DS%3Aentry+group%3D2%3Aentry%3Dsep-scipionum",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/H6XK259J",
+            "citationDetail": "SEP. SCIPIONUM",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Platner, Samuel Ball, and Thomas Ashby. <i>A Topographical Dictionary of Ancient Rome</i>. London: Oxford University Press, 1929. http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.04.0054.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Platner 1929 (Perseus)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://arachne.dainst.org/entity/6037",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "citationDetail": "Scipionengrab Rom, (Roma), Rom (Metropolitanstadt)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Arachne",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "/core/books/roman-tombs-and-the-art-of-commemoration/family-matters-the-long-life-of-roman-tombs/528172BFDC76F147682575005B748B1A/core-reader",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/K47YF3BM",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Borg, Barbara E. “Family Matters: The Long Life of Roman Tombs.” In <i>Roman Tombs and the Art of Commemoration: Contextual Approaches to Funerary Customs in the Second Century CE</i>. Cambridge Univ. Press, 2019. /core/books/roman-tombs-and-the-art-of-commemoration/family-matters-the-long-life-of-roman-tombs/528172BFDC76F147682575005B748B1A/core-reader.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Borg 2019",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://arachne.dainst.org/entity/753",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "citationDetail": "Grabbezirk der Scipionen Rom (Metropolitanstadt) (Roma), Italien",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Arachne",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://topostext.org/place/419125GSSc",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MC9RGDVB",
+            "citationDetail": "Tomb of the Scipios (Rome)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Kiesling, Brady. <i>ToposText – a Reference Tool for Greek Civilization</i>. Version 2.0. Aikaterini Laskaridis Foundation, 2016. https://topostext.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "ToposText",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/URTQPALX",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Lauter-Bufe, H. “Zur Fassade des Scipionengrabes.” In <i>Mitteilungen des Deutschen Archäologischen Instituts. Römische Abteilung, 89.1982</i>, 35–46, Abb. Taf, 1982.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Lauter-Bufe 1982",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1540716",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Tomb of the Scipios (Q1540716)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/LJENXHKH",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Coarelli, Filippo. “Il sepolcro degli Scipioni.” In <i>Dialoghi di archeologia, 6 (1972)</i>, 36–106, 1972.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Coarelli 1972",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://books.ub.uni-heidelberg.de/index.php/propylaeum/catalog/book/894/c11635",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2DF2INZZ",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stefani, Michela. “The Large Collective Burial Monuments of the Tomb of the Scipios in Rome.” <i>The Economy of Death: New Research on Collective Burial Spaces in Rome from the Late Republic to the Late Roman Time: Panel 7.2, Heidelberg: Propylaeum, 2022 (Archaeology and Economy in the Ancient World – Proceedings of the 19th International Congress of Classical Archaeology, Cologne/Bonn 2018, Vol. 38),</i> 2022, 59–73. https://doi.org/10.11588/PROPYLAEUM.894.C11635.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Stefani 2022",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://bmcr.brynmawr.edu/2023/2023.06.36/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KLCEL79S",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Jacobs, John. “Review of: L’area Archeologica Del Sepolcro Degli Scipioni a Roma: Analisi Delle Strutture Di Eta Imperiale e Tardo Antica.” <i>Bryn Mawr Classical Review</i>. Accessed June 28, 2023. https://bmcr.brynmawr.edu/2023/2023.06.36/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "BMCR 2023.06.36",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HL6PHQZH",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stefani, Michela. <i>L’area archeologica del Sepolcro degli Scipioni a Roma: analisi delle strutture di età imperiale e tardo antica</i>. BAR international series. Oxford: BAR Publishing, 2022.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Stefani 2022a",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/813279761",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/JC5ACZU7",
+            "citationDetail": "IV (1999) 281-285, s. v. Sepulcrum (Corneliorum) Scipionum (F. Zevi)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Steinby, E.M., ed. <i>Lexicon Topographicum Urbis Romae</i>. 6 vols. Rome: Quasar, 2000. http://www.worldcat.org/oclc/813279761.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "LTUR",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YXJZEAWT",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Coarelli, Filippo. <i>Revixit ars: arte e ideologia a Roma: dai modelli ellenistici alla tradizione repubblicana</i>. Roma: Quasar, 1996.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Coarelli 1996",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ANEC9FIU",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">D’Andrea, Francesca. <i>Storie intorno agli Scipioni immagini e voci da un’area archeologica: monumenti, epigrafi, archivi</i>. Mention d’édition. Archeologia e arte antica. Milano: LED edizioni universitarie di lettere economia diritto, 2023.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "D'Andrea 2023",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://bmcr.brynmawr.edu/2024/2024.07.19/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/INPD3JTV",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Jacobs, John. “Review of: Storie Intorno Agli Scipioni. Immagini e Voci Da Un’area Archeologica: Monumenti, Epigrafi, Archivi.” <i>Bryn Mawr Classical Review</i>. Accessed July 12, 2024. https://bmcr.brynmawr.edu/2024/2024.07.19/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "BMCR 2024.07.19",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        12.500409194660998,
+        41.87589679233393
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "tomb",
+        "hypogeum",
+        "extant remains"
+    ],
+    "title": "Sep. Scipionum",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/999196280"
+}

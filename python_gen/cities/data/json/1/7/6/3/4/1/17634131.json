@@ -1,0 +1,997 @@
+{
+    "@type": "Place",
+    "bbox": [
+        38.2730968,
+        36.4247316,
+        38.2779895,
+        36.4285395
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "early-bronze-age-southern-levant",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-bronze-age-southern-levant"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "on",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on",
+            "connectsTo": "https://pleiades.stoa.org/places/912849",
+            "contributors": [],
+            "created": "2019-09-27T14:04:57Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-09-27T20:06:17Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-09-27T14:33:55Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-09-27T14:04:58Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-09-27T14:04:57Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "euphrates-river",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -3300,
+            "title": "Euphrates (river)",
+            "uri": "https://pleiades.stoa.org/places/17634131/euphrates-river"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/912849"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Carolin Johansson",
+            "uri": "https://pleiades.stoa.org/author/cjohansson",
+            "username": "cjohansson"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Rune Rattenborg",
+            "uri": "https://pleiades.stoa.org/author/rrattenborg",
+            "username": "rrattenborg"
+        }
+    ],
+    "created": "2023-01-30T22:54:20Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Gabriel Mckee",
+            "uri": "https://pleiades.stoa.org/author/gmckee",
+            "username": "gmckee"
+        }
+    ],
+    "description": "Archaeological site on the eastern bank of the Euphrates in northern Syria. The site contains a town dated to the Early Bronze Age III-IVA (mid-3rd millennium BCE), as well as a Roman sanctuary used only briefly from about the late 1st-late 2nd century CE. The western part of the site was flooded by the construction of the Tischrin Dam in 1999. Tall Bazi and the nearby site of Banat have been tentatively identified as the city of Armi/Armium mentioned in texts from Ebla.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    38.2762,
+                    36.4273
+                ],
+                "type": "Point"
+            },
+            "id": "cigs-location-of-tall-bazy",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/17634131/cigs-location-of-tall-bazy",
+                "location_precision": "precise",
+                "snippet": "Archaeological-site; 2000 BC - 1000 BC",
+                "title": "CIGS location of Tall Bāzy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        38.2762641,
+                        36.4285395
+                    ],
+                    [
+                        38.2779895,
+                        36.4277264
+                    ],
+                    [
+                        38.2770282,
+                        36.4253564
+                    ],
+                    [
+                        38.2753521,
+                        36.4247316
+                    ],
+                    [
+                        38.2736144,
+                        36.4259414
+                    ],
+                    [
+                        38.2730968,
+                        36.4268042
+                    ],
+                    [
+                        38.2762641,
+                        36.4285395
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "tall-bazi",
+            "properties": {
+                "description": "Polygon representing the approximate boundaries of the visible remains at Tall Bazi, derived from an OpenStreetMap Way after Schloder 2019.",
+                "link": "https://pleiades.stoa.org/places/17634131/tall-bazi",
+                "location_precision": "precise",
+                "snippet": "Settlement, Sanctuary; 3300 BC - AD 300",
+                "title": "OSM location of Tall Bazi"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "title; place type += fort; references (cjohansson); combined redundant wikidata entries",
+            "modified": "2023-01-30T23:04:18Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "added Wikidata reference",
+            "modified": "2019-11-13T18:22:18Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2019-09-27T20:06:17Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2019-09-27T14:33:54Z",
+            "modifiedBy": "gmckee"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2019-09-27T14:03:59Z",
+            "modifiedBy": "gmckee"
+        },
+        {
+            "action": "Create",
+            "modified": "2019-09-27T14:03:55Z",
+            "modifiedBy": "gmckee"
+        }
+    ],
+    "id": "17634131",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "2nd-millenium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-01-30T12:05:21Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Carolin Johansson",
+                    "uri": "https://pleiades.stoa.org/author/cjohansson",
+                    "username": "cjohansson"
+                },
+                {
+                    "homepage": null,
+                    "name": "Rune Rattenborg",
+                    "uri": "https://pleiades.stoa.org/author/rrattenborg",
+                    "username": "rrattenborg"
+                }
+            ],
+            "description": "",
+            "details": "<p>Centre point location extracted from polygon drawn around entire site as identified on Google Earth base imagery in QGIS 3.x.</p>",
+            "end": -1000,
+            "featureType": [
+                "archaeological-site"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+            ],
+            "geometry": {
+                "coordinates": [
+                    38.2762,
+                    36.4273
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-01-30T23:04:32Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-01-30T23:04:26Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Send back",
+                    "modified": "2023-01-30T22:55:06Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-01-30T12:07:56Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2023-01-30T12:05:21Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-01-30T12:05:21Z",
+                    "modifiedBy": "cjohansson"
+                }
+            ],
+            "id": "cigs-location-of-tall-bazy",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KA6QNJ27",
+                    "citationDetail": "pages 215-217",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Masetti-Rouault, Maria Grazia. “48. Tell Masaikh and the Region around Terqa (Deir Ez-Zor).” In <i>A History of Syria in One Hundred Sites</i>, edited by Youssef Kanjou and Akira Tsuneki, 207–10. Oxford: Archaeopress Publishing Ltd, 2016.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Masetti-Rouault 2016",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SYB4PQYJ",
+                    "citationDetail": "figure 2",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Porter, Anne. “The Dynamics of Death: Ancestors, Pastoralism, and the Origins of a Third-Millennium City in Syria.” <i>Bulletin of the American Schools of Oriental Research</i> 325 (2002): 1–36.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Porter 2002",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/A7KT8HAW",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Otto, Adelheid, and Berthold Einwag. “50. Tell Bazi (Aleppo).” In <i>A History of Syria in One Hundred Sites</i>, edited by Youssef Kanjou and Akira Tsuneki, 215–17. Oxford: Archaeopress Publishing Ltd, 2016.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Otto 2016",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://ar.wikipedia.org/wiki/تل_بازي",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2GIR336Y",
+                    "citationDetail": "تل_بازي",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>الموسوعة الحرة التي يستطيع الجميع تحريرها: ويكيبيديا</i>. Wikimedia Foundation, 2001. https://ar.wikipedia.org.</div>, تل_بازي.",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikipedia (Arabic)",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Tall_Bazi",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+                    "citationDetail": "Tall_Bazi",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Tall_Bazi.",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q2390471",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q2390471",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>, Q2390471.",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -2000,
+            "title": "CIGS location of Tall Bāzy",
+            "uri": "https://pleiades.stoa.org/places/17634131/cigs-location-of-tall-bazy"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "early-bronze-age-southern-levant",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-bronze-age-southern-levant"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2019-09-27T14:05:33Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "Polygon representing the approximate boundaries of the visible remains at Tall Bazi, derived from an OpenStreetMap Way after Schloder 2019.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "settlement",
+                "sanctuary"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        38.2762641,
+                        36.4285395
+                    ],
+                    [
+                        38.2779895,
+                        36.4277264
+                    ],
+                    [
+                        38.2770282,
+                        36.4253564
+                    ],
+                    [
+                        38.2753521,
+                        36.4247316
+                    ],
+                    [
+                        38.2736144,
+                        36.4259414
+                    ],
+                    [
+                        38.2730968,
+                        36.4268042
+                    ],
+                    [
+                        38.2762641,
+                        36.4285395
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-05-07T18:19:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-09-27T20:06:17Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-09-27T14:33:55Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2019-09-27T14:08:07Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-09-27T14:07:11Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2019-09-27T14:05:33Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-09-27T14:05:33Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "tall-bazi",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "provenance": "OpenStreetMap (Way 729095745, version 1, osm:changeset=75010764, 2019-09-27T13:48:12Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/729095745",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 729095745",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=729095745",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/690843285",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9TVSDFYR",
+                    "citationDetail": "pages 13-17",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Otto, Adelheid, and Maria Giovanna Biga. “Thoughts about the Identification of Tall Bazi with Armi of the Ebla Texts.” In <i>Proceedings of the 6th International Congress on the Archaeology of the Ancient Near East, May, 5th-10th 2009, “Sapienza” - Università Di Roma</i>, edited by Paolo Matthiae, Frances Pinnock, Lorenzo Nigro, and Nicolò Marchetti, 1:481–94. Wiesbaden: Harrassowitz Verlag, 2010. http://www.worldcat.org/oclc/690843285.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Otto and Biga 2010",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -3300,
+            "title": "OSM location of Tall Bazi",
+            "uri": "https://pleiades.stoa.org/places/17634131/tall-bazi"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "تل بازي",
+            "contributors": [],
+            "created": "2023-01-30T12:05:22Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Carolin Johansson",
+                    "uri": "https://pleiades.stoa.org/author/cjohansson",
+                    "username": "cjohansson"
+                },
+                {
+                    "homepage": null,
+                    "name": "Rune Rattenborg",
+                    "uri": "https://pleiades.stoa.org/author/rrattenborg",
+                    "username": "rrattenborg"
+                }
+            ],
+            "description": "",
+            "details": "<p>Romanization according to the ALA-LC specifications for Arabic (2012) (https://www.loc.gov/catdir/cpso/roman.html).</p>",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-01-30T23:04:42Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-01-30T23:04:39Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Send back",
+                    "modified": "2023-01-30T22:55:06Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-01-30T12:07:56Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2023-01-30T12:07:34Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2023-01-30T12:06:38Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2023-01-30T12:05:23Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-01-30T12:05:22Z",
+                    "modifiedBy": "cjohansson"
+                }
+            ],
+            "id": "tall-bazy",
+            "language": "ar",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KA6QNJ27",
+                    "citationDetail": "pages 215-217",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Masetti-Rouault, Maria Grazia. “48. Tell Masaikh and the Region around Terqa (Deir Ez-Zor).” In <i>A History of Syria in One Hundred Sites</i>, edited by Youssef Kanjou and Akira Tsuneki, 207–10. Oxford: Archaeopress Publishing Ltd, 2016.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Masetti-Rouault 2016",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SYB4PQYJ",
+                    "citationDetail": "figure 2",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Porter, Anne. “The Dynamics of Death: Ancestors, Pastoralism, and the Origins of a Third-Millennium City in Syria.” <i>Bulletin of the American Schools of Oriental Research</i> 325 (2002): 1–36.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Porter 2002",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/A7KT8HAW",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Otto, Adelheid, and Berthold Einwag. “50. Tell Bazi (Aleppo).” In <i>A History of Syria in One Hundred Sites</i>, edited by Youssef Kanjou and Akira Tsuneki, 215–17. Oxford: Archaeopress Publishing Ltd, 2016.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Otto 2016",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://ar.wikipedia.org/wiki/تل_بازي",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2GIR336Y",
+                    "citationDetail": "تل_بازي",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>الموسوعة الحرة التي يستطيع الجميع تحريرها: ويكيبيديا</i>. Wikimedia Foundation, 2001. https://ar.wikipedia.org.</div>, تل_بازي.",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikipedia (Arabic)",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Tall_Bazi",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+                    "citationDetail": "Tall_Bazi",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Tall_Bazi.",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q2390471",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q2390471",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>, Q2390471.",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Tall Bāzy, Tall Bazy, Tall Bazi",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/17634131/tall-bazy"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "less-certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/less-certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "early-bronze-age-southern-levant",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-bronze-age-southern-levant"
+                }
+            ],
+            "attested": "Ar-miᵏᶦ",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2019-09-27T14:28:16Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -2000,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-09-27T20:06:17Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "language -> Eblan",
+                    "modified": "2019-09-27T20:05:41Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-09-27T14:33:56Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2019-09-27T14:28:59Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-09-27T14:28:19Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-09-27T14:28:16Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "armi",
+            "language": "xeb",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/690843285",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9TVSDFYR",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Otto, Adelheid, and Maria Giovanna Biga. “Thoughts about the Identification of Tall Bazi with Armi of the Ebla Texts.” In <i>Proceedings of the 6th International Congress on the Archaeology of the Ancient Near East, May, 5th-10th 2009, “Sapienza” - Università Di Roma</i>, edited by Paolo Matthiae, Frances Pinnock, Lorenzo Nigro, and Nicolò Marchetti, 1:481–94. Wiesbaden: Harrassowitz Verlag, 2010. http://www.worldcat.org/oclc/690843285.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Otto and Biga 2010",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/853451169",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HFE7V66V",
+                    "citationDetail": "page 142 (text 49/99)",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "<div class=\"csl-entry\">Pomponio, Francesco. <i>ARET XV: testi amministrativi : assegnazioni mensili di tessuti : periodo di Arrugum : archivio L. 2769</i>. 2 vols. Archivi reali di Ebla., Testi 15. Roma: Missione archeologica iItaliana in Siria, 2008. http://www.worldcat.org/oclc/853451169.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "ARET XV",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Armi",
+            "start": -3300,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/17634131/armi"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "less-certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/less-certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "early-bronze-age-southern-levant",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-bronze-age-southern-levant"
+                }
+            ],
+            "attested": "Ar-mi-umᵏᶦ",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2019-09-27T14:32:09Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -2000,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-09-27T20:06:17Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "language -> Eblan",
+                    "modified": "2019-09-27T20:06:02Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-09-27T14:33:56Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-09-27T14:32:12Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-09-27T14:32:09Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "armium",
+            "language": "xeb",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/690843285",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9TVSDFYR",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Otto, Adelheid, and Maria Giovanna Biga. “Thoughts about the Identification of Tall Bazi with Armi of the Ebla Texts.” In <i>Proceedings of the 6th International Congress on the Archaeology of the Ancient Near East, May, 5th-10th 2009, “Sapienza” - Università Di Roma</i>, edited by Paolo Matthiae, Frances Pinnock, Lorenzo Nigro, and Nicolò Marchetti, 1:481–94. Wiesbaden: Harrassowitz Verlag, 2010. http://www.worldcat.org/oclc/690843285.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Otto and Biga 2010",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/853451169",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HFE7V66V",
+                    "citationDetail": "page 61 (text 44/14)",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "<div class=\"csl-entry\">Pomponio, Francesco. <i>ARET XV: testi amministrativi : assegnazioni mensili di tessuti : periodo di Arrugum : archivio L. 2769</i>. 2 vols. Archivi reali di Ebla., Testi 15. Roma: Missione archeologica iItaliana in Siria, 2008. http://www.worldcat.org/oclc/853451169.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "ARET XV",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Armium",
+            "start": -3300,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/17634131/armium"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/sanctuary",
+        "https://pleiades.stoa.org/vocabularies/place-types/fort-2",
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+    ],
+    "placeTypes": [
+        "sanctuary",
+        "fort-2",
+        "settlement",
+        "archaeological-site"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/690843285",
+            "alternateURI": "https://www.academia.edu/17471980/THOUGHTS_ABOUT_THE_IDENTIFICATION_OF_TALL_BAZI_WITH_ARMI_OF_THE_EBLA_TEXTS",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9TVSDFYR",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Otto, Adelheid, and Maria Giovanna Biga. “Thoughts about the Identification of Tall Bazi with Armi of the Ebla Texts.” In <i>Proceedings of the 6th International Congress on the Archaeology of the Ancient Near East, May, 5th-10th 2009, “Sapienza” - Università Di Roma</i>, edited by Paolo Matthiae, Frances Pinnock, Lorenzo Nigro, and Nicolò Marchetti, 1:481–94. Wiesbaden: Harrassowitz Verlag, 2010. http://www.worldcat.org/oclc/690843285.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Otto 2010",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/1112092730",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4RT7I57V",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Schloder, Katharina. <i>Die Römerzeitliche Bebauung von Tall Bazi Im Syrischen Euphrattal: Ein Befestigtes Einheimisches Heiligtum Im Vorfeld Der Römischen Provinz Syria</i>. Münchener Abhandlungen Zum Alten Orient, Band 5. Gladbeck: PeWe-Verlag, 2019. http://www.worldcat.org/oclc/1112092730.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Schloder 2019",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://de.wikipedia.org/wiki/Tall_Bazi",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QVRBJVTM",
+            "citationDetail": "Tall Bazi",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: Die freie Enzyklopädie</i>. Wikimedia Foundation, 2001. https://de.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (German)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q2390471",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Tall Bazi (Q2390471)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KA6QNJ27",
+            "citationDetail": "pages 215-217",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Masetti-Rouault, Maria Grazia. “48. Tell Masaikh and the Region around Terqa (Deir Ez-Zor).” In <i>A History of Syria in One Hundred Sites</i>, edited by Youssef Kanjou and Akira Tsuneki, 207–10. Oxford: Archaeopress Publishing Ltd, 2016.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Masetti-Rouault 2016",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/A7KT8HAW",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Otto, Adelheid, and Berthold Einwag. “50. Tell Bazi (Aleppo).” In <i>A History of Syria in One Hundred Sites</i>, edited by Youssef Kanjou and Akira Tsuneki, 215–17. Oxford: Archaeopress Publishing Ltd, 2016.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Otto 2016",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SYB4PQYJ",
+            "citationDetail": "figure 2",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Porter, Anne. “The Dynamics of Death: Ancestors, Pastoralism, and the Origins of a Third-Millennium City in Syria.” <i>Bulletin of the American Schools of Oriental Research</i> 325 (2002): 1–36. https://doi.org/10.2307/1357712.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Porter 2002",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://ar.wikipedia.org/wiki/%D8%AA%D9%84_%D8%A8%D8%A7%D8%B2%D9%8A",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2GIR336Y",
+            "citationDetail": "تل_بازي",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>الموسوعة الحرة التي يستطيع الجميع تحريرها: ويكيبيديا</i>. Wikimedia Foundation, 2001. https://ar.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Arabic)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Tall_Bazi",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Tall Bazi",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        38.27593487901092,
+        36.42698687288314
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Tall Bāzy",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/17634131"
+}

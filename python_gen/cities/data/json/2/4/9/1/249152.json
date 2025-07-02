@@ -1,0 +1,472 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -1.89583396524039,
+        42.60839410449321,
+        -1.895464765120364,
+        42.60904746066334
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/246890",
+            "contributors": [],
+            "created": "2016-07-13T13:55:15Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:55:15Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:55:15Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:55:15Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "246890",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Andelos aqueduct",
+            "uri": "https://pleiades.stoa.org/places/249152/246890"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/246890"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Jean Luc PIROUX",
+            "uri": "https://pleiades.stoa.org/author/jlpiroux",
+            "username": "jlpiroux"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-11-09T18:50:25Z",
+    "creators": [
+        {
+            "name": "H.S. Sivan",
+            "username": null
+        },
+        {
+            "name": "S.J. Keay",
+            "username": null
+        },
+        {
+            "name": "R.W. Mathisen",
+            "username": null
+        }
+    ],
+    "description": "Unlabeled on the Barrington Atlas, this dam is popularly known as the \"Devil's Bridge.\"",
+    "details": "The Barrington Atlas Directory notes: near Andelos. See also the website of the <a href=\"http://www.mendigorria.es/es/visitenos/andelos/\">Archaeological Museum of Andelos</a> in Mendigorría.",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -1.8956425,
+                    42.6085866
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-roman-dam-of-ituranduz",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/249152/osm-location-of-roman-dam-of-ituranduz",
+                "location_precision": "precise",
+                "snippet": "Dam; 30 BC - AD 300",
+                "title": "OSM location of Roman dam of Ituranduz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -1.89583396524039,
+                        42.60904746066334
+                    ],
+                    [
+                        -1.895464765120364,
+                        42.60839410449321
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "imagery-location",
+            "properties": {
+                "description": "The major rock and concrete structure is approximately 80 meters in length",
+                "link": "https://pleiades.stoa.org/places/249152/imagery-location",
+                "location_precision": "precise",
+                "snippet": "Unknown; 30 BC - AD 300",
+                "title": "Imagery Location of ancient remains"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added reference",
+            "modified": "2013-11-09T23:22:04Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "DARE feature tag fix.",
+            "modified": "2012-10-23T19:41:13Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T22:36:47Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T03:36:06Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Add connection to Andelos aqueduct",
+            "modified": "2011-11-03T17:05:52Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Add jlpiroux to contributors",
+            "modified": "2011-11-03T16:55:57Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Update title and description",
+            "modified": "2011-11-03T16:51:41Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:16:44Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-10T17:46:38Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-09T19:10:06Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-09T18:50:25Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "249152",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2022-12-31T02:13:28Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "dam"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/dam"
+            ],
+            "geometry": {
+                "coordinates": [
+                    -1.8956425,
+                    42.6085866
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-01-03T18:55:15Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-12-31T02:13:49Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added osm location",
+                    "modified": "2022-12-31T02:13:43Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2022-12-31T02:13:28Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-12-31T02:13:28Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-roman-dam-of-ituranduz",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/dam"
+            ],
+            "provenance": "OpenStreetMap (Node 4708968378, version 3, osm:changeset=58493971, 2018-04-28T02:26:55Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/node/4708968378",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 4708968378",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=4708968378",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Roman dam of Ituranduz",
+            "uri": "https://pleiades.stoa.org/places/249152/osm-location-of-roman-dam-of-ituranduz"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2011-11-01T08:05:54Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jean Luc PIROUX",
+                    "uri": "https://pleiades.stoa.org/author/jlpiroux",
+                    "username": "jlpiroux"
+                }
+            ],
+            "description": "The major rock and concrete structure is approximately 80 meters in length",
+            "details": "<p>Visible on Google earth at indicated coordinates and also seen on site visit. See also the website of the <a class=\"external-link\" href=\"http://www.mendigorria.es/es/visitenos/andelos/\">Archaeological Museum of Andelos</a>.</p>",
+            "end": 300,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -1.89583396524039,
+                        42.60904746066334
+                    ],
+                    [
+                        -1.895464765120364,
+                        42.60839410449321
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Google Earth and Partners Imagery 2016 and following",
+                    "modified": "2023-02-25T16:08:23Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T03:36:06Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-11-03T16:46:52Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "comment": "Change geometry to a line and add link to the museum page",
+                    "modified": "2011-11-03T16:46:31Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-11-01T08:06:19Z",
+                    "modifiedBy": "jlpiroux"
+                },
+                {
+                    "comment": "Replace other location as this is more accurate",
+                    "modified": "2011-11-01T08:05:57Z",
+                    "modifiedBy": "jlpiroux"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-11-01T08:05:54Z",
+                    "modifiedBy": "jlpiroux"
+                }
+            ],
+            "id": "imagery-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Imagery Location of ancient remains",
+            "uri": "https://pleiades.stoa.org/places/249152/imagery-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/dam"
+    ],
+    "placeTypes": [
+        "dam"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 25 D3",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "25 D3",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/t.html#TIR-Caesaraugusta-48",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "TIR Caesaraugusta 48",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Iturranduz_Dam",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Iturranduz Dam",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Iturranduz Dam.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        -1.8956459325901884,
+        42.60865369128914
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=0",
+        "dare:feature=manmade"
+    ],
+    "title": "Iturranduz Dam",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/249152"
+}

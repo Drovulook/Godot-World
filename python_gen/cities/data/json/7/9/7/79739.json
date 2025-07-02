@@ -1,0 +1,654 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -0.366272,
+        51.746231,
+        -0.35064,
+        51.757877
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/491855883",
+            "contributors": [],
+            "created": "2016-07-13T13:48:44Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:48:44Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:48:44Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:48:44Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "491855883",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Watling Street",
+            "uri": "https://pleiades.stoa.org/places/79739/491855883"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/491855883",
+        "https://pleiades.stoa.org/places/79381",
+        "https://pleiades.stoa.org/places/83055",
+        "https://pleiades.stoa.org/places/361151408",
+        "https://pleiades.stoa.org/places/79485",
+        "https://pleiades.stoa.org/places/113035707"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Nicholas Darbyshire",
+            "uri": "https://pleiades.stoa.org/author/ndarbyshire",
+            "username": "ndarbyshire"
+        },
+        {
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling",
+            "username": "bkiesling"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Scott Vanderbilt",
+            "uri": "https://pleiades.stoa.org/author/sarcanon",
+            "username": "sarcanon"
+        },
+        {
+            "name": "R. Warner",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        }
+    ],
+    "created": "2022-08-28T11:58:32Z",
+    "creators": [
+        {
+            "name": "A.S. Esmonde Cleary",
+            "username": null
+        }
+    ],
+    "description": "A Roman settlement located southwest of modern St Albans, Hertfordshire, England.",
+    "details": "<p>The Barrington Atlas Directory notes: St. Albans</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -0.351198,
+                            51.747757
+                        ],
+                        [
+                            -0.35064,
+                            51.750957
+                        ],
+                        [
+                            -0.354942,
+                            51.754658
+                        ],
+                        [
+                            -0.354964,
+                            51.754807
+                        ],
+                        [
+                            -0.355189,
+                            51.754852
+                        ],
+                        [
+                            -0.363643,
+                            51.757877
+                        ],
+                        [
+                            -0.365639,
+                            51.756557
+                        ],
+                        [
+                            -0.366272,
+                            51.753937
+                        ],
+                        [
+                            -0.364888,
+                            51.751923
+                        ],
+                        [
+                            -0.363117,
+                            51.750267
+                        ],
+                        [
+                            -0.355393,
+                            51.746231
+                        ],
+                        [
+                            -0.351198,
+                            51.747757
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "boundary-of-settlement-walls-approx.",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/79739/boundary-of-settlement-walls-approx.",
+                "location_precision": "precise",
+                "snippet": "Unknown; 30 BC - AD 300",
+                "title": "Boundary of settlement walls (approx.)"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added wikidata refs. x 2",
+            "modified": "2022-08-28T13:46:15Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary; added Lockyear 2022; cleaned up references; replaced defunct PastScape reference with Heritage Gateway reference; updated defunct RBrit reference",
+            "modified": "2022-08-28T13:43:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "DARMC 4566",
+            "modified": "2018-08-09T23:55:59Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "add ToposText reference provided by bkiesling",
+            "modified": "2018-06-07T23:19:10Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "added references",
+            "modified": "2017-04-09T15:10:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added connection",
+            "modified": "2013-07-01T16:35:05Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "DARE feature tag fix.",
+            "modified": "2012-10-23T19:38:20Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T21:36:43Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T08:34:31Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-01-21T05:42:25Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T21:07:52Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2009-11-23T19:30:56Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-10-30T22:49:09Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-10-30T22:41:19Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "79739",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2012-07-22T01:54:28Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Scott Vanderbilt",
+                    "uri": "https://pleiades.stoa.org/author/sarcanon",
+                    "username": "sarcanon"
+                }
+            ],
+            "description": "",
+            "details": "\r\n<p>Boundary of settlement walls, ca. 1st century A.D.</p>\r\n",
+            "end": 300,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -0.351198,
+                            51.747757
+                        ],
+                        [
+                            -0.35064,
+                            51.750957
+                        ],
+                        [
+                            -0.354942,
+                            51.754658
+                        ],
+                        [
+                            -0.354964,
+                            51.754807
+                        ],
+                        [
+                            -0.355189,
+                            51.754852
+                        ],
+                        [
+                            -0.363643,
+                            51.757877
+                        ],
+                        [
+                            -0.365639,
+                            51.756557
+                        ],
+                        [
+                            -0.366272,
+                            51.753937
+                        ],
+                        [
+                            -0.364888,
+                            51.751923
+                        ],
+                        [
+                            -0.363117,
+                            51.750267
+                        ],
+                        [
+                            -0.355393,
+                            51.746231
+                        ],
+                        [
+                            -0.351198,
+                            51.747757
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-07-22T10:34:32Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-07-22T01:55:13Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "comment": "Added.",
+                    "modified": "2012-07-22T01:54:33Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-07-22T01:54:29Z",
+                    "modifiedBy": "sarcanon"
+                }
+            ],
+            "id": "boundary-of-settlement-walls-approx.",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.venividiverulamium.org.uk/map_resources.htm",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Veni Vidi Verulamium - Map Resources",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Boundary of settlement walls (approx.)",
+            "uri": "https://pleiades.stoa.org/places/79739/boundary-of-settlement-walls-approx."
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Warner",
+                    "username": null
+                },
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2009-10-30T22:41:19Z",
+            "creators": [
+                {
+                    "name": "A.S. Esmonde Cleary",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T08:34:32Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2009-11-23T19:30:56Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2009-10-30T22:49:09Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2009-10-30T22:41:19Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "verulamium",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 8 G3 Verulamium",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Verulamium",
+            "start": -30,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/79739/verulamium"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 8 G3 Verulamium",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "8 G3 Verulamium",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/T2WDCC2T",
+            "citationDetail": "214-41",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Wacher, J. S. <i>The Towns of Roman Britain</i>. 2 , fully rev. London: Batsford, 1995.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wacher 1995",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://referenceworks.brillonline.com/entries/brill-s-new-pauly/verulamium-e12202010?s.num=0&s.f.s2_parent=s.f.book.brill-s-new-pauly&s.q=Verulamium",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "citationDetail": "Verulamium",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brillonline.com/browse/brill-s-new-pauly.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "New Pauly",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.trismegistos.org/place/14800",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "citationDetail": "Geo 14800: Verulamium (Saint Albans)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TM",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.roman-britain.co.uk/places/verulamium/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PMV8NEDG",
+            "citationDetail": "St Albans (Verulamium) Roman Settlement",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">White, Kevan, and Mike Haseler. <i>Roman Britain</i>, 2016. https://www.roman-britain.co.uk.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "RBrit",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Verulamium",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Verulamium",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Verulamium.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.stalbansmuseums.org.uk/verulamium/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HKXT9AZL",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">St Albans Museums. “Verulamium Museum.” Accessed August 28, 2022. https://www.stalbansmuseums.org.uk/visit/verulamium-museum.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Verulamium Museum",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=361847&resourceID=19191",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9X9FSWD3",
+            "citationDetail": "Verulamium",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Historic England. <i>Heritage Gateway</i>, 2012. https://www.heritagegateway.org.uk/gateway/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Heritage Gateway",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://topostext.org/place/518000UVer",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+            "citationDetail": "Verulamium (Britannia)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Kiesling, Brady. ToposText – a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+            "otherIdentifier": "",
+            "shortTitle": "ToposText",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "4566",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://hertsgeosurvey.wordpress.com/2022/08/25/gpr-at-gorhambury-2022/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9RI7F7WW",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Lockyear, Kris. “GPR at Gorhambury 2022.” <i>Sensing the Iron Age and Roman Past: Geophysics and the Landscape of Hertfordshire</i> (blog), August 25, 2022. https://hertsgeosurvey.wordpress.com/2022/08/25/gpr-at-gorhambury-2022/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Lockyear 2022",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q19861",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q19861: Verulamium",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q103199007",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q103199007: Verulamium (Samian Ware Discovery Site) ",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        -0.35846817129313147,
+        51.75202764213488
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=1",
+        "dare:feature=major settlement"
+    ],
+    "title": "Verulamium",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/79739"
+}

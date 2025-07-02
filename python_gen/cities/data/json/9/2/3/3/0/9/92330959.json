@@ -1,0 +1,257 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -1.4251317,
+        53.083267,
+        -1.4251317,
+        53.083267
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Maxime Guénette",
+            "uri": "https://pleiades.stoa.org/author/maximeg",
+            "username": "maximeg"
+        }
+    ],
+    "created": "2024-12-18T22:17:40Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A Roman fortlet with a small rectangular earthwork lying within a larger enclosure.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -1.4251317,
+                    53.083267
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/92330959/osm-location",
+                "location_precision": "precise",
+                "snippet": "Fortlet; AD 43 - AD 410",
+                "title": "OSM location of Castle Hill, Pentrich"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited for fortlet; update references @maximeg",
+            "modified": "2024-12-19T14:00:35Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2024-12-18T22:17:40Z",
+            "modifiedBy": "maximeg"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2021-10-10T13:03:06Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2019-02-02T03:33:49Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-10-04T04:22:15Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2014-08-24T17:19:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2014-03-30T16:28:52Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2014-03-30T16:28:47Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "92330959",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-britain",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-britain"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-03-30T16:29:04Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 410,
+            "featureType": [
+                "fortlet"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fortlet"
+            ],
+            "geometry": {
+                "coordinates": [
+                    -1.4251317,
+                    53.083267
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Feature type",
+                    "modified": "2024-12-19T14:01:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2024-12-19T04:03:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-10-10T13:03:06Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-10-04T04:22:53Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-08-24T17:21:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-03-30T16:29:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-03-30T16:29:07Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-03-30T16:29:06Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fortlet"
+            ],
+            "provenance": "OpenStreetMap (Node 2754168430, version 1, osm:changeset=21403524, 2014-03-30T16:25:13Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/node/2754168430",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 2754168430",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=2754168430",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 43,
+            "title": "OSM location of Castle Hill, Pentrich",
+            "uri": "https://pleiades.stoa.org/places/92330959/osm-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fortlet"
+    ],
+    "placeTypes": [
+        "fortlet"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.pastscape.org.uk/hob.aspx?hob_id=313985",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2GLEU38X",
+            "citationDetail": "Monument no. 313985",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Historic England. <i>PastScape: Information on England’s Archaeology and Architecture</i>, 2015. https://www.pastscape.org.uk/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PastScape",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://roman-britain.co.uk/places/pentrich.htm",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PMV8NEDG",
+            "citationDetail": "Pentrich Roman Fortlet",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">White, Kevan, and Mike Haseler. <i>Roman Britain</i>, 2016. https://www.roman-britain.co.uk.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "RBrit",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.cambridge.org/core/journals/journal-of-roman-studies/article/air-reconnaissance-of-southern-britain/03E11131FA6CF5834D7BAACA6BDCFF34",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BAAKBSI5",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Joseph, J. K. St. “Air Reconnaissance of Southern Britain*.” <i>The Journal of Roman Studies</i> 43, no. 1–2 (November 1953): 81–97. https://doi.org/10.2307/297785.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Joseph 1953",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        -1.4251317,
+        53.083267
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Pentrich",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/92330959"
+}

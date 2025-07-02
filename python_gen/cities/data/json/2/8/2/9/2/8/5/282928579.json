@@ -1,0 +1,410 @@
+{
+    "@type": "Place",
+    "bbox": [
+        14.1208004,
+        40.8321659,
+        14.1225384,
+        40.8331191
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/432815",
+            "contributors": [],
+            "created": "2016-07-13T13:57:26Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:57:26Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:57:26Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:57:26Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "432815",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Dikaiarcheia/Puteoli",
+            "uri": "https://pleiades.stoa.org/places/282928579/432815"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/432815"
+    ],
+    "contributors": [],
+    "created": "2016-03-18T18:15:41Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A Roman necropolis with 14 tombs constructed during the first and early second centuries A.D.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        14.1208004,
+                        40.8322389
+                    ],
+                    [
+                        14.1215176,
+                        40.8326686
+                    ],
+                    [
+                        14.1219805,
+                        40.832933
+                    ],
+                    [
+                        14.1223491,
+                        40.8331191
+                    ],
+                    [
+                        14.1223641,
+                        40.8330974
+                    ],
+                    [
+                        14.1224322,
+                        40.833109
+                    ],
+                    [
+                        14.122525,
+                        40.8330527
+                    ],
+                    [
+                        14.1225384,
+                        40.8330081
+                    ],
+                    [
+                        14.1224553,
+                        40.832933
+                    ],
+                    [
+                        14.1222917,
+                        40.8328437
+                    ],
+                    [
+                        14.1222032,
+                        40.8328031
+                    ],
+                    [
+                        14.1220154,
+                        40.8327077
+                    ],
+                    [
+                        14.1218357,
+                        40.8326042
+                    ],
+                    [
+                        14.1215498,
+                        40.8324453
+                    ],
+                    [
+                        14.1208594,
+                        40.8321659
+                    ],
+                    [
+                        14.1208004,
+                        40.8322389
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-necropoli-romana-di-via-celle",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/282928579/osm-location-of-necropoli-romana-di-via-celle",
+                "location_precision": "precise",
+                "snippet": "Cemetery, ; 30 BC - AD 300",
+                "title": "OSM location of Necropoli romana di via Celle"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q55685943",
+            "modified": "2025-02-14T03:20:49Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2024-09-14T00:03:36Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-08-30T00:51:33Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2016-03-18T18:17:44Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2016-03-18T18:15:46Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2016-03-18T18:15:41Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "282928579",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2016-03-18T18:16:15Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "cemetery",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cemetery",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        14.1208004,
+                        40.8322389
+                    ],
+                    [
+                        14.1215176,
+                        40.8326686
+                    ],
+                    [
+                        14.1219805,
+                        40.832933
+                    ],
+                    [
+                        14.1223491,
+                        40.8331191
+                    ],
+                    [
+                        14.1223641,
+                        40.8330974
+                    ],
+                    [
+                        14.1224322,
+                        40.833109
+                    ],
+                    [
+                        14.122525,
+                        40.8330527
+                    ],
+                    [
+                        14.1225384,
+                        40.8330081
+                    ],
+                    [
+                        14.1224553,
+                        40.832933
+                    ],
+                    [
+                        14.1222917,
+                        40.8328437
+                    ],
+                    [
+                        14.1222032,
+                        40.8328031
+                    ],
+                    [
+                        14.1220154,
+                        40.8327077
+                    ],
+                    [
+                        14.1218357,
+                        40.8326042
+                    ],
+                    [
+                        14.1215498,
+                        40.8324453
+                    ],
+                    [
+                        14.1208594,
+                        40.8321659
+                    ],
+                    [
+                        14.1208004,
+                        40.8322389
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-09-14T00:02:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-07-09T13:47:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-08-30T00:51:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-03-18T18:17:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2016-03-18T18:16:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2016-03-18T18:16:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-03-18T18:16:17Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-necropoli-romana-di-via-celle",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cemetery",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 136417654, version 3, osm:changeset=37924911, 2016-03-18T18:02:53Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/136417654",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 136417654",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=136417654",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Necropoli romana di via Celle",
+            "uri": "https://pleiades.stoa.org/places/282928579/osm-location-of-necropoli-romana-di-via-celle"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/cemetery"
+    ],
+    "placeTypes": [
+        "cemetery"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.cir.campania.beniculturali.it/luoghi-della-cultura/pozzuoli-necropoli-di-via-celle",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Necropoli di Via Celle - Pozzuoli",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://vici.org/vici/64552/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "citationDetail": "64552",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "vici.org",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q55685943",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q55685943",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        14.121675727551173,
+        40.83264018608396
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Via Celle necropolis",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/282928579"
+}

@@ -12,12 +12,12 @@ var planet_node: Node3D
 var camera : Camera3D
 
 var distance = 1.0
-var theta = PI/8.0
-var phi = 0.0
+var theta = PI/5.0
+var phi = PI/1.7
 var pitch = 0.0
 var yaw = 0.0
 
-var move = 0.0
+var move = 1/radius_mult + 0.1
 
 var _delta_for_zoom = 1/60
 
@@ -25,6 +25,7 @@ func _ready():
 	camera = self
 	planet_node = get_node(planet)
 	distance = planet_node.get("radius")
+	var offset = Vector3(sin(phi) * cos(theta),sin(theta),cos(phi) * cos(theta)) * distance * move * radius_mult
 
 func _input(event):
 	if event is InputEventMouseButton:
@@ -36,7 +37,7 @@ func _input(event):
 			move += move_forward_backward_speed * _delta_for_zoom * zoom_sensitivity * (1 + move)
 		
 		# Appliquer les contraintes
-		move = clamp(move, 1/radius_mult + 0.03, 1/radius_mult + 0.3)
+		clamp_move()
 
 func _process(delta):
 	_delta_for_zoom = delta
@@ -66,12 +67,15 @@ func _process(delta):
 	theta = clamp(theta, -PI/2.0, PI/2.0)
 	# phi = clamp(phi, -PI, PI)
 	yaw = clamp(yaw, -PI/12.0, PI/12.0)
-	pitch = clamp(pitch, -PI/8.0, PI/6.0)
+	pitch = clamp(pitch, -PI/12.0, PI/9.0)
 	
-	move = clamp(move, 1/radius_mult + 0.01, 1/radius_mult + 0.3)
+	clamp_move()
 	
 	update_camera()
-	
+
+func clamp_move():
+	move = clamp(move, 1/radius_mult + 0.05, 1/radius_mult + 0.2)
+
 func update_camera():
 	var offset = Vector3(sin(phi) * cos(theta),sin(theta),cos(phi) * cos(theta)) * distance * move * radius_mult
 	

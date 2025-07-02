@@ -1,0 +1,570 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.483232,
+        41.8958389,
+        12.4832418,
+        41.895889
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/423025",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2020-05-29T15:43:28Z",
+            "creators": [
+                {
+                    "name": "jfu",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-05-29T16:04:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-05-29T16:02:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2020-05-29T15:44:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2020-05-29T15:43:31Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-05-29T15:43:28Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "roma",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YM3VDMWY",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">García, Antonio López. <i>Los Auditoria de Adriano y el Athenaeum de Roma</i>. Firenze University Press, 2015.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "García 2015",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Roma",
+            "uri": "https://pleiades.stoa.org/places/914715153/roma"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "part_of_analytical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_analytical",
+            "connectsTo": "https://pleiades.stoa.org/places/596666070",
+            "contributors": [],
+            "created": "2021-10-23T19:32:53Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-10-29T18:22:23Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-10-29T14:01:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2021-10-29T14:01:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2021-10-23T19:32:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-10-23T19:32:53Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "regio-vii-via-lata",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Athenaeum_(ancient_Rome)",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+                    "citationDetail": "Athenaeum (ancient Rome)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Regio VII (Via Lata)",
+            "uri": "https://pleiades.stoa.org/places/914715153/regio-vii-via-lata"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423025",
+        "https://pleiades.stoa.org/places/596666070"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling",
+            "username": "bkiesling"
+        }
+    ],
+    "created": "2020-05-29T00:28:35Z",
+    "creators": [
+        {
+            "name": "jfu",
+            "username": null
+        }
+    ],
+    "description": "The Athenaeum of Hadrian was located in regio VII near the Capitoline Hill in Rome. Founded by the Emperor Hadrian, it was designated for the promotion of literary and scientific studies and named after the city of Athens. Excavations connected to the Metro C line revealed a complex in the vicinity of the modern Piazza Venezia that has been identified as the site of the Athenaeum.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    12.483232,
+                    41.895889
+                ],
+                "type": "Point"
+            },
+            "id": "imagery-location-of-the-athenaeum-of-hadrian",
+            "properties": {
+                "description": "Coordinates following GeoHack",
+                "link": "https://pleiades.stoa.org/places/914715153/imagery-location-of-the-athenaeum-of-hadrian",
+                "location_precision": "precise",
+                "snippet": "Gymnasium; 30 BC - AD 300",
+                "title": "Imagery location of the Athenaeum of Hadrian"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.4832418,
+                    41.8958389
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-auditorium-of-hadrian",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/914715153/osm-location-of-auditorium-of-hadrian",
+                "location_precision": "precise",
+                "snippet": "Architecturalcomplex; 30 BC - AD 300",
+                "title": "OSM location of Auditorium of Hadrian"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-05-04T01:45:22Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-05-04T01:43:59Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references to ToposText and wikidata, added bkiesling as contributor",
+            "modified": "2020-05-29T16:06:17Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2020-05-29T16:04:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary, title, references",
+            "modified": "2020-05-29T15:35:26Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2020-05-29T00:31:54Z",
+            "modifiedBy": "jfu"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2020-05-29T00:28:36Z",
+            "modifiedBy": "jfu"
+        },
+        {
+            "action": "Create",
+            "modified": "2020-05-29T00:28:35Z",
+            "modifiedBy": "jfu"
+        }
+    ],
+    "id": "914715153",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-geohack-accuracy-assessment",
+            "accuracy_value": 2000.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2020-05-29T15:42:48Z",
+            "creators": [
+                {
+                    "name": "jfu",
+                    "username": null
+                }
+            ],
+            "description": "Coordinates following GeoHack",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "gymnasium"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/gymnasium"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.483232,
+                    41.895889
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-05-29T16:04:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-05-29T16:02:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2020-05-29T15:43:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added imagery location",
+                    "modified": "2020-05-29T15:42:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-05-29T15:42:48Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "imagery-location-of-the-athenaeum-of-hadrian",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/gymnasium"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://tools.wmflabs.org/geohack/geohack.php?language=it&pagename=Athenaeum_di_Adriano&params=41.895889_N_12.483232_E_type:landmark",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "GeoHack - Athenaeum di Adriano",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Imagery location of the Athenaeum of Hadrian",
+            "uri": "https://pleiades.stoa.org/places/914715153/imagery-location-of-the-athenaeum-of-hadrian"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-05-04T01:46:05Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "architecturalcomplex"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.4832418,
+                    41.8958389
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-06-04T17:13:25Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-05-04T01:46:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add OSM location",
+                    "modified": "2024-05-04T01:46:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-05-04T01:46:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-05-04T01:46:05Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-auditorium-of-hadrian",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex"
+            ],
+            "provenance": "OpenStreetMap (Node 2674284221, version 8, osm:changeset=141515915, 2023-09-20T14:05:07Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/node/2674284221",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 2674284221",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=2674284221",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Auditorium of Hadrian",
+            "uri": "https://pleiades.stoa.org/places/914715153/osm-location-of-auditorium-of-hadrian"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/gymnasium",
+        "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex"
+    ],
+    "placeTypes": [
+        "gymnasium",
+        "architecturalcomplex"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YM3VDMWY",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">García, Antonio López. <i>Los Auditoria de Adriano y el Athenaeum de Roma</i>. Firenze University Press, 2015.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "García 2015",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0054%3Aalphabetic+letter%3DA%3Aentry+group%3D4%3Aentry%3Dathenaeum",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/H6XK259J",
+            "citationDetail": "ATHENAEUM",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Platner, Samuel Ball, and Thomas Ashby. <i>A Topographical Dictionary of Ancient Rome</i>. London: Oxford University Press, 1929. http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.04.0054.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Platner 1929 (Perseus)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://web.archive.org/web/20200529153129/https://www.repubblica.it/2009/10/sezioni/spettacoli_e_cultura/ateneo-adriano/ateneo-adriano/ateneo-adriano.html",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "C.A. Bucci. \"Roma, riaffiora l'ateneo di Adriano Ritrovata la scuola dei filosofi. La sala rettangolare è venuto alla luce durante gli scavi per il metrò I lavori non si fermano, spostata di pochi metri l'uscita della linea C.\" La Repubblica 9 Oct. 2009",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Athenaeum_di_Adriano",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+            "citationDetail": "Athenaeum di Adriano",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Athenaeum_(ancient_Rome)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Athenaeum (ancient Rome)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://topostext.org/place/419125BAth",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MC9RGDVB",
+            "citationDetail": "Athenaeum (Rome) 8 Roma",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Kiesling, Brady. <i>ToposText – a Reference Tool for Greek Civilization</i>. Version 2.0. Aikaterini Laskaridis Foundation, 2016. https://topostext.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "ToposText",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q755454",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Athenaeum (Q755454)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://doi.org/10.1093/acrefore/9780199381135.013.912",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YNU2WLIH",
+            "citationDetail": "Athenaeum (A. Spawforth)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Whitmarsh, Tim, ed. <i>Oxford Classical Dictionary (Online)</i>. Post-4th digital. Post-4th Continuously Updated. Accessed March 12, 2023. https://oxfordre.com/classics/classics/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "OCD Online",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        12.4832369,
+        41.89586395
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Athenaeum of Hadrian (Rome)",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/914715153"
+}

@@ -1,0 +1,387 @@
+{
+    "@type": "Place",
+    "bbox": [
+        36.0350438,
+        36.0909168,
+        36.0360841,
+        36.091646
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/658618",
+            "contributors": [],
+            "created": "2016-07-13T13:37:56Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:37:56Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:37:56Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:37:56Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "658618",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Thaumaston Oros",
+            "uri": "https://pleiades.stoa.org/places/49430117/658618"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/658618"
+    ],
+    "contributors": [],
+    "created": "2013-12-23T17:04:15Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A sixth-century AD monastery named for Simeon Stylites the Younger who lived atop a pillar on Thaumaston Oros.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        36.0360841,
+                        36.0915577
+                    ],
+                    [
+                        36.0359692,
+                        36.0909168
+                    ],
+                    [
+                        36.0350438,
+                        36.0910143
+                    ],
+                    [
+                        36.0351645,
+                        36.091646
+                    ],
+                    [
+                        36.0360841,
+                        36.0915577
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-monastery",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/49430117/location-of-monastery",
+                "location_precision": "precise",
+                "snippet": "Monastery; AD 300 - AD 1453",
+                "title": "OSM location of Monastery of St. Simeon Stylites"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-12-09T21:33:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2021-03-07T00:30:54Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2014-03-22T05:02:16Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited description, added references",
+            "modified": "2013-12-23T17:08:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2013-12-23T17:04:19Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2013-12-23T17:04:15Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "49430117",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "mediaeval-byzantine",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/mediaeval-byzantine"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-12-23T17:04:33Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 1453,
+            "featureType": [
+                "monastery"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/monastery"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        36.0360841,
+                        36.0915577
+                    ],
+                    [
+                        36.0359692,
+                        36.0909168
+                    ],
+                    [
+                        36.0350438,
+                        36.0910143
+                    ],
+                    [
+                        36.0351645,
+                        36.091646
+                    ],
+                    [
+                        36.0360841,
+                        36.0915577
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modified": "2024-12-09T21:32:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-09T21:32:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-03-07T00:30:54Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-03-22T05:02:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-12-23T17:05:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-12-23T17:04:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-12-23T17:04:35Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-monastery",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/monastery"
+            ],
+            "provenance": "OpenStreetMap (Way 177959583, version 5, osm:changeset=138021705, 2023-07-02T12:30:01Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/177959583",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 177959583",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=177959583",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 300,
+            "title": "OSM location of Monastery of St. Simeon Stylites",
+            "uri": "https://pleiades.stoa.org/places/49430117/location-of-monastery"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [],
+            "created": "2013-12-23T17:11:00Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-03-07T00:30:55Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-03-22T05:02:57Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2013-12-23T17:11:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-12-23T17:11:01Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2013-12-23.5781510787",
+            "language": "tr",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://wikimapia.org/6716845/tr/Aziz-Simon-Manast%C4%B1r%C4%B1-St-Simeon-Monastery-Ruins",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "Wikimapia.org, Aziz Simon Manastırı (St.Simeon Monastery Ruins)",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Aziz Simon Manastırı",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/49430117/name.2013-12-23.5781510787"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/monastery"
+    ],
+    "placeTypes": [
+        "monastery"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Simeon_Stylites_the_Younger",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Simeon Stylites the Younger",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Simeon Stylites the Younger.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1776331",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Monastery of St. Simeon Stylites the Younger (Q1776331)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        36.035566445336364,
+        36.09128290587236
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Monastery of Simeon Stylites the Younger",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/49430117"
+}

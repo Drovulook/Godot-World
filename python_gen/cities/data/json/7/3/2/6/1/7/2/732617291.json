@@ -1,0 +1,408 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.461384,
+        41.8883449,
+        12.4616271,
+        41.8885301
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/423025",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2016-07-13T14:04:27Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "ctype: at",
+                    "modified": "2018-07-11T22:23:07Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T14:04:28Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T14:04:28Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T14:04:27Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "423025",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Roma",
+            "uri": "https://pleiades.stoa.org/places/732617291/423025"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "part_of_physical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_physical",
+            "connectsTo": "https://pleiades.stoa.org/places/529700371",
+            "contributors": [],
+            "created": "2018-07-01T18:21:34Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-07-11T22:22:48Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-07-02T10:20:23Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2018-07-01T18:21:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-07-01T18:21:34Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "aurelian-walls",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Aurelian Walls",
+            "uri": "https://pleiades.stoa.org/places/732617291/aurelian-walls"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423025",
+        "https://pleiades.stoa.org/places/529700371"
+    ],
+    "contributors": [],
+    "created": "2015-06-01T04:49:38Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A gate in the Aurelian Wall at the summit of the Ianiculum through which the Via Aurelia passes.",
+    "details": "<p>The modern Porta S. Pancrazio replaced the Porta Aurelia in 1644, under the patronage of Urban VIII. That structure was subsequently damaged and removed during the 1849 siege of Rome, at which time the present gate was erected.</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.461384,
+                        41.8884718
+                    ],
+                    [
+                        12.4614236,
+                        41.8884119
+                    ],
+                    [
+                        12.4614679,
+                        41.8883449
+                    ],
+                    [
+                        12.4616271,
+                        41.8884032
+                    ],
+                    [
+                        12.4615829,
+                        41.8884701
+                    ],
+                    [
+                        12.4615433,
+                        41.8885301
+                    ],
+                    [
+                        12.461384,
+                        41.8884718
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/732617291/osm-location",
+                "location_precision": "precise",
+                "snippet": "City-gate; 30 BC - AD 640",
+                "title": "OSM location of Porta San Pancrazio"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q2000448",
+            "modified": "2025-02-15T22:49:59Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-06-04T13:22:18Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-07-11T22:23:27Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-06-06T01:40:53Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-06-06T01:32:22Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-06-01T04:55:58Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2015-06-01T04:49:49Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-06-01T04:49:39Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "732617291",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-early-empire-late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2015-06-01T04:51:12Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "city-gate"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/city-gate"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.461384,
+                        41.8884718
+                    ],
+                    [
+                        12.4614236,
+                        41.8884119
+                    ],
+                    [
+                        12.4614679,
+                        41.8883449
+                    ],
+                    [
+                        12.4616271,
+                        41.8884032
+                    ],
+                    [
+                        12.4615829,
+                        41.8884701
+                    ],
+                    [
+                        12.4615433,
+                        41.8885301
+                    ],
+                    [
+                        12.461384,
+                        41.8884718
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-06-04T13:20:49Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-07-11T22:23:30Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "title, summary",
+                    "modified": "2018-07-01T18:22:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2015-06-06T01:41:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2015-06-01T04:51:50Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2015-06-01T04:51:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-06-01T04:51:16Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/city-gate"
+            ],
+            "provenance": "OpenStreetMap (Way 35274860, version 8, osm:changeset=148775391, 2024-03-17T14:53:38Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/35274860",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 35274860",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=35274860",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Porta San Pancrazio",
+            "uri": "https://pleiades.stoa.org/places/732617291/osm-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/city-gate"
+    ],
+    "placeTypes": [
+        "city-gate"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0054%3Aalphabetic+letter%3DP%3Aentry+group%3D2%3Aentry%3Dporta-aurelia-1",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/H6XK259J",
+            "citationDetail": "PORTA AURELIA [1]",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Platner, Samuel Ball, and Thomas Ashby. <i>A Topographical Dictionary of Ancient Rome</i>. London: Oxford University Press, 1929. http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.04.0054.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Platner 1929 (Perseus)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Porta_San_Pancrazio",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Porta San Pancrazio",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Porta San Pancrazio.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q2000448",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Porta San Pancrazio (Q2000448)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.461505560028712,
+        41.88843750542291
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Porta Aurelia",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/732617291"
+}

@@ -1,0 +1,662 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -0.297088,
+        52.5627274,
+        -0.2900879,
+        52.566723
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "on",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on",
+            "connectsTo": "https://pleiades.stoa.org/places/203193875",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2022-06-09T16:33:18Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-06-10T10:55:20Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2022-06-10T10:55:16Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-06-09T20:58:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2022-06-09T16:33:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-06-09T16:33:18Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "ermine-street",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Ermine Street",
+            "uri": "https://pleiades.stoa.org/places/442436712/ermine-street"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/203193875",
+        "https://pleiades.stoa.org/places/637347439"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Maxime Guénette",
+            "uri": "https://pleiades.stoa.org/author/maximeg",
+            "username": "maximeg"
+        }
+    ],
+    "created": "2024-12-12T13:36:26Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Scott Vanderbilt",
+            "uri": "https://pleiades.stoa.org/author/sarcanon",
+            "username": "sarcanon"
+        }
+    ],
+    "description": "A Roman vexillation fortress of the first century A.D. was located at Longthorpe near Peterborough. The site was first identified via crop marks in 1961 and some excavations were carried out between 1967 and 1971. Nothing of the site is now visible as it has been consumed by a golf course. The fort had two phases: the first phase of 11 ha (27 acres) dates as early as A.D. 44-48 (definitely occupied by 61-62. A contracted phase of 4.5 ha (11 acres) followed later.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -0.2969986,
+                        52.5642168
+                    ],
+                    [
+                        -0.2951304,
+                        52.5666925
+                    ],
+                    [
+                        -0.2900879,
+                        52.5652839
+                    ],
+                    [
+                        -0.2923409,
+                        52.5627274
+                    ],
+                    [
+                        -0.2969986,
+                        52.5642168
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-longthorpe",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/442436712/osm-location-of-longthorpe",
+                "location_precision": "precise",
+                "snippet": "Settlement; AD 43 - AD 410",
+                "title": "OSM location of Longthorpe"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -0.297088,
+                            52.564267,
+                            0
+                        ],
+                        [
+                            -0.292321,
+                            52.562828,
+                            0
+                        ],
+                        [
+                            -0.290302,
+                            52.565274,
+                            0
+                        ],
+                        [
+                            -0.29506,
+                            52.566723,
+                            0
+                        ],
+                        [
+                            -0.297088,
+                            52.564267,
+                            0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "imagery-location-approximate-imagery-location",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/442436712/imagery-location-approximate-imagery-location",
+                "location_precision": "precise",
+                "snippet": "Fort, Earthwork; AD 43 - AD 410",
+                "title": "Imagery Location: Approximate imagery location of of outer ditches"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited type for fort; update references @maximeg",
+            "modified": "2024-12-12T14:45:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2024-12-12T13:36:26Z",
+            "modifiedBy": "maximeg"
+        },
+        {
+            "comment": "update summary, references; Edited; updated Connections; update references; summary; reference",
+            "modified": "2022-06-10T10:54:49Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2022-06-09T16:22:43Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2017-04-07T16:17:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2014-03-30T00:26:04Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T20:39:14Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2012-02-24T14:39:20Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2012-02-19T01:46:15Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Fixed link.",
+            "modified": "2012-02-19T01:45:47Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Fixed typo in reference",
+            "modified": "2012-02-19T01:44:01Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Fixed date",
+            "modified": "2012-02-19T01:42:37Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Added.",
+            "modified": "2012-02-19T01:39:16Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "action": "Create",
+            "modified": "2012-02-19T01:39:13Z",
+            "modifiedBy": "sarcanon"
+        }
+    ],
+    "id": "442436712",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "notvisible",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-britain",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-britain"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-12-12T14:43:25Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 410,
+            "featureType": [
+                "settlement"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -0.2969986,
+                        52.5642168
+                    ],
+                    [
+                        -0.2951304,
+                        52.5666925
+                    ],
+                    [
+                        -0.2900879,
+                        52.5652839
+                    ],
+                    [
+                        -0.2923409,
+                        52.5627274
+                    ],
+                    [
+                        -0.2969986,
+                        52.5642168
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2025-01-29T16:04:03Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-12-12T14:47:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add OSM location",
+                    "modified": "2024-12-12T14:43:49Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-12-12T14:43:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-12-12T14:43:25Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-longthorpe",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "provenance": "OpenStreetMap (Way 1068240726, version 2, osm:changeset=160210692, 2024-12-12T14:42:22Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/1068240726",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 1068240726",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=1068240726",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 43,
+            "title": "OSM location of Longthorpe",
+            "uri": "https://pleiades.stoa.org/places/442436712/osm-location-of-longthorpe"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-geoeye-2011",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-britain",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-britain"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2012-02-19T01:41:53Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Scott Vanderbilt",
+                    "uri": "https://pleiades.stoa.org/author/sarcanon",
+                    "username": "sarcanon"
+                }
+            ],
+            "description": "",
+            "details": "<p>Boundary of ditches of Longthorpe I based on center point of grid reference TL 1575 9769 (Britannia v (1974) p. 1 n.) and dimensions of 360.5 m (E-W) and 301.95 m (N-S) (ibid. p. 6)</p>",
+            "end": 410,
+            "featureType": [
+                "fort",
+                "earthwork"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort",
+                "https://pleiades.stoa.org/vocabularies/place-types/earthwork"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -0.297088,
+                            52.564267,
+                            0
+                        ],
+                        [
+                            -0.29506,
+                            52.566723,
+                            0
+                        ],
+                        [
+                            -0.290302,
+                            52.565274,
+                            0
+                        ],
+                        [
+                            -0.292321,
+                            52.562828,
+                            0
+                        ],
+                        [
+                            -0.297088,
+                            52.564267,
+                            0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modified": "2017-04-07T16:18:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-02-24T14:39:21Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-02-19T01:42:06Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "comment": "Added.",
+                    "modified": "2012-02-19T01:41:55Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-02-19T01:41:53Z",
+                    "modifiedBy": "sarcanon"
+                }
+            ],
+            "id": "imagery-location-approximate-imagery-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort",
+                "https://pleiades.stoa.org/vocabularies/place-types/earthwork"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Frere, St. Joseph et al., Britannia v (1974) 1-129",
+                    "otherIdentifier": "journals.cambridge.org/article_S0068113X0001028X",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": 43,
+            "title": "Imagery Location: Approximate imagery location of of outer ditches",
+            "uri": "https://pleiades.stoa.org/places/442436712/imagery-location-approximate-imagery-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort-2",
+        "https://pleiades.stoa.org/vocabularies/place-types/earthwork",
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+    ],
+    "placeTypes": [
+        "fort-2",
+        "earthwork",
+        "settlement",
+        "fort"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.pastscape.org.uk/hob.aspx?hob_id=364099",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2GLEU38X",
+            "citationDetail": "Monument no. 364099",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Historic England. <i>PastScape: Information on England’s Archaeology and Architecture</i>, 2015. https://www.pastscape.org.uk/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PastScape",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/N2DC24VU",
+            "citationDetail": "48, 50-51",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Frere, S. S., and J. K. S. St. Joseph. <i>Roman Britain from the Air</i>. Cambridge Air Surveys 4. Cambridge: Cambridge University Press, 1983.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Frere 1983",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://roman-britain.co.uk/places/longthorpe.htm",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PMV8NEDG",
+            "citationDetail": "Longthorpe Vexillation Fort",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">White, Kevan, and Mike Haseler. <i>Roman Britain</i>, 2016. https://www.roman-britain.co.uk.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "RBrit",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://journals.cambridge.org/article_S0068113X0001028X",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/V776M3M3",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Frere, S. S., J. K. St. Joseph, D. Charlesworth, R. Goodburn, B. R. Hartley, B. J. Marples, J. N. L. Myres, R. Reece, and M. Wilson. “The Roman Fortress at Longthorpe.” <i>Britannia</i> 5 (1974): 1–129. https://doi.org/10.2307/525724.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Frere et al. 1974",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://historicengland.org.uk/listing/the-list/list-entry/1006834",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KG4R9RD2",
+            "citationDetail": "1006834: Longthorpe Roman fort and settlement",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Historic England. “Listing.” HIstoric England. Accessed April 22, 2021. http://historicengland.org.uk/listing/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "HEListing",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Longthorpe,_Peterborough",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Longthorpe, Peterborough",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Longthorpe, Peterborough.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.cambridgeairphotos.com/location/acz13/",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Cambridge Air Photos: Roman fort, 0.50 mile SW of Longthorpe",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q103177589",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Longthorpe (Samian Ware Discovery Site) (Q103177589)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "http://streetmap.co.uk/map?X=515500&Y=297500&A=Y&Z=120",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "Great Britain Street and Road Map (515500,297500)",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.jstor.org/stable/297432",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WQSGBH9D",
+            "citationDetail": "p.74 & fig.1",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">St. Joseph, J. K. “Air Reconnaissance in Britain, 1961-64.” <i>The Journal of Roman Studies</i> 55, no. 1/2 (1965): 74–89. https://doi.org/10.2307/297432.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "St. Joseph 1965",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q17641267",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Longthorpe Roman fort and settlement (Q17641267)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        -0.29363392275075584,
+        52.56475821133665
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=0",
+        "dare:feature=fort"
+    ],
+    "title": "Longthorpe",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/442436712"
+}

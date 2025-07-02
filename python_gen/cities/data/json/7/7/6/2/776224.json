@@ -1,0 +1,578 @@
+{
+    "@type": "Place",
+    "bbox": [
+        30.6237277,
+        25.7958673,
+        30.6239261,
+        25.796059
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "neolithic-eastern-med",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neolithic-eastern-med"
+                }
+            ],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/776210",
+            "contributors": [],
+            "created": "2019-09-27T19:33:01Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -3300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-09-28T01:35:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-09-27T19:33:20Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-09-27T19:33:03Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-09-27T19:33:01Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "oasis-magna-thebaidos",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://hdl.handle.net/2333.1/5tb2rmg1",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HVGE3E8H",
+                    "citationDetail": "paragraphs 20-22 and figure 4",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Rossi, Corinna. “Egyptian Cubits and Late Roman Architecture: The Design of the Forts of the Kharga Oasis (Egypt).” <i>ISAW Papers</i>, no. 16 (September 30, 2019). http://hdl.handle.net/2333.1/5tb2rmg1.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Rossi 2019",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -10000,
+            "title": "Oasis Magna/Thebaidos",
+            "uri": "https://pleiades.stoa.org/places/776224/oasis-magna-thebaidos"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/776210"
+    ],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2019-09-27T19:23:23Z",
+    "creators": [
+        {
+            "name": "G. Wagner",
+            "username": null
+        }
+    ],
+    "description": "A late Roman fort in Egypt's Kharga Oasis.",
+    "details": "<p>The Barrington Atlas Directory notes: Someira</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        30.6239132,
+                        25.796059
+                    ],
+                    [
+                        30.6237277,
+                        25.7960483
+                    ],
+                    [
+                        30.6237406,
+                        25.7958673
+                    ],
+                    [
+                        30.6239261,
+                        25.7958781
+                    ],
+                    [
+                        30.6239132,
+                        25.796059
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-el-sumeira",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/776224/osm-location-of-el-sumeira",
+                "location_precision": "precise",
+                "snippet": "Archaeological-site; 30 BC - AD 640",
+                "title": "OSM location of el-Sumeira"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+            "modified": "2024-10-29T14:58:04Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "add wikidata el-Sumeira (Q14221094)",
+            "modified": "2024-10-24T01:29:54Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added Rossi 2022",
+            "modified": "2023-02-23T15:34:32Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "title, summary; cleaned up references and added Rossi 2019; updated Connections, Names\r\nchecked-in working copy",
+            "modified": "2019-09-28T01:33:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2019-09-27T19:23:22Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T21:26:47Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T08:23:50Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Fixing modern/alt locations fumbled in intial import",
+            "modified": "2011-12-20T22:56:05Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-01-31T19:56:35Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2009-10-14T12:30:22Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-10-06T22:00:49Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-10-06T21:57:05Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "776224",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-10-24T01:31:10Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "archaeological-site"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        30.6239132,
+                        25.796059
+                    ],
+                    [
+                        30.6237277,
+                        25.7960483
+                    ],
+                    [
+                        30.6237406,
+                        25.7958673
+                    ],
+                    [
+                        30.6239261,
+                        25.7958781
+                    ],
+                    [
+                        30.6239132,
+                        25.796059
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-10-29T14:57:19Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-10-24T01:31:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added osm location",
+                    "modified": "2024-10-24T01:31:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-10-24T01:31:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-10-24T01:31:10Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-el-sumeira",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+            ],
+            "provenance": "OpenStreetMap (Way 1327696080, version 1, osm:changeset=158276388, 2024-10-24T01:30:45Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/1327696080",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 1327696080",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=1327696080",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of el-Sumeira",
+            "uri": "https://pleiades.stoa.org/places/776224/osm-location-of-el-sumeira"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "Someira",
+            "contributors": [],
+            "created": "2019-09-27T19:28:44Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "Name used by the Barrington Atlas.",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-09-28T01:35:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-09-27T19:33:19Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-09-27T19:28:44Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-09-27T19:28:44Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "someira",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/43970336",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+                    "citationDetail": "79 D2 Someira",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "BAtlas",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Someira",
+            "start": 2000,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/776224/someira"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "Qasr al-Sumayra",
+            "contributors": [],
+            "created": "2019-09-27T19:30:21Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "Name used by Rossi 2019.",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-09-28T01:35:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-09-27T19:33:20Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-09-27T19:30:22Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-09-27T19:30:21Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "qasr-al-sumayra",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://dlib.nyu.edu/awdl/isaw/isaw-papers/16/#p20",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HVGE3E8H",
+                    "citationDetail": "paragraphs 20-22",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Rossi, Corinna. “Egyptian Cubits and Late Roman Architecture: The Design of the Forts of the Kharga Oasis (Egypt).” <i>ISAW Papers</i>, no. 16 (September 30, 2019). http://hdl.handle.net/2333.1/5tb2rmg1.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Rossi 2019",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Qasr al-Sumayra",
+            "start": 2000,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/776224/qasr-al-sumayra"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site",
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+    ],
+    "placeTypes": [
+        "archaeological-site",
+        "fort"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 79 D2 Someira",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "79 D2 Someira",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2NV4AV2U",
+            "citationDetail": "168",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Wagner, Guy. <i>Les Oasis d’Egypte à l’époque Grecque, Romaine et Byzantine d’après Les Documents Grecs: Recherches de Papyrologie et d’épigraphie Grecques</i>. Bibliothèque d’étude, t. 1. Le Caire: Institut français d’archéologie orientale du Caire, 1987.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wagner 1987",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://dlib.nyu.edu/awdl/isaw/isaw-papers/16/#p20",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HVGE3E8H",
+            "citationDetail": "paragraphs 20-22 and figure 4",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Rossi, Corinna. “Egyptian Cubits and Late Roman Architecture: The Design of the Forts of the Kharga Oasis (Egypt).” <i>ISAW Papers</i>, no. 16 (September 30, 2019). http://hdl.handle.net/2333.1/5tb2rmg1.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Rossi 2019",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/living-in-a-fringe-environment-three-late-roman-settlements-in-the-kharga-oasis-egypts-western-desert/25ABC21412D94E875CD54E73D5C49331",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FP3F49CL",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Rossi, Corinna, Nicoletta De Troia, Andrea Pasqui, and Antonello Migliozzi. “Living in a Fringe Environment: Three Late Roman Settlements in the Kharga Oasis (Egypt’s Western Desert).” <i>Journal of Roman Archaeology</i> 35, no. 2 (December 2022): 743–78. https://doi.org/10.1017/S1047759421000829.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Rossi 2022",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q14221094",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "el-Sumeira (Q14221094)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "8327",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        30.623826887454126,
+        25.7959631735573
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=0",
+        "dare:feature=fort"
+    ],
+    "title": "Qasr al-Sumayra",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/776224"
+}

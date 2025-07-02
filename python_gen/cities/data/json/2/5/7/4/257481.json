@@ -1,0 +1,272 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -5.8614389,
+        37.0959662,
+        -5.8613503,
+        37.0962885
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "name": "R. Warner",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-11-09T19:26:46Z",
+    "creators": [
+        {
+            "name": "Jr.",
+            "username": null
+        },
+        {
+            "name": "F.H. Stanley",
+            "username": null
+        },
+        {
+            "name": "R.C. Knapp",
+            "username": null
+        }
+    ],
+    "description": "An unnamed Roman bridge located north of U(r)gia at Alcantarillas, over the Rio Saldo de Móron.",
+    "details": "<p>The Barrington Atlas Directory notes: N U(r)gia at Alcantarillas, over R. Saldo de Móron</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -5.8613503,
+                        37.0962885
+                    ],
+                    [
+                        -5.8614389,
+                        37.0959662
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/257481/osm-location",
+                "location_precision": "precise",
+                "snippet": "Bridge, ; 30 BC - AD 640",
+                "title": "OSM location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2023-12-04T19:51:42Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited description",
+            "modified": "2014-07-04T17:55:18Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T03:47:34Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:20:34Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-10T17:51:02Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-09T20:25:35Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-09T19:26:46Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "257481",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-early-empire-late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-07-04T17:53:16Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "bridge",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/bridge",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -5.8613503,
+                        37.0962885
+                    ],
+                    [
+                        -5.8614389,
+                        37.0959662
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2023-12-04T19:50:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-10-11T10:56:56Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-07-04T17:55:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-07-04T17:53:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-07-04T17:53:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-07-04T17:53:18Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/bridge",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 44112523, version 10, osm:changeset=131516447, 2023-01-20T17:37:49Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/44112523",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 44112523",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=44112523",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location",
+            "uri": "https://pleiades.stoa.org/places/257481/osm-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/bridge"
+    ],
+    "placeTypes": [
+        "bridge"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 26 E4",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "26 E4",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/25076246",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DJKDX7U5",
+            "citationDetail": "664-72",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Sillières, Pierre. <i>Les voies de communication de l’Hispanie méridionale</i>. Publications du Centre Pierre Paris 20. Paris: Diffusion de Boccard, 1990. http://www.worldcat.org/oclc/25076246.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Sillières 1990",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        -5.8613946,
+        37.09612735
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Unnamed bridge",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/257481"
+}

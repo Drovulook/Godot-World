@@ -1,0 +1,399 @@
+{
+    "@type": "Place",
+    "bbox": [
+        45.9157,
+        35.7528,
+        45.9157,
+        35.7528
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2025-03-21T12:51:36Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Carolin Johansson",
+            "uri": "https://pleiades.stoa.org/author/cjohansson",
+            "username": "cjohansson"
+        },
+        {
+            "homepage": null,
+            "name": "Rune Rattenborg",
+            "uri": "https://pleiades.stoa.org/author/rrattenborg",
+            "username": "rrattenborg"
+        }
+    ],
+    "description": "Tall multiperiod settlement mound in Kurdistan Iraq. Preliminary excavations have yielded evidence for occupation and construction ranging from the Chalcolithic to the Iron Age.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    45.9157,
+                    35.7528
+                ],
+                "type": "Point"
+            },
+            "id": "cigs-location-of-gird-i-rustam",
+            "properties": {
+                "description": "Dates after Gird-i Rostam Excavations.",
+                "link": "https://pleiades.stoa.org/places/934295045/cigs-location-of-gird-i-rustam",
+                "location_precision": "precise",
+                "snippet": "Archaeological-site; 3350 BC - AD 99",
+                "title": "CIGS location of Gird-i Rustam"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add wikidata Gird-i Rostam (Q133455889)",
+            "modified": "2025-03-21T14:07:15Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added Radner 2019; summary",
+            "modified": "2025-03-21T12:59:32Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "cleaned up references; added Radner 2021",
+            "modified": "2025-03-21T12:50:22Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2025-03-21T12:41:53Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2023-04-27T14:16:29Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2023-04-24T11:06:13Z",
+            "modifiedBy": "cjohansson"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2023-04-24T10:55:17Z",
+            "modifiedBy": "cjohansson"
+        },
+        {
+            "action": "Create",
+            "modified": "2023-04-24T10:55:15Z",
+            "modifiedBy": "cjohansson"
+        }
+    ],
+    "id": "934295045",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "calcolithic-eurasian-cenieh",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/calcolithic-eurasian-cenieh"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "early-1st-millennium-mesopotamia",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-1st-millennium-mesopotamia"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/first-ce"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2025-03-21T12:56:55Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Carolin Johansson",
+                    "uri": "https://pleiades.stoa.org/author/cjohansson",
+                    "username": "cjohansson"
+                },
+                {
+                    "homepage": null,
+                    "name": "Rune Rattenborg",
+                    "uri": "https://pleiades.stoa.org/author/rrattenborg",
+                    "username": "rrattenborg"
+                }
+            ],
+            "description": "Dates after Gird-i Rostam Excavations.",
+            "details": "<p>Centre point location extracted from polygon drawn around entire site as identified on Google Earth base imagery in QGIS 3.x.</p>",
+            "end": 99,
+            "featureType": [
+                "archaeological-site"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+            ],
+            "geometry": {
+                "coordinates": [
+                    45.9157,
+                    35.7528
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Edited; dates",
+                    "modified": "2025-03-21T12:59:20Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modified": "2025-03-21T12:56:54Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-04-27T14:16:29Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-04-24T11:06:14Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2023-04-24T11:01:46Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-04-24T11:01:45Z",
+                    "modifiedBy": "cjohansson"
+                }
+            ],
+            "id": "cigs-location-of-gird-i-rustam",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.degruyter.com/view/journals/zava/110/1/article-p84.xml",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/I3FSAMM3",
+                    "citationDetail": "page 90",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Radner, Karen, Mohammad Masoumian, Hassan Karimian, Eghbal Azizi, and Kazem Omidi. “Neo-Assyrian Royal Monuments from Lake Zeribar in Western Iran: A Stele of Sargon II and a Rock Relief of Shalmaneser III.” <i>Zeitschrift für Assyriologie und Vorderasiatische Archäologie</i> 110, no. 1 (June 25, 2020): 84–93. https://doi.org/10.1515/za-2020-0007.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Radner 2020",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://www.en.ag.geschichte.uni-muenchen.de/research/girdirostam/index.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TLXYIN5L",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Gird-i Rostam Excavations. <i>Gird-i Rostam Excavations</i>. Munich: Ancient History, LMU Munich, 2020. https://www.en.ag.geschichte.uni-muenchen.de/research/girdirostam/index.html.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Gird-i Rostam Excavations",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -3350,
+            "title": "CIGS location of Gird-i Rustam",
+            "uri": "https://pleiades.stoa.org/places/934295045/cigs-location-of-gird-i-rustam"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Gird-i Rustam",
+            "contributors": [],
+            "created": "2023-04-24T11:05:36Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Carolin Johansson",
+                    "uri": "https://pleiades.stoa.org/author/cjohansson",
+                    "username": "cjohansson"
+                },
+                {
+                    "homepage": null,
+                    "name": "Rune Rattenborg",
+                    "uri": "https://pleiades.stoa.org/author/rrattenborg",
+                    "username": "rrattenborg"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-04-27T14:16:29Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-04-24T11:06:14Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2023-04-24T11:05:37Z",
+                    "modifiedBy": "cjohansson"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-04-24T11:05:36Z",
+                    "modifiedBy": "cjohansson"
+                }
+            ],
+            "id": "gird-i-rustam",
+            "language": "ku",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.en.ag.geschichte.uni-muenchen.de/research/girdirostam/index.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TLXYIN5L",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Gird-i Rostam Excavations. “Gird-i Rostam Excavations - Ancient History - LMU Munich,” 2020. https://www.en.ag.geschichte.uni-muenchen.de/research/girdirostam/index.html.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Gird-i Rostam Excavations 2020",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Gird-i Rustam",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/934295045/gird-i-rustam"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+    ],
+    "placeTypes": [
+        "archaeological-site"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://www.en.ag.geschichte.uni-muenchen.de/research/girdirostam/index.html",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TLXYIN5L",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Gird-i Rostam Excavations. <i>Gird-i Rostam Excavations</i>. Munich: Ancient History, LMU Munich, 2020. https://www.en.ag.geschichte.uni-muenchen.de/research/girdirostam/index.html.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Gird-i Rostam Excavations",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.degruyter.com/view/journals/zava/110/1/article-p84.xml",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/I3FSAMM3",
+            "citationDetail": "page 90",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Radner, Karen, Mohammad Masoumian, Hassan Karimian, Eghbal Azizi, and Kazem Omidi. “Neo-Assyrian Royal Monuments from Lake Zeribar in Western Iran: A Stele of Sargon II and a Rock Relief of Shalmaneser III.” <i>Zeitschrift für Assyriologie und Vorderasiatische Archäologie</i> 110, no. 1 (June 25, 2020): 84–93. https://doi.org/10.1515/za-2020-0007.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Radner 2020",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://doi.org/10.1515/aofo-2021-0008",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/AY5GR2MM",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Radner, Karen. “A Bit of Assyrian Imperial Culture: The Fragment of an Inscribed Pottery Bowl from Gird-e Rūstam (Iraqi Kurdistan).” <i>Altorientalische Forschungen</i> 48, no. 1 (June 21, 2021): 118–24. https://doi.org/10.1515/aofo-2021-0008.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Radner 2021",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://epub.ub.uni-muenchen.de/68917/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/STLITHPN",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Radner, Karen, D. T. Potts, Andrea Squitieri, Jean-Jacques Herr, Jens Rohde, A. Ameen, P. Yawar, et al. “Gird-i Rostam 2018: Preliminary Report on the First Season of Excavations by the Joint Kurdish-German-American Team.” <i>Journal of the Ancient Near Eastern Society “Ex Oriente Lux,”</i> September 2019, 91–127. https://doi.org/10.5282/ubm/epub.68917.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Radner 2019",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q133455889",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Gird-i Rostam (Q133455889)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        45.9157,
+        35.7528
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "ANE",
+        "Cuneiform"
+    ],
+    "title": "Gird-i Rostam",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/934295045"
+}

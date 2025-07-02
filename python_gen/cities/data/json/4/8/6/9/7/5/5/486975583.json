@@ -1,0 +1,505 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.2231012,
+        41.7709232,
+        12.2231012,
+        41.7709232
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/423080",
+            "contributors": [],
+            "created": "2016-07-13T13:32:54Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:32:54Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:32:54Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:32:54Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "423080",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Tiberis (river)",
+            "uri": "https://pleiades.stoa.org/places/486975583/423080"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423080"
+    ],
+    "contributors": [],
+    "created": "2015-02-16T04:07:16Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Fossa Traiana (Channel of Trajan) describes a canal of ca. 45 m width connected with the artificial harbors at Portus. Despite the name, its origins may lie in the Claudian harbor works. The cutting of the channel created an artificial island between Ostia and Portus, the so-called Isola Sacra.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.2549966,
+                        41.773757
+                    ],
+                    [
+                        12.2512429,
+                        41.7720966
+                    ],
+                    [
+                        12.2478376,
+                        41.7704495
+                    ],
+                    [
+                        12.2467047,
+                        41.7700014
+                    ],
+                    [
+                        12.245503,
+                        41.7698094
+                    ],
+                    [
+                        12.2439581,
+                        41.769899
+                    ],
+                    [
+                        12.2418295,
+                        41.7704495
+                    ],
+                    [
+                        12.2401772,
+                        41.7713289
+                    ],
+                    [
+                        12.2397008,
+                        41.7715478
+                    ],
+                    [
+                        12.2392073,
+                        41.7716318
+                    ],
+                    [
+                        12.2384402,
+                        41.7717038
+                    ],
+                    [
+                        12.2370058,
+                        41.7716914
+                    ],
+                    [
+                        12.2352569,
+                        41.7715141
+                    ],
+                    [
+                        12.2338043,
+                        41.7712945
+                    ],
+                    [
+                        12.2307401,
+                        41.7710897
+                    ],
+                    [
+                        12.2277361,
+                        41.7708784
+                    ],
+                    [
+                        12.2231012,
+                        41.7709232
+                    ],
+                    [
+                        12.220957,
+                        41.7712361
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/486975583/osm-location",
+                "location_precision": "precise",
+                "snippet": "Canal, ; AD 1700 - AD 2100",
+                "title": "OSM location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "action": "Publish externally",
+            "modified": "2018-07-11T23:01:21Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2017-01-01T16:28:20Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2017-01-01T16:27:58Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-04-02T15:21:17Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2015-02-16T04:07:22Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-02-16T04:07:16Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "486975583",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "contributors": [],
+            "created": "2015-02-16T04:10:31Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 2100,
+            "featureType": [
+                "canal",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/canal",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.2549966,
+                        41.773757
+                    ],
+                    [
+                        12.2512429,
+                        41.7720966
+                    ],
+                    [
+                        12.2478376,
+                        41.7704495
+                    ],
+                    [
+                        12.2467047,
+                        41.7700014
+                    ],
+                    [
+                        12.245503,
+                        41.7698094
+                    ],
+                    [
+                        12.2439581,
+                        41.769899
+                    ],
+                    [
+                        12.2418295,
+                        41.7704495
+                    ],
+                    [
+                        12.2401772,
+                        41.7713289
+                    ],
+                    [
+                        12.2397008,
+                        41.7715478
+                    ],
+                    [
+                        12.2392073,
+                        41.7716318
+                    ],
+                    [
+                        12.2384402,
+                        41.7717038
+                    ],
+                    [
+                        12.2370058,
+                        41.7716914
+                    ],
+                    [
+                        12.2352569,
+                        41.7715141
+                    ],
+                    [
+                        12.2338043,
+                        41.7712945
+                    ],
+                    [
+                        12.2307401,
+                        41.7710897
+                    ],
+                    [
+                        12.2277361,
+                        41.7708784
+                    ],
+                    [
+                        12.2231012,
+                        41.7709232
+                    ],
+                    [
+                        12.220957,
+                        41.7712361
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-11-09T13:32:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-07-11T23:01:25Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-01-01T16:28:21Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2015-02-16T04:11:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2015-02-16T04:10:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-02-16T04:10:33Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/canal",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 15147089, version 13, osm:changeset=143832609, 2023-11-09T17:36:00Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/15147089",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 15147089",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=15147089",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1700,
+            "title": "OSM location",
+            "uri": "https://pleiades.stoa.org/places/486975583/osm-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [],
+            "created": "2015-02-16T04:12:56Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-07-11T23:01:25Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-01-01T16:28:21Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2015-02-16T04:13:01Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-02-16T04:12:58Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2015-02-15.9247088441",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Fiumicino",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "citationDetail": "Fiumicino",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Fiumicino.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Fiumicino",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/486975583/name.2015-02-15.9247088441"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/canal"
+    ],
+    "placeTypes": [
+        "canal"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064:id=ostia-geo",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Smith 1854 (Perseus), ÓSTIA",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.ostia-antica.org/portus/t057.htm",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Ostia Antica: Fossa Traiana",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Isola_Sacra",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Isola Sacra",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Isola Sacra.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "http://wikimapia.org/12772869/it/Fossa-Traiana",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikimapia 12772869",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        12.2231012,
+        41.7709232
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Fossa Traiana",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/486975583"
+}

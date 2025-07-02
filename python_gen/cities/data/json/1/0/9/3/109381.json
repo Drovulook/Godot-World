@@ -1,0 +1,546 @@
+{
+    "@type": "Place",
+    "bbox": [
+        5.8575756,
+        49.5387087,
+        5.8589825,
+        49.5395164
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/109390",
+            "contributors": [],
+            "created": "2016-07-13T14:04:06Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T14:04:06Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T14:04:06Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T14:04:06Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "109390",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Treveri",
+            "uri": "https://pleiades.stoa.org/places/109381/109390"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/109390"
+    ],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt",
+            "username": "jahlfeldt"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2009-11-02T15:57:45Z",
+    "creators": [
+        {
+            "name": "J. Kunow",
+            "username": null
+        },
+        {
+            "name": "C. Haselgrove",
+            "username": null
+        }
+    ],
+    "description": "A Celtic and Roman settlement of the Treveri (ancient name unknown) with prehistoric antecedents.",
+    "details": "<p>The Barrington Atlas Directory notes: Titelberg, LUX</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        5.8575756,
+                        49.5392062
+                    ],
+                    [
+                        5.8582107,
+                        49.5395164
+                    ],
+                    [
+                        5.8585507,
+                        49.5393794
+                    ],
+                    [
+                        5.8589502,
+                        49.5391796
+                    ],
+                    [
+                        5.8589825,
+                        49.5391628
+                    ],
+                    [
+                        5.8583075,
+                        49.5387087
+                    ],
+                    [
+                        5.8575756,
+                        49.5392062
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-Titelberg",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/109381/osm-location-of-Titelberg",
+                "location_precision": "precise",
+                "snippet": "Settlement; 330 BC - AD 300",
+                "title": "OSM location of Titelberg"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "cleaned up references",
+            "modified": "2023-06-27T21:10:11Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+            "modified": "2023-06-27T21:05:22Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2019-05-26T14:17:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2014-07-08T15:38:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "description, title, references, connections",
+            "modified": "2012-11-14T18:58:33Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2012-11-14T18:53:30Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-21T00:14:52Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "RFO and PECS references from Johan Ahlfeldt (jahlfeldt) and reviewd by Tom Elliott (thomase) in May 2012",
+            "modified": "2012-05-25T22:16:08Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T02:13:33Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-14T23:47:01Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-03-09T22:31:07Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T18:53:17Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-05-19T21:32:39Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-11-02T16:57:03Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-11-02T15:57:45Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "109381",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-roman-early-empire",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-roman-early-empire"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-07-08T15:39:12Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "settlement"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        5.8575756,
+                        49.5392062
+                    ],
+                    [
+                        5.8582107,
+                        49.5395164
+                    ],
+                    [
+                        5.8585507,
+                        49.5393794
+                    ],
+                    [
+                        5.8589502,
+                        49.5391796
+                    ],
+                    [
+                        5.8589825,
+                        49.5391628
+                    ],
+                    [
+                        5.8583075,
+                        49.5387087
+                    ],
+                    [
+                        5.8575756,
+                        49.5392062
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-06-27T21:04:44Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2023-06-24T01:29:53Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-05-26T14:16:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2019-05-26T14:15:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-07-08T15:39:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-07-08T15:39:15Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-07-08T15:39:14Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-Titelberg",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "provenance": "OpenStreetMap (Way 32545380, version 16, osm:changeset=132105319, 2023-02-05T11:29:16Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/32545380",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 32545380",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=32545380",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "OSM location of Titelberg",
+            "uri": "https://pleiades.stoa.org/places/109381/osm-location-of-Titelberg"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [],
+            "created": "2012-05-25T22:16:07Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt",
+                    "username": "jahlfeldt"
+                }
+            ],
+            "description": "Modern Name",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-05-25T22:16:08Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-05-25T22:16:08Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "comment": "RFO and PECS references from Johan Ahlfeldt (jahlfeldt) and reviewd by Tom Elliott (thomase) in May 2012",
+                    "modified": "2012-05-25T22:16:08Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-05-25T22:16:07Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "titelberg",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Regnum Francorum Online",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Titelberg",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/109381/titelberg"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 11 F3 Titelberg",
+    "references": [
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Q4N2Z8P5",
+            "citationDetail": "11 F3 Titelberg",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Casson, Lionel. <i>The Periplus maris Erythraei: text with introduction, translation, and commentary</i>. Princeton, NJ: Princeton University Press, 1989.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PME (Casson)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8VMVE3ZB",
+            "citationDetail": "28-41",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Brunaux, Jean-Louis. <i>Les Sanctuaires Celtiques et Leurs Rapports Avec Le Monde Mediterraneén: Actes Du Colloque de St-Riquier, 8 Au 11 Novembre 1990, Organiseś Par La Direction Des Antiquiteś de Picardie et l’UMR 126 Du CNRS</i>. Dossier de Protohistoire 3. Paris: Ed́itions Errance; France: Direction des antiquités historiques de Picardie, 1991.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Brunaux 1991",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PB7E33G2",
+            "citationDetail": "264-65 (no. 345)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Petit, Jean-Paul, ed. <i>Atlas des agglomérations secondaires de la Gaule Belgique et des Germanies</i>. Paris: Ed. Errance, 1994. http://www.worldcat.org/oclc/185700208.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Petit 1994",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://francia.ahlfeldt.se/places/17644",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2CEKGRY9",
+            "citationDetail": "17644",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "<div class=\"csl-entry\">Åhlfeldt, Johan. <i>Regnum Francorum Online</i>, 2009. http://francia.ahlfeldt.se/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "RFO",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=titelberg",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "citationDetail": "TITELBERG Luxembourg",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PECS (Perseus)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://referenceworks.brillonline.com/entries/brill-s-new-pauly/treveri-e1219890",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "citationDetail": "Treveri",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brillonline.com/browse/brill-s-new-pauly.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "New Pauly",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "http://www.oppida.org/page.php?lg=fr&rub=00&id_oppidum=4",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QSG86LTM",
+            "citationDetail": "4: Titelberg",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Oppida: Premières villes au Nord des Alpes</i>, 2008. http://www.oppida.org/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Oppida: Premières villes au Nord des Alpes",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://de.wikipedia.org/wiki/Titelberg",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QVRBJVTM",
+            "citationDetail": "Titelberg",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: Die freie Enzyklopädie</i>. Wikimedia Foundation, 2001. https://de.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (German)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "15196",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        5.85827878051521,
+        49.539141539991746
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=0",
+        "dare:feature=settlement"
+    ],
+    "title": "Settlement at Titelberg, Luxembourg",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/109381"
+}

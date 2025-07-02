@@ -1,0 +1,618 @@
+{
+    "@type": "Place",
+    "bbox": [
+        25.1577694,
+        35.2442319,
+        25.1597247,
+        35.2460848
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "on",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on",
+            "connectsTo": "https://pleiades.stoa.org/places/589748",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2016-07-13T13:32:58Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-02-04T16:47:41Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:32:59Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:32:59Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:32:58Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "589748",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Creta (island)",
+            "uri": "https://pleiades.stoa.org/places/9547769/589748"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "near",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/near",
+            "connectsTo": "https://pleiades.stoa.org/places/953163789",
+            "contributors": [],
+            "created": "2019-02-02T16:09:30Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-02-04T16:47:53Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-02-02T16:09:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2019-02-02T16:09:31Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-02-02T16:09:30Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "mount-juktas",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Mount Juktas",
+            "uri": "https://pleiades.stoa.org/places/9547769/mount-juktas"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/589748",
+        "https://pleiades.stoa.org/places/953163789"
+    ],
+    "contributors": [],
+    "created": "2014-01-21T19:09:00Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A Minoan necropolis located near Mount Juktas that was in use from the Early Minoan II to Late Minoan IIIC periods.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    25.1587877,
+                    35.2454047
+                ],
+                "type": "Point"
+            },
+            "id": "location-of-phourni",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/9547769/location-of-phourni",
+                "location_precision": "precise",
+                "snippet": "Cemetery, ; 2000 BC - 1000 BC",
+                "title": "OSM location"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        25.1596259,
+                        35.2455487
+                    ],
+                    [
+                        25.159504,
+                        35.2456558
+                    ],
+                    [
+                        25.1597247,
+                        35.2459022
+                    ],
+                    [
+                        25.1591991,
+                        35.2460848
+                    ],
+                    [
+                        25.159009,
+                        35.2458237
+                    ],
+                    [
+                        25.1586826,
+                        35.2459335
+                    ],
+                    [
+                        25.1586243,
+                        35.2459465
+                    ],
+                    [
+                        25.1577694,
+                        35.2446293
+                    ],
+                    [
+                        25.1585076,
+                        35.2442319
+                    ],
+                    [
+                        25.1591566,
+                        35.2451289
+                    ],
+                    [
+                        25.1596259,
+                        35.2455487
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-nekropole-of-phourni",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/9547769/osm-location-of-nekropole-of-phourni",
+                "location_precision": "precise",
+                "snippet": "Cemetery; 2000 BC - 1000 BC",
+                "title": "OSM location of Nekropole of Phourni"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q1440052",
+            "modified": "2025-01-12T19:55:46Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2014-03-27T10:56:49Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2014-03-25T03:47:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2014-03-25T03:43:01Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2014-03-25T03:40:51Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2014-01-21T19:09:06Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2014-01-21T19:09:01Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "9547769",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "2nd-millenium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-01-21T19:10:29Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": -1000,
+            "featureType": [
+                "cemetery",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cemetery",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    25.1587877,
+                    35.2454047
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2014-03-27T10:56:50Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-03-25T03:42:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2014-03-25T03:42:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-01-21T19:11:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-01-21T19:10:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-01-21T19:10:32Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-phourni",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cemetery",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Node 663464525, version 2, osm:changeset=20128268, 2014-01-21T19:10:07Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/node/663464525",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 663464525",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=663464525",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -2000,
+            "title": "OSM location",
+            "uri": "https://pleiades.stoa.org/places/9547769/location-of-phourni"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "2nd-millenium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce"
+                }
+            ],
+            "contributors": [],
+            "created": "2022-01-08T20:41:49Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -1000,
+            "featureType": [
+                "cemetery"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cemetery"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        25.1596259,
+                        35.2455487
+                    ],
+                    [
+                        25.159504,
+                        35.2456558
+                    ],
+                    [
+                        25.1597247,
+                        35.2459022
+                    ],
+                    [
+                        25.1591991,
+                        35.2460848
+                    ],
+                    [
+                        25.159009,
+                        35.2458237
+                    ],
+                    [
+                        25.1586826,
+                        35.2459335
+                    ],
+                    [
+                        25.1586243,
+                        35.2459465
+                    ],
+                    [
+                        25.1577694,
+                        35.2446293
+                    ],
+                    [
+                        25.1585076,
+                        35.2442319
+                    ],
+                    [
+                        25.1591566,
+                        35.2451289
+                    ],
+                    [
+                        25.1596259,
+                        35.2455487
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-01-09T11:27:41Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-01-08T20:42:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "new OSM location replaces previouslt-published data derived from OSM",
+                    "modified": "2022-01-08T20:42:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2022-01-08T20:41:49Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-01-08T20:41:49Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-nekropole-of-phourni",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cemetery"
+            ],
+            "provenance": "OpenStreetMap (Way 52048584, version 9, osm:changeset=59435308, 2018-05-31T16:04:33Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/52048584",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 52048584",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=52048584",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -2000,
+            "title": "OSM location of Nekropole of Phourni",
+            "uri": "https://pleiades.stoa.org/places/9547769/osm-location-of-nekropole-of-phourni"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Φουρνί",
+            "contributors": [],
+            "created": "2014-03-25T03:44:49Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "modern toponym",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2014-03-27T10:56:52Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-03-25T03:46:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2014-03-25T03:44:57Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-03-25T03:44:51Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "phourni",
+            "language": "el",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Phourni",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "citationDetail": "Phourni",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Phourni.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Phourni",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/9547769/phourni"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/cemetery"
+    ],
+    "placeTypes": [
+        "cemetery"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Phourni",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Phourni",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Phourni.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2422",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "Odysseus.culture.gr, Archanes",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1440052",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Phourni (Q1440052)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        25.15877469500417,
+        35.24532133933717
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Phourni",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/9547769"
+}

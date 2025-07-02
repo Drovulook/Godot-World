@@ -1,0 +1,394 @@
+{
+    "@type": "Place",
+    "bbox": [
+        13.0,
+        41.25,
+        13.25,
+        41.5
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "northwest_of",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/northwest_of",
+            "connectsTo": "https://pleiades.stoa.org/places/433033",
+            "contributors": [],
+            "created": "2020-06-06T20:00:43Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "update references",
+                    "modified": "2025-06-04T20:43:07Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-08-28T13:29:36Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-08-28T00:15:42Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2022-08-28T00:15:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2020-06-06T20:00:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-06-06T20:00:43Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "pomptinae-paludes",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PACHTFF6",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Cancellieri, M. “Le vie d’acqua dell’area pontina.” In <i>Il Tevere e le altre vie d’acqua del Lazio antico : settimo incontro di studio del Comitato per l’archeologia laziale</i>, edited by Stefania Quilici Gigli, 143–56. Archeologia Laziale 7. Rome: Consiglio nazionale delle ricerche, 1986.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Cancellieri 1986",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9377UUFB",
+                    "citationDetail": "p. 632 s.v. \"Canals\"",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Barrington Atlas of the Greek and Roman World : Map-by-Map Directory</i>. 2 vols. Princeton, N.J.: Princeton University Press, 2000.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "BAtlDir",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Pomptinae Paludes",
+            "uri": "https://pleiades.stoa.org/places/425827/pomptinae-paludes"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/433033"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Stephan Maurer",
+            "uri": "https://pleiades.stoa.org/author/smaurer",
+            "username": "smaurer"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-11-10T22:28:47Z",
+    "creators": [
+        {
+            "name": "L. Quilici",
+            "username": null
+        },
+        {
+            "name": "S. Quilici Gigli",
+            "username": null
+        }
+    ],
+    "description": "unnamed canal group (NW Pomptinae Paludes)",
+    "details": "<p>The Barrington Atlas Directory notes: NW Pomptinae Paludes</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.0,
+                            41.25
+                        ],
+                        [
+                            13.25,
+                            41.25
+                        ],
+                        [
+                            13.25,
+                            41.5
+                        ],
+                        [
+                            13.0,
+                            41.5
+                        ],
+                        [
+                            13.0,
+                            41.25
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "batlas-location",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/425827/batlas-location",
+                "location_precision": "rough",
+                "snippet": "Unknown; 330 BC - AD 300",
+                "title": "Barrington Atlas location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2020-06-06T20:01:13Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "contrib",
+            "modified": "2017-09-13T20:20:22Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "title, summary, type",
+            "modified": "2017-09-13T17:05:20Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T04:58:12Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:45:15Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-11T05:12:20Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-10T22:38:17Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-10T22:28:47Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "425827",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": null,
+            "accuracy_value": null,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-11-10T22:28:47Z",
+            "creators": [
+                {
+                    "name": "L. Quilici",
+                    "username": null
+                },
+                {
+                    "name": "S. Quilici Gigli",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.0,
+                            41.25
+                        ],
+                        [
+                            13.25,
+                            41.25
+                        ],
+                        [
+                            13.25,
+                            41.5
+                        ],
+                        [
+                            13.0,
+                            41.5
+                        ],
+                        [
+                            13.0,
+                            41.25
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:58:12Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-11T05:12:20Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-10T22:38:17Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-10T22:28:47Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "batlas-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Barrington Atlas: BAtlas 43 E4",
+            "references": [],
+            "review_state": "published",
+            "start": -330,
+            "title": "Barrington Atlas location",
+            "uri": "https://pleiades.stoa.org/places/425827/batlas-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/canal"
+    ],
+    "placeTypes": [
+        "canal"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 43 E4",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "43 E4",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PACHTFF6",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Cancellieri, M. “Le vie d’acqua dell’area pontina.” In <i>Il Tevere e le altre vie d’acqua del Lazio antico : settimo incontro di studio del Comitato per l’archeologia laziale</i>, edited by Stefania Quilici Gigli, 143–56. Archeologia Laziale 7. Rome: Consiglio nazionale delle ricerche, 1986.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Cancellieri 1986",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        13.125,
+        41.375
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Unnamed canals",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/425827"
+}

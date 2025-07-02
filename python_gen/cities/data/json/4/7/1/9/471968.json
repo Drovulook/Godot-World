@@ -1,0 +1,543 @@
+{
+    "@type": "Place",
+    "bbox": [
+        8.872874576611837,
+        39.579249041863605,
+        9.145560807879987,
+        39.58281823337235
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/472014",
+            "contributors": [],
+            "created": "2016-07-13T13:56:59Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:56:59Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:56:59Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:56:59Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "472014",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Sardinia (island)",
+            "uri": "https://pleiades.stoa.org/places/471968/472014"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/472014"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Michael Heubel",
+            "uri": "https://pleiades.stoa.org/author/mheubel",
+            "username": "mheubel"
+        },
+        {
+            "homepage": null,
+            "name": "Ryan Horne",
+            "uri": "https://pleiades.stoa.org/author/rmhorne",
+            "username": "rmhorne"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "name": "Richard Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2010-11-11T20:22:15Z",
+    "creators": [
+        {
+            "name": "S.L. Dyson",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 48 A3 Maltamonenses",
+    "details": "<p>The Barrington Atlas Directory notes: Sanluri</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            8.872874576611837,
+                            39.5806767184671
+                        ],
+                        [
+                            8.909994168302788,
+                            39.58139055676885
+                        ],
+                        [
+                            8.928553964148264,
+                            39.5806767184671
+                        ],
+                        [
+                            8.946399921691992,
+                            39.58281823337235
+                        ],
+                        [
+                            8.959249011123475,
+                            39.5821043950706
+                        ],
+                        [
+                            8.984233351684694,
+                            39.58139055676885
+                        ],
+                        [
+                            9.008503853944163,
+                            39.58139055676885
+                        ],
+                        [
+                            9.027777488091388,
+                            39.58281823337235
+                        ],
+                        [
+                            9.047051122238612,
+                            39.5806767184671
+                        ],
+                        [
+                            9.07274930110158,
+                            39.5806767184671
+                        ],
+                        [
+                            9.091309096947056,
+                            39.5806767184671
+                        ],
+                        [
+                            9.109155054490783,
+                            39.579249041863605
+                        ],
+                        [
+                            9.145560807879987,
+                            39.58139055676885
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "id": "batlas-map-label-location",
+            "properties": {
+                "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+                "link": "https://pleiades.stoa.org/places/471968/batlas-map-label-location",
+                "location_precision": "precise",
+                "snippet": "Label; 30 BC - AD 300",
+                "title": "BAtlas Map Label Location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2022-08-30T23:05:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added cnxn",
+            "modified": "2016-05-27T02:27:03Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2016-05-27T02:25:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2014-12-28T05:19:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T05:27:09Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:58:52Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-12T12:27:24Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-11T20:27:25Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-11T20:22:15Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "471968",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-1-million-scale",
+            "accuracy_value": 1860.0,
+            "archaeologicalRemains": "notapplicable",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Ryan Horne",
+                    "uri": "https://pleiades.stoa.org/author/rmhorne",
+                    "username": "rmhorne"
+                },
+                {
+                    "name": "Richard Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                },
+                {
+                    "homepage": null,
+                    "name": "Michael Heubel",
+                    "uri": "https://pleiades.stoa.org/author/mheubel",
+                    "username": "mheubel"
+                }
+            ],
+            "created": "2022-08-30T11:15:34Z",
+            "creators": [
+                {
+                    "name": "S.L. Dyson",
+                    "username": null
+                }
+            ],
+            "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "label"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/label"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            8.872874576611837,
+                            39.5806767184671
+                        ],
+                        [
+                            8.909994168302788,
+                            39.58139055676885
+                        ],
+                        [
+                            8.928553964148264,
+                            39.5806767184671
+                        ],
+                        [
+                            8.946399921691992,
+                            39.58281823337235
+                        ],
+                        [
+                            8.959249011123475,
+                            39.5821043950706
+                        ],
+                        [
+                            8.984233351684694,
+                            39.58139055676885
+                        ],
+                        [
+                            9.008503853944163,
+                            39.58139055676885
+                        ],
+                        [
+                            9.027777488091388,
+                            39.58281823337235
+                        ],
+                        [
+                            9.047051122238612,
+                            39.5806767184671
+                        ],
+                        [
+                            9.07274930110158,
+                            39.5806767184671
+                        ],
+                        [
+                            9.091309096947056,
+                            39.5806767184671
+                        ],
+                        [
+                            9.109155054490783,
+                            39.579249041863605
+                        ],
+                        [
+                            9.145560807879987,
+                            39.58139055676885
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-08-30T23:03:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-08-30T18:57:13Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-08-30T11:15:34Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "batlas-map-label-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/label"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://github.com/AWMC/geodata/blob/a289d378b75eba8c9b640f0248763e3cbf9d2583/Cultural-Data/regional_name_linework/regional_names_linework.geojson",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/AKGKQTM5",
+                    "citationDetail": "211565",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">AWMC Geodata: Regional Name Linework. Geojson. Chapel Hill: Ancient World Mapping Center, University of North Carolina at Chapel Hill, June 20, 2016. Github.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "AWMC Geodata: Regional Name Linework",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/MIAGQ5C6",
+                    "citationDetail": "48 A3 Maltamonenses",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. Barrington Atlas of the Greek and Roman World. Princeton, N.J.: Princeton University Press, 2000.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "BAtlas",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "BAtlas Map Label Location",
+            "uri": "https://pleiades.stoa.org/places/471968/batlas-map-label-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-11-11T20:22:15Z",
+            "creators": [
+                {
+                    "name": "S.L. Dyson",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "programmatically changed nameType from geographic to ethnic: site-wide cleanup of peoples/tribes imported from the Barrington Atlas",
+                    "modified": "2021-02-25T22:58:05Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T05:27:09Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-12T12:27:24Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-11T20:27:25Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-11T20:22:16Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "maltamonenses",
+            "language": "",
+            "nameType": "ethnic",
+            "provenance": "Barrington Atlas: BAtlas 48 A3 Maltamonenses",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Maltamonenses",
+            "start": -30,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/471968/maltamonenses"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/label",
+        "https://pleiades.stoa.org/vocabularies/place-types/people"
+    ],
+    "placeTypes": [
+        "label",
+        "people"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 48 A3 Maltamonenses",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "48 A3 Maltamonenses",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/49FLNPG9",
+            "citationDetail": "179-81",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Bonello Lai, M. “Il territorio dei populi e delle civitates indigene in Sardegna.” In <i>La Tavola di Esterzili</i>, edited by A. Mastino, 157–84. Sassari, 1993.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Bonello Lai 1993a",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://books.google.com/books?id=eHI9AAAAYAAJ&pg=PA473&img=1&zoom=3&hl=en&sig=ACfU3U2KFu_vUJpxIm1trinCJAHPvh2GDQ&ci=80%2C874%2C762%2C210&edge=0",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/NIZB6YAK",
+            "citationDetail": "5982a",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Dessau, Hermann. <i>Inscriptiones latinae selectae</i>. Zürich: Weidmann, 1997.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "ILS",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/List_of_Nuragic_tribes",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "List of Nuragic tribes",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), List of Nuragic tribes.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeAlso"
+        }
+    ],
+    "reprPoint": [
+        9.00923128285081,
+        39.58114802515305
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Maltamonenses",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/471968"
+}

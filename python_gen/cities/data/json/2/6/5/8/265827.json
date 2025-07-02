@@ -1,0 +1,1023 @@
+{
+    "@type": "Place",
+    "bbox": [
+        3.079593,
+        39.911205,
+        3.079593,
+        39.911205
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "on",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on",
+            "connectsTo": "https://pleiades.stoa.org/places/632227173",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2016-07-13T13:51:54Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "located on",
+                    "modified": "2022-04-07T18:30:45Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:51:54Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:51:54Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:51:54Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "632227173",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Majorca (island)",
+            "uri": "https://pleiades.stoa.org/places/265827/632227173"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/632227173"
+    ],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "name": "R. Warner",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Joel Bellviure",
+            "uri": "https://pleiades.stoa.org/author/jbellviure",
+            "username": "jbellviure"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2022-04-07T17:31:40Z",
+    "creators": [
+        {
+            "name": "P.O. Spann",
+            "username": null
+        }
+    ],
+    "description": "A pre-Roman and Roman settlement on the island of Majorca. Its ruins are known as Pedret de Bóquer, which is located at the modern Port de Pollença. The original settlement dates ca. 1400 BC.",
+    "details": "<p>The Barrington Atlas Directory notes: N point of Mallorca Is.</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    3.079593,
+                    39.911205
+                ],
+                "type": "Point"
+            },
+            "id": "imagery-location-pedret-de-boquer",
+            "properties": {
+                "description": "Location of the excavations that uncovered Roman remains of Civitas Bocchoritana",
+                "link": "https://pleiades.stoa.org/places/265827/imagery-location-pedret-de-boquer",
+                "location_precision": "precise",
+                "snippet": "Archaeological-site; 1000 BC - AD 640",
+                "title": "Imagery Location of Pedret de Bóquer"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+            "modified": "2022-04-07T18:29:59Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "consolidated a doublet and revised: summary; cleaned up references; updated Wikipedia reference; added wikidata, Estarellas Ordinas 2005; HEp 9753 = CIL 2.3695; and HEp 7917 references; added location and names",
+            "modified": "2022-04-07T18:28:58Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2022-04-07T17:31:39Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-02-15T04:26:58Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2014-07-20T15:15:09Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited description; added references",
+            "modified": "2013-04-27T16:45:05Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-23T17:38:49Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T03:50:24Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-08-02T20:25:34Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:21:48Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-09-24T19:34:09Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-09-24T19:10:13Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-09-24T19:01:16Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "265827",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "1st-millennium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/1st-millennium-bce"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2022-04-07T17:34:06Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Joel Bellviure",
+                    "uri": "https://pleiades.stoa.org/author/jbellviure",
+                    "username": "jbellviure"
+                }
+            ],
+            "description": "Location of the excavations that uncovered Roman remains of Civitas Bocchoritana",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "archaeological-site"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+            ],
+            "geometry": {
+                "coordinates": [
+                    3.079593,
+                    39.911205
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "added Google Earth accuracy assessment",
+                    "modified": "2023-02-23T19:28:56Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-04-07T18:29:12Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-04-07T18:29:08Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-04-07T17:34:04Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "imagery-location-pedret-de-boquer",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+            ],
+            "provenance": "",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/804180875",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/VSG5V42T",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+                    "formattedCitation": "<div class=\"csl-entry\">Estarellas Ordinas, Maria Magdalena, and Josep Merino Santiesteban. “Treballs arqueològics preliminars al Pedret de Bóquer (Pollença).” In <i>L’Antiguitat clàssica i la seva pervivència a les Illes Balears: XXIII Jornades d’estudis històrics locals: Palma del 17 al 19 de novembre de 2004</i>, edited by María Luisa Sánchez León and Maria Barceló Crespí, 377–93. Palma [de Mallorca]: Institut d’Estudis Baleàrics, 2005. http://www.worldcat.org/oclc/804180875.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Estarellas Ordinas 2005",
+                    "type": "seeAlso"
+                }
+            ],
+            "review_state": "published",
+            "start": -1000,
+            "title": "Imagery Location of Pedret de Bóquer",
+            "uri": "https://pleiades.stoa.org/places/265827/imagery-location-pedret-de-boquer"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/first-ce"
+                }
+            ],
+            "attested": "civitas Bocchoritana",
+            "contributors": [],
+            "created": "2022-04-07T18:16:24Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 99,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-04-07T18:30:25Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-04-07T18:30:22Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2022-04-07T18:25:28Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2022-04-07T18:16:26Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-04-07T18:16:24Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "civitas-bocchoritana",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://eda-bea.es/pub/record_card_1.php?rec=7917",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PFESQAHS",
+                    "citationDetail": "7917",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "<div class=\"csl-entry\">Gómez-Pantoja, Joaquín, ed. <i>Hispania Epigraphica Online Database</i>. Alcalá de Henares; Salzburg: Universidad de Alcalá; University of Salzburg. Accessed April 20, 2019. http://eda-bea.es/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "HEp Online",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "civitas Bocchoritana, Bocchoritana (civitas)",
+            "start": 1,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/265827/civitas-bocchoritana"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/first-ce"
+                }
+            ],
+            "attested": "Bocchoritanus",
+            "contributors": [],
+            "created": "2022-04-07T18:25:06Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "senatus populusque Bocchoritanus",
+            "details": "",
+            "end": 99,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-04-07T18:30:14Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-04-07T18:30:11Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2022-04-07T18:25:06Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-04-07T18:25:06Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "bocchoritanus",
+            "language": "la",
+            "nameType": "ethnic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://eda-bea.es/pub/record_card_1.php?rec=9753",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PFESQAHS",
+                    "citationDetail": "9753 = CIL 2.3695",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "<div class=\"csl-entry\">Gómez-Pantoja, Joaquín, ed. <i>Hispania Epigraphica Online Database</i>. Alcalá de Henares; Salzburg: Universidad de Alcalá; University of Salzburg. Accessed April 20, 2019. http://eda-bea.es/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "HEp Online",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Bocchoritanus",
+            "start": 1,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/265827/bocchoritanus"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "Bocchori",
+            "contributors": [
+                {
+                    "name": "R. Warner",
+                    "username": null
+                },
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2010-09-24T19:01:17Z",
+            "creators": [
+                {
+                    "name": "P.O. Spann",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "attested form; Latin; BAtlDir reference",
+                    "modified": "2022-04-07T18:35:59Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T03:50:25Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-09-24T19:34:09Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-09-24T19:10:13Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-09-24T19:01:17Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "bocchori",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 27 inset *Bocchori",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9377UUFB",
+                    "citationDetail": "page 442 see \"*Bocchori\"",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Barrington Atlas of the Greek and Roman World : Map-by-Map Directory</i>. 2 vols. Princeton, N.J.: Princeton University Press, 2000.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "BAtlDir",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Bocchori",
+            "start": -30,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "reconstructable",
+            "uri": "https://pleiades.stoa.org/places/265827/bocchori"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "Pedret de Bóquer",
+            "contributors": [],
+            "created": "2022-04-07T18:39:06Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-04-07T18:43:12Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-04-07T18:43:03Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2022-04-07T18:39:06Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-04-07T18:39:06Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "pedret-de-boquer",
+            "language": "ca",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/804180875",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/VSG5V42T",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">Estarellas Ordinas, Maria Magdalena, and Josep Merino Santiesteban. “Treballs arqueològics preliminars al Pedret de Bóquer (Pollença).” In <i>L’Antiguitat clàssica i la seva pervivència a les Illes Balears: XXIII Jornades d’estudis històrics locals: Palma del 17 al 19 de novembre de 2004</i>, edited by María Luisa Sánchez León and Maria Barceló Crespí, 377–93. Palma [de Mallorca]: Institut d’Estudis Baleàrics, 2005. http://www.worldcat.org/oclc/804180875.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Estarellas Ordinas 2005",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Pedret de Bóquer, Pedret de Boquer",
+            "start": 2000,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/265827/pedret-de-boquer"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "Port de Pollença",
+            "contributors": [],
+            "created": "2022-04-07T18:40:13Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-04-07T18:43:12Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-04-07T18:43:03Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2022-04-07T18:40:51Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2022-04-07T18:40:14Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-04-07T18:40:13Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "port-de-pollenca",
+            "language": "ca",
+            "nameType": "associated_modern",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/804180875",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/VSG5V42T",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">Estarellas Ordinas, Maria Magdalena, and Josep Merino Santiesteban. “Treballs arqueològics preliminars al Pedret de Bóquer (Pollença).” In <i>L’Antiguitat clàssica i la seva pervivència a les Illes Balears: XXIII Jornades d’estudis històrics locals: Palma del 17 al 19 de novembre de 2004</i>, edited by María Luisa Sánchez León and Maria Barceló Crespí, 377–93. Palma [de Mallorca]: Institut d’Estudis Baleàrics, 2005. http://www.worldcat.org/oclc/804180875.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Estarellas Ordinas 2005",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Port de Pollença, Pollença (Port de) ",
+            "start": 2000,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/265827/port-de-pollenca"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twentieth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twentieth-ce"
+                }
+            ],
+            "attested": "Puerto de Pollensa",
+            "contributors": [],
+            "created": "2022-04-07T18:42:32Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 1999,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-04-07T18:43:12Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-04-07T18:43:03Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2022-04-07T18:42:32Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2022-04-07T18:42:32Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "puerto-de-pollensa",
+            "language": "es",
+            "nameType": "associated_modern",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=oppidum-bochoritanum",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+                    "citationDetail": "OPPIDUM BOCHORITANUM (Puerto de Pollensa) Majorca",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "PECS (Perseus)",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Puerto de Pollensa, Pollensa (Puerto de)",
+            "start": 1900,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/265827/puerto-de-pollensa"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "attested": "oppidum foederatum Bocchorum",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2022-04-07T18:31:31Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Toponym used by Pliny the Elder.",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "fixed grammatical number",
+                    "modified": "2022-04-07T18:44:57Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "updated with full Pliny title",
+                    "modified": "2022-04-07T18:32:30Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modified": "2022-04-07T18:31:31Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-12-16T18:16:01Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "updated reference",
+                    "modified": "2020-02-15T04:08:47Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-03-25T12:40:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added reference",
+                    "modified": "2014-03-25T12:40:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2013-07-17T17:38:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-07-17T17:38:34Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "oppidum-foederatum-bocchorum",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://latin.packhum.org/loc/978/1/242/595-604",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8AK7HSRG",
+                    "citationDetail": "3.77.5",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "<div class=\"csl-entry\">Plinius Secundus Maior, C. <i>Naturalis Historiae</i>. Edited by Karl Friedrich Theodor Mayhoff. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Lipsiae: Teubner, 1906. http://latin.packhum.org/loc/978/1/0.</div>",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Plin., NH (Mayhoff: PHI)",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "oppidum foederatum Bocchorum, Bocchorum (oppidum foederatum)",
+            "start": -30,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/265827/oppidum-foederatum-bocchorum"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+    ],
+    "placeTypes": [
+        "settlement",
+        "archaeological-site"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 27 inset *Bocchori",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "27 inset *Bocchori",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/40415507",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/XH3XVBTP",
+            "citationDetail": "Tarraco 50",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Cepas, Adela, Joseph Guitart i Duran, and Guillermo Fatás Cabeza. <i>Tabula Imperii Romani: K/J-31 Pyrénées Orientales/Baleares: Tarraco - Baliares</i>. Tabula Imperii Romani, K/J-31. Pyreneés Orientales-Baleares. Madrid: Ministerio de Fomento: Ministerio de Educación y Cultura CSIC : Institut D’Estudis Catalans, 1997. http://www.worldcat.org/oclc/40415507.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TIR Tarraco",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Bocchoris_(city)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Bocchoris (city)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Bocchoris (city).",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://latin.packhum.org/loc/978/1/242/595-602",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8AK7HSRG",
+            "citationDetail": "3.77.8",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Plinius Secundus Maior, C. <i>Naturalis Historiae</i>. Edited by Karl Friedrich Theodor Mayhoff. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Lipsiae: Teubner, 1906. http://latin.packhum.org/loc/978/1/0.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Plin., NH (Mayhoff: PHI)",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=oppidum-bochoritanum",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "citationDetail": "OPPIDUM BOCHORITANUM (Puerto de Pollensa) Majorca",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PECS (Perseus)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q4936168",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q4936168: Bocchoris",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/804180875",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/VSG5V42T",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Estarellas Ordinas, Maria Magdalena, and Josep Merino Santiesteban. “Treballs arqueològics preliminars al Pedret de Bóquer (Pollença).” In <i>L’Antiguitat clàssica i la seva pervivència a les Illes Balears: XXIII Jornades d’estudis històrics locals: Palma del 17 al 19 de novembre de 2004</i>, edited by María Luisa Sánchez León and Maria Barceló Crespí, 377–93. Palma [de Mallorca]: Institut d’Estudis Baleàrics, 2005. http://www.worldcat.org/oclc/804180875.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Estarellas Ordinas 2005",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://eda-bea.es/pub/record_card_1.php?rec=9753",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PFESQAHS",
+            "citationDetail": "9753 = CIL 2.3695",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Gómez-Pantoja, Joaquín, ed. <i>Hispania Epigraphica Online Database</i>. Alcalá de Henares; Salzburg: Universidad de Alcalá; University of Salzburg. Accessed April 20, 2019. http://eda-bea.es/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "HEp Online",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "http://eda-bea.es/pub/record_card_1.php?rec=7917",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PFESQAHS",
+            "citationDetail": "7917",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Gómez-Pantoja, Joaquín, ed. <i>Hispania Epigraphica Online Database</i>. Alcalá de Henares; Salzburg: Universidad de Alcalá; University of Salzburg. Accessed April 20, 2019. http://eda-bea.es/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "HEp Online",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "29747",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        3.079593,
+        39.911205
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:ancient=1",
+        "dare:feature=settlement",
+        "dare:major=0"
+    ],
+    "title": "*Bocchori",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/265827"
+}

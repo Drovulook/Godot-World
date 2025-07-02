@@ -1,0 +1,359 @@
+{
+    "@type": "Place",
+    "bbox": [
+        31.1281233,
+        29.9717794,
+        31.1281233,
+        29.9717794
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/442962448",
+            "contributors": [],
+            "created": "2018-01-11T23:42:13Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-01-11T23:42:13Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-01-11T23:42:13Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-01-11T23:42:13Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "1331883132",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Giza",
+            "uri": "https://pleiades.stoa.org/places/674361719/1331883132"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "old-kingdom-egypt",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/old-kingdom-egypt"
+                }
+            ],
+            "connectionType": "part_of_physical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_physical",
+            "connectsTo": "https://pleiades.stoa.org/places/599695861",
+            "contributors": [],
+            "created": "2018-02-14T01:12:25Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -2168,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-02-14T22:32:19Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-02-14T01:16:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2018-02-14T01:12:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-02-14T01:12:25Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "pyramid-of-menkaure",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -2670,
+            "title": "Pyramid of Menkaure",
+            "uri": "https://pleiades.stoa.org/places/674361719/pyramid-of-menkaure"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/442962448",
+        "https://pleiades.stoa.org/places/599695861"
+    ],
+    "contributors": [],
+    "created": "2024-10-19T15:58:27Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "There are three satellite pyramids, typically referred to as \"Queen's pyramids\", associated with the pyramid of Menkaure on the Giza plateau.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    31.1281233,
+                    29.9717794
+                ],
+                "type": "Point"
+            },
+            "id": "queens-pyramid",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/674361719/queens-pyramid",
+                "location_precision": "precise",
+                "snippet": "Pyramid; 2670 BC - 2168 BC",
+                "title": "OSM location of Queen's pyramid"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add wikidata; updated title by @jbecker",
+            "modified": "2025-03-11T21:08:08Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2024-10-19T15:58:26Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2020-02-14T22:32:19Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2018-02-14T01:16:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-02-14T01:16:35Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary, references",
+            "modified": "2018-02-14T01:14:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-01-11T23:42:15Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-01-11T23:42:12Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "674361719",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "old-kingdom-egypt",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/old-kingdom-egypt"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-02-20T22:36:40Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": -2168,
+            "featureType": [
+                "pyramid"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+            ],
+            "geometry": {
+                "coordinates": [
+                    31.1281233,
+                    29.9717794
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2024-10-19T03:18:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2018-02-14T01:15:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-11-03T04:27:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-11-03T04:23:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-03-22T20:02:56Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-02-20T23:01:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-02-20T22:37:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-02-20T22:36:42Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-02-20T22:36:42Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "queens-pyramid",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+            ],
+            "provenance": "OpenStreetMap (Node 276998443, version 10, osm:changeset=145370964, 2023-12-21T13:27:21Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/node/276998443",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 276998443",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=276998443",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -2670,
+            "title": "OSM location of Queen's pyramid",
+            "uri": "https://pleiades.stoa.org/places/674361719/queens-pyramid"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+    ],
+    "placeTypes": [
+        "pyramid"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Pyramid_of_Menkaure",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Pyramid of Menkaure",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q23977431",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Pyramids of Queens (Q23977431)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        31.1281233,
+        29.9717794
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "pyramid",
+        "extant remains"
+    ],
+    "title": "Pyramids of Queens",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/674361719"
+}

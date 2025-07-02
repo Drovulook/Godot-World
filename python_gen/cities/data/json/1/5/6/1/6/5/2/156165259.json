@@ -1,0 +1,455 @@
+{
+    "@type": "Place",
+    "bbox": [
+        24.8862221,
+        35.2482252,
+        24.8882247,
+        35.2493967
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/589748",
+            "contributors": [],
+            "created": "2016-07-13T13:52:47Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:52:47Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:52:47Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:52:47Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "589748",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Creta Ins.",
+            "uri": "https://pleiades.stoa.org/places/156165259/589748"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/589748"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Brady Kiesling",
+            "uri": "https://pleiades.stoa.org/author/bkiesling",
+            "username": "bkiesling"
+        }
+    ],
+    "created": "2013-02-09T20:23:00Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A Minoan settlement dating from ca. 1800 BC onwards, Zominthos is well known for a large Minoan building discovered in 1982.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        24.8866733,
+                        35.2492528
+                    ],
+                    [
+                        24.8863272,
+                        35.2490117
+                    ],
+                    [
+                        24.8862221,
+                        35.2487541
+                    ],
+                    [
+                        24.8874462,
+                        35.2482252
+                    ],
+                    [
+                        24.8882247,
+                        35.2488972
+                    ],
+                    [
+                        24.8875587,
+                        35.2493967
+                    ],
+                    [
+                        24.8866733,
+                        35.2492528
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-zominthos",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/156165259/osm-location-of-zominthos",
+                "location_precision": "precise",
+                "snippet": "Architecturalcomplex; 2000 BC - 1000 BC",
+                "title": "OSM location of Zominthos"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.886947,
+                    35.248733
+                ],
+                "type": "Point"
+            },
+            "id": "imagery-location-of-zominthos",
+            "properties": {
+                "description": "verified in Google Earth 2013.",
+                "link": "https://pleiades.stoa.org/places/156165259/imagery-location-of-zominthos",
+                "location_precision": "precise",
+                "snippet": "Settlement, ; 2000 BC - 1000 BC",
+                "title": "Imagery location of Zominthos"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "references",
+            "modified": "2021-09-01T13:47:20Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2013-05-21T18:46:07Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2013-02-09T20:25:54Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added connection",
+            "modified": "2013-02-09T20:23:43Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2013-02-09T20:23:03Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2013-02-09T20:23:00Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "156165259",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "2nd-millenium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce"
+                }
+            ],
+            "contributors": [],
+            "created": "2021-09-01T13:44:25Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -1000,
+            "featureType": [
+                "architecturalcomplex"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        24.8866733,
+                        35.2492528
+                    ],
+                    [
+                        24.8863272,
+                        35.2490117
+                    ],
+                    [
+                        24.8862221,
+                        35.2487541
+                    ],
+                    [
+                        24.8874462,
+                        35.2482252
+                    ],
+                    [
+                        24.8882247,
+                        35.2488972
+                    ],
+                    [
+                        24.8875587,
+                        35.2493967
+                    ],
+                    [
+                        24.8866733,
+                        35.2492528
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-09-02T20:35:12Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-09-01T13:44:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added OSM location",
+                    "modified": "2021-09-01T13:44:45Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2021-09-01T13:44:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-09-01T13:44:25Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-zominthos",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex"
+            ],
+            "provenance": "OpenStreetMap (Way 354288825, version 4, osm:changeset=110568926, 2021-09-01T13:43:48Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/354288825",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 354288825",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=354288825",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -2000,
+            "title": "OSM location of Zominthos",
+            "uri": "https://pleiades.stoa.org/places/156165259/osm-location-of-zominthos"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "2nd-millenium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-02-09T20:25:17Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "verified in Google Earth 2013.",
+            "details": "",
+            "end": -1000,
+            "featureType": [
+                "settlement",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    24.886947,
+                    35.248733
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-05-21T18:46:09Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-02-09T20:25:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-02-09T20:25:23Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-02-09T20:25:18Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "imagery-location-of-zominthos",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Zominthos",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "citationDetail": "Zominthos",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Zominthos.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "start": -2000,
+            "title": "Imagery location of Zominthos",
+            "uri": "https://pleiades.stoa.org/places/156165259/imagery-location-of-zominthos"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex"
+    ],
+    "placeTypes": [
+        "settlement",
+        "architecturalcomplex"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Zominthos",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Zominthos",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Zominthos.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/5J6ZUWYX",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Panagiotopoulos, Diamantis. <i>Minoan Zominthos</i>. Heidelberg: Universitätsbibliothek der Universität Heidelberg, 2006.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Panagiotopoulos 2006",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://topostext.org/place/352249UZom",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MC9RGDVB",
+            "citationDetail": "Zominthos (Crete)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Kiesling, Brady. <i>ToposText – a Reference Tool for Greek Civilization</i>. Version 2.0. Aikaterini Laskaridis Foundation, 2016. https://topostext.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "ToposText",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q219818",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q219818: Zominthos",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        24.88708534902998,
+        35.24879397846003
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Zominthos",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/156165259"
+}

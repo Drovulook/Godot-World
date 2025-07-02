@@ -1,0 +1,1400 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.5504365,
+        41.8294217,
+        12.5522659,
+        41.8308429
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/356966898",
+            "contributors": [],
+            "created": "2016-07-13T14:01:41Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T14:01:42Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T14:01:42Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T14:01:41Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "356966898",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Via Appia",
+            "uri": "https://pleiades.stoa.org/places/423019/356966898"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "near",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/near",
+            "connectsTo": "https://pleiades.stoa.org/places/423025",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2020-05-24T16:49:16Z",
+            "creators": [
+                {
+                    "name": "jfu",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-05-24T17:09:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "time period",
+                    "modified": "2020-05-24T17:09:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference added for wikidata Q1235515: Villa of the Quintilii",
+                    "modified": "2020-05-24T17:09:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-05-24T16:49:38Z",
+                    "modifiedBy": "jfu"
+                },
+                {
+                    "comment": "Specified Connection to Rome",
+                    "modified": "2020-05-24T16:49:20Z",
+                    "modifiedBy": "jfu"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-05-24T16:49:16Z",
+                    "modifiedBy": "jfu"
+                }
+            ],
+            "id": "roma",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q1235515",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q1235515: Villa of the Quintilii",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Roma",
+            "uri": "https://pleiades.stoa.org/places/423019/roma"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/356966898",
+        "https://pleiades.stoa.org/places/423025",
+        "https://pleiades.stoa.org/places/587082457"
+    ],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "jfu",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt",
+            "username": "jahlfeldt"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2020-06-15T16:29:17Z",
+    "creators": [
+        {
+            "name": "L. Quilici",
+            "username": null
+        },
+        {
+            "name": "S. Quilici Gigli",
+            "username": null
+        }
+    ],
+    "description": "A suburban villa built by Sextus Quintilius Maximus and Sextus Quintilius Condianus (consuls in A.D. 151).",
+    "details": "<p>The Barrington Atlas Directory notes: Villa of the Quintilii</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    12.55142,
+                    41.830478
+                ],
+                "type": "Point"
+            },
+            "id": "darmc-location-21055",
+            "properties": {
+                "description": "1:150,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+                "link": "https://pleiades.stoa.org/places/423019/darmc-location-21055",
+                "location_precision": "precise",
+                "snippet": "Villa, ; 30 BC - AD 640",
+                "title": "DARMC location 21055"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.551095,
+                    41.830564
+                ],
+                "type": "Point"
+            },
+            "id": "dare-location",
+            "properties": {
+                "description": "Representative point location, site precision",
+                "link": "https://pleiades.stoa.org/places/423019/dare-location",
+                "location_precision": "precise",
+                "snippet": "Villa; 30 BC - AD 640",
+                "title": "DARE Location"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.5505748,
+                        41.8305756
+                    ],
+                    [
+                        12.5507412,
+                        41.8306806
+                    ],
+                    [
+                        12.5508818,
+                        41.8305669
+                    ],
+                    [
+                        12.550905,
+                        41.8306254
+                    ],
+                    [
+                        12.5509623,
+                        41.8306912
+                    ],
+                    [
+                        12.551062,
+                        41.8307352
+                    ],
+                    [
+                        12.5510804,
+                        41.8307929
+                    ],
+                    [
+                        12.5511114,
+                        41.8308091
+                    ],
+                    [
+                        12.5512007,
+                        41.8308054
+                    ],
+                    [
+                        12.5512659,
+                        41.8307903
+                    ],
+                    [
+                        12.5513399,
+                        41.8307477
+                    ],
+                    [
+                        12.5513857,
+                        41.8308249
+                    ],
+                    [
+                        12.5514301,
+                        41.8308429
+                    ],
+                    [
+                        12.5514938,
+                        41.8308417
+                    ],
+                    [
+                        12.5519678,
+                        41.8304097
+                    ],
+                    [
+                        12.552008,
+                        41.8304232
+                    ],
+                    [
+                        12.5522659,
+                        41.8302576
+                    ],
+                    [
+                        12.5519135,
+                        41.8300729
+                    ],
+                    [
+                        12.5519449,
+                        41.8300379
+                    ],
+                    [
+                        12.5515925,
+                        41.8298453
+                    ],
+                    [
+                        12.5516108,
+                        41.8297967
+                    ],
+                    [
+                        12.551569,
+                        41.8297812
+                    ],
+                    [
+                        12.551626,
+                        41.8296941
+                    ],
+                    [
+                        12.5515701,
+                        41.8296742
+                    ],
+                    [
+                        12.5515973,
+                        41.8296312
+                    ],
+                    [
+                        12.5516178,
+                        41.8296394
+                    ],
+                    [
+                        12.5516435,
+                        41.8296
+                    ],
+                    [
+                        12.5516276,
+                        41.8295944
+                    ],
+                    [
+                        12.5516496,
+                        41.8295574
+                    ],
+                    [
+                        12.5516707,
+                        41.8295647
+                    ],
+                    [
+                        12.5516945,
+                        41.829518
+                    ],
+                    [
+                        12.5517396,
+                        41.8295305
+                    ],
+                    [
+                        12.5517668,
+                        41.8294501
+                    ],
+                    [
+                        12.5516377,
+                        41.8294217
+                    ],
+                    [
+                        12.5516094,
+                        41.8294776
+                    ],
+                    [
+                        12.5514707,
+                        41.8294301
+                    ],
+                    [
+                        12.5513465,
+                        41.8296193
+                    ],
+                    [
+                        12.5512136,
+                        41.829566
+                    ],
+                    [
+                        12.5510525,
+                        41.8297059
+                    ],
+                    [
+                        12.5507533,
+                        41.829538
+                    ],
+                    [
+                        12.5504449,
+                        41.8298113
+                    ],
+                    [
+                        12.5505768,
+                        41.8299025
+                    ],
+                    [
+                        12.5504697,
+                        41.8300565
+                    ],
+                    [
+                        12.5504365,
+                        41.8301418
+                    ],
+                    [
+                        12.5504411,
+                        41.8302336
+                    ],
+                    [
+                        12.5504919,
+                        41.8304058
+                    ],
+                    [
+                        12.5505768,
+                        41.8304635
+                    ],
+                    [
+                        12.5506395,
+                        41.8305103
+                    ],
+                    [
+                        12.5505748,
+                        41.8305756
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-villa-dei-quintili",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/423019/osm-location-of-villa-dei-quintili",
+                "location_precision": "precise",
+                "snippet": "Villa; 30 BC - AD 640",
+                "title": "OSM location of Villa dei Quintili"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add vici.org 7205: Villa Commodiana",
+            "modified": "2023-04-17T14:04:59Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update deprecated Arachne reference link, replace with iDAI.gazetteer = related reference",
+            "modified": "2023-04-17T14:03:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Dodd, Galli, and Frontoni 2023",
+            "modified": "2023-04-17T14:01:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Arachne 8005523: Villa dei Quintili an der Via Appia Rom",
+            "modified": "2020-08-19T02:41:39Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited; Edited",
+            "modified": "2020-06-15T20:54:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2020-06-15T16:29:15Z",
+            "modifiedBy": "jfu"
+        },
+        {
+            "comment": "partial reference cleanup",
+            "modified": "2020-05-24T17:12:08Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2016-05-21T06:05:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference and connection",
+            "modified": "2013-02-20T02:06:41Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited description",
+            "modified": "2012-11-19T20:41:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T23:45:58Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "edited description",
+            "modified": "2012-09-28T00:00:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2012-09-27T23:56:50Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T04:56:39Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-01-21T23:15:32Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:44:31Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-11T05:13:03Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-10T22:39:16Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-10T22:33:30Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "423019",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "DARMC",
+                    "username": null
+                },
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2011-01-21T23:15:31Z",
+            "creators": [
+                {
+                    "name": "L. Quilici",
+                    "username": null
+                },
+                {
+                    "name": "S. Quilici Gigli",
+                    "username": null
+                }
+            ],
+            "description": "1:150,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+            "details": "DARMC OBJECTID: 21055",
+            "end": 640,
+            "featureType": [
+                "villa",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/villa",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.55142,
+                    41.830478
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modified": "2012-09-27T23:58:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:56:40Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-01-21T23:22:52Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-01-21T23:15:32Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-01-21T23:15:32Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "darmc-location-21055",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/villa",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "DARMC OBJECTID: 21055",
+            "references": [
+                {
+                    "accessURI": "https://darmc.harvard.edu/",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+                    "citationDetail": "21055",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 21055.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "DARMC",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "DARMC location 21055",
+            "uri": "https://pleiades.stoa.org/places/423019/darmc-location-21055"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+            "accuracy_value": 10.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2012-10-20T23:45:57Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt",
+                    "username": "jahlfeldt"
+                }
+            ],
+            "description": "Representative point location, site precision",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "villa"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/villa"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.551095,
+                    41.830564
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-10-20T23:45:58Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-10-20T23:45:58Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+                    "modified": "2012-10-20T23:45:58Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-10-20T23:45:57Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "dare-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/villa"
+            ],
+            "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+            "references": [
+                {
+                    "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "Johan Åhlfeldt, Digital Atlas of the Roman Empire, 2012.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "DARE Location",
+            "uri": "https://pleiades.stoa.org/places/423019/dare-location"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2017-05-30T13:54:08Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "villa"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/villa"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.5505748,
+                        41.8305756
+                    ],
+                    [
+                        12.5507412,
+                        41.8306806
+                    ],
+                    [
+                        12.5508818,
+                        41.8305669
+                    ],
+                    [
+                        12.550905,
+                        41.8306254
+                    ],
+                    [
+                        12.5509623,
+                        41.8306912
+                    ],
+                    [
+                        12.551062,
+                        41.8307352
+                    ],
+                    [
+                        12.5510804,
+                        41.8307929
+                    ],
+                    [
+                        12.5511114,
+                        41.8308091
+                    ],
+                    [
+                        12.5512007,
+                        41.8308054
+                    ],
+                    [
+                        12.5512659,
+                        41.8307903
+                    ],
+                    [
+                        12.5513399,
+                        41.8307477
+                    ],
+                    [
+                        12.5513857,
+                        41.8308249
+                    ],
+                    [
+                        12.5514301,
+                        41.8308429
+                    ],
+                    [
+                        12.5514938,
+                        41.8308417
+                    ],
+                    [
+                        12.5519678,
+                        41.8304097
+                    ],
+                    [
+                        12.552008,
+                        41.8304232
+                    ],
+                    [
+                        12.5522659,
+                        41.8302576
+                    ],
+                    [
+                        12.5519135,
+                        41.8300729
+                    ],
+                    [
+                        12.5519449,
+                        41.8300379
+                    ],
+                    [
+                        12.5515925,
+                        41.8298453
+                    ],
+                    [
+                        12.5516108,
+                        41.8297967
+                    ],
+                    [
+                        12.551569,
+                        41.8297812
+                    ],
+                    [
+                        12.551626,
+                        41.8296941
+                    ],
+                    [
+                        12.5515701,
+                        41.8296742
+                    ],
+                    [
+                        12.5515973,
+                        41.8296312
+                    ],
+                    [
+                        12.5516178,
+                        41.8296394
+                    ],
+                    [
+                        12.5516435,
+                        41.8296
+                    ],
+                    [
+                        12.5516276,
+                        41.8295944
+                    ],
+                    [
+                        12.5516496,
+                        41.8295574
+                    ],
+                    [
+                        12.5516707,
+                        41.8295647
+                    ],
+                    [
+                        12.5516945,
+                        41.829518
+                    ],
+                    [
+                        12.5517396,
+                        41.8295305
+                    ],
+                    [
+                        12.5517668,
+                        41.8294501
+                    ],
+                    [
+                        12.5516377,
+                        41.8294217
+                    ],
+                    [
+                        12.5516094,
+                        41.8294776
+                    ],
+                    [
+                        12.5514707,
+                        41.8294301
+                    ],
+                    [
+                        12.5513465,
+                        41.8296193
+                    ],
+                    [
+                        12.5512136,
+                        41.829566
+                    ],
+                    [
+                        12.5510525,
+                        41.8297059
+                    ],
+                    [
+                        12.5507533,
+                        41.829538
+                    ],
+                    [
+                        12.5504449,
+                        41.8298113
+                    ],
+                    [
+                        12.5505768,
+                        41.8299025
+                    ],
+                    [
+                        12.5504697,
+                        41.8300565
+                    ],
+                    [
+                        12.5504365,
+                        41.8301418
+                    ],
+                    [
+                        12.5504411,
+                        41.8302336
+                    ],
+                    [
+                        12.5504919,
+                        41.8304058
+                    ],
+                    [
+                        12.5505768,
+                        41.8304635
+                    ],
+                    [
+                        12.5506395,
+                        41.8305103
+                    ],
+                    [
+                        12.5505748,
+                        41.8305756
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2023-04-17T13:54:23Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-06-05T19:23:42Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-05-30T13:54:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added OSM location",
+                    "modified": "2017-05-30T13:54:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2017-05-30T13:54:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2017-05-30T13:54:08Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-villa-dei-quintili",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/villa"
+            ],
+            "provenance": "OpenStreetMap (Way 331242889, version 6, osm:changeset=134628863, 2023-04-07T18:45:01Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/331242889",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 331242889",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=331242889",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Villa dei Quintili",
+            "uri": "https://pleiades.stoa.org/places/423019/osm-location-of-villa-dei-quintili"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-11-10T22:33:30Z",
+            "creators": [
+                {
+                    "name": "L. Quilici",
+                    "username": null
+                },
+                {
+                    "name": "S. Quilici Gigli",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:56:40Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-11T05:13:03Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-10T22:39:17Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-10T22:33:30Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "quintilii",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 43 C2 Quintilii",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Quintilii",
+            "start": -30,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/423019/quintilii"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Villa dei Quintili",
+            "contributors": [],
+            "created": "2012-09-28T00:00:56Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "comment": "added reference",
+                    "modified": "2016-06-29T20:59:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-12-05T02:48:28Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-09-28T00:03:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added reference",
+                    "modified": "2012-09-28T00:03:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added modern name",
+                    "modified": "2012-09-28T00:00:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-09-28T00:00:56Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "villa-dei-quintili",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/oclc/40196609",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Ricci, A. 1988. La Villa dei Quintili : fonti scritte e fonti figurate. Rome:  Lithos.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "http://www.geonames.org/8015044/villa-dei-quintili.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "GeoNames 8015044",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Villa dei Quintili",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/423019/villa-dei-quintili"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/villa"
+    ],
+    "placeTypes": [
+        "villa"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 43 C2 Quintilii",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "43 C2 Quintilii",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TMUHDEZA",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">T. Ashby. “La Villa Dei Quintilii.” <i>Ausonia</i> 4 (1910): 48–88.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Ashby 1910",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Villa_of_the_Quintilii",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Villa of the Quintilii",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Villa of the Quintilii.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://archeoroma.beniculturali.it/en/archaeological-site/villa-quintilii",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Villa of the Quintilii",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/H8C2MP7K",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Paris, Rita. <i>Via Appia: la Villa dei Quintili</i>. Milano: Electa, 2000.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Paris 2000",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BGU8XMJS",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Ricci, Andreina. <i>La Villa dei Quintili: fonti scritte e fonti figurate</i>. Roma: Lithos : Cester, 1998.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Ricci 1998",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1235515",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q1235515: Villa of the Quintilii",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IGHWWS3M",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Z. Mari, and F. Boanelli. “La Villa Di Quintilio Varo.” <i>Bollettino Di Archeologia</i> 10 (1991): 37–55.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Mari 1991",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.jstor.org/stable/875814",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/USZI8XNM",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "<div class=\"csl-entry\">Vermeule, Cornelius. “Graeco-Roman Statues: Purpose and Setting - II: Literary and Archaeological Evidence for the Display and Grouping of Graeco-Roman Sculpture.” <i>The Burlington Magazine</i> 110, no. 788 (1968): 607–13. https://www.jstor.org/stable/875814.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Vermeule 1968",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "https://arachne.dainst.org/entity/4118",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KNGREWYQ",
+            "citationDetail": "Villa dei Quintili an der Via Appia Rom, Italien",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>IDAI.Gazetteer</i>. Deutsches Archäologisches Institut. Accessed February 1, 2018. https://gazetteer.dainst.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "iDAI.gazetteer",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.cambridge.org/core/journals/antiquity/article/spectacle-of-production-a-roman-imperial-winery-at-the-villa-of-the-quintilii-rome/C3BFAFED7E6C5F14DBAFEB443EDB6CC2",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UTEIGIY6",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Dodd, Emlyn, Giuliana Galli, and Riccardo Frontoni. “The Spectacle of Production: A Roman Imperial Winery at the Villa of the Quintilii, Rome.” <i>Antiquity</i> 97, no. 392 (April 2023): 436–53. https://doi.org/10.15184/aqy.2023.18.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Dodd, Galli, and Frontoni 2023",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://vici.org/vici/7205/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "citationDetail": "7205: Villa Commodiana",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "vici.org",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.551265786195358,
+        41.83038251544373
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=0",
+        "basis villae",
+        "dare:feature=villa"
+    ],
+    "title": "Quintilii",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/423019"
+}

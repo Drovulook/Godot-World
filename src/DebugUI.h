@@ -19,6 +19,7 @@ public:
 
   void update_mesh_count(int count);
   void update_province_name(String name);
+  void update_city_name(String name);
 
 private:
   void update_fps();
@@ -27,10 +28,12 @@ private:
   Label *m_fps_label;
   Label *m_mesh_count_label;
   Label *m_province_name_label;
+  Label *m_city_name_label;
 
   int m_mesh_count;
   double m_fps_update_timer;
   String m_province_name;
+  String m_city_name;
 
   bool m_visible;
 

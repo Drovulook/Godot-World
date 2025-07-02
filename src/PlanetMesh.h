@@ -24,7 +24,7 @@ public:
              Vector2 bottom_left_corner_pos, Vector2 top_right_corner_pos,
              std::shared_ptr<NCAltitudeReader> elevation_reader,
              Ref<Texture2D> province_idx_texture, Ref<Texture2D> city_idx_texture,
-             std::shared_ptr<Vector3> province_to_highlight);
+             std::shared_ptr<Vector3> province_to_highlight, std::shared_ptr<Vector3> city_to_highlight);
 
   PlanetMesh() = default;
   ~PlanetMesh();
@@ -56,6 +56,7 @@ private:
   Ref<Texture2D> m_province_idx_texture;
   Ref<Texture2D> m_city_idx_texture;
   std::shared_ptr<Vector3> m_province_to_highlight;
+  std::shared_ptr<Vector3> m_city_to_highlight;
 
 protected:
   static void _bind_methods();

@@ -1,0 +1,681 @@
+{
+    "@type": "Place",
+    "bbox": [
+        14.4867042,
+        40.7502396,
+        14.4868851,
+        40.7503324
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/433032",
+            "contributors": [],
+            "created": "2016-07-13T13:37:48Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:37:48Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:37:48Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:37:48Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "433032",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Pompeii",
+            "uri": "https://pleiades.stoa.org/places/38626420/433032"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "connectionType": "part_of_analytical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_analytical",
+            "connectsTo": "https://pleiades.stoa.org/places/599902893",
+            "contributors": [],
+            "created": "2020-12-26T18:36:34Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-01-05T22:34:46Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-26T18:36:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2020-12-26T18:36:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-26T18:36:34Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "regio-vii-pompeii",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": 1700,
+            "title": "Regio VII, Pompeii",
+            "uri": "https://pleiades.stoa.org/places/38626420/regio-vii-pompeii"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/433032",
+        "https://pleiades.stoa.org/places/599902893"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2015-05-27T13:52:58Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Athanasia Varveri",
+            "uri": "https://pleiades.stoa.org/author/avarveri",
+            "username": "avarveri"
+        },
+        {
+            "homepage": null,
+            "name": "Valeria Vitale",
+            "uri": "https://pleiades.stoa.org/author/vvitale",
+            "username": "vvitale"
+        }
+    ],
+    "description": "The Lupanar (or Lupanare Grande) (VII, 12, 18–20) is located east of the forum at the intersection of Vico del Lupanare and Vico del Balcone Pensile. It is the largest of Pompeii's brothels.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        14.4867736,
+                        40.7503324
+                    ],
+                    [
+                        14.4867042,
+                        40.7502668
+                    ],
+                    [
+                        14.4867565,
+                        40.7502396
+                    ],
+                    [
+                        14.4867917,
+                        40.7502483
+                    ],
+                    [
+                        14.4868722,
+                        40.7502616
+                    ],
+                    [
+                        14.4868851,
+                        40.7502714
+                    ],
+                    [
+                        14.4868594,
+                        40.7502855
+                    ],
+                    [
+                        14.4867736,
+                        40.7503324
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "lupanare",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/38626420/lupanare",
+                "location_precision": "precise",
+                "snippet": "Brothel; AD 1 - AD 99",
+                "title": "OSM location of so-called \"Lupanare Grande\""
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update place type",
+            "modified": "2025-03-02T03:07:17Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-12-09T20:25:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "updates",
+            "modified": "2020-12-11T19:07:31Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-06-29T15:02:50Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2015-07-01T01:39:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-07-01T01:39:32Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2015-07-01T01:38:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2015-06-26T20:16:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2015-06-26T20:16:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2015-06-26T20:15:39Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2015-05-27T13:53:03Z",
+            "modifiedBy": "avarveri"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-05-27T13:52:59Z",
+            "modifiedBy": "avarveri"
+        }
+    ],
+    "id": "38626420",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/first-ce"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2015-05-27T13:53:27Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Athanasia Varveri",
+                    "uri": "https://pleiades.stoa.org/author/avarveri",
+                    "username": "avarveri"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 99,
+            "featureType": [
+                "brothel"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/brothel"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        14.4867736,
+                        40.7503324
+                    ],
+                    [
+                        14.4867042,
+                        40.7502668
+                    ],
+                    [
+                        14.4867565,
+                        40.7502396
+                    ],
+                    [
+                        14.4867917,
+                        40.7502483
+                    ],
+                    [
+                        14.4868722,
+                        40.7502616
+                    ],
+                    [
+                        14.4868851,
+                        40.7502714
+                    ],
+                    [
+                        14.4868594,
+                        40.7502855
+                    ],
+                    [
+                        14.4867736,
+                        40.7503324
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Feature type",
+                    "modified": "2025-03-02T03:07:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-09T20:20:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2015-07-01T01:40:04Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2015-07-01T01:39:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added reference",
+                    "modified": "2015-06-27T03:35:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-05-27T13:55:11Z",
+                    "modifiedBy": "avarveri"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-05-27T13:54:21Z",
+                    "modifiedBy": "avarveri"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2015-05-27T13:53:29Z",
+                    "modifiedBy": "avarveri"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-05-27T13:53:29Z",
+                    "modifiedBy": "avarveri"
+                }
+            ],
+            "id": "lupanare",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/brothel"
+            ],
+            "provenance": "OpenStreetMap (Way 240573967, version 23, osm:changeset=140198197, 2023-08-21T19:40:32Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/way/240573967",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 240573967",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=240573967",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1,
+            "title": "OSM location of so-called \"Lupanare Grande\"",
+            "uri": "https://pleiades.stoa.org/places/38626420/lupanare"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Lupanar",
+            "contributors": [],
+            "created": "2015-07-01T01:41:20Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-06-29T15:02:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-29T15:02:31Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added reference",
+                    "modified": "2016-06-29T15:02:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2015-07-01T01:41:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-07-01T01:41:23Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2015-06-30.8334587426",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Lupanar_(Pompeii)",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "citationDetail": "Lupanar (Pompeii)",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Lupanar (Pompeii).",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Lupanar",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/38626420/name.2015-06-30.8334587426"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Lupanare Grande",
+            "contributors": [],
+            "created": "2015-07-01T01:42:04Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-06-29T15:03:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-29T15:03:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Send back",
+                    "modified": "2016-06-29T15:03:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-29T15:03:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-29T15:03:43Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2015-07-01T01:42:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-07-01T01:42:06Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2015-06-30.9059127994",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Lupanar_(Pompeii)",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "citationDetail": "Lupanar (Pompeii)",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Lupanar (Pompeii).",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Lupanare Grande",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/38626420/name.2015-06-30.9059127994"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/brothel"
+    ],
+    "placeTypes": [
+        "brothel"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Lupanar_(Pompeii)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Lupanar (Pompeii)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Lupanar (Pompeii).",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.pompeiisites.org/Sezione.jsp?titolo=Lupanare+%28VII%2C12%2C18%29&idSezione=153&lookfor=Lupanar",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RQWYV366",
+            "citationDetail": "Lupanare (VII,12,18)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Osanna, Massimo, ed. <i>Pompeii Sites: Portale Ufficiale Parco Archeologico di Pompei</i>. Accessed January 10, 2020. http://pompeiisites.org/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Pompeii Sites",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/F9KLUA29",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">McGinn, Thomas A. <i>The Economy of Prostitution in the Roman World: A Study of Social History &amp; the Brothel</i>. Ann Arbor: University of Michigan Press, 2004.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "McGinn 2004",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://books.google.com/books?id=4Q7qcegqaRYC&lpg=PA368&dq=pompeii%20lupanar&pg=PA368#v=onepage&q=pompeii%20lupanar&f=false",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/XR735CTY",
+            "citationDetail": "p. 368",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Clarke, John R. <i>The Houses of Roman Italy, 100 B.C. - A.D. 250: Ritual, Space and Decoration</i>. Berkeley, CA [u.a.]: University of California Press, 1991.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Clarke 1991",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.jstor.org/stable/3297215",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/7JVBYALC",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Franklin, James L. “Games and a Lupanar: Prosopography of a Neighborhood in Ancient Pompeii.” <i>The Classical Journal</i> 81, no. 4 (1986): 319–28. https://www.jstor.org/stable/3297215.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Franklin 1986",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.jstor.org/stable/4334175",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4C6NWFID",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Dickey, James. “In the Lupanar at Pompeii.” <i>The Kenyon Review</i> 23, no. 4 (1961): 631–33. https://www.jstor.org/stable/4334175.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Dickey 1961",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q157747",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Lupanar (Q157747)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.cambridge.org/core/books/brothel-of-pompeii/30A33063D0317A93E86D821FCDF86A79",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/GJWVED6A",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Levin-Richardson, Sarah. <i>The Brothel of Pompeii: Sex, Class, and Gender at the Margins of Roman Society</i>. Cambridge: Cambridge University Press, 2019. https://doi.org/10.1017/9781108655040.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Levin-Richardson 2019",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        14.486792137608168,
+        40.75027881497488
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Lupanar",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/38626420"
+}

@@ -1,0 +1,564 @@
+{
+    "@type": "Place",
+    "bbox": [
+        11.8010622,
+        42.258631,
+        11.8020391,
+        42.2590011
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/413332",
+            "contributors": [],
+            "created": "2018-06-04T00:55:21Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-06-04T00:55:21Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-06-04T00:55:21Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-06-04T00:55:21Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "7216768676",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Tarchna/Tarquinii",
+            "uri": "https://pleiades.stoa.org/places/43496934/7216768676"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/413332"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2018-06-04T00:55:20Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A fourth to third century B.C. sanctuary at Tarquinia.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    11.801528,
+                    42.258811
+                ],
+                "type": "Point"
+            },
+            "id": "imagery-location-ara-della-regina",
+            "properties": {
+                "description": "A fourth to third century BC sanctuary at Tarquinia",
+                "link": "https://pleiades.stoa.org/places/43496934/imagery-location-ara-della-regina",
+                "location_precision": "precise",
+                "snippet": "Sanctuary; 330 BC - AD 300",
+                "title": "Imagery Location of Ara della Regina"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        11.8010949,
+                        42.2590011
+                    ],
+                    [
+                        11.8020391,
+                        42.2589477
+                    ],
+                    [
+                        11.8020064,
+                        42.258631
+                    ],
+                    [
+                        11.8010622,
+                        42.2586843
+                    ],
+                    [
+                        11.8010949,
+                        42.2590011
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-ara-della-regina",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/43496934/osm-location-of-ara-della-regina",
+                "location_precision": "precise",
+                "snippet": "Temple-2; 400 BC - 301 BC",
+                "title": "OSM location of Ara della Regina"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added reference: Marzullo 2022",
+            "modified": "2023-05-04T21:27:49Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "TGN 8713141: Ara della Regina (ancient site)",
+            "modified": "2023-04-17T03:35:16Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update refs",
+            "modified": "2021-11-22T14:49:37Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "references",
+            "modified": "2019-04-06T14:43:49Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-06-05T21:30:41Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-06-04T00:55:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-06-04T00:55:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-06-04T00:55:20Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "43496934",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-digitalglobe-imagery-2012",
+            "accuracy_value": 4.2,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2012-10-08T17:02:36Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "A fourth to third century BC sanctuary at Tarquinia",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "sanctuary"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "geometry": {
+                "coordinates": [
+                    11.801528,
+                    42.258811
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "PAA: Google",
+                    "modified": "2018-06-05T21:30:34Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-29T11:53:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-01-21T22:50:53Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-01-21T22:50:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2012-10-08T17:02:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-10-08T17:02:37Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "imagery-location-ara-della-regina",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/oclc/505061264",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "M. Bonghi Jovino. 2009. L'Ara della Regina di Tarquinia, aree sacre, santuari mediterranei : giornata di studio, Milano, 13 giugno 2007. Milan: Cisalpino.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/oclc/701209021",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "N. T. de Grummond and I. E. M. Edlund Berry. edd. 2011. The Archaeology of sanctuaries and ritual in Etruria. Portsmouth RI: Journal of Roman Archaeology.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "start": -330,
+            "title": "Imagery Location of Ara della Regina",
+            "uri": "https://pleiades.stoa.org/places/43496934/imagery-location-ara-della-regina"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "fourth-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/fourth-bce"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-04-17T03:32:33Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -301,
+            "featureType": [
+                "temple-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        11.8010949,
+                        42.2590011
+                    ],
+                    [
+                        11.8020391,
+                        42.2589477
+                    ],
+                    [
+                        11.8020064,
+                        42.258631
+                    ],
+                    [
+                        11.8010622,
+                        42.2586843
+                    ],
+                    [
+                        11.8010949,
+                        42.2590011
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-04-17T21:59:33Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-04-17T03:33:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added osm location",
+                    "modified": "2023-04-17T03:33:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-04-17T03:32:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-04-17T03:32:33Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-ara-della-regina",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "provenance": "OpenStreetMap (Way 134898086, version 6, osm:changeset=115939770, 2022-01-09T12:24:33Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/134898086",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 134898086",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=134898086",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -400,
+            "title": "OSM location of Ara della Regina",
+            "uri": "https://pleiades.stoa.org/places/43496934/osm-location-of-ara-della-regina"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Ara della Regina",
+            "contributors": [],
+            "created": "2021-11-22T14:50:11Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-11-27T12:29:25Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-11-22T14:50:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2021-11-22T14:50:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-11-22T14:50:11Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "ara-della-regina",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HKLE45GV",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Bonghi Jovino, Maria, Federica Chiesa, Universit?? di Milano, and Sezione di archeologia, eds. <i>L’Ara della Regina di Tarquinia, aree sacre, santuari mediterranei: giornata di studio, Milano, 13 giugno 2007</i>. Milano: Cisalpino, 2009.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Bonghi Jovino 2009",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Ara della Regina",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/43496934/ara-della-regina"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/sanctuary",
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "sanctuary",
+        "temple-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HKLE45GV",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+            "formattedCitation": "<div class=\"csl-entry\">Bonghi Jovino, Maria, Federica Chiesa, Universit?? di Milano, and Sezione di archeologia, eds. <i>L’Ara della Regina di Tarquinia, aree sacre, santuari mediterranei: giornata di studio, Milano, 13 giugno 2007</i>. Milano: Cisalpino, 2009.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Bonghi Jovino 2009",
+            "type": "citesAsEvidence"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Ara_della_Regina",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+            "citationDetail": "Ara della Regina",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q2859314",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q2859314: Ara della Regina ",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "http://vocab.getty.edu/page/tgn/8713141",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZLJQ5AZJ",
+            "citationDetail": "8713141: Ara della Regina (ancient site)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Getty Thesaurus of Geographic Names® Online</i>, n.d. https://www.getty.edu/research/tools/vocabularies/tgn/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TGN",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/GUWGQZIA",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Marzullo, Matilde, and Andrea Garzulino. <i>Tracing Spaces at the Ara Della Regina Sanctuary of Tarquinia. Themes of Urbanisation through Geophysical Research</i>, 2022. https://doi.org/10.54103/tarchna.99.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Marzullo 2022",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        11.801539315731208,
+        42.25881351320144
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Ara della Regina",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/43496934"
+}

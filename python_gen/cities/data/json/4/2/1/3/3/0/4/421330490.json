@@ -1,0 +1,512 @@
+{
+    "@type": "Place",
+    "bbox": [
+        13.8226064,
+        37.970705,
+        13.823948,
+        37.971487
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/462244",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2016-07-13T13:35:00Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "Initial revision",
+                    "modified": "2023-05-18T15:01:11Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:35:00Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:35:00Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:35:00Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "462244",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Himera",
+            "uri": "https://pleiades.stoa.org/places/421330490/462244"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/462244"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jonathan Prag",
+            "uri": "https://pleiades.stoa.org/author/jprag",
+            "username": "jprag"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2015-12-02T15:40:05Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Valeria Vitale",
+            "uri": "https://pleiades.stoa.org/author/vvitale",
+            "username": "vvitale"
+        }
+    ],
+    "description": "The area on the northeast side of the Piana di Himera is delimited by walls and contains four religious buildings (temples A, B, C, and D), probably dedicated to Athena. The foundations are still visible in the archaeological site of Himera.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        13.8226064,
+                        37.9710871
+                    ],
+                    [
+                        13.8226324,
+                        37.970705
+                    ],
+                    [
+                        13.823948,
+                        37.9707381
+                    ],
+                    [
+                        13.823886,
+                        37.971487
+                    ],
+                    [
+                        13.8226064,
+                        37.9710871
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "agora",
+            "properties": {
+                "description": "OpenStreetMap location of the ruins of the so called Temenos of Athena in the archaeological site of Himera, Sicily.",
+                "link": "https://pleiades.stoa.org/places/421330490/agora",
+                "location_precision": "precise",
+                "snippet": "Architecturalcomplex, Wall, Sanctuary, ; 750 BC - 550 BC",
+                "title": "OSM location of the Temenos of Athena"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-07-04T17:31:47Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2021-12-12T04:02:13Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-25T21:19:54Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2015-12-21T21:32:43Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-12-02T16:23:26Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-12-02T16:20:00Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-12-02T15:57:20Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2015-12-02T15:40:14Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-12-02T15:40:06Z",
+            "modifiedBy": "vvitale"
+        }
+    ],
+    "id": "421330490",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jonathan Prag",
+                    "uri": "https://pleiades.stoa.org/author/jprag",
+                    "username": "jprag"
+                },
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2015-12-02T15:43:45Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "OpenStreetMap location of the ruins of the so called Temenos of Athena in the archaeological site of Himera, Sicily.",
+            "details": "",
+            "end": -550,
+            "featureType": [
+                "architecturalcomplex",
+                "wall",
+                "sanctuary",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex",
+                "https://pleiades.stoa.org/vocabularies/place-types/wall",
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        13.8226064,
+                        37.9710871
+                    ],
+                    [
+                        13.8226324,
+                        37.970705
+                    ],
+                    [
+                        13.823948,
+                        37.9707381
+                    ],
+                    [
+                        13.823886,
+                        37.971487
+                    ],
+                    [
+                        13.8226064,
+                        37.9710871
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-07-04T17:30:31Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-25T21:20:15Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2015-12-21T21:38:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2015-12-02T16:22:35Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-12-02T15:49:00Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2015-12-02T15:43:51Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-12-02T15:43:47Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "agora",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex",
+                "https://pleiades.stoa.org/vocabularies/place-types/wall",
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 282694737, version 6, osm:changeset=146603433, 2024-01-23T18:16:51Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/282694737",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 282694737",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=282694737",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -750,
+            "title": "OSM location of the Temenos of Athena",
+            "uri": "https://pleiades.stoa.org/places/421330490/agora"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Temenos di Athena",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jonathan Prag",
+                    "uri": "https://pleiades.stoa.org/author/jprag",
+                    "username": "jprag"
+                }
+            ],
+            "created": "2015-12-02T15:55:42Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2015-12-21T21:33:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2015-12-02T16:21:53Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2015-12-02T15:55:50Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-12-02T15:55:44Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "temenos-di-athena",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.regione.sicilia.it/beniculturali/dirbenicult/database/page_musei/pagina_musei.asp?ID=50&IdSito=65",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Regione Sicilia, Area archeologica e Antiquarium di Himera",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "http://www.regione.sicilia.it/beniculturali/dirbenicult/musei/guide_brevi/Himera/Guida%20breve%20-%20Himera.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Regione Sicilia, Guida breve di Himera",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://atlantides.org/bibliography/b.html#BTCGI-VIII",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "BTCGI VIII, 248-73",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Temenos di Athena",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/421330490/temenos-di-athena"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/wall",
+        "https://pleiades.stoa.org/vocabularies/place-types/sanctuary",
+        "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex",
+        "https://pleiades.stoa.org/vocabularies/place-types/wall-2"
+    ],
+    "placeTypes": [
+        "wall",
+        "sanctuary",
+        "architecturalcomplex",
+        "wall-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.regione.sicilia.it/beniculturali/dirbenicult/database/page_musei/pagina_musei.asp?ID=50&IdSito=65",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Regione Sicilia, Area archeologica e Antiquarium di Himera",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.regione.sicilia.it/beniculturali/dirbenicult/musei/guide_brevi/Himera/Guida%20breve%20-%20Himera.html",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/C4TEDIN2",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Vassallo, Stefano. <i>Himera, città greca: guida alla storia e ai monumenti</i>. Beni culturali Palermo. Palermo: Regione Sicilia, Assessorato dei beni culturali, ambientali e della pubblica istruzione, Dipartimento dei beni culturali, ambientali e dell’educazione permanente, 2005. http://www.worldcat.org/title/himera-citta-greca-guida-alla-storia-e-ai-monumenti/oclc/799989874?referer=di&amp;ht=edition.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Vassallo 2005",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://journals.openedition.org/kernos/1936?lang=en",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4MH3FEM9",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Brugnone, Antonietta. “Le sferette bronzee iscritte da Himera.” <i>Kernos. Revue internationale et pluridisciplinaire de religion grecque antique</i>, no. 24 (January 1, 2011). https://doi.org/10.4000/kernos.1936.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Brugnone 2011",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.academia.edu/2585328/Nuovi_dati_per_la_localizzazione_dellagor%C3%A0_di_Himera_2012_",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2GBF69CU",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Vassallo, Stefano. “Nuovi dati per la localizzazione dell’agora di Himera.” In <i>Agora greca e agorai di Sicilia</i>, 201–9. Pisa: Edizioni della Normale, 2012.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Vassallo 2012",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.persee.fr/doc/btcgi_0000-0009_1990_num_8_1_3595",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/3X8QE9ZE",
+            "citationDetail": "VIII, 248-73",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Nenci, Giuseppe, Georges Vallet, Ugo Fantasia, and Carmine Ampolo, eds. <i>Bibliografia topografica della colonizzazione greca in Italia e nelle isole tirreniche</i>. 21 vols. Pisa; Roma: Scuola normale superiore ; Ecole française de Rome, 1977.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BTCGI",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        13.823331117784747,
+        37.97101665740431
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Temenos of Athena",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/421330490"
+}

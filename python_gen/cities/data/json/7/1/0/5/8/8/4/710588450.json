@@ -1,0 +1,335 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.4625758,
+        41.8657111,
+        12.463178,
+        41.8661027
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/423025",
+            "contributors": [],
+            "created": "2023-04-27T00:35:34Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-10-18T12:22:29Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-10-14T17:16:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2023-04-27T00:35:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-04-27T00:35:34Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "roma",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Roma",
+            "uri": "https://pleiades.stoa.org/places/710588450/roma"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/423025"
+    ],
+    "contributors": [],
+    "created": "2013-12-27T14:04:34Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A public bath (thermae) of the Roman Imperial period.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.4628722,
+                        41.8661027
+                    ],
+                    [
+                        12.4625758,
+                        41.8660128
+                    ],
+                    [
+                        12.4626254,
+                        41.8659219
+                    ],
+                    [
+                        12.4627019,
+                        41.8659249
+                    ],
+                    [
+                        12.4627864,
+                        41.8659568
+                    ],
+                    [
+                        12.4628883,
+                        41.8657691
+                    ],
+                    [
+                        12.4629285,
+                        41.8657801
+                    ],
+                    [
+                        12.4629902,
+                        41.8657111
+                    ],
+                    [
+                        12.463178,
+                        41.8657801
+                    ],
+                    [
+                        12.4628722,
+                        41.8661027
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-roman-baths",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/710588450/location-of-roman-baths",
+                "location_precision": "precise",
+                "snippet": "Bath, ; 30 BC - AD 300",
+                "title": "OSM location of Roman baths"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "action": "Publish externally",
+            "modified": "2021-04-30T21:57:13Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-05-16T17:24:18Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2013-12-27T14:04:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2013-12-27T14:04:35Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "710588450",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-12-27T14:05:01Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "bath",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/bath",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.4628722,
+                        41.8661027
+                    ],
+                    [
+                        12.4625758,
+                        41.8660128
+                    ],
+                    [
+                        12.4626254,
+                        41.8659219
+                    ],
+                    [
+                        12.4627019,
+                        41.8659249
+                    ],
+                    [
+                        12.4627864,
+                        41.8659568
+                    ],
+                    [
+                        12.4628883,
+                        41.8657691
+                    ],
+                    [
+                        12.4629285,
+                        41.8657801
+                    ],
+                    [
+                        12.4629902,
+                        41.8657111
+                    ],
+                    [
+                        12.463178,
+                        41.8657801
+                    ],
+                    [
+                        12.4628722,
+                        41.8661027
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2023-04-27T00:34:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-04-30T21:57:13Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2015-05-16T17:25:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2015-05-16T17:24:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-12-27T14:05:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-12-27T14:05:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-12-27T14:05:02Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-roman-baths",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/bath",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 253793979, version 1, osm:changeset=19661037, 2013-12-27T13:23:46Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/253793979",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 253793979",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=253793979",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Roman baths",
+            "uri": "https://pleiades.stoa.org/places/710588450/location-of-roman-baths"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/bath"
+    ],
+    "placeTypes": [
+        "bath"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.arvaliastoria.it/dblog/scheda.asp?idscheda=7",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Arvalia Storia, Terme di Pozzo Pantaleo",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        12.462879152922945,
+        41.86591360560323
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Baths of Pozzo Pantaleo",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/710588450"
+}

@@ -44,6 +44,18 @@ void DebugUI::_ready() {
   m_mesh_count_label->set_text("0");
   mesh_hbox->add_child(m_mesh_count_label);
 
+  // City name display
+  HBoxContainer *city_hbox = memnew(HBoxContainer);
+  vbox->add_child(city_hbox);
+
+  Label *city_title = memnew(Label);
+  city_title->set_text("City: ");
+  city_hbox->add_child(city_title);
+
+  m_city_name_label = memnew(Label);
+  m_city_name_label->set_text("None");
+  city_hbox->add_child(m_city_name_label);
+
   // Province name display
   HBoxContainer *province_hbox = memnew(HBoxContainer);
   vbox->add_child(province_hbox);
@@ -77,10 +89,17 @@ void DebugUI::update_mesh_count(int count) {
   }
 }
 
-void DebugUI::update_province_name(String name) {
+void DebugUI::update_province_name(String name){
   m_province_name = name;
   if (m_province_name_label) {
     m_province_name_label->set_text(m_province_name);
+  }
+}
+
+void DebugUI::update_city_name(String name) {
+  m_city_name = name;
+  if (m_city_name_label) {
+    m_city_name_label->set_text(m_city_name);
   }
 }
 

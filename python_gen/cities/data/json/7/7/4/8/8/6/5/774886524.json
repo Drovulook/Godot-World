@@ -1,0 +1,389 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -3.203295,
+        54.903646,
+        -3.20064,
+        54.90528
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/506349985",
+            "contributors": [],
+            "created": "2016-07-13T13:32:05Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:32:05Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:32:05Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:32:05Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "506349985",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Stanegate",
+            "uri": "https://pleiades.stoa.org/places/774886524/506349985"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/506349985"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Maxime Guénette",
+            "uri": "https://pleiades.stoa.org/author/maximeg",
+            "username": "maximeg"
+        }
+    ],
+    "created": "2024-12-11T18:26:18Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Scott Vanderbilt",
+            "uri": "https://pleiades.stoa.org/author/sarcanon",
+            "username": "sarcanon"
+        }
+    ],
+    "description": "A Roman fort at Bowness on Solway on the Stanegate.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.203295,
+                            54.903827,
+                            0
+                        ],
+                        [
+                            -3.200964,
+                            54.903646,
+                            0
+                        ],
+                        [
+                            -3.20064,
+                            54.905115,
+                            0
+                        ],
+                        [
+                            -3.202936,
+                            54.90528,
+                            0
+                        ],
+                        [
+                            -3.203295,
+                            54.903827,
+                            0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "boundary-of-fort-walls-approx.",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/774886524/boundary-of-fort-walls-approx.",
+                "location_precision": "precise",
+                "snippet": "Fort-2; AD 43 - AD 410",
+                "title": "Boundary of fort walls (approx.)"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited type for fort; update references @maximeg",
+            "modified": "2024-12-11T19:02:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2024-12-11T18:26:17Z",
+            "modifiedBy": "maximeg"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2017-04-07T13:21:46Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-04-07T13:21:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T19:18:35Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2012-02-23T15:50:00Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2012-02-21T04:25:31Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Added reference, fixed title.",
+            "modified": "2012-02-21T04:22:40Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Added.",
+            "modified": "2012-02-21T04:17:38Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "action": "Create",
+            "modified": "2012-02-21T04:17:36Z",
+            "modifiedBy": "sarcanon"
+        }
+    ],
+    "id": "774886524",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-geoeye-2011",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-britain",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-britain"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2012-02-21T04:19:23Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Scott Vanderbilt",
+                    "uri": "https://pleiades.stoa.org/author/sarcanon",
+                    "username": "sarcanon"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 410,
+            "featureType": [
+                "fort-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.203295,
+                            54.903827,
+                            0
+                        ],
+                        [
+                            -3.202936,
+                            54.90528,
+                            0
+                        ],
+                        [
+                            -3.20064,
+                            54.905115,
+                            0
+                        ],
+                        [
+                            -3.200964,
+                            54.903646,
+                            0
+                        ],
+                        [
+                            -3.203295,
+                            54.903827,
+                            0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Update feature type",
+                    "modified": "2025-01-09T13:47:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-04-07T13:22:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-02-23T15:50:00Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-02-21T04:20:12Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "comment": "Added.",
+                    "modified": "2012-02-21T04:19:25Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-02-21T04:19:23Z",
+                    "modifiedBy": "sarcanon"
+                }
+            ],
+            "id": "boundary-of-fort-walls-approx.",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort-2"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.zotero.org/groups/pleiades/items/itemKey/SJMNTTG3",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Jones and Woolliscroft 2001, 68",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": 43,
+            "title": "Boundary of fort walls (approx.)",
+            "uri": "https://pleiades.stoa.org/places/774886524/boundary-of-fort-walls-approx."
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort-2"
+    ],
+    "placeTypes": [
+        "fort-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.pastscape.org.uk/hob.aspx?hob_id=10048",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2GLEU38X",
+            "citationDetail": "Monument no. 10048",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Historic England. <i>PastScape: Information on England’s Archaeology and Architecture</i>, 2015. https://www.pastscape.org.uk/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PastScape",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://roman-britain.co.uk/places/kirkbride.htm",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PMV8NEDG",
+            "citationDetail": "Kirkbride Roman Stanegate Fort Kirkbride, Cumbria",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">White, Kevan, and Mike Haseler. <i>Roman Britain</i>, 2016. https://www.roman-britain.co.uk.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "RBrit",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/VF8CRNVF",
+            "citationDetail": "467-9",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Breeze, David J. <i>Handbook to the Roman Wall</i>. 14th ed. 1 vols. Newcastle upon Tyne: Society of Antiquaries of Newcastle upon Tyne, 2006.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Breeze 2006",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Kirkbride,_Cumbria",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Kirkbride, Cumbria",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Kirkbride, Cumbria.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        -3.201957482719088,
+        54.904464866512676
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=0",
+        "dare:feature=fort"
+    ],
+    "title": "Kirkbride",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/774886524"
+}

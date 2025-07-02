@@ -1,0 +1,683 @@
+{
+    "@type": "Place",
+    "bbox": [
+        5.057834,
+        36.74021,
+        5.058096,
+        36.741492
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "connectionType": "part_of_admin",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_admin",
+            "connectsTo": "https://pleiades.stoa.org/places/154459219",
+            "contributors": [],
+            "created": "2016-08-17T22:17:28Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-08-17T22:17:34Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-08-17T22:17:31Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2016-08-17T22:17:28Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-08-17T22:17:28Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "africa-diocese",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": 300,
+            "title": "Africa (diocese)",
+            "uri": "https://pleiades.stoa.org/places/991334/africa-diocese"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/154459219",
+        "https://pleiades.stoa.org/places/305142",
+        "https://pleiades.stoa.org/places/305153"
+    ],
+    "contributors": [
+        {
+            "name": "Brian Z. Lund",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "name": "Mary E. Downs",
+            "username": null
+        },
+        {
+            "name": "M. Joann McDaniel",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2025-03-28T20:03:50Z",
+    "creators": [
+        {
+            "name": "J.J. Wilkes",
+            "username": null
+        },
+        {
+            "name": "S.T. Parker",
+            "username": null
+        },
+        {
+            "name": "R.S. Bagnall",
+            "username": null
+        },
+        {
+            "name": "W.V. Harris",
+            "username": null
+        },
+        {
+            "name": "A.S. Esmonde-Cleary",
+            "username": null
+        },
+        {
+            "name": "C.M. Wells",
+            "username": null
+        },
+        {
+            "name": "J.F. Drinkwater",
+            "username": null
+        },
+        {
+            "name": "R.C. Knapp",
+            "username": null
+        },
+        {
+            "name": "S. Mitchell",
+            "username": null
+        }
+    ],
+    "description": "A late Roman province within the diocese of Africa. Mauretania Sitifensis was included on Map 101 of the Barrington Atlas (\"Dioceses and Provinces of the Roman Empire\") that follows the Verona List (ca. A.D. 303–324). Diocletian created the province and Constantine assigned it to the administrative Diocese of Africa. The Vandals conquered Mauretania Sitifensis and following the collapse of the Western Roman Empire, the province was ruled mainly by Berber kings until 578 CE.",
+    "details": "<p>The Barrington Atlas Directory notes: Africa</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            0.0,
+                            30.0
+                        ],
+                        [
+                            5.0,
+                            30.0
+                        ],
+                        [
+                            5.0,
+                            35.0
+                        ],
+                        [
+                            0.0,
+                            35.0
+                        ],
+                        [
+                            0.0,
+                            30.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "batlas-location",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/991334/batlas-location",
+                "location_precision": "rough",
+                "snippet": "Unknown",
+                "title": "Barrington Atlas location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "updated references, update place type to province; add BAtlDir reference; add wikidata Q9030702, update wikipedia; summary by @jbecker",
+            "modified": "2025-03-29T21:03:09Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2025-03-28T20:03:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "description",
+            "modified": "2016-08-17T22:16:23Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2016-01-14T16:58:42Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T23:46:38Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T21:41:48Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-07-06T14:15:39Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-07-05T13:04:55Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-07-05T12:57:27Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "991334",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": null,
+            "accuracy_value": null,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [],
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "Mary E. Downs",
+                    "username": null
+                },
+                {
+                    "name": "M. Joann McDaniel",
+                    "username": null
+                },
+                {
+                    "name": "Brian Z. Lund",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-07-05T12:57:27Z",
+            "creators": [
+                {
+                    "name": "R.S. Bagnall",
+                    "username": null
+                },
+                {
+                    "name": "J.F. Drinkwater",
+                    "username": null
+                },
+                {
+                    "name": "A.S. Esmonde-Cleary",
+                    "username": null
+                },
+                {
+                    "name": "W.V. Harris",
+                    "username": null
+                },
+                {
+                    "name": "R.C. Knapp",
+                    "username": null
+                },
+                {
+                    "name": "S. Mitchell",
+                    "username": null
+                },
+                {
+                    "name": "S.T. Parker",
+                    "username": null
+                },
+                {
+                    "name": "C.M. Wells",
+                    "username": null
+                },
+                {
+                    "name": "J.J. Wilkes",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            0.0,
+                            30.0
+                        ],
+                        [
+                            5.0,
+                            30.0
+                        ],
+                        [
+                            5.0,
+                            35.0
+                        ],
+                        [
+                            0.0,
+                            35.0
+                        ],
+                        [
+                            0.0,
+                            30.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T23:46:39Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-07-06T14:15:39Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-07-05T13:04:55Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-07-05T12:57:27Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "batlas-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Barrington Atlas: BAtlas 101 G5 Mauretania Sitifensis",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Barrington Atlas location",
+            "uri": "https://pleiades.stoa.org/places/991334/batlas-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "Mary E. Downs",
+                    "username": null
+                },
+                {
+                    "name": "M. Joann McDaniel",
+                    "username": null
+                },
+                {
+                    "name": "Brian Z. Lund",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-07-05T12:57:27Z",
+            "creators": [
+                {
+                    "name": "R.S. Bagnall",
+                    "username": null
+                },
+                {
+                    "name": "J.F. Drinkwater",
+                    "username": null
+                },
+                {
+                    "name": "A.S. Esmonde-Cleary",
+                    "username": null
+                },
+                {
+                    "name": "W.V. Harris",
+                    "username": null
+                },
+                {
+                    "name": "R.C. Knapp",
+                    "username": null
+                },
+                {
+                    "name": "S. Mitchell",
+                    "username": null
+                },
+                {
+                    "name": "S.T. Parker",
+                    "username": null
+                },
+                {
+                    "name": "C.M. Wells",
+                    "username": null
+                },
+                {
+                    "name": "J.J. Wilkes",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T23:46:39Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-07-06T14:15:39Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-07-05T13:04:55Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-07-05T12:57:27Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "mauretania-sitifensis",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 101 G5 Mauretania Sitifensis",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Mauretania Sitifensis",
+            "start": null,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/991334/mauretania-sitifensis"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Mauretania Sitifensis",
+            "contributors": [],
+            "created": "2016-08-18T01:42:06Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "comment": "update GeoNames reference",
+                    "modified": "2025-03-28T20:11:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-11-30T21:25:30Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-08-18T01:42:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2016-08-18T01:42:07Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-08-18T01:42:06Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2016-08-17.4645868861",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.geonames.org/8354634/mauretania-sitifensis.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+                    "citationDetail": "8354634: M auretania Sitifensis",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. <i>GeoNames</i>, 2005. https://www.geonames.org/.</div>",
+                    "otherIdentifier": " ",
+                    "shortTitle": "GeoNames",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Mauretania Sitifensis",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/991334/name.2016-08-17.4645868861"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/province-2"
+    ],
+    "placeTypes": [
+        "province-2"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 101 G5 Mauretania Sitifensis",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "101 G5 Mauretania Sitifensis",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.trismegistos.org/place/33223",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "citationDetail": "GEO ID 33223: Mauretania Sitifensis",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "TM",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://doi.org/10.1163/1574-9347_bnp_e727140",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+            "citationDetail": "Mauretania (Werner Huß and Hans Georg Niemeyer)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill’s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brill.com/display/db/npoe.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "New Pauly",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064:id=mauretania-geo",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIA378QC",
+            "citationDetail": "MAURETÁNIA",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Smith, William. <i>Dictionary of Greek and Roman Geography</i>. London: Murray, 1854. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Smith 1854 (Perseus)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Mauretania_Sitifensis",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Mauretania Sitifensis",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Mauretania.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://doi.org/10.1163/9789047402329_035",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QB227DJ5",
+            "citationDetail": "319-21",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Mullen, Roderic L. “MAURETANIA SITIFENSIS.” In <i>The Expansion of Christianity</i>, 319–21. Brill, 2004. https://doi.org/10.1163/9789047402329_035.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Mullen 2004",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9377UUFB",
+            "citationDetail": "p. 1379  s.v. \"Directory  Map 101 Dioceses and Provinces of the Roman Empire\"",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Barrington Atlas of the Greek and Roman World : Map-by-Map Directory</i>. 2 vols. Princeton, N.J.: Princeton University Press, 2000.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "BAtlDir",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q9030702",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Mauretania Sitifensis (Q9030702)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        5.057964999999999,
+        36.740851
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Mauretania Sitifensis",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/991334"
+}

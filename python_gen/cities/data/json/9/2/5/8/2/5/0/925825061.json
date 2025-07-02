@@ -1,0 +1,539 @@
+{
+    "@type": "Place",
+    "bbox": [
+        7.0278695,
+        49.2224901,
+        7.0278695,
+        49.2224901
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/109298",
+            "contributors": [],
+            "created": "2018-10-27T04:01:51Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-10-27T04:01:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-10-27T04:01:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-10-27T04:01:51Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "9117573940",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Saarbrücken",
+            "uri": "https://pleiades.stoa.org/places/925825061/9117573940"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/109298"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2022-03-02T23:45:10Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Johan Åhlfeldt",
+            "uri": "https://pleiades.stoa.org/author/jahlfeldt",
+            "username": "jahlfeldt"
+        }
+    ],
+    "description": "A natural cave in the side of the Halberg hill at Saarbrücken was enlarged for the use of the Mithras cult.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    7.0278695,
+                    49.2224901
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-mithrashaphle",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/925825061/osm-location-of-mithrashaphle",
+                "location_precision": "precise",
+                "snippet": "Sanctuary; 30 BC - AD 640",
+                "title": "OSM location of Mithrashöhle"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    7.0278695,
+                    49.2224901
+                ],
+                "type": "Point"
+            },
+            "id": "imagery-location",
+            "properties": {
+                "description": "Natural cave in the side of the Halberg hill enlarged for the Mithras cult",
+                "link": "https://pleiades.stoa.org/places/925825061/imagery-location",
+                "location_precision": "precise",
+                "snippet": "Sanctuary; AD 300 - AD 640",
+                "title": "Imagery Location of the Mithras shrine at Halberg"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added New Mithraeum reference; summary; fixed typo in wikidata reference",
+            "modified": "2022-03-03T01:44:30Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2022-03-02T23:45:09Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "update",
+            "modified": "2020-12-08T14:32:50Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-10-29T15:24:33Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2018-10-29T15:23:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-10-29T15:23:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "references",
+            "modified": "2018-10-29T15:19:39Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "title",
+            "modified": "2018-10-27T04:03:16Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-10-27T04:01:54Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-10-27T04:01:49Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "925825061",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2018-10-29T15:22:16Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "sanctuary"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "geometry": {
+                "coordinates": [
+                    7.0278695,
+                    49.2224901
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2023-11-11T02:11:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-10-29T15:24:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-10-29T15:22:59Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added OSM location",
+                    "modified": "2018-10-29T15:22:50Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2018-10-29T15:22:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-10-29T15:22:16Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-mithrashaphle",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "provenance": "OpenStreetMap (Node 318101701, version 4, osm:changeset=71250745, 2019-06-14T12:02:09Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/node/318101701",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 318101701",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=318101701",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Mithrashöhle",
+            "uri": "https://pleiades.stoa.org/places/925825061/osm-location-of-mithrashaphle"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-digitalglobe-imagery-2012",
+            "accuracy_value": 4.2,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2012-03-21T12:09:40Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Johan Åhlfeldt",
+                    "uri": "https://pleiades.stoa.org/author/jahlfeldt",
+                    "username": "jahlfeldt"
+                }
+            ],
+            "description": "Natural cave in the side of the Halberg hill enlarged for the Mithras cult",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "sanctuary"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "geometry": {
+                "coordinates": [
+                    7.0278695,
+                    49.2224901
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modified": "2018-10-29T15:21:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-03-22T19:53:32Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-03-21T12:09:53Z",
+                    "modifiedBy": "jahlfeldt"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2012-03-21T12:09:43Z",
+                    "modifiedBy": "jahlfeldt"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-03-21T12:09:41Z",
+                    "modifiedBy": "jahlfeldt"
+                }
+            ],
+            "id": "imagery-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=saravus",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "PECS: Saravus",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://de.wikipedia.org/wiki/Halberg_%28Saarland%29",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/QVRBJVTM",
+                    "citationDetail": "Halberg (Saarland)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Wikipedia: Die freie Enzyklopädie (2001-), Halberg (Saarland).",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (German)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": 300,
+            "title": "Imagery Location of the Mithras shrine at Halberg",
+            "uri": "https://pleiades.stoa.org/places/925825061/imagery-location"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Mithrasgrotte (Saarbrücken)",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2018-10-29T15:25:33Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-04-30T10:24:47Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2022-04-30T10:24:44Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-04-29T19:43:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2022-04-29T19:43:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2018-10-29T15:25:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-10-29T15:25:33Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "name.2018-10-29.6823453287",
+            "language": "de",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://commons.wikimedia.org/wiki/Category:Mithrasgrotte_(Saarbr%C3%BCcken)",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/L8RBW985",
+                    "citationDetail": "Category:Mithrasgrotte (Saarbrücken)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Wikimedia Commons. “Wikimedia Commons.” Media file repository, 2004. https://commons.wikimedia.org/wiki/Main_Page.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikimedia Commons",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Mithrasgrotte (Saarbrücken)",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/925825061/name.2018-10-29.6823453287"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+    ],
+    "placeTypes": [
+        "sanctuary"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q26706748",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q26706748: Halberg Mithraeum",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://commons.wikimedia.org/wiki/Category:Mithrasgrotte_(Saarbr%C3%BCcken)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/L8RBW985",
+            "citationDetail": "Category:Mithrasgrotte (Saarbrücken)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">“Wikimedia Commons.” Media file repository. Wikimedia Commons, 2004. https://commons.wikimedia.org/wiki/Main_Page.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikimedia Commons",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.mithraeum.eu/monument/47",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BEPITUFQ",
+            "citationDetail": "47: Mithräum von Saarbrücken",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Abuín López, Andreu. <i>The New Mithraeum</i>. Accessed March 2, 2022. https://www.mithraeum.eu.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "NMithr",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        7.0278695,
+        49.2224901
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "Mithras"
+    ],
+    "title": "Halberg Mithraeum",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/925825061"
+}

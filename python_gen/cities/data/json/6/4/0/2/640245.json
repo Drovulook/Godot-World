@@ -1,0 +1,331 @@
+{
+    "@type": "Place",
+    "bbox": [
+        29.8157,
+        36.3203,
+        29.8157,
+        36.3203
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/638820",
+            "contributors": [],
+            "created": "2023-02-27T22:50:50Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-02-28T10:38:29Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-02-27T22:50:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2023-02-27T22:50:50Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-02-27T22:50:50Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "dereagzi",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/6JUC55QT",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Morganstern, James, ed. <i>The Fort at Dereağzı: And Other Material Remains in Its Vicinity from Antiquity to the Middle Ages</i>. Istanbuler Forschungen 40. Tübingen: E. Wasmuth, 1993.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Morganstern 1993",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Dereağzı",
+            "uri": "https://pleiades.stoa.org/places/640245/dereagzi"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/638820"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2011-01-10T22:51:59Z",
+    "creators": [
+        {
+            "name": "C. Foss",
+            "username": null
+        },
+        {
+            "name": "S. Mitchell",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 65 C5 unnamed bridge (Dereağzi)",
+    "details": "The Barrington Atlas Directory notes: Dereağzi",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    29.8157,
+                    36.3203
+                ],
+                "type": "Point"
+            },
+            "id": "batlas-location",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/640245/batlas-location",
+                "location_precision": "precise",
+                "snippet": "Unknown; 30 BC - AD 300",
+                "title": "Barrington Atlas map location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2023-02-27T22:50:19Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T19:52:18Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T07:32:24Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T20:49:40Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2011-01-10T23:27:57Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2011-01-10T23:20:23Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2011-01-10T22:51:59Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "640245",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/batlas-1-1-million",
+            "accuracy_value": 1860.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                },
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2011-01-10T22:51:59Z",
+            "creators": [
+                {
+                    "name": "C. Foss",
+                    "username": null
+                },
+                {
+                    "name": "S. Mitchell",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    29.8157,
+                    36.3203
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "BAtlas 1:1 million",
+                    "modified": "2023-02-27T23:04:01Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T07:32:24Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-01-10T23:27:57Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-01-10T23:20:23Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "comment": "Update locations from map65-locations-update.csv",
+                    "modified": "2011-01-10T23:12:38Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-01-10T22:51:59Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "batlas-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Barrington Atlas: BAtlas 65 C5",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Barrington Atlas map location",
+            "uri": "https://pleiades.stoa.org/places/640245/batlas-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/bridge"
+    ],
+    "placeTypes": [
+        "bridge"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 65 C5",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "65 C5",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/6JUC55QT",
+            "citationDetail": "88",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Morganstern, James, ed. <i>The Fort at Dereağzı: And Other Material Remains in Its Vicinity from Antiquity to the Middle Ages</i>. Istanbuler Forschungen 40. Tübingen: E. Wasmuth, 1993.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Morganstern 1993",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        29.8157,
+        36.3203
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=2",
+        "dare:feature=bridge"
+    ],
+    "title": "Untitled",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/640245"
+}

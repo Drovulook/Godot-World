@@ -1,0 +1,429 @@
+{
+    "@type": "Place",
+    "bbox": [
+        9.0847777,
+        36.4123893,
+        9.0847777,
+        36.4123893
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/315242",
+            "contributors": [],
+            "created": "2017-04-04T18:55:58Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-04-04T18:55:58Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-04-04T18:55:58Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2017-04-04T18:55:58Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "1580371681",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Uchi Maius",
+            "uri": "https://pleiades.stoa.org/places/20481513/1580371681"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/315242"
+    ],
+    "contributors": [],
+    "created": "2017-04-04T18:55:57Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "A Roman amphitheater located at Uchi Maius (modern Henchir ed-Douâmis).",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        9.0847777,
+                        36.4123893
+                    ],
+                    [
+                        9.0848259,
+                        36.4125836
+                    ],
+                    [
+                        9.0849869,
+                        36.4126268
+                    ],
+                    [
+                        9.0851371,
+                        36.4126225
+                    ],
+                    [
+                        9.0853409,
+                        36.4125318
+                    ],
+                    [
+                        9.0853892,
+                        36.4124627
+                    ],
+                    [
+                        9.0853946,
+                        36.4124023
+                    ],
+                    [
+                        9.0853946,
+                        36.4123116
+                    ],
+                    [
+                        9.0853034,
+                        36.4121907
+                    ],
+                    [
+                        9.0850834,
+                        36.4121907
+                    ],
+                    [
+                        9.084885,
+                        36.4122598
+                    ],
+                    [
+                        9.0847777,
+                        36.4123893
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-roman-amphitheater",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/20481513/osm-location-of-roman-amphitheater",
+                "location_precision": "precise",
+                "snippet": "Amphitheatre, ; 30 BC - AD 300",
+                "title": "OSM location of Roman amphitheater"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "action": "Publish externally",
+            "modified": "2017-04-30T15:01:31Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2017-04-30T15:01:20Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary",
+            "modified": "2017-04-30T15:01:08Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-04-05T02:54:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2017-04-05T02:50:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2017-04-04T18:56:16Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2017-04-04T18:55:59Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2017-04-04T18:55:57Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "20481513",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-05-24T12:44:38Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "amphitheatre",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        9.0847777,
+                        36.4123893
+                    ],
+                    [
+                        9.0848259,
+                        36.4125836
+                    ],
+                    [
+                        9.0849869,
+                        36.4126268
+                    ],
+                    [
+                        9.0851371,
+                        36.4126225
+                    ],
+                    [
+                        9.0853409,
+                        36.4125318
+                    ],
+                    [
+                        9.0853892,
+                        36.4124627
+                    ],
+                    [
+                        9.0853946,
+                        36.4124023
+                    ],
+                    [
+                        9.0853946,
+                        36.4123116
+                    ],
+                    [
+                        9.0853034,
+                        36.4121907
+                    ],
+                    [
+                        9.0850834,
+                        36.4121907
+                    ],
+                    [
+                        9.084885,
+                        36.4122598
+                    ],
+                    [
+                        9.0847777,
+                        36.4123893
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2023-07-15T01:51:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-04-30T15:01:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-07T23:02:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-05-24T12:46:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-05-24T12:45:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-05-24T12:44:44Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-05-24T12:44:40Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-roman-amphitheater",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 283988370, version 1, osm:changeset=22523412, 2014-05-24T12:43:59Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/283988370",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 283988370",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=283988370",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Roman amphitheater",
+            "uri": "https://pleiades.stoa.org/places/20481513/osm-location-of-roman-amphitheater"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre"
+    ],
+    "placeTypes": [
+        "amphitheatre"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://arachne.uni-koeln.de/item/bauwerk/2109975",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Arachne 2109975: Amphitheater von Uchi Maius Henchir ed-Douâmis",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/772476439",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WJDU93CJ",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Khanoussi, Mustapha, and Attilio Mastino. <i>Uchi Maius 1: scavi e ricerche epigrafiche in Tunisia</i>. Sassari: Editrice Democratica Sarda, 1997. http://www.worldcat.org/oclc/772476439.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Khanoussi and Mastino 1997",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://fr.wikipedia.org/wiki/Uchi_Maius",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/B4HPCZIK",
+            "citationDetail": "Uchi Maius",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipédia: L’encyclopédie libre que chacun peut améliorer (2001-), Uchi Maius.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (French)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/c.html#CIL-VIII",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "CIL VIII, 26275",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/7811870",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/E43UBTUP",
+            "citationDetail": "144",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Lachaux, Jean Claude. <i>Théâtres et amphithéâtres d’Afrique proconsulaire</i>. Aix-en-Provence: Diffusion Édisud, 1979. http://www.worldcat.org/oclc/7811870.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Lachaux 1979",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.amphi-theatrum.de/1345.html",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "amphi-theatrum.de: 1345",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        9.0847777,
+        36.4123893
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "amphitheater"
+    ],
+    "title": "Roman amphitheater at Uchi Maius",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/20481513"
+}

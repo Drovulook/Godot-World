@@ -1,0 +1,330 @@
+{
+    "@type": "Place",
+    "bbox": [
+        13.6210042,
+        42.2832044,
+        13.6213639,
+        42.2833423
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "succeeds",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/succeeds",
+            "connectsTo": "https://pleiades.stoa.org/places/413247",
+            "contributors": [],
+            "created": "2023-11-23T14:36:03Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "Initial revision",
+                    "modified": "2023-11-23T14:37:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-11-23T14:36:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-11-23T14:36:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-11-23T14:36:03Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "1630538311",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Peltuinum",
+            "uri": "https://pleiades.stoa.org/places/437043462/1630538311"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/413247"
+    ],
+    "contributors": [],
+    "created": "2023-11-23T14:36:01Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The church of San Paolo at Peltuinum likely dates to the seventh or eighth century CE.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        13.6210042,
+                        42.2832853
+                    ],
+                    [
+                        13.6212327,
+                        42.2833051
+                    ],
+                    [
+                        13.6212284,
+                        42.2833322
+                    ],
+                    [
+                        13.6213435,
+                        42.2833423
+                    ],
+                    [
+                        13.6213639,
+                        42.2832143
+                    ],
+                    [
+                        13.6212505,
+                        42.2832044
+                    ],
+                    [
+                        13.6212461,
+                        42.2832319
+                    ],
+                    [
+                        13.6210159,
+                        42.2832119
+                    ],
+                    [
+                        13.6210042,
+                        42.2832853
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-chiesa-di-san-paolo-di-peltuinum",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/437043462/osm-location-of-chiesa-di-san-paolo-di-peltuinum",
+                "location_precision": "precise",
+                "snippet": "Church-2; AD 600 - AD 799",
+                "title": "OSM location of Chiesa di San Paolo di Peltuinum"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "action": "Publish externally",
+            "modified": "2023-11-27T16:51:20Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2023-11-23T14:38:35Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2023-11-23T14:37:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2023-11-23T14:36:03Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2023-11-23T14:36:01Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "437043462",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "seventh-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/seventh-ce"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "eighth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/eighth-ce"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-11-23T14:34:51Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 799,
+            "featureType": [
+                "church-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        13.6210042,
+                        42.2832853
+                    ],
+                    [
+                        13.6212327,
+                        42.2833051
+                    ],
+                    [
+                        13.6212284,
+                        42.2833322
+                    ],
+                    [
+                        13.6213435,
+                        42.2833423
+                    ],
+                    [
+                        13.6213639,
+                        42.2832143
+                    ],
+                    [
+                        13.6212505,
+                        42.2832044
+                    ],
+                    [
+                        13.6212461,
+                        42.2832319
+                    ],
+                    [
+                        13.6210159,
+                        42.2832119
+                    ],
+                    [
+                        13.6210042,
+                        42.2832853
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-11-27T16:51:20Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-11-23T14:38:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2023-11-23T14:38:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add OSM location",
+                    "modified": "2023-11-23T14:35:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-11-23T14:34:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-11-23T14:34:51Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-chiesa-di-san-paolo-di-peltuinum",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church-2"
+            ],
+            "provenance": "OpenStreetMap (Way 334783447, version 3, osm:changeset=46743202, 2017-03-10T16:39:13Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/334783447",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 334783447",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=334783447",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 600,
+            "title": "OSM location of Chiesa di San Paolo di Peltuinum",
+            "uri": "https://pleiades.stoa.org/places/437043462/osm-location-of-chiesa-di-san-paolo-di-peltuinum"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/church-2"
+    ],
+    "placeTypes": [
+        "church-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/it:Chiesa%20di%20San%20Paolo%20di%20Peltuinum?uselang=en",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+            "citationDetail": "Chiesa di San Paolo di Peltuinum",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        13.621195229741913,
+        42.2832646344159
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Chiesa di San Paolo di Peltuinum",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/437043462"
+}

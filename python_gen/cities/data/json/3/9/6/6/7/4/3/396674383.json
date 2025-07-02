@@ -1,0 +1,469 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -2.199436,
+        54.5133616,
+        -2.1985198,
+        54.5139311
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Maxime Guénette",
+            "uri": "https://pleiades.stoa.org/author/maximeg",
+            "username": "maximeg"
+        }
+    ],
+    "created": "2024-12-11T18:22:14Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Scott Vanderbilt",
+            "uri": "https://pleiades.stoa.org/author/sarcanon",
+            "username": "sarcanon"
+        }
+    ],
+    "description": "A Roman fortlet located near Brough in eastern Cumbria (England).",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.19895,
+                    54.513628
+                ],
+                "type": "Point"
+            },
+            "id": "imagery-location",
+            "properties": {
+                "description": "Location sited from NHLE map and verified from Google Maps imagery",
+                "link": "https://pleiades.stoa.org/places/396674383/imagery-location",
+                "location_precision": "precise",
+                "snippet": "Fort; 30 BC - AD 300",
+                "title": "Imagery Location of center point of fortlet remains"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -2.1991098,
+                        54.5139311
+                    ],
+                    [
+                        -2.199436,
+                        54.513519
+                    ],
+                    [
+                        -2.1988459,
+                        54.5133616
+                    ],
+                    [
+                        -2.1985198,
+                        54.5137737
+                    ],
+                    [
+                        -2.1991098,
+                        54.5139311
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-maiden-castle",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/396674383/osm-location-of-maiden-castle",
+                "location_precision": "precise",
+                "snippet": "Fort-2; AD 43 - AD 410",
+                "title": "OSM location of Maiden Castle"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q17642710",
+            "modified": "2024-12-20T15:26:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited type for fortlet; update references @maximeg",
+            "modified": "2024-12-20T15:25:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2024-12-11T18:22:14Z",
+            "modifiedBy": "maximeg"
+        },
+        {
+            "comment": "title because there are multiple \"Maiden castles\" in UK",
+            "modified": "2021-08-04T14:20:30Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2019-11-10T14:57:21Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary",
+            "modified": "2018-09-21T21:11:23Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-09-21T21:07:51Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-09-19T06:09:39Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2018-09-18T19:33:33Z",
+            "modifiedBy": "sarcanon"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-09-18T19:33:32Z",
+            "modifiedBy": "sarcanon"
+        }
+    ],
+    "id": "396674383",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2018-09-18T19:37:40Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Scott Vanderbilt",
+                    "uri": "https://pleiades.stoa.org/author/sarcanon",
+                    "username": "sarcanon"
+                }
+            ],
+            "description": "Location sited from NHLE map and verified from Google Maps imagery",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "fort"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort"
+            ],
+            "geometry": {
+                "coordinates": [
+                    -2.19895,
+                    54.513628
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-09-21T21:07:52Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-09-19T06:09:40Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2018-09-18T19:37:42Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-09-18T19:37:40Z",
+                    "modifiedBy": "sarcanon"
+                }
+            ],
+            "id": "imagery-location",
+            "locationType": [
+                "central_point"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://historicengland.org.uk/listing/the-list/list-entry/1007183",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "",
+                    "otherIdentifier": "",
+                    "shortTitle": "Historic England, Heritage List Entry 1007183",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "Imagery Location of center point of fortlet remains",
+            "uri": "https://pleiades.stoa.org/places/396674383/imagery-location"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-britain",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-britain"
+                }
+            ],
+            "contributors": [],
+            "created": "2019-11-10T14:56:52Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 410,
+            "featureType": [
+                "fort-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -2.1991098,
+                        54.5139311
+                    ],
+                    [
+                        -2.199436,
+                        54.513519
+                    ],
+                    [
+                        -2.1988459,
+                        54.5133616
+                    ],
+                    [
+                        -2.1985198,
+                        54.5137737
+                    ],
+                    [
+                        -2.1991098,
+                        54.5139311
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Generic OSM Accuracy Assessment",
+                    "modified": "2023-03-01T18:58:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-08-04T14:19:58Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-08-04T14:19:52Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-11-10T14:56:52Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-maiden-castle",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort-2"
+            ],
+            "provenance": "OpenStreetMap (Way 492057858, version 1, osm:changeset=48493954, 2017-05-08T08:00:47Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/492057858",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 492057858",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=492057858",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 43,
+            "title": "OSM location of Maiden Castle",
+            "uri": "https://pleiades.stoa.org/places/396674383/osm-location-of-maiden-castle"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Maiden Castle",
+            "contributors": [],
+            "created": "2018-09-18T19:38:22Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Scott Vanderbilt",
+                    "uri": "https://pleiades.stoa.org/author/sarcanon",
+                    "username": "sarcanon"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-09-21T21:07:52Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-09-19T06:09:41Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2018-09-18T19:38:23Z",
+                    "modifiedBy": "sarcanon"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-09-18T19:38:22Z",
+                    "modifiedBy": "sarcanon"
+                }
+            ],
+            "id": "maiden-castle",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Maiden Castle",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/396674383/maiden-castle"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort-2",
+        "https://pleiades.stoa.org/vocabularies/place-types/fortlet",
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+    ],
+    "placeTypes": [
+        "fort-2",
+        "fortlet",
+        "fort"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://www.pastscape.org.uk/hob.aspx?hob_id=15918",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2GLEU38X",
+            "citationDetail": "Monument no. 15918",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Historic England. <i>PastScape: Information on England’s Archaeology and Architecture</i>, 2015. https://www.pastscape.org.uk/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "PastScape",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://historicengland.org.uk/listing/the-list/list-entry/1007183",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/M4EG3E3S",
+            "citationDetail": "1007183",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Historic England. <i>The National Heritage List for England</i>. Accessed August 1, 2023. https://historicengland.org.uk/listing/the-list/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "NHLE",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q17642710",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Maiden Castle near Brough (Q17642710)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        -2.1989639449952882,
+        54.51363717169416
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "fort"
+    ],
+    "title": "Maiden Castle Roman Fortlet (Cumbria)",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/396674383"
+}

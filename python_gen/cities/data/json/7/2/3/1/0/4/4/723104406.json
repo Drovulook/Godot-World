@@ -1,0 +1,332 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.6616505,
+        41.7303569,
+        12.6624854,
+        41.7312944
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/422885",
+            "contributors": [],
+            "created": "2019-07-17T22:08:41Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-07-17T22:08:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-07-17T22:08:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-07-17T22:08:41Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "3216318981",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Castra Albana",
+            "uri": "https://pleiades.stoa.org/places/723104406/3216318981"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/422885"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2019-07-17T22:08:40Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A large Roman cistern at Albano Laziale.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.6617139,
+                        41.7312481
+                    ],
+                    [
+                        12.6617596,
+                        41.7312944
+                    ],
+                    [
+                        12.6624854,
+                        41.7305019
+                    ],
+                    [
+                        12.6622273,
+                        41.7303569
+                    ],
+                    [
+                        12.6616505,
+                        41.7309971
+                    ],
+                    [
+                        12.6618167,
+                        41.7311477
+                    ],
+                    [
+                        12.6617139,
+                        41.7312481
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-cisternoni-della-ii-legione",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/723104406/osm-location-of-cisternoni-della-ii-legione",
+                "location_precision": "precise",
+                "snippet": "Cistern; 30 BC - AD 640",
+                "title": "OSM location of Cisternoni della II Legione Partica"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "switched museum reference to wayback",
+            "modified": "2024-07-03T15:48:17Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-06-24T20:55:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2019-07-22T14:47:39Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2019-07-18T00:21:06Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2019-07-18T00:21:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2019-07-17T22:08:42Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2019-07-17T22:08:40Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "723104406",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-06-24T20:54:08Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "cistern"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cistern"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.6617139,
+                        41.7312481
+                    ],
+                    [
+                        12.6617596,
+                        41.7312944
+                    ],
+                    [
+                        12.6624854,
+                        41.7305019
+                    ],
+                    [
+                        12.6622273,
+                        41.7303569
+                    ],
+                    [
+                        12.6616505,
+                        41.7309971
+                    ],
+                    [
+                        12.6618167,
+                        41.7311477
+                    ],
+                    [
+                        12.6617139,
+                        41.7312481
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-07-03T15:46:49Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-06-24T20:54:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location whose underlying OSM data is now deprecated",
+                    "modified": "2024-06-24T20:54:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-06-24T20:54:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-06-24T20:54:08Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-cisternoni-della-ii-legione",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/cistern"
+            ],
+            "provenance": "OpenStreetMap (Way 1095576670, version 3, osm:changeset=138539870, 2023-07-15T10:52:13Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/1095576670",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 1095576670",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=1095576670",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Cisternoni della II Legione Partica",
+            "uri": "https://pleiades.stoa.org/places/723104406/osm-location-of-cisternoni-della-ii-legione"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/cistern"
+    ],
+    "placeTypes": [
+        "cistern"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://web.archive.org/web/20230603201706/http://www.museicivicialbano.it/cisternoni_della_ii_legione_partica.html",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Cisternoni della II Legione Partica",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://vici.org/vici/51940/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "citationDetail": "51940: Albanum, Cisternone",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "vici.org",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.662027720415754,
+        41.73081451897389
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Roman cistern",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/723104406"
+}

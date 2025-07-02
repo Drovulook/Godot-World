@@ -1,0 +1,787 @@
+{
+    "@type": "Place",
+    "bbox": [
+        14.4846605,
+        40.7525854,
+        14.4848875,
+        40.752781
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/433032",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2016-07-13T13:35:04Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "wikidata Q1046582",
+                    "modified": "2025-04-30T02:42:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "located at",
+                    "modified": "2025-04-29T17:40:27Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:35:04Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:35:04Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:35:04Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "433032",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q1046582",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "House of the Ara Maxima (Q1046582)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": null,
+            "title": "Pompeii",
+            "uri": "https://pleiades.stoa.org/places/340380318/433032"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "connectionType": "part_of_analytical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_analytical",
+            "connectsTo": "https://pleiades.stoa.org/places/984330151",
+            "contributors": [],
+            "created": "2020-12-26T21:32:40Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "comment": "update references",
+                    "modified": "2025-04-30T02:42:50Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-01-05T22:28:46Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-26T21:32:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2020-12-26T21:32:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-26T21:32:40Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "regio-vi-pompeii",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://pompeiisites.org/",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RQWYV366",
+                    "citationDetail": "Casa dell'Ara Massima (VI 16, 15-17)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Osanna, Massimo, ed. <i>Pompeii Sites: Portale Ufficiale Parco Archeologico di Pompei</i>. Accessed January 10, 2020. http://pompeiisites.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Pompeii Sites",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": 1700,
+            "title": "Regio VI, Pompeii",
+            "uri": "https://pleiades.stoa.org/places/340380318/regio-vi-pompeii"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/433032",
+        "https://pleiades.stoa.org/places/984330151"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Greta Hawes",
+            "uri": "https://pleiades.stoa.org/author/ghawes",
+            "username": "ghawes"
+        },
+        {
+            "homepage": null,
+            "name": "R. Scott Smith",
+            "uri": "https://pleiades.stoa.org/author/rssmith",
+            "username": "rssmith"
+        }
+    ],
+    "created": "2015-05-29T11:43:04Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Athanasia Varveri",
+            "uri": "https://pleiades.stoa.org/author/avarveri",
+            "username": "avarveri"
+        }
+    ],
+    "description": "The House of the Ara Maxima, located on the Via del Vesuvio, is also known as the House of Pinarius and the House of Narcissus (VI, 16, 15-17).",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        14.4847496,
+                        40.7525854
+                    ],
+                    [
+                        14.4848875,
+                        40.7526746
+                    ],
+                    [
+                        14.4847606,
+                        40.752781
+                    ],
+                    [
+                        14.4846617,
+                        40.752731
+                    ],
+                    [
+                        14.4846868,
+                        40.7526959
+                    ],
+                    [
+                        14.4846605,
+                        40.7526848
+                    ],
+                    [
+                        14.4846959,
+                        40.7526316
+                    ],
+                    [
+                        14.4847051,
+                        40.752634
+                    ],
+                    [
+                        14.4847496,
+                        40.7525854
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-house-of-the-ara-maxima",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/340380318/osm-location-of-house-of-the-ara-maxima",
+                "location_precision": "precise",
+                "snippet": "Townhouse; 30 BC - AD 300",
+                "title": "OSM location of House of the Ara Maxima"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2025-04-30T02:42:00Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "add MANTO 11319115: Casa dell’Ara Massima VI 16, 15.17 (Pompeii)",
+            "modified": "2024-07-10T00:48:07Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-03-02T21:35:32Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "updates",
+            "modified": "2020-12-12T19:55:46Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2015-07-29T14:14:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-07-29T14:13:47Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2015-07-02T03:24:54Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2015-07-02T03:21:11Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2015-05-29T11:43:11Z",
+            "modifiedBy": "avarveri"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-05-29T11:43:05Z",
+            "modifiedBy": "avarveri"
+        }
+    ],
+    "id": "340380318",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-03-02T21:34:01Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                },
+                {
+                    "homepage": null,
+                    "name": "Athanasia Varveri",
+                    "uri": "https://pleiades.stoa.org/author/avarveri",
+                    "username": "avarveri"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "townhouse"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/townhouse"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        14.4847496,
+                        40.7525854
+                    ],
+                    [
+                        14.4848875,
+                        40.7526746
+                    ],
+                    [
+                        14.4847606,
+                        40.752781
+                    ],
+                    [
+                        14.4846617,
+                        40.752731
+                    ],
+                    [
+                        14.4846868,
+                        40.7526959
+                    ],
+                    [
+                        14.4846605,
+                        40.7526848
+                    ],
+                    [
+                        14.4846959,
+                        40.7526316
+                    ],
+                    [
+                        14.4847051,
+                        40.752634
+                    ],
+                    [
+                        14.4847496,
+                        40.7525854
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-03-04T18:21:36Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-03-02T21:34:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2024-03-02T21:34:43Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location.",
+                    "modified": "2024-03-02T21:34:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-03-02T21:34:01Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-03-02T21:34:01Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-house-of-the-ara-maxima",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/townhouse"
+            ],
+            "provenance": "OpenStreetMap (Way 305238268, version 7, osm:changeset=139263275, 2023-07-31T16:56:38Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/305238268",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 305238268",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=305238268",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of House of the Ara Maxima",
+            "uri": "https://pleiades.stoa.org/places/340380318/osm-location-of-house-of-the-ara-maxima"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [],
+            "created": "2020-12-12T19:56:07Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-01-05T22:28:46Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2020-12-26T21:35:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-26T21:34:39Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2020-12-26T21:34:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2020-12-12T19:56:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-12T19:56:07Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "house-of-the-ara-maxima",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q1046582",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q1046582",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "House of the Ara Maxima",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/340380318/house-of-the-ara-maxima"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [],
+            "created": "2020-12-12T19:56:36Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-01-05T22:28:46Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-26T21:35:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2020-12-26T21:35:43Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2020-12-12T19:56:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-12T19:56:36Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "casa-dellara-massima-1",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q1046582",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q1046582",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Casa dell'Ara Massima",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/340380318/casa-dellara-massima-1"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "",
+            "contributors": [],
+            "created": "2020-12-12T19:56:57Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-01-05T22:28:46Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2020-12-26T21:34:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-26T21:34:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "reference",
+                    "modified": "2020-12-26T21:33:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2020-12-12T19:56:58Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-12T19:56:57Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "vi-16.15",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://www.wikidata.org/wiki/Q1046582",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+                    "citationDetail": "Q1046582",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikidata",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "VI.16.15",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/340380318/vi-16.15"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/townhouse"
+    ],
+    "placeTypes": [
+        "townhouse"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://sites.google.com/site/ad79eruption/pompeii/regio-vi/reg-vi-ins-16/house-of-the-ara-maxima",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SAEEN7M7",
+            "citationDetail": "House of the Ara Maxima",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Clements, Peter. “AD79: Destruction and Re-Discovery.” Accessed September 10, 2017. https://sites.google.com/site/ad79eruption/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "AD79",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Casa_dell'Ara_Massima",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+            "citationDetail": "Casa dell'Ara Massima",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.pompeiiinpictures.com/pompeiiinpictures/R6/6%2016%2015.htm",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/JU2FIK6G",
+            "citationDetail": "VI.16.15 Pompeii. Casa dell’Ara Massima or House of Pinarius or Casa di Narcisso",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Dunn, Jackie, and Bob Dunn. “PompeiiinPictures Ancient Pompeii Herculaneum Oplontis Stabiae.” PompeiiinPictures  A complete photographic plan of ancient Pompeii as it is today, produced by Jackie and Bob Dunn for those as enthusiastic about Pompeii as we are., December 11, 2018. https://pompeiiinpictures.com/pompeiiinpictures/index.htm.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PompeiiinPictures",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.pompeiisites.org/Sezione.jsp?titolo=Casa+dell%27Ara+Massima+%28VI+16%2C+15-17%29&idSezione=6895&lookfor=ara%20massima",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RQWYV366",
+            "citationDetail": "Casa dell'Ara Massima (VI 16, 15-17)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Osanna, Massimo, ed. <i>Pompeii Sites: Portale Ufficiale Parco Archeologico di Pompei</i>. Accessed January 10, 2020. http://pompeiisites.org/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Pompeii Sites",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.skenographia.cch.kcl.ac.uk/aramaxima/index.html",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Skenographia Project: The House of the Ara Maxima",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1046582",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "House of the Ara Maxima (Q1046582)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://resource.manto.unh.edu/11319115",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SLCUI2TB",
+            "citationDetail": "11319115: Casa dell’Ara Massima VI 16, 15.17 (Pompeii)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Hawes, Greta, and Scott Smith. <i>MANTO</i>. Accessed February 17, 2023. https://www.manto-myth.org/manto.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "MANTO",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        14.48476107375942,
+        40.75268520373143
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "House of the Ara Maxima",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/340380318"
+}

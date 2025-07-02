@@ -1,0 +1,339 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -2.4325382,
+        41.1706818,
+        -2.4324083,
+        41.1707902
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/246528",
+            "contributors": [],
+            "created": "2021-04-30T10:56:01Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-04-30T10:56:15Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2021-04-30T10:56:08Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2021-04-30T10:56:02Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2021-04-30T10:56:01Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "okilis",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Okilis",
+            "uri": "https://pleiades.stoa.org/places/768000924/okilis"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/246528"
+    ],
+    "contributors": [],
+    "created": "2013-03-12T20:34:40Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A triple-bay Roman Imperial arch near Medinaceli, Spain, that was originally dedicated to the emperor Domitian and later re-dedicated to Trajan.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -2.4324373,
+                        41.1707902
+                    ],
+                    [
+                        -2.4324083,
+                        41.1707718
+                    ],
+                    [
+                        -2.4324554,
+                        41.1707298
+                    ],
+                    [
+                        -2.4325092,
+                        41.1706818
+                    ],
+                    [
+                        -2.4325382,
+                        41.1707003
+                    ],
+                    [
+                        -2.4324373,
+                        41.1707902
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-arco-de-medinaceli",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/768000924/osm-location-of-arco-de-medinaceli",
+                "location_precision": "precise",
+                "snippet": "Arch; 30 BC - AD 300",
+                "title": "OSM location of Arco de Medinaceli"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Q2023741",
+            "modified": "2025-03-02T17:23:09Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2021-04-30T10:56:15Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-02-07T17:03:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2015-07-04T14:41:13Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2013-07-15T20:21:53Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2013-03-12T20:36:31Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2013-03-12T20:34:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2013-03-12T20:34:40Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "768000924",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-06-09T15:21:37Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "arch"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/arch"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -2.4324373,
+                        41.1707902
+                    ],
+                    [
+                        -2.4324083,
+                        41.1707718
+                    ],
+                    [
+                        -2.4324554,
+                        41.1707298
+                    ],
+                    [
+                        -2.4325092,
+                        41.1706818
+                    ],
+                    [
+                        -2.4325382,
+                        41.1707003
+                    ],
+                    [
+                        -2.4324373,
+                        41.1707902
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2025-03-02T17:22:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-07-03T21:11:57Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-06-09T15:22:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add OSM location",
+                    "modified": "2024-06-09T15:22:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-06-09T15:21:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-06-09T15:21:37Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-arco-de-medinaceli",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/arch"
+            ],
+            "provenance": "OpenStreetMap (Way 389621510, version 9, osm:changeset=144703120, 2023-12-02T20:20:10Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/389621510",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 389621510",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=389621510",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Arco de Medinaceli",
+            "uri": "https://pleiades.stoa.org/places/768000924/osm-location-of-arco-de-medinaceli"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/arch"
+    ],
+    "placeTypes": [
+        "arch"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Roman_arch_%28Medinaceli%29",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Roman arch (Medinaceli)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Roman arch (Medinaceli).",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://es.wikipedia.org/wiki/Arco_de_Medinaceli",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/LPYQ8SZL",
+            "citationDetail": "Arco de Medinaceli",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: la enciclopedia de contenido libre (2001-), Arco de Medinaceli.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (Spanish)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q2023741",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Roman arch of Medinaceli (Q2023741)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        -2.4324732563184965,
+        41.17073601739053
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "extant remains"
+    ],
+    "title": "Roman arch (Medinaceli)",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/768000924"
+}

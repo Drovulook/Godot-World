@@ -1,0 +1,367 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.8249412,
+        37.5830427,
+        12.8257096,
+        37.5832978
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/462489",
+            "contributors": [],
+            "created": "2017-02-01T18:44:47Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-02-01T18:45:44Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-02-01T18:45:38Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "type",
+                    "modified": "2017-02-01T18:45:11Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2017-02-01T18:44:48Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2017-02-01T18:44:47Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "selinus",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Selinus",
+            "uri": "https://pleiades.stoa.org/places/795363785/selinus"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/462489"
+    ],
+    "contributors": [],
+    "created": "2016-06-24T11:15:40Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "The so-called Temple C at Selinus is a Doric temple that dates to the second half of the sixth century B.C.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            12.8249613,
+                            37.5832978
+                        ],
+                        [
+                            12.8257096,
+                            37.5832553
+                        ],
+                        [
+                            12.8256908,
+                            37.5830427
+                        ],
+                        [
+                            12.8249412,
+                            37.5830831
+                        ]
+                    ],
+                    [
+                        [
+                            12.8249613,
+                            37.5832978
+                        ],
+                        [
+                            12.8249412,
+                            37.5830831
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "id": "osm-location-of-temple-c",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/795363785/osm-location-of-temple-c",
+                "location_precision": "precise",
+                "snippet": "Temple-2; 750 BC - 330 BC",
+                "title": "OSM location of Temple C"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add arachne",
+            "modified": "2023-09-16T23:55:02Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added wikidata Q3983175: Temple C",
+            "modified": "2020-08-09T14:47:25Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "title regularization",
+            "modified": "2017-02-01T18:50:25Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2017-02-01T18:45:44Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2016-08-12T18:12:32Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2016-08-12T18:12:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2016-06-24T11:15:44Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2016-06-24T11:15:40Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "795363785",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-09-16T23:53:27Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -330,
+            "featureType": [
+                "temple-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            12.8249613,
+                            37.5832978
+                        ],
+                        [
+                            12.8257096,
+                            37.5832553
+                        ],
+                        [
+                            12.8256908,
+                            37.5830427
+                        ],
+                        [
+                            12.8249412,
+                            37.5830831
+                        ]
+                    ],
+                    [
+                        [
+                            12.8249613,
+                            37.5832978
+                        ],
+                        [
+                            12.8249412,
+                            37.5830831
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full relation geometry and updated provenance",
+                    "modified": "2024-07-03T18:18:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-09-18T16:23:03Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-09-16T23:53:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location.",
+                    "modified": "2023-09-16T23:53:50Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-09-16T23:53:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-09-16T23:53:27Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-temple-c",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "provenance": "OpenStreetMap (Relation 6622176, version 2, osm:changeset=47005656, 2017-03-20T08:51:26Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/relation/6622176",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Relation 6622176",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:relation=6622176",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -750,
+            "title": "OSM location of Temple C",
+            "uri": "https://pleiades.stoa.org/places/795363785/osm-location-of-temple-c"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "temple-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Temple_C_(Selinus)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Temple C (Selinus)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Temple C (Selinus).",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q3983175",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q3983175: Temple C",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://arachne.dainst.org/entity/1213375",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "citationDetail": "Tempel C Selinunt, Italien, Europa",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Arachne",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        12.825325290229374,
+        37.58316968328567
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "limestone",
+        "extant remains",
+        "Doric",
+        "temple"
+    ],
+    "title": "Temple C at Selinus",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/795363785"
+}

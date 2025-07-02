@@ -1,0 +1,402 @@
+{
+    "@type": "Place",
+    "bbox": [
+        2.4411641,
+        36.5923679,
+        2.4421404,
+        36.5929343
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/295363",
+            "contributors": [],
+            "created": "2018-03-01T00:10:43Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-03-01T00:10:43Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-03-01T00:10:43Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-03-01T00:10:43Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "0432049334",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Tipasa",
+            "uri": "https://pleiades.stoa.org/places/20698830/0432049334"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/295363"
+    ],
+    "contributors": [],
+    "created": "2018-03-01T00:10:41Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "The Roman theater at Tipasa.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.4420599,
+                        36.5929343
+                    ],
+                    [
+                        2.4411641,
+                        36.5927448
+                    ],
+                    [
+                        2.4412767,
+                        36.5925359
+                    ],
+                    [
+                        2.4414725,
+                        36.5923916
+                    ],
+                    [
+                        2.4417005,
+                        36.5923679
+                    ],
+                    [
+                        2.4418588,
+                        36.5923937
+                    ],
+                    [
+                        2.4420224,
+                        36.5924777
+                    ],
+                    [
+                        2.4421404,
+                        36.5926242
+                    ],
+                    [
+                        2.4421257,
+                        36.5927497
+                    ],
+                    [
+                        2.4421136,
+                        36.5928524
+                    ],
+                    [
+                        2.4420599,
+                        36.5929343
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-roman-theater",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/20698830/location-of-roman-theater",
+                "location_precision": "precise",
+                "snippet": "Theatre; 30 BC - AD 640",
+                "title": "OSM location of Roman theater"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2025-03-08T03:09:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2025-03-08T03:06:01Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2025-03-08T03:03:44Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2021-04-19T22:01:06Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2021-04-18T15:13:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2021-04-18T15:13:50Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2018-03-01T00:11:02Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-03-01T00:10:45Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-03-01T00:10:41Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "20698830",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-early-empire-late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-late-antique"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-03-15T19:31:15Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "theatre"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/theatre"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.4420599,
+                        36.5929343
+                    ],
+                    [
+                        2.4411641,
+                        36.5927448
+                    ],
+                    [
+                        2.4412767,
+                        36.5925359
+                    ],
+                    [
+                        2.4414725,
+                        36.5923916
+                    ],
+                    [
+                        2.4417005,
+                        36.5923679
+                    ],
+                    [
+                        2.4418588,
+                        36.5923937
+                    ],
+                    [
+                        2.4420224,
+                        36.5924777
+                    ],
+                    [
+                        2.4421404,
+                        36.5926242
+                    ],
+                    [
+                        2.4421257,
+                        36.5927497
+                    ],
+                    [
+                        2.4421136,
+                        36.5928524
+                    ],
+                    [
+                        2.4420599,
+                        36.5929343
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-03-10T05:29:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-04-19T22:01:06Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2018-02-17T14:25:04Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-03-15T19:35:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-03-15T19:33:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-03-15T19:31:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-03-15T19:31:16Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-roman-theater",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/theatre"
+            ],
+            "provenance": "OpenStreetMap (Way 266408727, version 7, osm:changeset=131210793, 2023-01-13T02:23:20Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/266408727",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 266408727",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=266408727",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Roman theater",
+            "uri": "https://pleiades.stoa.org/places/20698830/location-of-roman-theater"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/theatre"
+    ],
+    "placeTypes": [
+        "theatre"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q129992260",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Roman Theater of Tipasa (Q129992260)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "http://theatrum.de/3073.html",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/NC5FZPQN",
+            "citationDetail": "3073",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Gogräfe, Rüdiger, and Hubertus Mikler. <i>Theatrum</i>. Mainz: Direktion Landesarchäologie Mainz, 2011. http://www.theatrum.de.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Theatrum",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://vici.org/vici/11807",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "citationDetail": "11807",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "vici.org",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://commons.wikimedia.org/wiki/Category:Ancient_Roman_theatres_in_Tipaza",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/L8RBW985",
+            "citationDetail": "Category:Ancient Roman theatres in Tipaza",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Wikimedia Commons. “Wikimedia Commons.” Media file repository, 2004. https://commons.wikimedia.org/wiki/Main_Page.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikimedia Commons",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        2.4416860010820503,
+        36.59265278327138
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "theater",
+        "Theater"
+    ],
+    "title": "Roman theater, Tipasa",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/20698830"
+}

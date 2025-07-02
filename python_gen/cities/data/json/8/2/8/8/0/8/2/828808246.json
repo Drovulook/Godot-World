@@ -1,0 +1,359 @@
+{
+    "@type": "Place",
+    "bbox": [
+        14.9963823,
+        40.4211566,
+        14.9963823,
+        40.4211566
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/442733",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2016-07-13T13:49:03Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "type: at",
+                    "modified": "2017-02-01T19:15:14Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:49:03Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:49:03Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:49:03Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "442733",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Poseidonia/Paestum",
+            "uri": "https://pleiades.stoa.org/places/828808246/442733"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/442733"
+    ],
+    "contributors": [],
+    "created": "2016-06-24T20:25:40Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "The so-called Porta Marina of Paestum is a gate in the Hellenistic fortifications and is located along a main street axis leading to the port of the city.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    14.9963823,
+                    40.4211566
+                ],
+                "type": "Point"
+            },
+            "id": "location-of-tower-at-porta-marina",
+            "properties": {
+                "description": "Representative point location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/828808246/location-of-tower-at-porta-marina",
+                "location_precision": "precise",
+                "snippet": "Tower-gate; 550 BC - AD 300",
+                "title": "OSM location of tower at Porta Marina"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "Edited",
+            "modified": "2025-01-30T04:25:49Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-12-18T19:37:22Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2017-02-01T19:42:58Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2017-02-01T19:39:22Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-02-01T19:39:08Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2016-06-29T01:04:41Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2016-06-29T00:44:47Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2016-06-24T20:25:44Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2016-06-24T20:25:40Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "828808246",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2013-03-20T20:27:20Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative point location based on OpenStreetMap.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "tower-gate"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tower-gate"
+            ],
+            "geometry": {
+                "coordinates": [
+                    14.9963823,
+                    40.4211566
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Feature type",
+                    "modified": "2025-01-30T04:26:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full node geometry and updated provenance",
+                    "modified": "2024-12-18T19:29:31Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-29T00:44:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-03-21T21:40:58Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-03-21T02:45:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2013-03-20T20:28:59Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2013-03-20T20:27:23Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-03-20T20:27:22Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-tower-at-porta-marina",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tower-gate"
+            ],
+            "provenance": "OpenStreetMap (Node 1599726195, version 2, osm:changeset=110534226, 2021-08-31T22:11:49Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/node/1599726195",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 1599726195",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=1599726195",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -550,
+            "title": "OSM location of tower at Porta Marina",
+            "uri": "https://pleiades.stoa.org/places/828808246/location-of-tower-at-porta-marina"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tower-gate"
+    ],
+    "placeTypes": [
+        "tower-gate"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://books.google.com/books?id=5kMjzj8WJhgC&pg=PA110&dq=porta+marina+paestum&hl=en&sa=X&ved=0ahUKEwi62tORhMzNAhWGWSYKHW-eAF8Q6AEIITAA#v=onepage&q=porta%20marina%20paestum&f=false",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/F7X42AT3",
+            "citationDetail": "110",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Becker, Jeffrey Alan. “The Building Blocks of Empire: Civic Architecture, Central Italy, and the Roman Middle Republic.” Doctoral, University of North Carolina at Chapel Hill, 2007. https://cdr.lib.unc.edu/concern/dissertations/rn301242g?locale=en.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Becker 2007",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.persee.fr/doc/mefr_0223-5102_1992_num_104_1_8117",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WUHHJMUQ",
+            "citationDetail": "500-505",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Greco, Emanuele, Dinu Theodorescu, Ilaria D’ambrosio, Domenico Gasparri, Agnès Rouveret, and Renaud Robert. “Paestum.” <i>Mélanges de l’école française de Rome</i> 104, no. 1 (1992): 500–505. https://www.persee.fr/doc/mefr_0223-5102_1992_num_104_1_8117.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Greco et al. 1992",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://books.google.com/books?id=Tk1oAAAAMAAJ&q=porta+marina+paestum&dq=porta+marina+paestum&hl=en&sa=X&ved=0ahUKEwi62tORhMzNAhWGWSYKHW-eAF8Q6AEITjAH",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HEZUSFKG",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Greco, Emanuele, and Fausto Longo. <i>Paestum: scavi, studi, ricerche : bilancio di un decennio : 1988-1998</i>. Pandemos, 2000. https://www.google.com/books/edition/Paestum/Tk1oAAAAMAAJ?hl=en.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Greco and Longo 2000",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.persee.fr/doc/mefr_0223-5102_1999_num_111_1_8904?q=porta%20marina%20paestum",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/GRDIP8H5",
+            "citationDetail": "s.v. \"Secteur de la Porta Marina\"",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Rouveret, Agnès, and Dinu Theodorescu. “Secteur de la Porta Marina.” <i>Mélanges de l’école française de Rome</i> 111, no. 1 (1999): 494–98. https://www.persee.fr/doc/mefr_0223-5102_1999_num_111_1_8904?q=porta%20marina%20paestum.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Rouveret and Theodorescu 1999",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/7ZVMZCDG",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Longo, Fausto. <i>Le mura di Paestum: antologia di documenti, dipinti, stampe grafiche e fotografiche dal cinquecento agli anni trenta del novecento</i>. Tekmeria 12. Paestum: Fondazione Paestum, 2012.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Longo 2012",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        14.9963823,
+        40.4211566
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "gate",
+        "tower",
+        "extant remains"
+    ],
+    "title": "Porta Marina tower of Poseidonia/Paestum",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/828808246"
+}

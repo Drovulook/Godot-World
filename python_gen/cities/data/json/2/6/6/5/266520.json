@@ -1,0 +1,357 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -3.689824,
+        36.762144,
+        -3.689824,
+        36.762144
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/266038",
+            "contributors": [],
+            "created": "2018-06-05T21:56:23Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-06-05T21:56:33Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-06-05T21:56:29Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2018-06-05T21:56:25Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-06-05T21:56:23Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "sexi-saxetanum",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Sexi/Saxetanum",
+            "uri": "https://pleiades.stoa.org/places/266520/sexi-saxetanum"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/266038"
+    ],
+    "contributors": [
+        {
+            "name": "R. Warner",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-09-24T19:07:56Z",
+    "creators": [
+        {
+            "name": "P.O. Spann",
+            "username": null
+        }
+    ],
+    "description": "One of five Roman-era aqueducts known from Sexi (modern Almuñécar, Spain). This one is represented by an extant aqueduct bridge located near the source of the Rio Verde, north of Sexi.",
+    "details": "<p>The Barrington Atlas Directory notes: Torrecuevas, N Sexi</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -3.68945,
+                        36.7632543
+                    ],
+                    [
+                        -3.6895192,
+                        36.7630981
+                    ],
+                    [
+                        -3.6896876,
+                        36.7626133
+                    ],
+                    [
+                        -3.6897908,
+                        36.762303
+                    ],
+                    [
+                        -3.689824,
+                        36.762144
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-aqueduct-bridge",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/266520/osm-location-of-aqueduct-bridge",
+                "location_precision": "precise",
+                "snippet": "Aqueduct, ; 30 BC - AD 300",
+                "title": "OSM Location of aqueduct bridge"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "summary",
+            "modified": "2018-06-05T21:57:41Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "edited description, added references",
+            "modified": "2014-01-11T17:21:25Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T03:53:30Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:22:53Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-09-24T19:34:54Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-09-24T19:10:55Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-09-24T19:07:56Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "266520",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-04-04T23:06:19Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "aqueduct",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/aqueduct",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -3.68945,
+                        36.7632543
+                    ],
+                    [
+                        -3.6895192,
+                        36.7630981
+                    ],
+                    [
+                        -3.6896876,
+                        36.7626133
+                    ],
+                    [
+                        -3.6897908,
+                        36.762303
+                    ],
+                    [
+                        -3.689824,
+                        36.762144
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2023-04-05T00:28:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Baseline created",
+                    "modified": "2023-04-04T23:06:19Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-06-05T21:56:04Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-01-11T17:19:24Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-01-11T17:18:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-01-11T17:18:04Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-01-11T17:18:04Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-aqueduct-bridge",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/aqueduct",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 74876728, version 11, osm:changeset=92243102, 2020-10-09T14:23:37Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/74876728",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 74876728",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=74876728",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM Location of aqueduct bridge",
+            "uri": "https://pleiades.stoa.org/places/266520/osm-location-of-aqueduct-bridge"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/aqueduct"
+    ],
+    "placeTypes": [
+        "aqueduct"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 27 B5",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "27 B5",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/f.html#Fernández-Casado-1972",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Fernández Casado 1972",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Almu%C3%B1%C3%A9car",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Almuñécar",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Almuñécar.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        -3.689824,
+        36.762144
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Torrecuevas aqueduct",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/266520"
+}

@@ -1,0 +1,357 @@
+{
+    "@type": "Place",
+    "bbox": [
+        6.468666,
+        35.484237,
+        6.468666,
+        35.484237
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "succeeds",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/succeeds",
+            "connectsTo": "https://pleiades.stoa.org/places/334636",
+            "contributors": [],
+            "created": "2018-06-22T00:18:34Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "comment": "ctype",
+                    "modified": "2023-02-28T01:29:23Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-06-22T00:18:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-06-22T00:18:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-06-22T00:18:34Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "7146758476",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Thamugadi",
+            "uri": "https://pleiades.stoa.org/places/114562501/7146758476"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/334636"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2018-06-22T00:18:15Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A sixth century A.D. Byzantine fortress built at Timgad by the governor Solomon.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    6.468666,
+                    35.484237
+                ],
+                "type": "Point"
+            },
+            "id": "byzantine-fortress",
+            "properties": {
+                "description": "A sixth century AD Byzantine fortress built at Timgad by the governor Solomon",
+                "link": "https://pleiades.stoa.org/places/114562501/byzantine-fortress",
+                "location_precision": "precise",
+                "snippet": "Fort; AD 300 - AD 1453",
+                "title": "Byzantine fortress"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "title; place type",
+            "modified": "2023-02-28T10:18:52Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "vici.org 11801: Timgad, Byzantine Fortress",
+            "modified": "2023-02-28T01:32:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "wikidata Q87745203: Byzantine Fort of Timgad",
+            "modified": "2021-10-10T16:07:51Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2021-10-10T12:51:55Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "wikidata Q87745203",
+            "modified": "2020-05-21T16:03:49Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "reference",
+            "modified": "2020-05-21T15:45:41Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-11-20T22:26:42Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "references",
+            "modified": "2018-11-20T22:26:35Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-06-22T00:18:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-06-22T00:18:15Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "114562501",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "mediaeval-byzantine",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/mediaeval-byzantine"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2012-09-30T01:25:02Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "A sixth century AD Byzantine fortress built at Timgad by the governor Solomon",
+            "details": "",
+            "end": 1453,
+            "featureType": [
+                "fort"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort"
+            ],
+            "geometry": {
+                "coordinates": [
+                    6.468666,
+                    35.484237
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "corrected reference",
+                    "modified": "2025-02-12T22:39:21Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "added Generic OSM Accuracy Assessment",
+                    "modified": "2025-02-12T22:36:51Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-11-13T01:49:40Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-11-13T01:48:38Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2012-09-30T15:40:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2012-09-30T15:27:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2012-09-30T01:25:04Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-09-30T01:25:02Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "byzantine-fortress",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/fort"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UTB74JMV",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "<div class=\"csl-entry\">Lassus, Jean. <i>La forteresse byzantine de Thamugadi: fouilles à Timgad 1938-1956. 1</i>. Fouilles à Timgad 938-956 1. Paris: Editions du Centre national de la recherche scientifique, 1981.</div>",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Lassus 1981",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "start": 300,
+            "title": "Byzantine fortress",
+            "uri": "https://pleiades.stoa.org/places/114562501/byzantine-fortress"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort-2",
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+    ],
+    "placeTypes": [
+        "fort-2",
+        "fort"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://commons.wikimedia.org/wiki/Category:Byzantine_Fort_(Timgad)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/L8RBW985",
+            "citationDetail": "Category:Byzantine Fort (Timgad)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">“Wikimedia Commons.” Media file repository. Wikimedia Commons, 2004. https://commons.wikimedia.org/wiki/Main_Page.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikimedia Commons",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Timgad",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Timgad",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UTB74JMV",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Lassus, Jean. <i>La Forteresse Byzantine de Thamugadi</i>. Fouilles à Timgad 938-956 1. Paris: Editions du Centre national de la recherche scientifique, 1981.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Lassus 1981",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q87745203",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q87745203: Byzantine Fort of Timgad",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://vici.org/vici/11801/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "citationDetail": "11801: Timgad, Byzantine Fortress",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "vici.org",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        6.468666,
+        35.484237
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Byzantine fortress at Timgad",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/114562501"
+}

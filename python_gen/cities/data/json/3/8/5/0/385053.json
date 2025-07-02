@@ -1,0 +1,348 @@
+{
+    "@type": "Place",
+    "bbox": [
+        7.2074956,
+        45.7024174,
+        7.2074956,
+        45.7024174
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "on",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/on",
+            "connectsTo": "https://pleiades.stoa.org/places/383635",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2019-07-17T01:26:35Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-08-02T20:53:20Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2019-08-02T20:53:16Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-07-17T01:26:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2019-07-17T01:26:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-07-17T01:26:35Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "duria-bautica-river",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Duria (Bautica) (river)",
+            "uri": "https://pleiades.stoa.org/places/385053/duria-bautica-river"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/383635"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2019-07-17T01:33:17Z",
+    "creators": [
+        {
+            "name": "M. Pearce",
+            "username": null
+        },
+        {
+            "name": "P. Tozzi",
+            "username": null
+        }
+    ],
+    "description": "According to the Barrington Atlas directory, an ancient group of bridges crossing the river Duria (Bautica) is found at Villeneuve/Leverogne to the west of Aosta.",
+    "details": "<p>The Barrington Atlas Directory notes: over Duria (Bautica) fl. at Villeneuve/Leverogne, W Augusta Praetoria</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    7.2074956,
+                    45.7024174
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-villeneuve",
+            "properties": {
+                "description": "The location of the modern village of Villeneuve derived from a node in OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/385053/osm-location-of-villeneuve",
+                "location_precision": "precise",
+                "snippet": "Settlement-modern; AD 1700 - AD 2100",
+                "title": "OSM location of modern Villeneuve"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "",
+            "modified": "2019-07-17T17:34:39Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "reference",
+            "modified": "2019-07-17T01:33:06Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2019-07-17T01:31:34Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2014-12-29T21:21:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T04:37:11Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:36:58Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-15T18:28:36Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-15T18:07:27Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-15T17:52:42Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "385053",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-12-29T22:04:24Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "The location of the modern village of Villeneuve derived from a node in OpenStreetMap.",
+            "details": "",
+            "end": 2100,
+            "featureType": [
+                "settlement-modern"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement-modern"
+            ],
+            "geometry": {
+                "coordinates": [
+                    7.2074956,
+                    45.7024174
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2021-04-07T09:05:51Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-07-17T01:35:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2019-07-17T01:35:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-12-29T22:04:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-12-29T22:04:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-12-29T22:04:27Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-villeneuve",
+            "locationType": [
+                "associated_modern"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement-modern"
+            ],
+            "provenance": "OpenStreetMap (Node 928224929, version 3, osm:changeset=13757896, 2012-11-05T08:55:35Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/node/928224929",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 928224929",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=928224929",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 1700,
+            "title": "OSM location of modern Villeneuve",
+            "uri": "https://pleiades.stoa.org/places/385053/osm-location-of-villeneuve"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/bridge",
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement-modern"
+    ],
+    "placeTypes": [
+        "bridge",
+        "settlement-modern"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 39 A2",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "39 A2",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/10235441",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/B4GCPA32",
+            "citationDetail": "92, 115-16",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Manasse, Giuliana Cavalieri, Graziella Massari, and Maria Pia Rossignani, eds. <i>Piemonte, Valle d’Aosta, Liguria, Lombardia</i>. 1 vols. Guide archeologiche Laterza 1. Bari, Rome: Laterza, 1982. http://www.worldcat.org/oclc/10235441.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "GAL Piemonte",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Villeneuve_(Italia)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Villeneuve (Italia)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Villeneuve (Italia).",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4KHC8EKS",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Lucchese, Laura. “I ponti romani di Pont-Saint-Martin, Bard, Saint-Vincent, Châtillon, Aosta e Lévérogne.” In <i>Viabilità e insediamenti nell’Italia antica</i>, edited by Lorenzo Quilici and Stefania Quilici Gigli, 7–23. Roma: “L’Erma” di Bretschneider, 2004.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Lucchese 2004",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        7.2074956,
+        45.7024174
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Unnamed bridge at Lévérogne",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/385053"
+}

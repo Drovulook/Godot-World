@@ -1,0 +1,269 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -0.9801591,
+        37.6006254,
+        -0.9801591,
+        37.6006254
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/265849",
+            "contributors": [],
+            "created": "2018-05-30T22:26:54Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-05-30T22:26:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-05-30T22:26:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-05-30T22:26:54Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "2149200505",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Carthago Nova/Col. Urbs Iulia",
+            "uri": "https://pleiades.stoa.org/places/480038469/2149200505"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/265849"
+    ],
+    "contributors": [],
+    "created": "2018-05-30T22:26:53Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Roman amphitheater at Cartagena dates to the first century.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.9801591,
+                    37.6006254
+                ],
+                "type": "Point"
+            },
+            "id": "osm-location-of-anfiteatro-romano-y-plaza-de-toros",
+            "properties": {
+                "description": "Representstive location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/480038469/osm-location-of-anfiteatro-romano-y-plaza-de-toros",
+                "location_precision": "precise",
+                "snippet": "Amphitheatre; 30 BC - AD 300",
+                "title": "OSM location of Anfiteatro Romano y Plaza de Toros"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "wikidata Carthago Nova amphitheatre (Q651415)",
+            "modified": "2024-11-03T02:12:34Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-06-05T21:24:57Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-06-03T15:00:05Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary, reference",
+            "modified": "2018-06-03T14:59:42Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "title",
+            "modified": "2018-05-30T22:27:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-05-30T22:26:56Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-05-30T22:26:53Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "480038469",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-11-03T02:11:01Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representstive location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "amphitheatre"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre"
+            ],
+            "geometry": {
+                "coordinates": [
+                    -0.9801591,
+                    37.6006254
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-11-04T15:18:44Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-11-03T02:11:29Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location whose underlying OSM data is now deprecated",
+                    "modified": "2024-11-03T02:11:23Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-11-03T02:11:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-11-03T02:11:01Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-anfiteatro-romano-y-plaza-de-toros",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre"
+            ],
+            "provenance": "OpenStreetMap (Node 11697820474, version 1, osm:changeset=148301300, 2024-03-06T15:40:01Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/node/11697820474",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Node 11697820474",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:node=11697820474",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Anfiteatro Romano y Plaza de Toros",
+            "uri": "https://pleiades.stoa.org/places/480038469/osm-location-of-anfiteatro-romano-y-plaza-de-toros"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre"
+    ],
+    "placeTypes": [
+        "amphitheatre"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://es.wikipedia.org/wiki/Anfiteatro_de_Cartagena",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/LPYQ8SZL",
+            "citationDetail": "Anfiteatro de Cartagena",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: la enciclopedia de contenido libre</i>. Wikimedia Foundation, 2001. https://es.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Spanish)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q651415",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Carthago Nova amphitheatre (Q651415)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        -0.9801591,
+        37.6006254
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "amphitheater"
+    ],
+    "title": "Roman amphitheater at Carthago Nova/Col. Urbs Iulia",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/480038469"
+}

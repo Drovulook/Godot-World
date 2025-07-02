@@ -1,0 +1,376 @@
+{
+    "@type": "Place",
+    "bbox": [
+        35.8843757,
+        34.1030124,
+        35.8850329,
+        34.1038453
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "name": "R. Warner",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2009-10-19T12:24:45Z",
+    "creators": [
+        {
+            "name": "J.P. Brown",
+            "username": null
+        },
+        {
+            "name": "P.-L. Gatier",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 68 A5 Yanuh",
+    "details": "The Barrington Atlas Directory notes: Yanuh, LEB",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        35.8846171,
+                        34.1038453
+                    ],
+                    [
+                        35.8843757,
+                        34.1035743
+                    ],
+                    [
+                        35.8844187,
+                        34.1034366
+                    ],
+                    [
+                        35.8845528,
+                        34.103199
+                    ],
+                    [
+                        35.8847218,
+                        34.1030124
+                    ],
+                    [
+                        35.8848532,
+                        34.1030257
+                    ],
+                    [
+                        35.8849658,
+                        34.1031701
+                    ],
+                    [
+                        35.8850329,
+                        34.1032434
+                    ],
+                    [
+                        35.8850248,
+                        34.1032834
+                    ],
+                    [
+                        35.8849712,
+                        34.1033433
+                    ],
+                    [
+                        35.8848961,
+                        34.1033789
+                    ],
+                    [
+                        35.8846171,
+                        34.1038453
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/668400/osm-location",
+                "location_precision": "precise",
+                "snippet": "Sanctuary; 30 BC - AD 300",
+                "title": "OSM location of Tell Yanuh"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "created darmc citation to preserve project linkage after DARMC location was withdrawn",
+            "modified": "2025-02-14T19:26:10Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T23:10:14Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T07:46:47Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-03-09T22:56:06Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T20:57:05Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2009-10-19T14:03:17Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-10-19T12:28:51Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-10-19T12:24:45Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "668400",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-11-21T16:40:33Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "sanctuary"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        35.8846171,
+                        34.1038453
+                    ],
+                    [
+                        35.8843757,
+                        34.1035743
+                    ],
+                    [
+                        35.8844187,
+                        34.1034366
+                    ],
+                    [
+                        35.8845528,
+                        34.103199
+                    ],
+                    [
+                        35.8847218,
+                        34.1030124
+                    ],
+                    [
+                        35.8848532,
+                        34.1030257
+                    ],
+                    [
+                        35.8849658,
+                        34.1031701
+                    ],
+                    [
+                        35.8850329,
+                        34.1032434
+                    ],
+                    [
+                        35.8850248,
+                        34.1032834
+                    ],
+                    [
+                        35.8849712,
+                        34.1033433
+                    ],
+                    [
+                        35.8848961,
+                        34.1033789
+                    ],
+                    [
+                        35.8846171,
+                        34.1038453
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2025-02-14T19:25:36Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-02-06T16:10:21Z",
+                    "modifiedBy": "rmhorne"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-12-09T22:26:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-12-09T22:26:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-11-21T16:41:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-11-21T16:40:41Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-11-21T16:40:37Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/sanctuary"
+            ],
+            "provenance": "OpenStreetMap (Way 313844100, version 1, osm:changeset=26932232, 2014-11-21T16:40:03Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/313844100",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 313844100",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=313844100",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Tell Yanuh",
+            "uri": "https://pleiades.stoa.org/places/668400/osm-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/sanctuary",
+        "https://pleiades.stoa.org/vocabularies/place-types/temple"
+    ],
+    "placeTypes": [
+        "sanctuary",
+        "temple"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 68 A5 Yanuh",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "68 A5 Yanuh",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/k.html#Krencker-1938-35-37",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Krencker 1938 35-37",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "16266",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        35.88468879188165,
+        34.10340263995478
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=0",
+        "dare:feature=temple"
+    ],
+    "title": "Yanuh",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/668400"
+}

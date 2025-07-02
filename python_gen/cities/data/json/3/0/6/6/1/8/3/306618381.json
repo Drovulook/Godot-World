@@ -1,0 +1,415 @@
+{
+    "@type": "Place",
+    "bbox": [
+        4.8741383,
+        45.5254069,
+        4.8744515,
+        45.5255399
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/167719",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-07-13T13:37:52Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "comment": "change cnxn type",
+                    "modified": "2018-08-10T00:51:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:37:52Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:37:52Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:37:52Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "167719",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Col. Vienna",
+            "uri": "https://pleiades.stoa.org/places/306618381/167719"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/167719"
+    ],
+    "contributors": [],
+    "created": "2016-07-01T13:56:54Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "The so-called Temple of Augustus et Livia dates ca. 10 B.C. and was originally dedicated to Roma and Augustus. The temple was located on the ancient forum of the city. By the fifth century the temple had become a Christian church. It was extensively restored in the nineteenth century.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        4.8744,
+                        45.5255399
+                    ],
+                    [
+                        4.8744,
+                        45.5255383
+                    ],
+                    [
+                        4.8744505,
+                        45.5255384
+                    ],
+                    [
+                        4.8744505,
+                        45.5255316
+                    ],
+                    [
+                        4.8744492,
+                        45.5255316
+                    ],
+                    [
+                        4.8744499,
+                        45.525417
+                    ],
+                    [
+                        4.8744515,
+                        45.5254171
+                    ],
+                    [
+                        4.8744515,
+                        45.5254094
+                    ],
+                    [
+                        4.8744007,
+                        45.5254093
+                    ],
+                    [
+                        4.8744007,
+                        45.5254076
+                    ],
+                    [
+                        4.874139,
+                        45.5254069
+                    ],
+                    [
+                        4.8741383,
+                        45.5255392
+                    ],
+                    [
+                        4.8744,
+                        45.5255399
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-temple-dauguste-et-de-livie",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/306618381/osm-location-temple-dauguste-et-de-livie",
+                "location_precision": "precise",
+                "snippet": "Temple-2; 30 BC - AD 300",
+                "title": "OSM location: Temple d'Auguste et de Livie"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "action": "Publish externally",
+            "modified": "2021-02-02T23:38:15Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "updates",
+            "modified": "2021-01-16T20:37:07Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2016-07-25T15:40:25Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2016-07-25T15:40:17Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2016-07-01T13:56:56Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2016-07-01T13:56:54Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "306618381",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2024-12-22T21:57:32Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "temple-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        4.8744,
+                        45.5255399
+                    ],
+                    [
+                        4.8744,
+                        45.5255383
+                    ],
+                    [
+                        4.8744505,
+                        45.5255384
+                    ],
+                    [
+                        4.8744505,
+                        45.5255316
+                    ],
+                    [
+                        4.8744492,
+                        45.5255316
+                    ],
+                    [
+                        4.8744499,
+                        45.525417
+                    ],
+                    [
+                        4.8744515,
+                        45.5254171
+                    ],
+                    [
+                        4.8744515,
+                        45.5254094
+                    ],
+                    [
+                        4.8744007,
+                        45.5254093
+                    ],
+                    [
+                        4.8744007,
+                        45.5254076
+                    ],
+                    [
+                        4.874139,
+                        45.5254069
+                    ],
+                    [
+                        4.8741383,
+                        45.5255392
+                    ],
+                    [
+                        4.8744,
+                        45.5255399
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2025-01-09T16:28:35Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2024-12-22T21:57:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "supersedes previously published location.",
+                    "modified": "2024-12-22T21:57:53Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2024-12-22T21:57:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2024-12-22T21:57:32Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-temple-dauguste-et-de-livie",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "provenance": "OpenStreetMap (Way 255566177, version 10, osm:changeset=159114188, 2024-11-14T03:43:20Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/255566177",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 255566177",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=255566177",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location: Temple d'Auguste et de Livie",
+            "uri": "https://pleiades.stoa.org/places/306618381/osm-location-temple-dauguste-et-de-livie"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "temple-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://en.vienne-tourisme.com/temple-of-augustus-and-livia.html",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Temple of Augustus and Livia",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://commons.wikimedia.org/wiki/Category:Temple_of_Augustus_and_Livia_(Vienne)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/L8RBW985",
+            "citationDetail": "Category:Temple of Augustus and Livia (Vienne)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Wikimedia Commons. “Wikimedia Commons.” Media file repository, 2004. https://commons.wikimedia.org/wiki/Main_Page.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikimedia Commons",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q3517516",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q3517516: Temple of Augustus and Livia (Vienne)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://fr.wikipedia.org/wiki/Temple_d%27Auguste_et_de_Livie",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/B4HPCZIK",
+            "citationDetail": "Temple d'Auguste et de Livie",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipédia: L’encyclopédie libre que chacun peut améliorer</i>. Wikimedia Foundation, 2001. https://fr.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (French)",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        4.874294975569021,
+        45.52547342109749
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "Livia",
+        "extant remains",
+        "Augustus",
+        "imperial cult",
+        "Temple"
+    ],
+    "title": "Temple of Augustus et Livia",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/306618381"
+}

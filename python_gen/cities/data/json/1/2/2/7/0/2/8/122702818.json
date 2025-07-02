@@ -1,0 +1,995 @@
+{
+    "@type": "Place",
+    "bbox": [
+        12.1970098,
+        44.4208949,
+        12.1971721,
+        44.4210305
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/393480",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-07-13T13:53:27Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "history": [
+                {
+                    "comment": "changed cnxn type",
+                    "modified": "2018-12-17T02:36:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:53:27Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:53:27Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:53:27Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "393480",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": 300,
+            "title": "Ravenna",
+            "uri": "https://pleiades.stoa.org/places/122702818/393480"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/393480"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Noah Kaye",
+            "uri": "https://pleiades.stoa.org/author/nkaye",
+            "username": "nkaye"
+        }
+    ],
+    "created": "2016-06-24T20:47:43Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "An ancient funerary chapel, part of the Santa Croce complex in Ravenna, Italy, possibly built as an imperial mausoleum (ca. AD 417 - 425). The empress Galla Placidia (d. AD 450 ) is the presumed, likely patron of the building, though she is very unlikely to have been entombed within one of three sarcophagi found inside.",
+    "details": "<p>The mausoleum was added to the UNESCO World Heritage List in 1996.</p>\r\n<p>Coordinates determined by eye in Google Earth at an eye altitude of 73m. Google Street View was also consulted for verification.</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    12.197107,
+                    44.42092
+                ],
+                "type": "Point"
+            },
+            "id": "mausoleum-of-galla-placidia",
+            "properties": {
+                "description": "An ancient mausoleum and funerary chapel in Ravenna, Italy, probably built by the empress Galla Placidia (ca. AD 417-425).",
+                "link": "https://pleiades.stoa.org/places/122702818/mausoleum-of-galla-placidia",
+                "location_precision": "precise",
+                "snippet": "Church-2, Tomb, ; AD 300 - AD 2100",
+                "title": "Imagery location of Mausoleum of Galla Placidia"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.1970508,
+                        44.4209852
+                    ],
+                    [
+                        12.1970509,
+                        44.4210305
+                    ],
+                    [
+                        12.1970915,
+                        44.4210305
+                    ],
+                    [
+                        12.1971321,
+                        44.4210304
+                    ],
+                    [
+                        12.1971319,
+                        44.4209792
+                    ],
+                    [
+                        12.1971721,
+                        44.4209791
+                    ],
+                    [
+                        12.1971719,
+                        44.4209188
+                    ],
+                    [
+                        12.1971296,
+                        44.4209189
+                    ],
+                    [
+                        12.1971295,
+                        44.4208949
+                    ],
+                    [
+                        12.1970493,
+                        44.420895
+                    ],
+                    [
+                        12.1970495,
+                        44.4209258
+                    ],
+                    [
+                        12.1970098,
+                        44.4209258
+                    ],
+                    [
+                        12.1970101,
+                        44.4209852
+                    ],
+                    [
+                        12.1970508,
+                        44.4209852
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-mausoleum-of-galla-placidia",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/122702818/osm-location-mausoleum-of-galla-placidia",
+                "location_precision": "precise",
+                "snippet": "Tomb; AD 400 - AD 499",
+                "title": "OSM location: Mausoleum of Galla Placidia"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "references",
+            "modified": "2020-11-12T01:16:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "uwhs cleanup",
+            "modified": "2020-07-23T15:27:02Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2020-07-23T15:08:07Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2016-07-07T16:28:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added references",
+            "modified": "2016-07-07T16:09:52Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2016-07-07T15:40:52Z",
+            "modifiedBy": "nkaye"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-07T15:16:43Z",
+            "modifiedBy": "nkaye"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-07T15:13:11Z",
+            "modifiedBy": "nkaye"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-07T15:12:47Z",
+            "modifiedBy": "nkaye"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-07T15:10:24Z",
+            "modifiedBy": "nkaye"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-07T14:52:48Z",
+            "modifiedBy": "nkaye"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-07T14:33:33Z",
+            "modifiedBy": "nkaye"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2016-07-07T14:27:03Z",
+            "modifiedBy": "nkaye"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2016-06-24T20:47:47Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2016-06-24T20:47:43Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "122702818",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "mediaeval-byzantine",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/mediaeval-byzantine"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Noah Kaye",
+                    "uri": "https://pleiades.stoa.org/author/nkaye",
+                    "username": "nkaye"
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2012-11-14T15:58:20Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "An ancient mausoleum and funerary chapel in Ravenna, Italy, probably built by the empress Galla Placidia (ca. AD 417-425).",
+            "details": "<p>The mausoleum was added to the UNESCO World Heritage List in 1996.</p>\r\n<p>Coordinates determined by eye in Google Earth at an eye altitude of 73m. Google Street View was also consulted for verification.</p>",
+            "end": 2100,
+            "featureType": [
+                "church-2",
+                "tomb",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church-2",
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    12.197107,
+                    44.42092
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-07T15:15:58Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-07T15:15:25Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-30T02:14:30Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-30T02:13:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2012-11-16T11:52:39Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "tweaked coordinates",
+                    "modified": "2012-11-16T11:52:25Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2012-11-15T15:37:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "edited description",
+                    "modified": "2012-11-14T16:50:55Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "edited description",
+                    "modified": "2012-11-14T16:50:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "edited details",
+                    "modified": "2012-11-14T16:49:27Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2012-11-14T16:13:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2012-11-14T15:58:23Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2012-11-14T15:58:21Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "mausoleum-of-galla-placidia",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/church-2",
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Mausoleum_of_Galla_Placidia",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+                    "citationDetail": "Mausoleum of Galla Placidia",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Mausoleum of Galla Placidia.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "http://whc.unesco.org/en/list/788",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "UNESCO World Heritage List, Early Christian Monuments of Ravenna",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://tools.wmflabs.org/geohack/geohack.php?pagename=Mausoleum_of_Galla_Placidia&params=44_25_16_N_12_11_49_E_region:IT_type:landmark_source:dewiki",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "GeoHack - Mausoleum of Galla Placidia",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": 300,
+            "title": "Imagery location of Mausoleum of Galla Placidia",
+            "uri": "https://pleiades.stoa.org/places/122702818/mausoleum-of-galla-placidia"
+        },
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "fifth-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/fifth-ce"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-12-24T00:47:22Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 499,
+            "featureType": [
+                "tomb"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        12.1970508,
+                        44.4209852
+                    ],
+                    [
+                        12.1970509,
+                        44.4210305
+                    ],
+                    [
+                        12.1970915,
+                        44.4210305
+                    ],
+                    [
+                        12.1971321,
+                        44.4210304
+                    ],
+                    [
+                        12.1971319,
+                        44.4209792
+                    ],
+                    [
+                        12.1971721,
+                        44.4209791
+                    ],
+                    [
+                        12.1971719,
+                        44.4209188
+                    ],
+                    [
+                        12.1971296,
+                        44.4209189
+                    ],
+                    [
+                        12.1971295,
+                        44.4208949
+                    ],
+                    [
+                        12.1970493,
+                        44.420895
+                    ],
+                    [
+                        12.1970495,
+                        44.4209258
+                    ],
+                    [
+                        12.1970098,
+                        44.4209258
+                    ],
+                    [
+                        12.1970101,
+                        44.4209852
+                    ],
+                    [
+                        12.1970508,
+                        44.4209852
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2024-08-08T18:11:58Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-12-24T03:15:13Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2023-12-24T03:15:07Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "previously published location has now-deprecated OSM data.",
+                    "modified": "2023-12-24T00:48:06Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-12-24T00:47:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-12-24T00:47:22Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-mausoleum-of-galla-placidia",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+            ],
+            "provenance": "OpenStreetMap (Way 157758113, version 11, osm:changeset=138156414, 2023-07-05T17:04:04Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/157758113",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 157758113",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=157758113",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 400,
+            "title": "OSM location: Mausoleum of Galla Placidia",
+            "uri": "https://pleiades.stoa.org/places/122702818/osm-location-mausoleum-of-galla-placidia"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Mausoleo di Galla Placidia",
+            "contributors": [],
+            "created": "2016-06-27T06:15:10Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Modern, conventional name in Italian.",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-07T16:10:59Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-27T06:15:20Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added name",
+                    "modified": "2016-06-27T06:15:12Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-06-27T06:15:10Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "mausoleo-di-galla-placidia",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.geonames.org/10287238/mausoleo-di-galla-placidia.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "GeoNames 10287238",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Mausoleo di Galla Placidia",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/122702818/mausoleo-di-galla-placidia"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "mediaeval-byzantine",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/mediaeval-byzantine"
+                }
+            ],
+            "attested": "Sepulcrum Gallae Placidiae",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-07-07T15:32:59Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Noah Kaye",
+                    "uri": "https://pleiades.stoa.org/author/nkaye",
+                    "username": "nkaye"
+                }
+            ],
+            "description": "Agnellus of Ravena, writing in the ninth century AD, was the first to name the funerary chapel in the San Croce complex in Ravenna, Italy, as the tomb of the empress Galla Placidia. His identification of the chapel as the burial place of the empress is widely contested.",
+            "details": "",
+            "end": 1453,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-07T16:10:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-07T16:10:34Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-07T15:39:49Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-07T15:35:22Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-07T15:35:16Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-07-07T15:33:52Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2016-07-07T15:33:01Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-07T15:32:59Z",
+                    "modifiedBy": "nkaye"
+                }
+            ],
+            "id": "sepulta-gallae-placidiae",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://faculty.georgetown.edu/jod/agnellus.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "Agnellus, LPR 42.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Sepulcrum Gallae Placidiae",
+            "start": 640,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/122702818/sepulta-gallae-placidiae"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "mediaeval-byzantine",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/mediaeval-byzantine"
+                }
+            ],
+            "attested": "Monasterium sancti Nazarii",
+            "contributors": [],
+            "created": "2016-07-07T15:37:27Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Noah Kaye",
+                    "uri": "https://pleiades.stoa.org/author/nkaye",
+                    "username": "nkaye"
+                }
+            ],
+            "description": "Name of funerary chapel in Middle Ages.",
+            "details": "",
+            "end": 1453,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-07T16:10:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-07T15:37:38Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2016-07-07T15:37:31Z",
+                    "modifiedBy": "nkaye"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-07T15:37:27Z",
+                    "modifiedBy": "nkaye"
+                }
+            ],
+            "id": "monasterium-sancti-nazarii",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://faculty.georgetown.edu/jod/agnellus.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+                    "formattedCitation": "Agnellus, LPR 42.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "citesAsEvidence"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Monasterium sancti Nazarii",
+            "start": 640,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/122702818/monasterium-sancti-nazarii"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/church-2",
+        "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+    ],
+    "placeTypes": [
+        "church-2",
+        "tomb"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://books.google.ca/books/about/Il_Mausoleo_di_Galla_Placidia_in_Ravenna.html?id=1oP9GwAACAAJ&redir_esc=y",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HSZWF7SI",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Ricci, Corrado. <i>Il mausoleo di Galla Placidia in Ravenna</i>. E. Calzone, 1914.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Ricci 1914",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://books.google.ca/books?id=H-Fngn-m6-0C&pg=PA254&lpg=PA254&dq=ricci+placidia&source=bl&ots=br8Nmk8Vv2&sig=J1bga5d8ki7ix-0s_MVy4FHiYyo&hl=en&sa=X&redir_esc=y#v=onepage&q=tusco&f=false",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Mackie 2003, 174-94",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.persee.fr/doc/efr_0000-0000_1980_ant_43_1_1335",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/A7LHIS7G",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Seston, William. “Le Jugement Dernier au Mausolée de Galla Placida à Ravenne.” <i>Publications de l’École Française de Rome</i> 43, no. 1 (1980): 637–51. https://www.persee.fr/doc/efr_0000-0000_1980_ant_43_1_1335.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Seston 1980",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.jstor.org/stable/767100",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RDQSJ2XG",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Mackie, Gillian. “New Light on the So-Called Saint Lawrence Panel at the Mausoleum of Galla Placidia, Ravenna.” <i>Gesta</i> 29, no. 1 (1990): 54–60. https://doi.org/10.2307/767100.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Mackie 1990",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://books.google.ca/books?id=YSLi46ZIEHoC&lpg=PA74&vq=placidia&pg=PA74#v=onepage&q=mausoleum&f=false",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/X9EBIIRB",
+            "citationDetail": "74-84",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Deliyannis, Deborah Mauskopf. <i>Ravenna in Late Antiquity: AD; 7. Ravenna Capital: 600-850 AD</i>. Cambridge University Press, 2010. https://books.google.ca/books?id=YSLi46ZIEHoC&amp;lpg=PA74&amp;vq=placidia&amp;pg=PA74#v=onepage&amp;q=mausoleum&amp;f=false.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Deliyannis 2010",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://whc.unesco.org/en/list/788",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIIFWTIR",
+            "citationDetail": "788: Early Christian Monuments of Ravenna",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">UNESCO World Heritage Centre. <i>World Heritage List</i>, 1978. http://whc.unesco.org/en/list/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "WHL",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Mausoleum_of_Galla_Placidia",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Mausoleum of Galla Placidia",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Mausoleum of Galla Placidia.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://commons.wikimedia.org/wiki/Category:Mausoleum_of_Galla_Placidia_(Ravenna)",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/L8RBW985",
+            "citationDetail": "Category:Mausoleum of Galla Placidia (Ravenna)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Wikimedia Commons. “Wikimedia Commons.” Media file repository, 2004. https://commons.wikimedia.org/wiki/Main_Page.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikimedia Commons",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Galla_Placidia",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Galla Placidia",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Galla Placidia.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "http://arachne.uni-koeln.de/item/bauwerk/2109525",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+            "citationDetail": "2109525: Mausoleum der Galla Placidia Ravenna",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. Köln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Arachne",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        12.197098988371618,
+        44.420939939769795
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "tomb",
+        "extant remains",
+        "UWHS"
+    ],
+    "title": "Mausoleum of Galla Placidia",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/122702818"
+}

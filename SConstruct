@@ -20,7 +20,7 @@ env.Append(CXXFLAGS=["-fexceptions"])
 
 env.VariantDir("build", "src", duplicate=0)
 
-sources = Glob("build/*.cpp")
+sources = Glob("build/*.cpp") + Glob("build/**/*.cpp")
 
 library = env.SharedLibrary(
     "world_project/bin/World{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),

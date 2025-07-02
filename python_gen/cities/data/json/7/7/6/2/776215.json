@@ -1,0 +1,444 @@
+{
+    "@type": "Place",
+    "bbox": [
+        30.5576597,
+        25.2862733,
+        30.5581425,
+        25.2869136
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2009-10-06T21:56:58Z",
+    "creators": [
+        {
+            "name": "G. Wagner",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 79 D3 [Per-ousekh]",
+    "details": "<p>The Barrington Atlas Directory notes: Qasr el-Ghoueita</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        30.5576705,
+                        25.2869136
+                    ],
+                    [
+                        30.5576597,
+                        25.2862879
+                    ],
+                    [
+                        30.5581238,
+                        25.2862733
+                    ],
+                    [
+                        30.5581425,
+                        25.2868893
+                    ],
+                    [
+                        30.5576705,
+                        25.2869136
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-qasr-el-ghuweita",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/776215/location-of-qasr-el-ghuweita",
+                "location_precision": "precise",
+                "snippet": "Temple-2; 2010 BC - 1640 BC",
+                "title": "OSM location of Qasr el-Ghuweita"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+            "modified": "2022-05-09T15:59:32Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "update to references, place type",
+            "modified": "2022-05-08T00:31:15Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2014-03-09T23:49:19Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2013-09-21T03:15:03Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T21:26:42Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T08:23:45Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Fixing modern/alt locations fumbled in intial import",
+            "modified": "2011-12-20T22:56:01Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-08-02T20:44:22Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2009-10-14T12:30:21Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-10-06T22:00:49Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-10-06T21:56:58Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "776215",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "middle-kingdom-egypt",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/middle-kingdom-egypt"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2014-03-09T23:47:40Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -1640,
+            "featureType": [
+                "temple-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        30.5576705,
+                        25.2869136
+                    ],
+                    [
+                        30.5576597,
+                        25.2862879
+                    ],
+                    [
+                        30.5581238,
+                        25.2862733
+                    ],
+                    [
+                        30.5581425,
+                        25.2868893
+                    ],
+                    [
+                        30.5576705,
+                        25.2869136
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2022-05-09T15:58:48Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "reimported full Way geometry and updated provenance",
+                    "modified": "2022-05-09T15:58:44Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2022-05-08T00:31:44Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2022-05-08T00:29:02Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "update",
+                    "modified": "2022-05-08T00:28:35Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-03-09T23:48:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-03-09T23:47:44Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-03-09T23:47:42Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-qasr-el-ghuweita",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "provenance": "OpenStreetMap (Way 265345071, version 1, osm:changeset=21016898, 2014-03-09T23:47:00Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/265345071",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 265345071",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=265345071",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "http://de.wikivoyage.org/wiki/Qa%E1%B9%A3r_el-Ghuwei%E1%B9%ADa",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Qaṣr el-Ghuweiṭa",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -2010,
+            "title": "OSM location of Qasr el-Ghuweita",
+            "uri": "https://pleiades.stoa.org/places/776215/location-of-qasr-el-ghuweita"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident-inferred",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident-inferred",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                }
+            ],
+            "attested": "",
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2009-10-06T21:56:58Z",
+            "creators": [
+                {
+                    "name": "G. Wagner",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -30,
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T08:23:46Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2009-10-14T12:30:21Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2009-10-06T22:00:49Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2009-10-06T21:56:58Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "per-ousekh",
+            "language": "",
+            "nameType": "geographic",
+            "provenance": "Barrington Atlas: BAtlas 79 D3 [Per-ousekh]",
+            "references": [],
+            "review_state": "published",
+            "romanized": "Per-ousekh",
+            "start": -330,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/776215/per-ousekh"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "temple-2"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 79 D3 [Per-ousekh]",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "79 D3 [Per-ousekh]",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2NV4AV2U",
+            "citationDetail": "165-66",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Wagner, Guy. <i>Les Oasis d’Egypte à l’époque Grecque, Romaine et Byzantine d’après Les Documents Grecs: Recherches de Papyrologie et d’épigraphie Grecques</i>. Bibliothèque d’étude, t. 1. Le Caire: Institut français d’archéologie orientale du Caire, 1987.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wagner 1987",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://brillonline.nl/entries/supplementum-epigraphicum-graecum/khargeh-oasis-temple-of-qasr-el-ghoueita-graffiti-ptolemaic-period-26-1763-1773-a26_1763_1773",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/AKNZR5RR",
+            "citationDetail": "Khargeh Oasis (temple of Qasr el-Ghoueita). Graffiti, Ptolemaic period.(26-1763-1773)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">A. Chaniotis, T. Corsten, E. Stavrianopolou, N. Papazarkadas, J.-M. Carbon, G. Kantor, M. Zellmann-Rohrer, M.B. Richardson, V. Scheibelreiter-Gail, and E. Sverkos, eds. <i>Supplementum Epigraphicum Graecum Online</i>. Brill Scholarly Editions. Brill, 1923. https://scholarlyeditions.brill.com/sego/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "SEG Online",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.trismegistos.org/place/2040",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+            "citationDetail": "GEO ID 2040: Per-Ousekh (Qasr el-Ghueida)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "TM",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "26133",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        30.55789813177709,
+        25.286592249219854
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:ancient=1",
+        "dare:major=0",
+        "dare:feature=temple"
+    ],
+    "title": "[Per-ousekh]",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/776215"
+}

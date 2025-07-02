@@ -1,0 +1,324 @@
+{
+    "@type": "Place",
+    "bbox": [
+        -9.0256615,
+        39.5755135,
+        -9.0256615,
+        39.5755135
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [],
+    "created": "2014-05-03T18:29:43Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A Roman village and villa.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        -9.0256615,
+                        39.5755135
+                    ],
+                    [
+                        -9.0253718,
+                        39.5750876
+                    ],
+                    [
+                        -9.0253468,
+                        39.5750595
+                    ],
+                    [
+                        -9.0249213,
+                        39.5749296
+                    ],
+                    [
+                        -9.0245527,
+                        39.574817
+                    ],
+                    [
+                        -9.0243363,
+                        39.5750544
+                    ],
+                    [
+                        -9.0244182,
+                        39.5752625
+                    ],
+                    [
+                        -9.0244877,
+                        39.575425
+                    ],
+                    [
+                        -9.024728,
+                        39.575406
+                    ],
+                    [
+                        -9.0247976,
+                        39.5754492
+                    ],
+                    [
+                        -9.0248732,
+                        39.5755011
+                    ],
+                    [
+                        -9.024946,
+                        39.5755683
+                    ],
+                    [
+                        -9.0251031,
+                        39.5757337
+                    ],
+                    [
+                        -9.0256615,
+                        39.5755135
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/416019001/osm-location",
+                "location_precision": "precise",
+                "snippet": "Settlement, ; 30 BC - AD 300",
+                "title": "OSM location of Estação Arqueológica de Parreitas"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "action": "Publish externally",
+            "modified": "2018-07-17T19:42:27Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-02-07T17:35:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2014-07-05T02:44:09Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2014-05-03T18:29:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2014-05-03T18:29:43Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "416019001",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-05-03T18:30:01Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "settlement",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        -9.0256615,
+                        39.5755135
+                    ],
+                    [
+                        -9.0253718,
+                        39.5750876
+                    ],
+                    [
+                        -9.0253468,
+                        39.5750595
+                    ],
+                    [
+                        -9.0249213,
+                        39.5749296
+                    ],
+                    [
+                        -9.0245527,
+                        39.574817
+                    ],
+                    [
+                        -9.0243363,
+                        39.5750544
+                    ],
+                    [
+                        -9.0244182,
+                        39.5752625
+                    ],
+                    [
+                        -9.0244877,
+                        39.575425
+                    ],
+                    [
+                        -9.024728,
+                        39.575406
+                    ],
+                    [
+                        -9.0247976,
+                        39.5754492
+                    ],
+                    [
+                        -9.0248732,
+                        39.5755011
+                    ],
+                    [
+                        -9.024946,
+                        39.5755683
+                    ],
+                    [
+                        -9.0251031,
+                        39.5757337
+                    ],
+                    [
+                        -9.0256615,
+                        39.5755135
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-22T14:29:33Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-22T14:28:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-07-17T19:42:28Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-02-07T17:26:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-07-05T02:44:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-05-03T18:30:37Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-05-03T18:30:05Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-05-03T18:30:04Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 249142187, version 9, osm:changeset=154161714, 2024-07-19T23:06:07Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/249142187",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 249142187",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=249142187",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Estação Arqueológica de Parreitas",
+            "uri": "https://pleiades.stoa.org/places/416019001/osm-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.portugalromano.com/2011/11/castro-romanizado-de-parreitas-%C2%ABvilla-romana%C2%BB-barrio-alcobaca/",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Portugal Romano, Castro Romanizado de Parreitas «Villa Romana»",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        -9.0256615,
+        39.5755135
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Parreitas Roman villa",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/416019001"
+}

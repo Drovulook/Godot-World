@@ -1,0 +1,343 @@
+{
+    "@type": "Place",
+    "bbox": [
+        15.335065,
+        41.508065,
+        15.335884,
+        41.50923
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/442640",
+            "contributors": [],
+            "created": "2016-07-13T13:47:26Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:47:27Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:47:27Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:47:26Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "442640",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Luceria/Noukeria (Apoulon)",
+            "uri": "https://pleiades.stoa.org/places/444701/442640"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/442640"
+    ],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2010-11-11T20:37:11Z",
+    "creators": [
+        {
+            "name": "I.E.M. Edlund Berry",
+            "username": null
+        },
+        {
+            "name": "A.M. Small",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 45 B1 unnamed centuriation (N Luceria)",
+    "details": "<p>The Barrington Atlas Directory notes: N Luceria</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            15.0,
+                            41.5
+                        ],
+                        [
+                            15.5,
+                            41.5
+                        ],
+                        [
+                            15.5,
+                            42.0
+                        ],
+                        [
+                            15.0,
+                            42.0
+                        ],
+                        [
+                            15.0,
+                            41.5
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "batlas-location",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/444701/batlas-location",
+                "location_precision": "rough",
+                "snippet": "Unknown; 330 BC - 30 BC",
+                "title": "Barrington Atlas location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "updates",
+            "modified": "2021-05-27T17:35:43Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "edited title, added connection",
+            "modified": "2013-01-26T16:52:58Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T05:12:04Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:51:12Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2010-11-12T12:52:29Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2010-11-11T21:04:24Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2010-11-11T20:37:11Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "444701",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": null,
+            "accuracy_value": null,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "name": "T. Elliott",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                }
+            ],
+            "created": "2010-11-11T20:37:11Z",
+            "creators": [
+                {
+                    "name": "I.E.M. Edlund Berry",
+                    "username": null
+                },
+                {
+                    "name": "A.M. Small",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -30,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            15.0,
+                            41.5
+                        ],
+                        [
+                            15.5,
+                            41.5
+                        ],
+                        [
+                            15.5,
+                            42.0
+                        ],
+                        [
+                            15.0,
+                            42.0
+                        ],
+                        [
+                            15.0,
+                            41.5
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T05:12:04Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2010-11-12T12:52:29Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2010-11-11T21:04:24Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2010-11-11T20:37:11Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "batlas-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Barrington Atlas: BAtlas 45 B1",
+            "references": [],
+            "review_state": "published",
+            "start": -330,
+            "title": "Barrington Atlas location",
+            "uri": "https://pleiades.stoa.org/places/444701/batlas-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/centuriation"
+    ],
+    "placeTypes": [
+        "centuriation"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 45 B1",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "45 B1",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TSAKVHIA",
+            "citationDetail": "85-100",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">G.D.B. Jones. “Il Tavoliere Romano. L’agricoltura Romana Attraverso l’aerofotografia e Lo Scavo.” <i>ArchClas</i> 32 (1980): 85–107.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Jones 1980",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UTJJANPN",
+            "citationDetail": "213",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Volpe, Giuliano. <i>La Daunia Nell’età Della Romanizzazione: Paesaggio Agrario, Produzione, Scambi</i>. Adrias 1. Bari: Edipuglia, 1990.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Volpe 1990",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        15.3354745,
+        41.5086475
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "An area of centuriation north of Luceria",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/444701"
+}

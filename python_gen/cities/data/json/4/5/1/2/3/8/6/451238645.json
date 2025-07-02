@@ -1,0 +1,309 @@
+{
+    "@type": "Place",
+    "bbox": [
+        31.221406,
+        29.8748733,
+        31.2221043,
+        29.8754567
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/796289136",
+            "contributors": [],
+            "created": "2023-11-18T22:46:17Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-11-18T22:46:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-11-18T22:46:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-11-18T22:46:17Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "5772787179",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Saqqarah",
+            "uri": "https://pleiades.stoa.org/places/451238645/5772787179"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/796289136"
+    ],
+    "contributors": [],
+    "created": "2023-11-18T22:46:15Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The Pyramid of Teti is a smooth-sided pyramid situated in the pyramid field at Saqqara. Teti was the first king of the Sixth Dynasty of Ancient Egypt.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        31.2219884,
+                        29.8754567
+                    ],
+                    [
+                        31.221406,
+                        29.8753502
+                    ],
+                    [
+                        31.2215219,
+                        29.8748733
+                    ],
+                    [
+                        31.2221043,
+                        29.8749797
+                    ],
+                    [
+                        31.2219884,
+                        29.8754567
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-pyramid-of-teti",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/451238645/osm-location-of-pyramid-of-teti",
+                "location_precision": "precise",
+                "snippet": "Pyramid; 2670 BC - 2168 BC",
+                "title": "OSM location of Pyramid of Teti"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "add wikidata Pyramid of Teti (Q1278166)",
+            "modified": "2024-10-19T02:55:55Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2023-11-20T12:08:43Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2023-11-18T22:48:47Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary, references",
+            "modified": "2023-11-18T22:48:35Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2023-11-18T22:46:18Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2023-11-18T22:46:15Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "451238645",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "old-kingdom-egypt",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/old-kingdom-egypt"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-11-18T22:45:38Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -2168,
+            "featureType": [
+                "pyramid"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        31.2219884,
+                        29.8754567
+                    ],
+                    [
+                        31.221406,
+                        29.8753502
+                    ],
+                    [
+                        31.2215219,
+                        29.8748733
+                    ],
+                    [
+                        31.2221043,
+                        29.8749797
+                    ],
+                    [
+                        31.2219884,
+                        29.8754567
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-11-20T12:08:43Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-11-18T22:48:48Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added osm location",
+                    "modified": "2023-11-18T22:46:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-11-18T22:45:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-11-18T22:45:38Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-pyramid-of-teti",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+            ],
+            "provenance": "OpenStreetMap (Way 41765792, version 9, osm:changeset=140307414, 2023-08-24T07:35:08Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/41765792",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 41765792",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=41765792",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -2670,
+            "title": "OSM location of Pyramid of Teti",
+            "uri": "https://pleiades.stoa.org/places/451238645/osm-location-of-pyramid-of-teti"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+    ],
+    "placeTypes": [
+        "pyramid"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Pyramid_of_Teti",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Pyramid of Teti",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Teti",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+            "citationDetail": "Teti",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q1278166",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Pyramid of Teti (Q1278166)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        31.22175516258432,
+        29.87516497936787
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Pyramid of Teti",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/451238645"
+}

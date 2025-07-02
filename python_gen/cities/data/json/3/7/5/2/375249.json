@@ -1,0 +1,267 @@
+{
+    "@type": "Place",
+    "bbox": [
+        21.6743,
+        32.6514,
+        21.6743,
+        32.6514
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2024-12-05T21:58:34Z",
+    "creators": [
+        {
+            "name": "D.J. Mattingly",
+            "username": null
+        }
+    ],
+    "description": "An ancient place, cited: BAtlas 38 C1 no. 13 (Gasr Stablous)",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    21.6743,
+                    32.6514
+                ],
+                "type": "Point"
+            },
+            "id": "batlas-location",
+            "properties": {
+                "description": "",
+                "link": "https://pleiades.stoa.org/places/375249/batlas-location",
+                "location_precision": "precise",
+                "snippet": "Unknown; AD 300 - AD 640",
+                "title": "Barrington Atlas map location"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added Ward-Perkins 1978 and removed BAtlDir notes from details as they are no longer helpful",
+            "modified": "2024-12-05T22:07:00Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "details; added Ward-Perkins 2003 reference",
+            "modified": "2024-12-05T22:02:38Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "title; details",
+            "modified": "2024-12-05T21:47:01Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T19:28:09Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T04:31:04Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T19:35:01Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2011-01-08T14:38:19Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2011-01-08T14:36:32Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2011-01-08T14:20:43Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "375249",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-1-million-scale",
+            "accuracy_value": 1860.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "R. Talbert",
+                    "username": null
+                },
+                {
+                    "homepage": null,
+                    "name": "Sean Gillies",
+                    "uri": "https://pleiades.stoa.org/author/sgillies",
+                    "username": "sgillies"
+                },
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "created": "2011-01-08T14:20:43Z",
+            "creators": [
+                {
+                    "name": "D.J. Mattingly",
+                    "username": null
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "unknown"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "geometry": {
+                "coordinates": [
+                    21.6743,
+                    32.6514
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "added BAtlas 1:1 million positional accuracy assessment",
+                    "modified": "2024-12-05T20:41:53Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Global migration and reindexing of citations and provenance, February 2012",
+                    "modified": "2012-02-15T04:31:04Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "comment": "Update locations from map38-update.csv",
+                    "modified": "2011-01-10T07:04:06Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2011-01-08T14:38:19Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2011-01-08T14:36:32Z",
+                    "modifiedBy": "sgillies"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2011-01-08T14:20:43Z",
+                    "modifiedBy": "sgillies"
+                }
+            ],
+            "id": "batlas-location",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+            ],
+            "provenance": "Barrington Atlas: BAtlas 38 C1 13",
+            "references": [],
+            "review_state": "published",
+            "start": 300,
+            "title": "Barrington Atlas map location",
+            "uri": "https://pleiades.stoa.org/places/375249/batlas-location"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/church"
+    ],
+    "placeTypes": [
+        "church"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 38 C1 13",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "38 C1 13",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "page 400 see \"Gasr Stablous\"",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/NR7DB9W6",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Ward-Perkins, J. B, and R. G Goodchild. <i>Christian Monuments of Cyrenaica</i>. Edited by Joyce Reynolds. Society for Libyan Studies Monograph 4. London: Society for Libyan Studies, 2003.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Ward-Perkins 2003",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/37U83WS3",
+            "citationDetail": "page 288",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Ward-Perkins, J.B. “The Christian Architecture of Apollonia.” In <i>Apollonia, the Port of Cyrene: Excavations by the University of Michigan, 1965-1967</i>, edited by John H Humphrey, R.G. Goodchild, John Griffiths Pedley, and D. White, 267–92. Libya Antiqua Supplement 4. Tripoli: The Department of Antiquities, 1976.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Ward-Perkins 1976",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        21.6743,
+        32.6514
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "dare:ancient=0",
+        "dare:feature=church"
+    ],
+    "title": "Gasr Stablous",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/375249"
+}

@@ -1,0 +1,474 @@
+{
+    "@type": "Place",
+    "bbox": [
+        32.4765299,
+        35.0324208,
+        32.4886964,
+        35.0415919
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/707498",
+            "contributors": [],
+            "created": "2016-07-13T13:38:43Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:38:43Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:38:43Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:38:43Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "707498",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Cyprus (island)",
+            "uri": "https://pleiades.stoa.org/places/707564/707498"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/707498",
+        "https://pleiades.stoa.org/places/774381973",
+        "https://pleiades.stoa.org/places/774381974"
+    ],
+    "contributors": [
+        {
+            "name": "DARMC",
+            "username": null
+        },
+        {
+            "name": "R. Talbert",
+            "username": null
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        },
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2009-10-20T09:31:26Z",
+    "creators": [
+        {
+            "name": "D. Rupp",
+            "username": null
+        }
+    ],
+    "description": "An ancient (and modern) copper mining landscape in the modern Paphos district of western Cyprus.",
+    "details": "<p>The Barrington Atlas Directory notes: Limni</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        32.4765299,
+                        35.0370943
+                    ],
+                    [
+                        32.4787615,
+                        35.0345819
+                    ],
+                    [
+                        32.4812935,
+                        35.0343008
+                    ],
+                    [
+                        32.4827955,
+                        35.0328952
+                    ],
+                    [
+                        32.4841688,
+                        35.0324208
+                    ],
+                    [
+                        32.4860742,
+                        35.0337649
+                    ],
+                    [
+                        32.4886964,
+                        35.0342657
+                    ],
+                    [
+                        32.4885676,
+                        35.0364267
+                    ],
+                    [
+                        32.487705,
+                        35.0392465
+                    ],
+                    [
+                        32.4859712,
+                        35.0412757
+                    ],
+                    [
+                        32.481787,
+                        35.0415919
+                    ],
+                    [
+                        32.4783323,
+                        35.0401337
+                    ],
+                    [
+                        32.4780963,
+                        35.0386228
+                    ],
+                    [
+                        32.4765299,
+                        35.0370943
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-modern-limni-open-mine",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/707564/osm-location-of-modern-limni-open-mine",
+                "location_precision": "precise",
+                "snippet": "Mine-2; AD 2000 - AD 2099",
+                "title": "OSM Location of modern Limni open mine"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+            "modified": "2023-03-04T14:16:02Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "added Sdralia 2023",
+            "modified": "2023-03-02T23:50:48Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "cleaned up references",
+            "modified": "2023-03-02T23:50:24Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "summary",
+            "modified": "2023-03-02T23:49:47Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "ctype",
+            "modified": "2021-01-31T19:07:23Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added connection",
+            "modified": "2014-02-25T17:01:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+            "modified": "2012-10-20T20:19:38Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Global migration and reindexing of citations and provenance, February 2012",
+            "modified": "2012-02-15T08:02:58Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-03-09T20:17:47Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Mined or quarried materials from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-03-01T22:28:42Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Mined or quarried materials from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-03-01T22:22:17Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Mined or quarried materials from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+            "modified": "2011-03-01T22:16:44Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+            "modified": "2011-01-14T20:59:26Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2009-10-20T18:26:24Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2009-10-20T10:06:14Z",
+            "modifiedBy": "sgillies"
+        },
+        {
+            "action": "Create",
+            "modified": "2009-10-20T09:31:26Z",
+            "modifiedBy": "sgillies"
+        }
+    ],
+    "id": "707564",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "notapplicable",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-03-02T23:55:17Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": 2099,
+            "featureType": [
+                "mine-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/mine-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        32.4765299,
+                        35.0370943
+                    ],
+                    [
+                        32.4787615,
+                        35.0345819
+                    ],
+                    [
+                        32.4812935,
+                        35.0343008
+                    ],
+                    [
+                        32.4827955,
+                        35.0328952
+                    ],
+                    [
+                        32.4841688,
+                        35.0324208
+                    ],
+                    [
+                        32.4860742,
+                        35.0337649
+                    ],
+                    [
+                        32.4886964,
+                        35.0342657
+                    ],
+                    [
+                        32.4885676,
+                        35.0364267
+                    ],
+                    [
+                        32.487705,
+                        35.0392465
+                    ],
+                    [
+                        32.4859712,
+                        35.0412757
+                    ],
+                    [
+                        32.481787,
+                        35.0415919
+                    ],
+                    [
+                        32.4783323,
+                        35.0401337
+                    ],
+                    [
+                        32.4780963,
+                        35.0386228
+                    ],
+                    [
+                        32.4765299,
+                        35.0370943
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-03-04T14:04:44Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-03-02T23:56:32Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2023-03-02T23:55:43Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-03-02T23:55:17Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-03-02T23:55:17Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "osm-location-of-modern-limni-open-mine",
+            "locationType": [
+                "associated_modern"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/mine-2"
+            ],
+            "provenance": "OpenStreetMap (Way 298683103, version 1, osm:changeset=24845185, 2014-08-18T21:45:28Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/298683103",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 298683103",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=298683103",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": 2000,
+            "title": "OSM Location of modern Limni open mine",
+            "uri": "https://pleiades.stoa.org/places/707564/osm-location-of-modern-limni-open-mine"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/mine-2"
+    ],
+    "placeTypes": [
+        "mine-2"
+    ],
+    "provenance": "Barrington Atlas: BAtlas 72 A2 Limni",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43970336",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+            "citationDetail": "72 A2 Limni",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "BAtlas",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.jstor.org/stable/530086",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/5FYKVIUE",
+            "citationDetail": "298, 305-308",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Raber, Paul. “Early Copper Production in the Polis Region, Western Cyprus.” <i>Journal of Field Archaeology</i> 14, no. 3 (1987): 297–312. https://doi.org/10.2307/530086.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Raber 1987",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.sciencedirect.com/science/article/pii/S2352409X23000640",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/LYEQSIGR",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Sdralia, Anna-Maria, Vasiliki Kassianidou, and Thilo Rehren. “Late Roman Copper Smelting in Polis Chrysochous, Cyprus.” <i>Journal of Archaeological Science: Reports</i> 48 (April 1, 2023): 103889. https://doi.org/10.1016/j.jasrep.2023.103889.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Sdralia 2023",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://darmc.harvard.edu/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+            "citationDetail": "9257",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "DARMC",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        32.48300898161647,
+        35.037159101936034
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "dare:major=0",
+        "copper",
+        "dare:feature=mine",
+        "dare:ancient=0"
+    ],
+    "title": "Limni",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/707564"
+}

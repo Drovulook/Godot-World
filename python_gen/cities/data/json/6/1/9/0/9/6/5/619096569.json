@@ -1,0 +1,705 @@
+{
+    "@type": "Place",
+    "bbox": [
+        43.0,
+        36.0,
+        44.0,
+        37.0
+    ],
+    "connections": [],
+    "connectsWith": [],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Sean Gillies",
+            "uri": "https://pleiades.stoa.org/author/sgillies",
+            "username": "sgillies"
+        },
+        {
+            "homepage": null,
+            "name": "Francis Deblauwe",
+            "uri": "https://pleiades.stoa.org/author/fdeblauwe",
+            "username": "fdeblauwe"
+        },
+        {
+            "homepage": null,
+            "name": "Eric Kansa",
+            "uri": "https://pleiades.stoa.org/author/ekansa",
+            "username": "ekansa"
+        }
+    ],
+    "created": "2013-08-22T11:51:35Z",
+    "creators": [
+        {
+            "name": "B. Siewert-Mayer",
+            "username": null
+        },
+        {
+            "name": "W. Röllig",
+            "username": null
+        },
+        {
+            "name": "H. Kopp",
+            "username": null
+        }
+    ],
+    "description": "A place from the TAVO Index",
+    "details": "GANE OBJECT 60041",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            43.0,
+                            36.0
+                        ],
+                        [
+                            44.0,
+                            36.0
+                        ],
+                        [
+                            44.0,
+                            37.0
+                        ],
+                        [
+                            43.0,
+                            37.0
+                        ],
+                        [
+                            43.0,
+                            36.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "gane-location-60041",
+            "properties": {
+                "description": "Approximate location from the TAVO index",
+                "link": "https://pleiades.stoa.org/places/619096569/gane-location-60041",
+                "location_precision": "rough",
+                "snippet": "Settlement; 6200 BC - 330 BC",
+                "title": "GANE Location 60041"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2023-12-09T20:12:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2013-08-22T11:51:53Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2013-08-22T11:51:50Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+            "modified": "2013-08-22T11:51:45Z",
+            "modifiedBy": "admin"
+        },
+        {
+            "action": "Create",
+            "modified": "2013-08-22T11:51:40Z",
+            "modifiedBy": "admin"
+        }
+    ],
+    "id": "619096569",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/tavo-2",
+            "accuracy_value": 1524.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "chalcolithic-mesopotamia",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/chalcolithic-mesopotamia"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "achaemenid-middle-east",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/achaemenid-middle-east"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "early-dynastic-mesopotamia",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-dynastic-mesopotamia"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Francis Deblauwe",
+                    "uri": "https://pleiades.stoa.org/author/fdeblauwe",
+                    "username": "fdeblauwe"
+                },
+                {
+                    "homepage": null,
+                    "name": "Eric Kansa",
+                    "uri": "https://pleiades.stoa.org/author/ekansa",
+                    "username": "ekansa"
+                }
+            ],
+            "created": "2013-08-22T11:52:56Z",
+            "creators": [
+                {
+                    "name": "B. Siewert-Mayer",
+                    "username": null
+                },
+                {
+                    "name": "W. Röllig",
+                    "username": null
+                },
+                {
+                    "name": "H. Kopp",
+                    "username": null
+                }
+            ],
+            "description": "Approximate location from the TAVO index",
+            "details": "GANE OBJECT 60041\nMap: BI16\nCorner Coordinates: [43.100000000000001, 36.299999999999997]\n",
+            "end": -330,
+            "featureType": [
+                "settlement"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            43.0,
+                            36.0
+                        ],
+                        [
+                            44.0,
+                            36.0
+                        ],
+                        [
+                            44.0,
+                            37.0
+                        ],
+                        [
+                            43.0,
+                            37.0
+                        ],
+                        [
+                            43.0,
+                            36.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-08-22T11:53:09Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-08-22T11:53:05Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+                    "modified": "2013-08-22T11:53:03Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-08-22T11:53:01Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "gane-location-60041",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "provenance": "TAVO Index",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "TAVO Index (Vol. 3, p. 1631)",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "cites"
+                },
+                {
+                    "accessURI": "http://oi.uchicago.edu/pdf/saoc47.pdf",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+                    "formattedCitation": "G. Algaze. Tepe Chenchi: An Important Settlement Near Khorsabad. in A. Leonard, Jr. and B. Williams (eds.). Essays in Ancient Civilization Presented to Helene J. Kantor. 1989. pp. 1-31",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeAlso"
+                }
+            ],
+            "review_state": "published",
+            "start": -6200,
+            "title": "GANE Location 60041",
+            "uri": "https://pleiades.stoa.org/places/619096569/gane-location-60041"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "chalcolithic-mesopotamia",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/chalcolithic-mesopotamia"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "early-dynastic-mesopotamia",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-dynastic-mesopotamia"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "achaemenid-middle-east",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/achaemenid-middle-east"
+                }
+            ],
+            "attested": null,
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Francis Deblauwe",
+                    "uri": "https://pleiades.stoa.org/author/fdeblauwe",
+                    "username": "fdeblauwe"
+                },
+                {
+                    "homepage": null,
+                    "name": "Eric Kansa",
+                    "uri": "https://pleiades.stoa.org/author/ekansa",
+                    "username": "ekansa"
+                }
+            ],
+            "created": "2013-08-22T11:51:58Z",
+            "creators": [
+                {
+                    "name": "B. Siewert-Mayer",
+                    "username": null
+                },
+                {
+                    "name": "W. Röllig",
+                    "username": null
+                },
+                {
+                    "name": "H. Kopp",
+                    "username": null
+                }
+            ],
+            "description": "A place name from the TAVO Index (Vol. 3, p. 1631)",
+            "details": "GANE OBJECT 60041",
+            "end": -330,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-08-22T11:52:11Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-08-22T11:52:07Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+                    "modified": "2013-08-22T11:52:06Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-08-22T11:52:03Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "tall-sansi",
+            "language": "arb",
+            "nameType": "geographic",
+            "provenance": "TAVO Index",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "TAVO Index (Vol. 3, p. 1631)",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "cites"
+                },
+                {
+                    "accessURI": "http://oi.uchicago.edu/pdf/saoc47.pdf",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+                    "formattedCitation": "G. Algaze. Tepe Chenchi: An Important Settlement Near Khorsabad. in A. Leonard, Jr. and B. Williams (eds.). Essays in Ancient Civilization Presented to Helene J. Kantor. 1989. pp. 1-31",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeAlso"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Tall Šanšī, Tall Shanshi, Tell Shanshi, Tappe Shenshi, Tepe Shenshi, Tepe Chenchi, Tepe Chanchi",
+            "start": -6200,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/619096569/tall-sansi"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "chalcolithic-mesopotamia",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/chalcolithic-mesopotamia"
+                }
+            ],
+            "attested": null,
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Francis Deblauwe",
+                    "uri": "https://pleiades.stoa.org/author/fdeblauwe",
+                    "username": "fdeblauwe"
+                },
+                {
+                    "homepage": null,
+                    "name": "Eric Kansa",
+                    "uri": "https://pleiades.stoa.org/author/ekansa",
+                    "username": "ekansa"
+                }
+            ],
+            "created": "2013-08-22T11:52:16Z",
+            "creators": [
+                {
+                    "name": "B. Siewert-Mayer",
+                    "username": null
+                },
+                {
+                    "name": "W. Röllig",
+                    "username": null
+                },
+                {
+                    "name": "H. Kopp",
+                    "username": null
+                }
+            ],
+            "description": "A place name from the TAVO Index (Vol. 3, p. 1676)",
+            "details": "GANE OBJECT 61724",
+            "end": -3750,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-08-22T11:52:25Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-08-22T11:52:23Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+                    "modified": "2013-08-22T11:52:23Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-08-22T11:52:21Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "tepe-sensi",
+            "language": null,
+            "nameType": "geographic",
+            "provenance": "TAVO Index",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "TAVO Index (Vol. 3, p. 1676)",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Tepe Šenšī",
+            "start": -6200,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/619096569/tepe-sensi"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "achaemenid-middle-east",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/achaemenid-middle-east"
+                }
+            ],
+            "attested": null,
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Francis Deblauwe",
+                    "uri": "https://pleiades.stoa.org/author/fdeblauwe",
+                    "username": "fdeblauwe"
+                },
+                {
+                    "homepage": null,
+                    "name": "Eric Kansa",
+                    "uri": "https://pleiades.stoa.org/author/ekansa",
+                    "username": "ekansa"
+                }
+            ],
+            "created": "2013-08-22T11:52:30Z",
+            "creators": [
+                {
+                    "name": "B. Siewert-Mayer",
+                    "username": null
+                },
+                {
+                    "name": "W. Röllig",
+                    "username": null
+                },
+                {
+                    "name": "H. Kopp",
+                    "username": null
+                }
+            ],
+            "description": "A place name from the TAVO Index (Vol. 3, p. 1669)",
+            "details": "GANE OBJECT 61459",
+            "end": -330,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-08-22T11:52:37Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-08-22T11:52:35Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+                    "modified": "2013-08-22T11:52:35Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-08-22T11:52:34Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "tell-sansi",
+            "language": null,
+            "nameType": "geographic",
+            "provenance": "TAVO Index",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "TAVO Index (Vol. 3, p. 1669)",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Tell Šanši",
+            "start": -540,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/619096569/tell-sansi"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "early-dynastic-mesopotamia",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-dynastic-mesopotamia"
+                }
+            ],
+            "attested": null,
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Francis Deblauwe",
+                    "uri": "https://pleiades.stoa.org/author/fdeblauwe",
+                    "username": "fdeblauwe"
+                },
+                {
+                    "homepage": null,
+                    "name": "Eric Kansa",
+                    "uri": "https://pleiades.stoa.org/author/ekansa",
+                    "username": "ekansa"
+                }
+            ],
+            "created": "2013-08-22T11:52:42Z",
+            "creators": [
+                {
+                    "name": "B. Siewert-Mayer",
+                    "username": null
+                },
+                {
+                    "name": "W. Röllig",
+                    "username": null
+                },
+                {
+                    "name": "H. Kopp",
+                    "username": null
+                }
+            ],
+            "description": "A place name from the TAVO Index (Vol. 3, p. 1648)",
+            "details": "GANE OBJECT 60697",
+            "end": -2350,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2013-08-22T11:52:51Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2013-08-22T11:52:49Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+                    "modified": "2013-08-22T11:52:48Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2013-08-22T11:52:48Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "tappe-sensi",
+            "language": null,
+            "nameType": "geographic",
+            "provenance": "TAVO Index",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/cites",
+                    "formattedCitation": "TAVO Index (Vol. 3, p. 1648)",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "cites"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Tappe Šenšī",
+            "start": -2950,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/619096569/tappe-sensi"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "provenance": "TAVO Index",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/32624915",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RY7UL7U8",
+            "citationDetail": "(Vol. 3, p. 1631)",
+            "citationTypeURI": "http://purl.org/spar/cito/cites",
+            "formattedCitation": "<div class=\"csl-entry\">Siewert-Mayer, Beate, Horst Kopp, and Wolfgang Röllig. <i>Tübinger Atlas des Vorderen Orients: Register zu den Karten = general index</i>. Wiesbaden: Reichert, 1994. http://www.worldcat.org/oclc/32624915.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "TAVO Index",
+            "type": "cites"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9M23J7JZ",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Algaze, G. “Tepe Chenchi. An Important Settlement near Khorsabad.” In <i>Essays in Ancient Civilization Presented to Helene J. Kantor</i>, 1–25, Abb. Taf. Chicago: University of Chicago Press, 1989.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Algaze 1989",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        43.5,
+        36.5
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Tall Šanšī",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/619096569"
+}

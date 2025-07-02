@@ -1,0 +1,370 @@
+{
+    "@type": "Place",
+    "bbox": [
+        11.6281174,
+        42.419498,
+        11.6285239,
+        42.4198696
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/413393",
+            "contributors": [],
+            "created": "2016-11-04T16:39:10Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Tom Elliott",
+                    "uri": "https://pleiades.stoa.org/author/thomase",
+                    "username": "thomase"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-11-04T16:39:10Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-11-04T16:39:10Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-11-04T16:39:10Z",
+                    "modifiedBy": "thomase"
+                }
+            ],
+            "id": "5507584577",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Vulci",
+            "uri": "https://pleiades.stoa.org/places/48210386/5507584577"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/413393"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "John Muccigrosso",
+            "uri": "https://pleiades.stoa.org/author/jmuccigr",
+            "username": "jmuccigr"
+        }
+    ],
+    "created": "2025-05-30T14:44:48Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "description": "A major urban sanctuary at Vulci with a long period of use, stretching from the archaic period into the Roman period.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        11.6281174,
+                        42.4195553
+                    ],
+                    [
+                        11.6282296,
+                        42.4198696
+                    ],
+                    [
+                        11.6285239,
+                        42.4198123
+                    ],
+                    [
+                        11.6284117,
+                        42.419498
+                    ],
+                    [
+                        11.6281174,
+                        42.4195553
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-tempio-grande-vulci",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/48210386/osm-location-tempio-grande-vulci",
+                "location_precision": "precise",
+                "snippet": "Temple-2; 750 BC - AD 300",
+                "title": "OSM location: Tempio grande, Vulci"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added TCW and vici.org references provided by @jmuccigr",
+            "modified": "2025-05-30T14:47:03Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2025-05-30T14:44:46Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "update references",
+            "modified": "2023-12-17T05:28:26Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2016-12-05T11:47:10Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2016-11-18T14:19:28Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2016-11-18T14:19:12Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2016-11-04T23:50:16Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2016-11-04T16:39:11Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Create",
+            "modified": "2016-11-04T16:39:09Z",
+            "modifiedBy": "thomase"
+        }
+    ],
+    "id": "48210386",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "classical",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "hellenistic-republican",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2025-05-30T13:44:34Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "temple-2"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        11.6281174,
+                        42.4195553
+                    ],
+                    [
+                        11.6282296,
+                        42.4198696
+                    ],
+                    [
+                        11.6285239,
+                        42.4198123
+                    ],
+                    [
+                        11.6284117,
+                        42.419498
+                    ],
+                    [
+                        11.6281174,
+                        42.4195553
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2025-05-30T14:44:12Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2025-05-30T13:45:28Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "this loc supersedes the previously published one",
+                    "modified": "2025-05-30T13:45:22Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2025-05-30T13:44:36Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2025-05-30T13:44:34Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-tempio-grande-vulci",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+            ],
+            "provenance": "OpenStreetMap (Way 96701977, version 3, osm:changeset=166973010, 2025-05-30T13:44:08Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/96701977",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 96701977",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=96701977",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -750,
+            "title": "OSM location: Tempio grande, Vulci",
+            "uri": "https://pleiades.stoa.org/places/48210386/osm-location-tempio-grande-vulci"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/temple-2"
+    ],
+    "placeTypes": [
+        "temple-2"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://books.google.com/books?id=xQde8hMY_88C&lpg=PA179&ots=glaDdxCPwW&dq=tempio%20grande%20vulci&pg=PA179#v=onepage&q=tempio%20grande%20vulci&f=false",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/N4CCWEGB",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Sgubini Moretti, Anna Maria. <i>Veio, cerveteri, vulci: citta d’Etruria a confronto ; Roma, Museo Nazionale Etrusco di Villa Giulia Villa Poniatowski 1o ottobre- 30 dicembre 2001</i>. Roma: L’Erma di Bretschneider, 2001.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Sgubini Moretti 2001",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/40365687",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KU5NFSZN",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Moretti Sgubini, Anna Maria. “Il Tempio Grande di Vulci: le terrecotte architettoniche di fase arcaica.” In <i>Deliciae Fictiles II: proceedings of the 2nd International Conference on Archaic Architectural Terracottas from Italy held at the Netherlands Institute in Rome 12-13 June 1996</i>, 151–64. Scrinium 12. Amsterdam: Thesis, 1997. http://www.worldcat.org/oclc/40365687.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Moretti Sgubini 1997, 151-164",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://romeresearchgroup.org/items/1000298",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZV7SNRDS",
+            "citationDetail": "1000298: Large Temple",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">John D. Muccigrosso, and Louis I. Hamilton. <i>Temples of the Classical World</i>. Rome Research Group. Accessed October 15, 2024. https://romeresearchgroup.org/database-of-temples/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "TCW",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://vici.org/vici/23894/",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CQWHNDIM",
+            "citationDetail": "23894: Vulci -Velch - Tempio Grande",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Voorburg, René. <i>Vici.Org: Archaeological Atlas of Antiquity</i>, 2012. https://vici.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "vici.org",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        11.62832065,
+        42.419683799999994
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "sanctuary",
+        "extant remains",
+        "temple"
+    ],
+    "title": "Tempio Grande at Vulci",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/48210386"
+}

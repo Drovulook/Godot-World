@@ -1,0 +1,542 @@
+{
+    "@type": "Place",
+    "bbox": [
+        14.49012,
+        40.7508142,
+        14.490168,
+        40.7508575
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/433032",
+            "contributors": [],
+            "created": "2017-06-26T15:41:24Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 300,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-06-26T15:50:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-06-26T15:45:18Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2017-06-26T15:41:25Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2017-06-26T15:41:24Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "pompeii",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -30,
+            "title": "Pompeii",
+            "uri": "https://pleiades.stoa.org/places/416199695/pompeii"
+        },
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "connectionType": "part_of_analytical",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_analytical",
+            "connectsTo": "https://pleiades.stoa.org/places/222138654",
+            "contributors": [],
+            "created": "2020-12-11T19:13:56Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2020-12-13T11:32:58Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2020-12-11T19:16:59Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2020-12-11T19:16:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "cnxn",
+                    "modified": "2020-12-11T19:13:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2020-12-11T19:13:56Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "regio-i-pompeii",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": 1700,
+            "title": "Regio I, Pompeii",
+            "uri": "https://pleiades.stoa.org/places/416199695/regio-i-pompeii"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/433032",
+        "https://pleiades.stoa.org/places/222138654"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        },
+        {
+            "homepage": null,
+            "name": "Tom Elliott",
+            "uri": "https://pleiades.stoa.org/author/thomase",
+            "username": "thomase"
+        }
+    ],
+    "created": "2017-06-26T15:31:20Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Valeria Vitale",
+            "uri": "https://pleiades.stoa.org/author/vvitale",
+            "username": "vvitale"
+        }
+    ],
+    "description": "A small shop located in Regio I of Pompeii (I, 8, 7).",
+    "details": "<p>The place has been identified as a fullonica by Eschebach but as a pistrinum by Della Corte.</p>",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        14.49012,
+                        40.7508493
+                    ],
+                    [
+                        14.4901379,
+                        40.7508575
+                    ],
+                    [
+                        14.490168,
+                        40.7508219
+                    ],
+                    [
+                        14.4901483,
+                        40.7508142
+                    ],
+                    [
+                        14.49012,
+                        40.7508493
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "bottega",
+            "properties": {
+                "description": "Approximate OSM location of the so-called Pistrinum of Betitius Placidus, locayed in the Regio I, insula 8 of Pompeii.",
+                "link": "https://pleiades.stoa.org/places/416199695/bottega",
+                "location_precision": "precise",
+                "snippet": "Taberna-shop; 30 BC - AD 300",
+                "title": "OSM location of the Pistrinum of Betitius Placidus"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-07-28T15:25:25Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "added wikidata",
+            "modified": "2020-12-26T20:10:58Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update",
+            "modified": "2020-12-11T19:13:34Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "updated AD79 reference",
+            "modified": "2017-09-10T12:07:14Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2017-06-26T15:50:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-06-26T15:47:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2017-06-26T15:45:17Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2017-06-26T15:43:38Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2017-06-26T15:31:22Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "action": "Create",
+            "modified": "2017-06-26T15:31:20Z",
+            "modifiedBy": "vvitale"
+        }
+    ],
+    "id": "416199695",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "substantive",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2017-06-26T15:31:55Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "Approximate OSM location of the so-called Pistrinum of Betitius Placidus, locayed in the Regio I, insula 8 of Pompeii.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "taberna-shop"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/taberna-shop"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        14.49012,
+                        40.7508493
+                    ],
+                    [
+                        14.4901379,
+                        40.7508575
+                    ],
+                    [
+                        14.490168,
+                        40.7508219
+                    ],
+                    [
+                        14.4901483,
+                        40.7508142
+                    ],
+                    [
+                        14.49012,
+                        40.7508493
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-07-28T15:05:03Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-06-26T15:50:45Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-06-26T15:45:18Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2017-06-26T15:34:24Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2017-06-26T15:31:55Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2017-06-26T15:31:55Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "bottega",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/taberna-shop"
+            ],
+            "provenance": "OpenStreetMap (Way 503390843, version 2, osm:changeset=124555353, 2022-08-06T10:11:31Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/503390843",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 503390843",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=503390843",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of the Pistrinum of Betitius Placidus",
+            "uri": "https://pleiades.stoa.org/places/416199695/bottega"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Pistrinum of Betitius Placidus",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2017-06-26T15:40:35Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2017-06-26T15:50:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2017-06-26T15:50:25Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2017-06-26T15:45:18Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2017-06-26T15:40:36Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2017-06-26T15:40:35Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "pistrinum-of-betitius-placidus",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/729684717",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZUNTJIM9",
+                    "citationDetail": "41",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Della Corte, Matteo, and J Chevalier-Lavaure. <i>Pompéi: les nouvelles fouilles (maisons et habitants) et l’amphithéâtre</i>. Pompei: F. Sicignano, 1935. http://www.worldcat.org/oclc/729684717.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Della Corte 1935",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://www.worldcat.org/oclc/847291598",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "",
+                    "otherIdentifier": "",
+                    "shortTitle": "Van der Poel 1986, 230",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Pistrinum of Betitius Placidus",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/416199695/pistrinum-of-betitius-placidus"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/taberna-shop"
+    ],
+    "placeTypes": [
+        "taberna-shop"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2008%2007.htm",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/JU2FIK6G",
+            "citationDetail": "I.8.7 Pompeii. Shop or pistrinum of L. Betutius Justus",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Dunn, Jackie, and Bob Dunn. “PompeiiinPictures Ancient Pompeii Herculaneum Oplontis Stabiae.” PompeiiinPictures  A complete photographic plan of ancient Pompeii as it is today, produced by Jackie and Bob Dunn for those as enthusiastic about Pompeii as we are., December 11, 2018. https://pompeiiinpictures.com/pompeiiinpictures/index.htm.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "PompeiiinPictures",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Regio_I_degli_scavi_archeologici_di_Pompei#Insula_8",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Regio I degli scavi archeologici di Pompei",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Regio I degli scavi archeologici di Pompei.",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/8667821",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WQBMM724",
+            "citationDetail": "230",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">VanderPoel, Halsted B. <i>Corpus Topographicum Pompeianum</i>. 5 vols. Rome: The University of Texas at Austin, 1977–1986. http://www.worldcat.org/oclc/8667821.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "VanderPoel et al. 1977-1986",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://sites.google.com/site/ad79eruption/pompeii/regio-i/reg-i-ins-8",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SAEEN7M7",
+            "citationDetail": "Reg 1, Ins 8",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "<div class=\"csl-entry\">Clements, Peter. “AD79: Destruction and Re-Discovery.” Accessed September 10, 2017. https://sites.google.com/site/ad79eruption/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "AD79",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q104523713",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q104523713: Pistrinum of Betitius Placidus",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        14.490143819723682,
+        40.75083557590897
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "extant remains"
+    ],
+    "title": "Pistrinum of Betitius Placidus",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/416199695"
+}

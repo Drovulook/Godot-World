@@ -1,0 +1,383 @@
+{
+    "@type": "Place",
+    "bbox": [
+        8.7601194,
+        40.7779035,
+        8.7604198,
+        40.7781512
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/472014",
+            "contributors": [],
+            "created": "2016-07-13T13:51:19Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:51:19Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:51:19Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:51:19Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "472014",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Sardinia (island)",
+            "uri": "https://pleiades.stoa.org/places/950070777/472014"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/472014"
+    ],
+    "contributors": [],
+    "created": "2015-09-30T15:41:31Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "A nuragic shrine with a sacred well.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        8.7604198,
+                        40.7780761
+                    ],
+                    [
+                        8.7603214,
+                        40.7779899
+                    ],
+                    [
+                        8.7602455,
+                        40.7779035
+                    ],
+                    [
+                        8.7601194,
+                        40.7779745
+                    ],
+                    [
+                        8.7602005,
+                        40.778068
+                    ],
+                    [
+                        8.760219,
+                        40.7781165
+                    ],
+                    [
+                        8.7602937,
+                        40.7781512
+                    ],
+                    [
+                        8.7603749,
+                        40.7781256
+                    ],
+                    [
+                        8.7604198,
+                        40.7780761
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-nuragic-temple-of-irru",
+            "properties": {
+                "description": "Location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/950070777/osm-location-of-nuragic-temple-of-irru",
+                "location_precision": "precise",
+                "snippet": "Shrine, ; 2000 BC - 550 BC",
+                "title": "OSM location of Nuragic temple of Irru"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-12-04T20:56:29Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-10-08T09:30:47Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "added reference",
+            "modified": "2016-07-06T00:15:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-07-06T00:13:24Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2015-09-30T15:44:01Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "created place",
+            "modified": "2015-09-30T15:41:40Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2015-09-30T15:41:31Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "950070777",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "2nd-millenium-bce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce"
+                },
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "archaic",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic"
+                }
+            ],
+            "contributors": [],
+            "created": "2015-09-30T15:42:14Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Location based on OpenStreetMap",
+            "details": "",
+            "end": -550,
+            "featureType": [
+                "shrine",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/shrine",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        8.7604198,
+                        40.7780761
+                    ],
+                    [
+                        8.7603214,
+                        40.7779899
+                    ],
+                    [
+                        8.7602455,
+                        40.7779035
+                    ],
+                    [
+                        8.7601194,
+                        40.7779745
+                    ],
+                    [
+                        8.7602005,
+                        40.778068
+                    ],
+                    [
+                        8.760219,
+                        40.7781165
+                    ],
+                    [
+                        8.7602937,
+                        40.7781512
+                    ],
+                    [
+                        8.7603749,
+                        40.7781256
+                    ],
+                    [
+                        8.7604198,
+                        40.7780761
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-12-04T20:52:52Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-10-08T09:30:49Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-08-12T18:10:32Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2015-09-30T15:43:31Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2015-09-30T15:43:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2015-09-30T15:42:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2015-09-30T15:42:19Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-nuragic-temple-of-irru",
+            "locationType": [
+                "representative",
+                ""
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/shrine",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 304097973, version 2, osm:changeset=34347705, 2015-09-30T13:51:31Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/304097973",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 304097973",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=304097973",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -2000,
+            "title": "OSM location of Nuragic temple of Irru",
+            "uri": "https://pleiades.stoa.org/places/950070777/osm-location-of-nuragic-temple-of-irru"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/sanctuary",
+        "https://pleiades.stoa.org/vocabularies/place-types/well",
+        "https://pleiades.stoa.org/vocabularies/place-types/shrine"
+    ],
+    "placeTypes": [
+        "sanctuary",
+        "well",
+        "shrine"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.comune.nulvi.ss.it/pozzosacro.htm",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "TEMPIO A POZZO NURAGICO  \"NURAGHE IRRU\"  (X-VII SEC. A.C.)",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Pozzo_sacro_nuragico",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+            "citationDetail": "Pozzo sacro nuragico",
+            "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+            "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Pozzo sacro nuragico.",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeAlso"
+        },
+        {
+            "accessURI": "https://books.google.com/books?id=dKv4CQAAQBAJ&lpg=PA99&dq=irru%20pozzo%20nuragico&pg=PA99#v=onepage&q=irru%20pozzo%20nuragico&f=false",
+            "alternateURI": "",
+            "bibliographicURI": "",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Cannella and Rassu 2015",
+            "otherIdentifier": " ",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q47530525",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Pozzo sacro di Nuraghe Irrù (Q47530525)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        8.760267688652895,
+        40.7780328852375
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "extant remains"
+    ],
+    "title": "Irru",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/950070777"
+}

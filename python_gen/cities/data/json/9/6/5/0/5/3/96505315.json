@@ -1,0 +1,305 @@
+{
+    "@type": "Place",
+    "bbox": [
+        35.603282,
+        32.438816,
+        35.603282,
+        32.438816
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "early-bronze-age-southern-levant",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-bronze-age-southern-levant"
+                }
+            ],
+            "connectionType": "near",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/near",
+            "connectsTo": "https://pleiades.stoa.org/places/687932",
+            "contributors": [],
+            "created": "2019-12-05T18:06:42Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": -2000,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-12-08T14:34:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-12-05T18:06:56Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-12-05T18:06:46Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-12-05T18:06:42Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "iordanes-river",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": -3300,
+            "title": "Iordanes (river)",
+            "uri": "https://pleiades.stoa.org/places/96505315/iordanes-river"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/687932"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2019-12-05T18:02:45Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Gabriel Mckee",
+            "uri": "https://pleiades.stoa.org/author/gmckee",
+            "username": "gmckee"
+        }
+    ],
+    "description": "Archaeological site in the Jordan Valley containing the remains of a village dated to the Early Bronze Age IV (ca. 2500-1900 BCE).",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    35.603282,
+                    32.438816
+                ],
+                "type": "Point"
+            },
+            "id": "google-earth-location-of-tell-abu-en-niaj",
+            "properties": {
+                "description": "Point representing the imagery location of the Tell Abu en-Ni'aj site.",
+                "link": "https://pleiades.stoa.org/places/96505315/google-earth-location-of-tell-abu-en-niaj",
+                "location_precision": "precise",
+                "snippet": "Settlement; 3300 BC - 2000 BC",
+                "title": "Google Earth location of Tell Abu en-Ni'aj"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-11-04T14:15:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2019-12-08T14:34:46Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2019-12-05T18:06:56Z",
+            "modifiedBy": "gmckee"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2019-12-05T18:02:49Z",
+            "modifiedBy": "gmckee"
+        },
+        {
+            "action": "Create",
+            "modified": "2019-12-05T18:02:45Z",
+            "modifiedBy": "gmckee"
+        }
+    ],
+    "id": "96505315",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+            "accuracy_value": 5.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "early-bronze-age-southern-levant",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-bronze-age-southern-levant"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2019-12-05T18:04:39Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Gabriel Mckee",
+                    "uri": "https://pleiades.stoa.org/author/gmckee",
+                    "username": "gmckee"
+                }
+            ],
+            "description": "Point representing the imagery location of the Tell Abu en-Ni'aj site.",
+            "details": "",
+            "end": -2000,
+            "featureType": [
+                "settlement"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "geometry": {
+                "coordinates": [
+                    35.603282,
+                    32.438816
+                ],
+                "type": "Point"
+            },
+            "history": [
+                {
+                    "comment": "Google Earth and Partners Imagery 2016 and following",
+                    "modified": "2023-02-28T01:10:51Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2019-12-08T14:34:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2019-12-05T18:06:56Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2019-12-05T18:04:40Z",
+                    "modifiedBy": "gmckee"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2019-12-05T18:04:39Z",
+                    "modifiedBy": "gmckee"
+                }
+            ],
+            "id": "google-earth-location-of-tell-abu-en-niaj",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+            ],
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://whitelevy.fas.harvard.edu/map-dig-sites",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9BRG4AKD",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "<div class=\"csl-entry\">Shelby White and Leon Levy Program for Archaeological Publications. “Maps of Sponsored Projects (1997-2010).” Shelby White and Leon Levy Program for Archaeological Publications, 2019. https://whitelevy.fas.harvard.edu/map-dig-sites.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "White-Levy Program Map of Sponsored Projects",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "http://www.worldcat.org/oclc/1090689454",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2VR952UN",
+                    "citationDetail": "page 4",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\">Falconer, Steven E, Patricia L Fall, Ilya Berelov, and Steven Porson. <i>Early Bronze IV Village Life in the Jordan Valley: Excavations at Tell Abu En-Ni’aj and Dhahret Umm El-Marar, Jordan</i>. BAR International Series 2922. Oxford, UK: BAE Publishing, 2019. http://www.worldcat.org/oclc/1090689454.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Falconer 2019",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -3300,
+            "title": "Google Earth location of Tell Abu en-Ni'aj",
+            "uri": "https://pleiades.stoa.org/places/96505315/google-earth-location-of-tell-abu-en-niaj"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+    ],
+    "placeTypes": [
+        "settlement"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "http://www.worldcat.org/oclc/1090689454",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/2VR952UN",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Falconer, Steven E, Patricia L Fall, Ilya Berelov, and Steven Porson. <i>Early Bronze IV Village Life in the Jordan Valley: Excavations at Tell Abu En-Ni’aj and Dhahret Umm El-Marar, Jordan</i>. BAR International Series 2922. Oxford, UK: BAE Publishing, 2019. http://www.worldcat.org/oclc/1090689454.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Falconer 2019",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q130866287",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Tell Abu en-Ni‘aj (Q130866287)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "https://www.cambridge.org/core/journals/radiocarbon/article/abs/radiocarbon-sequence-from-tell-abu-enniaj-jordan-and-its-implications-for-early-bronze-iv-chronology-in-the-southern-levant/84C26FA71570BBE434755E03D91DDBB4",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/VQZJ2K23",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Falconer, Steven E., and Patricia L. Fall. “A Radiocarbon Sequence from Tell Abu En-Ni‘aj, Jordan and Its Implications for Early Bronze IV Chronology in the Southern Levant.” <i>Radiocarbon</i> 58, no. 3 (September 2016): 615–47. https://doi.org/10.1017/RDC.2016.26.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Falconer 2016",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        35.603282,
+        32.438816
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [],
+    "title": "Tell Abu en-Ni'aj",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/96505315"
+}

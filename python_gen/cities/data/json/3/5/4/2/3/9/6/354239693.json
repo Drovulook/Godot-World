@@ -1,0 +1,879 @@
+{
+    "@type": "Place",
+    "bbox": [
+        21.8578913,
+        32.8177356,
+        21.8591439,
+        32.818768
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "connection",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection",
+            "connectsTo": "https://pleiades.stoa.org/places/373778",
+            "contributors": [],
+            "created": "2016-07-13T13:35:00Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "",
+                    "uri": "https://pleiades.stoa.org/author/admin",
+                    "username": "admin"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-07-13T13:35:00Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-07-13T13:35:00Z",
+                    "modifiedBy": "admin"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-07-13T13:35:00Z",
+                    "modifiedBy": "admin"
+                }
+            ],
+            "id": "373778",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Cyrene",
+            "uri": "https://pleiades.stoa.org/places/354239693/373778"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/373778"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "created": "2016-06-13T11:40:28Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Valeria Vitale",
+            "uri": "https://pleiades.stoa.org/author/vvitale",
+            "username": "vvitale"
+        }
+    ],
+    "description": "A large architectural complex on the east side of the acropolis ridge in Cyrene that was probably built at the beginning of the first century AD and used as a gymnasium, but was later repurposed as forum in Flavian times, when the rooms north of the complex were levelled in order to build a large basilica. Various ruins can still be seen, including the podium of a temple in the central area, possibly dedicated to Dionysos. A fragmentary inscription referring to the \"portico of Caesar\", found over the inner side of the porch, made the place known as Caesareum.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        21.8578913,
+                        32.8180895
+                    ],
+                    [
+                        21.8582346,
+                        32.818768
+                    ],
+                    [
+                        21.8591439,
+                        32.8184118
+                    ],
+                    [
+                        21.8587898,
+                        32.8177356
+                    ],
+                    [
+                        21.8578913,
+                        32.8180895
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "caesareum",
+            "properties": {
+                "description": "Representative OpenStreetMap location of the Caesareum, on the east end of the Acropolis ridge in Cyrene (Libya).",
+                "link": "https://pleiades.stoa.org/places/354239693/caesareum",
+                "location_precision": "precise",
+                "snippet": "Architecturalcomplex, ; 30 BC - AD 640",
+                "title": "OSM location of the so-called Caesareum in Cyrene"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-10-26T02:18:25Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "update references",
+            "modified": "2024-07-03T18:47:13Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "updated references",
+            "modified": "2020-10-26T03:52:34Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2016-06-14T19:45:27Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-06-14T19:32:15Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-06-14T19:27:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2016-06-14T15:04:46Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-06-14T15:00:52Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-06-13T15:00:47Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-06-13T14:56:24Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "comment": "Edited",
+            "modified": "2016-06-13T13:42:04Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "comment": "Initial revision",
+            "modified": "2016-06-13T11:40:33Z",
+            "modifiedBy": "vvitale"
+        },
+        {
+            "action": "Create",
+            "modified": "2016-06-13T11:40:28Z",
+            "modifiedBy": "vvitale"
+        }
+    ],
+    "id": "354239693",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman-early-empire-late-antique",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-late-antique"
+                }
+            ],
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-06-13T13:45:55Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "Representative OpenStreetMap location of the Caesareum, on the east end of the Acropolis ridge in Cyrene (Libya).",
+            "details": "",
+            "end": 640,
+            "featureType": [
+                "architecturalcomplex",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        21.8578913,
+                        32.8180895
+                    ],
+                    [
+                        21.8582346,
+                        32.818768
+                    ],
+                    [
+                        21.8591439,
+                        32.8184118
+                    ],
+                    [
+                        21.8587898,
+                        32.8177356
+                    ],
+                    [
+                        21.8578913,
+                        32.8180895
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-07-03T18:42:40Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-06-14T19:45:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-14T19:44:44Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-14T15:06:23Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-14T15:06:16Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2016-06-13T13:48:58Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2016-06-13T13:45:55Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-06-13T13:45:55Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "caesareum",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 423642459, version 3, osm:changeset=144441373, 2023-11-25T13:39:37Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/423642459",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 423642459",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=423642459",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of the so-called Caesareum in Cyrene",
+            "uri": "https://pleiades.stoa.org/places/354239693/caesareum"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Caesareum",
+            "contributors": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "created": "2016-06-13T14:10:58Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-06-14T19:45:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-14T19:44:08Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-14T15:05:04Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-13T15:00:53Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2016-06-13T14:10:59Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-06-13T14:10:58Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "name.2016-06-13.8079672395",
+            "language": "la",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://books.google.co.uk/books?id=UuE4CQAAQBAJ&lpg=PT330&ots=KNDWMs-WeN&dq=cyrene%20caesareum&pg=PT330#v=onepage&q&f=false",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Encyclopedia of the History of Classical Archaeology (GoogleBooks), CYRENAICA",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.worldcat.org/title/cyrenaica/oclc/863572165",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Kenrick 2013, 153-6",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "http://vici.org/vici/19941/",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "vici.org: Cyrene, Caesareum",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "http://www.jstor.org/stable/40310599",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Ward-Perkins, J., M. Ballance, & J. Reynolds, 1958. \"The Caesareum at Cyrene and the Basilica at Cremna, with a Note on the Inscriptions of the Caesareum by J. M. Reynolds.\" PBSR 26:137-94.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Caesareum",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/354239693/name.2016-06-13.8079672395"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Ginnasio dello stato",
+            "contributors": [],
+            "created": "2016-06-13T14:17:51Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-06-14T19:42:38Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-14T15:05:22Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2016-06-13T14:17:52Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-06-13T14:17:51Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "ginnasio-dello-stato",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.worldcat.org/title/architettura-cirenaica/oclc/2099264",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Stucchi 1975, 655",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Ginnasio dello stato",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/354239693/ginnasio-dello-stato"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Ginnasio-Cesareo",
+            "contributors": [],
+            "created": "2016-06-13T14:36:08Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-06-14T19:45:17Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-14T15:05:31Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-13T14:55:39Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2016-06-13T14:36:14Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-06-13T14:36:08Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "ginnasio-cesareo",
+            "language": "it",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.worldcat.org/title/cirene/oclc/43662953",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Bonacasa & Ensoli 2000, 91-6",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://books.google.co.uk/books?id=SrGNKzqCIrMC&lpg=PA32&ots=q9RTsvpP43&dq=Il%20quartiere%20orientale.%20Il%20Ginnasio-Cesareo%20luni&pg=PA32#v=onepage&q&f=false",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Luni 2007 (GoogleBooks), 37-45",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "http://atlantides.org/bibliography/l.html#Luni",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Luni, M. 2000. Il quartiere orientale. Il Ginnasio-Cesareo. Cirene, Milano, pp.91-96.",
+                    "otherIdentifier": "",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.worldcat.org/title/da-batto-aristotele-a-ibn-el-as-lopera-scientifica-e-lattivita-pratica-della-missione-archeologica-italiana-a-cirene-e-leptis-magna-in-collaborazione-con-il-dipartimento-delle-antichita-della-gran-jamahiriya-araba-libica-soc",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Stucchi 1987, 41-6",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Ginnasio-Cesareo",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/354239693/ginnasio-cesareo"
+        },
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "modern",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern"
+                }
+            ],
+            "attested": "Forum of Proculus",
+            "contributors": [],
+            "created": "2016-06-13T14:42:19Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Valeria Vitale",
+                    "uri": "https://pleiades.stoa.org/author/vvitale",
+                    "username": "vvitale"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2100,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2016-06-14T19:45:18Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2016-06-14T15:05:15Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-13T14:52:28Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-06-13T14:43:11Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "comment": "Initial revision",
+                    "modified": "2016-06-13T14:42:20Z",
+                    "modifiedBy": "vvitale"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2016-06-13T14:42:19Z",
+                    "modifiedBy": "vvitale"
+                }
+            ],
+            "id": "name.2016-06-13.6397261928",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://books.google.co.uk/books?id=GwsNAQAAIAAJ&lpg=PA34&ots=IxIH0_oG1e&dq=Forum%20of%20Proculus&pg=PA34#v=onepage&q&f=false",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Rowe, Buttle and Gray (GoogleBooks) 1956, 34",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.worldcat.org/title/cyrene-and-ancient-cyrenaica-a-guide-book/oclc/2684183",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Hyslop 1945, 39-40",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Forum of Proculus",
+            "start": 1700,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/354239693/name.2016-06-13.6397261928"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/basilica",
+        "https://pleiades.stoa.org/vocabularies/place-types/architecturalcomplex"
+    ],
+    "placeTypes": [
+        "basilica",
+        "architecturalcomplex"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MK6NMMWU",
+            "citationDetail": "101, 125, 187, 203-6",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stucchi, Sandro. <i>Architettura Cirenaica</i>. Monografie Di Archeologia Libica 9. Roma: L’Erma di Bretschneider, 1975.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Stucchi 1975",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/43662953",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/5GUDXGXR",
+            "citationDetail": "91-6",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Bonacasa, Nicola, Serena Ensoli, and Ida Baldassarre. <i>Cirene</i>. Milano: Electa, 2000. http://www.worldcat.org/oclc/43662953.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Bonacasa and Enoli 2000",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/F7T27BND",
+            "citationDetail": "153-6",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Kenrick, Philip M, and Ahmed Buzaian. <i>Cyrenaica</i>. London: Silphium Press, 2013.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Kenrick 2013",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.jstor.org/stable/40310599",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PWD5UFC4",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Ward-Perkins, John Bryan, M. H. Ballance, and Joyce M. Reynolds. “The Caesareum at Cyrene and the Basilica at Cremna, with a Note on the Inscriptions of the Caesareum by J. M. Reynolds.” <i>Papers of the British School at Rome</i> 26 (1958): 137–94. https://www.jstor.org/stable/40310599.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Ward-Perkins 1958",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aentry%3Dcyrene",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+            "citationDetail": "CYRENE (Shahat) Libya",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "PECS (Perseus)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://books.google.co.uk/books?id=GwsNAQAAIAAJ&lpg=PA34&ots=IxIH0_oG1e&dq=Forum%20of%20Proculus&pg=PA34#v=onepage&q&f=false",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/L2QNBXI9",
+            "citationDetail": "34",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Rowe, Alan, and Derek Buttle. <i>Cyrenaican Expedition</i>. Manchester University Press, n.d.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Rowe and Buttle 1956",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.worldcat.org/oclc/2684183",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZJQTUWTD",
+            "citationDetail": "39-40",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Hyslop, C. G. C, and S Applebaum. <i>Cyrene and Ancient Cyrenaica: A Guide Book</i>, 1945. http://www.worldcat.org/oclc/2684183.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Hyslop 1945",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://books.google.co.uk/books?id=SrGNKzqCIrMC&lpg=PA32&ots=q9RTsvpP43&dq=Il%20quartiere%20orientale.%20Il%20Ginnasio-Cesareo%20luni&pg=PA32#v=onepage&q&f=false",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/3AETQKPV",
+            "citationDetail": "37-45",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Luni, Mario. <i>Cirene “Atene d’Africa.”</i> Rome: L’ERMA di BRETSCHNEIDER, 2006.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Luni 2006",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "http://atlantides.org/bibliography/l.html#Luni",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Luni, M. 2000. Il quartiere orientale. Il Ginnasio-Cesareo. Cirene,  Milan, pp.91-96.",
+            "otherIdentifier": "",
+            "shortTitle": "",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UGSJ9GMR",
+            "citationDetail": "41-6",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Stucchi, S. “L’architettura Funeraria Suburbana Cirenaica in Rapporto a Quella Della Chora Viciniore Ed a Quella Libya Ulteriore, Con Speciale Riguardo All’età Ellenistica.” <i>Quaderni Di Archeologia Della Libia</i> 12 (1987): 249–377.</div>",
+            "otherIdentifier": " ",
+            "shortTitle": "Stucchi 1987",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://ora.uniurb.it/handle/11576/1889013",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ND8WUUK6",
+            "citationDetail": "",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Luni, Mario. “Il Ginnasio-Cesareo nel Quartiere monumentale dell’Agorà di Cirene.” ROMA, 1987. https://ora.uniurb.it/handle/11576/1889013.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Luni 1987",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q82073818",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Caesareum at Cyrene (Q82073818)",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        }
+    ],
+    "reprPoint": [
+        21.858515825886975,
+        32.81825214097426
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "basilica",
+        "Complex",
+        "extant remains"
+    ],
+    "title": "So-called Caesareum of Cyrene",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/354239693"
+}

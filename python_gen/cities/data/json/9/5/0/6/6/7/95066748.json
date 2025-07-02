@@ -1,0 +1,444 @@
+{
+    "@type": "Place",
+    "bbox": [
+        17.3910255,
+        40.8877311,
+        17.3913247,
+        40.8880307
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/442573",
+            "contributors": [],
+            "created": "2018-05-30T22:29:19Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-05-30T22:29:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-05-30T22:29:19Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-05-30T22:29:19Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "3597526076",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Egnatia/Gnathia",
+            "uri": "https://pleiades.stoa.org/places/95066748/3597526076"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/442573"
+    ],
+    "contributors": [],
+    "created": "2018-05-30T22:29:18Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The so-called Roman amphitheater at Egnatia/Gnathia dates to the Iulio-Claudian period. It is an elliptical structure with walls in opus Africanum that were revetted with painted plaster.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        17.3912541,
+                        40.8880307
+                    ],
+                    [
+                        17.391187,
+                        40.88803
+                    ],
+                    [
+                        17.391089,
+                        40.8879782
+                    ],
+                    [
+                        17.3910255,
+                        40.8878895
+                    ],
+                    [
+                        17.3910296,
+                        40.8878136
+                    ],
+                    [
+                        17.3910776,
+                        40.8877651
+                    ],
+                    [
+                        17.3911579,
+                        40.8877353
+                    ],
+                    [
+                        17.3912181,
+                        40.8877311
+                    ],
+                    [
+                        17.3912822,
+                        40.8877805
+                    ],
+                    [
+                        17.3913048,
+                        40.8878441
+                    ],
+                    [
+                        17.3913247,
+                        40.8879065
+                    ],
+                    [
+                        17.3913197,
+                        40.8879627
+                    ],
+                    [
+                        17.3913117,
+                        40.8879966
+                    ],
+                    [
+                        17.3912879,
+                        40.8880192
+                    ],
+                    [
+                        17.3912541,
+                        40.8880307
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "location-of-roman-amphitheater",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap.",
+                "link": "https://pleiades.stoa.org/places/95066748/location-of-roman-amphitheater",
+                "location_precision": "precise",
+                "snippet": "Amphitheatre, ; 30 BC - AD 300",
+                "title": "OSM location of Roman amphitheater"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "update references",
+            "modified": "2024-07-30T13:17:45Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-06-05T21:27:39Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-06-03T14:54:58Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "summary, reference",
+            "modified": "2018-06-03T14:51:37Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "title",
+            "modified": "2018-05-30T22:29:38Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-05-30T22:29:21Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-05-30T22:29:18Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "95066748",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "unknown",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "roman",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman"
+                }
+            ],
+            "contributors": [],
+            "created": "2014-02-09T23:33:10Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap.",
+            "details": "",
+            "end": 300,
+            "featureType": [
+                "amphitheatre",
+                ""
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        17.3912541,
+                        40.8880307
+                    ],
+                    [
+                        17.391187,
+                        40.88803
+                    ],
+                    [
+                        17.391089,
+                        40.8879782
+                    ],
+                    [
+                        17.3910255,
+                        40.8878895
+                    ],
+                    [
+                        17.3910296,
+                        40.8878136
+                    ],
+                    [
+                        17.3910776,
+                        40.8877651
+                    ],
+                    [
+                        17.3911579,
+                        40.8877353
+                    ],
+                    [
+                        17.3912181,
+                        40.8877311
+                    ],
+                    [
+                        17.3912822,
+                        40.8877805
+                    ],
+                    [
+                        17.3913048,
+                        40.8878441
+                    ],
+                    [
+                        17.3913247,
+                        40.8879065
+                    ],
+                    [
+                        17.3913197,
+                        40.8879627
+                    ],
+                    [
+                        17.3913117,
+                        40.8879966
+                    ],
+                    [
+                        17.3912879,
+                        40.8880192
+                    ],
+                    [
+                        17.3912541,
+                        40.8880307
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "comment": "Reimported full way geometry and updated provenance",
+                    "modified": "2024-07-30T13:17:10Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-06-05T21:27:39Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "comment": "Edited",
+                    "modified": "2016-05-21T17:01:56Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2014-02-10T02:06:11Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "added location",
+                    "modified": "2014-02-09T23:34:15Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2014-02-09T23:33:14Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2014-02-09T23:33:12Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "location-of-roman-amphitheater",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre",
+                "https://pleiades.stoa.org/vocabularies/place-types/"
+            ],
+            "provenance": "OpenStreetMap (Way 260852255, version 10, osm:changeset=46632683, 2017-03-06T19:44:26Z)",
+            "references": [
+                {
+                    "accessURI": "http://www.openstreetmap.org/browse/way/260852255",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 260852255",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=260852255",
+                    "otherIdentifier": " ",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                },
+                {
+                    "accessURI": "http://www.amphi-theatrum.de/1610.html",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "amphi-theatrum.de, 1610",
+                    "otherIdentifier": " ",
+                    "shortTitle": "",
+                    "type": "seeFurther"
+                },
+                {
+                    "accessURI": "https://it.wikipedia.org/wiki/Egnazia",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/UMFZH98D",
+                    "citationDetail": "Egnazia",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "Wikipedia: L’enciclopedia libera e collaborativa (2001-), Egnazia.",
+                    "otherIdentifier": " ",
+                    "shortTitle": "Wikipedia (Italian)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "start": -30,
+            "title": "OSM location of Roman amphitheater",
+            "uri": "https://pleiades.stoa.org/places/95066748/location-of-roman-amphitheater"
+        }
+    ],
+    "names": [],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/amphitheatre"
+    ],
+    "placeTypes": [
+        "amphitheatre"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://it.wikipedia.org/wiki/Egnazia",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UMFZH98D",
+            "citationDetail": "Egnazia",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: L’enciclopedia libera e collaborativa</i>. Wikimedia Foundation, 2001. https://it.wikipedia.org.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikipedia (Italian)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "http://www.amphi-theatrum.de/1610.html",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/NTQZEIIX",
+            "citationDetail": "1610",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\">Gogräfe, Rüdiger, Marin Buovac, and Maria Engracia Muñoz-Santos. <i>Amphi-theatrum</i>. Mainz: Direktion Landesarchäologie Mainz, 2011. http://amphi-theatrum.de/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Amphi-theatrum",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/56QXVE6Y",
+            "citationDetail": "254",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Golvin, Jean-Claude. <i>L’Amphithéâtre romain: essai sur la théorisation de sa forme et de ses fonctions</i>. Paris: Diffusion De Boccard, 1988.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Golvin 1988",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RZ3ST8TV",
+            "citationDetail": "205",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Tosi, Giovanna. <i>Gli edifici per spettacoli nell’Italia romana</i>. 2 vols. Roma: Quasar, 2003.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Tosi et al. 2003",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        17.39118179520623,
+        40.887882514312274
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "opus africanum",
+        "extant remains",
+        "amphitheater"
+    ],
+    "title": "Roman amphitheater at Egnatia/Gnathia",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/95066748"
+}

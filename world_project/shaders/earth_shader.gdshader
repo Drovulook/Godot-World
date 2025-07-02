@@ -39,8 +39,9 @@ uniform vec3 ocean_deep_color : source_color = vec3(0.0, 0.0, 0.5);
 uniform float ocean_specular : hint_range(0.0, 1.0) = 0.5;
 uniform float ocean_fresnel : hint_range(0.0, 5.0) = 2.0;
 
-//provinces
+// provinces, villes, pays
 uniform vec3 NOCHANGE_province_color_to_highlight = vec3(0.0, 0.0, 0.0);
+uniform vec3 NOCHANGE_city_color_to_highlight = vec3(0.0, 0.0, 0.0);
 
 // vertex
 uniform float NOCHANGE_planet_radius;
@@ -158,17 +159,24 @@ void fragment() {
 	    }
 	}
 	float pv_color_threshold = 0.00003;
+	float city_color_threshold = 0.5;
+	
 	if(NOCHANGE_province_color_to_highlight != vec3(0.0)&& ((province_color.r - NOCHANGE_province_color_to_highlight.r) < pv_color_threshold && (province_color.r - NOCHANGE_province_color_to_highlight.r) > -pv_color_threshold)
 	 															&& ((province_color.g - NOCHANGE_province_color_to_highlight.g) < pv_color_threshold && (province_color.g - NOCHANGE_province_color_to_highlight.g) > -pv_color_threshold)
 																&& ((province_color.b - NOCHANGE_province_color_to_highlight.b) < pv_color_threshold && (province_color.b - NOCHANGE_province_color_to_highlight.b) > -pv_color_threshold)
-	)
-	{
+	){
 		color = color * 1.5;
 	}
 
 	if(city_color != vec3(0.0, 0.0, 0.0) && !(is_ocean_value > 0.5)) {
-		color = color * 1.5 + vec3(0.1, 0.1, 0.1);
+		color = color + 3.5 * vec3(0.1, 0.1, 0.1);
 	}
+	else if (NOCHANGE_city_color_to_highlight != vec3(0.0) && ((city_color.r - NOCHANGE_city_color_to_highlight.r) < city_color_threshold && (city_color.r - NOCHANGE_city_color_to_highlight.r) > -city_color_threshold)
+		 															&& ((city_color.g - NOCHANGE_city_color_to_highlight.g) < city_color_threshold && (city_color.g - NOCHANGE_city_color_to_highlight.g) > -city_color_threshold)
+																	&& ((city_color.b - NOCHANGE_city_color_to_highlight.b) < city_color_threshold && (city_color.b - NOCHANGE_city_color_to_highlight.b) > -city_color_threshold)
+	) {
+		// color = 10.0 * vec3(0.1, 0.0, 0.0);
+	} 
 
     ALBEDO = clamp(color, 0.0, 1.0);
     METALLIC = metallic;

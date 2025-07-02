@@ -1,0 +1,407 @@
+{
+    "@type": "Place",
+    "bbox": [
+        31.223212,
+        29.791133,
+        31.2246065,
+        29.7923531
+    ],
+    "connections": [
+        {
+            "@type": "Connection",
+            "associationCertainty": "certain",
+            "attestations": [],
+            "connectionType": "at",
+            "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/at",
+            "connectsTo": "https://pleiades.stoa.org/places/737063",
+            "contributors": [],
+            "created": "2018-07-17T15:43:46Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": null,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2018-07-17T15:43:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2018-07-17T15:43:46Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2018-07-17T15:43:46Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "2263047970",
+            "provenance": "Pleiades",
+            "references": [],
+            "review_state": "published",
+            "start": null,
+            "title": "Takyris",
+            "uri": "https://pleiades.stoa.org/places/374122553/2263047970"
+        }
+    ],
+    "connectsWith": [
+        "https://pleiades.stoa.org/places/737063"
+    ],
+    "contributors": [
+        {
+            "homepage": null,
+            "name": "Nicolas Souchon",
+            "uri": "https://pleiades.stoa.org/author/nsouchon",
+            "username": "nsouchon"
+        }
+    ],
+    "created": "2025-05-28T07:27:39Z",
+    "creators": [
+        {
+            "homepage": null,
+            "name": "Jeffrey Becker",
+            "uri": "https://pleiades.stoa.org/author/jbecker",
+            "username": "jbecker"
+        }
+    ],
+    "description": "The pyramid of the Middle Kingdom Pharaoh Amenemhat III.",
+    "details": "",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        31.2232168,
+                        29.791133
+                    ],
+                    [
+                        31.223212,
+                        29.792349
+                    ],
+                    [
+                        31.2246017,
+                        29.7923531
+                    ],
+                    [
+                        31.2246065,
+                        29.7911372
+                    ],
+                    [
+                        31.2232168,
+                        29.791133
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "id": "osm-location-of-black-pyramid",
+            "properties": {
+                "description": "Representative location based on OpenStreetMap",
+                "link": "https://pleiades.stoa.org/places/374122553/osm-location-of-black-pyramid",
+                "location_precision": "precise",
+                "snippet": "Pyramid; 2010 BC - 1640 BC",
+                "title": "OSM location of Black Pyramid"
+            },
+            "type": "Feature"
+        }
+    ],
+    "history": [
+        {
+            "comment": "added Porter reference by @nsouchon",
+            "modified": "2025-05-28T14:00:04Z",
+            "modifiedBy": "thomase"
+        },
+        {
+            "comment": "Baseline created",
+            "modified": "2025-05-28T07:27:37Z",
+            "modifiedBy": "nsouchon"
+        },
+        {
+            "comment": "edit typo",
+            "modified": "2021-02-22T21:43:33Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "add wikidata Q284794: (read the Survey Privacy Statement) Pyramid of Amenemhat III",
+            "modified": "2021-02-22T21:43:14Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Publish externally",
+            "modified": "2018-07-17T15:47:11Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Submit for review",
+            "modified": "2018-07-17T15:46:57Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "promoted",
+            "modified": "2018-07-17T15:46:17Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "comment": "Migrated from location",
+            "modified": "2018-07-17T15:43:48Z",
+            "modifiedBy": "jbecker"
+        },
+        {
+            "action": "Create",
+            "modified": "2018-07-17T15:43:45Z",
+            "modifiedBy": "jbecker"
+        }
+    ],
+    "id": "374122553",
+    "locations": [
+        {
+            "@type": "Location",
+            "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+            "accuracy_value": 20.0,
+            "archaeologicalRemains": "traces",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "middle-kingdom-egypt",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/middle-kingdom-egypt"
+                }
+            ],
+            "contributors": [],
+            "created": "2023-11-19T16:00:26Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "Representative location based on OpenStreetMap",
+            "details": "",
+            "end": -1640,
+            "featureType": [
+                "pyramid"
+            ],
+            "featureTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        31.2232168,
+                        29.791133
+                    ],
+                    [
+                        31.223212,
+                        29.792349
+                    ],
+                    [
+                        31.2246017,
+                        29.7923531
+                    ],
+                    [
+                        31.2246065,
+                        29.7911372
+                    ],
+                    [
+                        31.2232168,
+                        29.791133
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2023-11-20T12:10:53Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2023-11-19T16:01:16Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "add OSM location",
+                    "modified": "2023-11-19T16:00:57Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+                    "modified": "2023-11-19T16:00:26Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2023-11-19T16:00:26Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "osm-location-of-black-pyramid",
+            "locationType": [
+                "representative"
+            ],
+            "locationTypeURI": [
+                "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+            ],
+            "provenance": "OpenStreetMap (Way 39918837, version 11, osm:changeset=140307414, 2023-08-24T07:35:08Z)",
+            "references": [
+                {
+                    "accessURI": "https://www.openstreetmap.org/browse/way/39918837",
+                    "alternateURI": "",
+                    "bibliographicURI": "",
+                    "citationDetail": "Way 39918837",
+                    "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+                    "formattedCitation": "osm:way=39918837",
+                    "otherIdentifier": "",
+                    "shortTitle": "OSM",
+                    "type": "citesAsDataSource"
+                }
+            ],
+            "review_state": "published",
+            "start": -2010,
+            "title": "OSM location of Black Pyramid",
+            "uri": "https://pleiades.stoa.org/places/374122553/osm-location-of-black-pyramid"
+        }
+    ],
+    "names": [
+        {
+            "@type": "Name",
+            "associationCertainty": "certain",
+            "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+            "attestations": [
+                {
+                    "confidence": "confident",
+                    "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident",
+                    "timePeriod": "twenty-first-ce",
+                    "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce"
+                }
+            ],
+            "attested": "Pyramid of Amenemhat III (Dahshur)",
+            "contributors": [],
+            "created": "2025-05-27T14:13:53Z",
+            "creators": [
+                {
+                    "homepage": null,
+                    "name": "Jeffrey Becker",
+                    "uri": "https://pleiades.stoa.org/author/jbecker",
+                    "username": "jbecker"
+                }
+            ],
+            "description": "",
+            "details": "",
+            "end": 2099,
+            "history": [
+                {
+                    "action": "Publish externally",
+                    "modified": "2025-05-27T14:49:06Z",
+                    "modifiedBy": "thomase"
+                },
+                {
+                    "action": "Submit for review",
+                    "modified": "2025-05-27T14:14:09Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "comment": "name",
+                    "modified": "2025-05-27T14:13:54Z",
+                    "modifiedBy": "jbecker"
+                },
+                {
+                    "action": "Create",
+                    "modified": "2025-05-27T14:13:53Z",
+                    "modifiedBy": "jbecker"
+                }
+            ],
+            "id": "pyramid-of-amenemhat-iii-dahshur",
+            "language": "en",
+            "nameType": "geographic",
+            "provenance": "Pleiades",
+            "references": [
+                {
+                    "accessURI": "https://en.wikipedia.org/wiki/Pyramid_of_Amenemhat_III_(Dahshur)",
+                    "alternateURI": "",
+                    "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+                    "citationDetail": "Pyramid of Amenemhat III (Dahshur)",
+                    "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+                    "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+                    "otherIdentifier": "",
+                    "shortTitle": "Wikipedia (English)",
+                    "type": "seeFurther"
+                }
+            ],
+            "review_state": "published",
+            "romanized": "Pyramid of Amenemhat III (Dahshur)",
+            "start": 2000,
+            "transcriptionAccuracy": "accurate",
+            "transcriptionCompleteness": "complete",
+            "uri": "https://pleiades.stoa.org/places/374122553/pyramid-of-amenemhat-iii-dahshur"
+        }
+    ],
+    "placeTypeURIs": [
+        "https://pleiades.stoa.org/vocabularies/place-types/pyramid"
+    ],
+    "placeTypes": [
+        "pyramid"
+    ],
+    "provenance": "Pleiades",
+    "references": [
+        {
+            "accessURI": "https://en.wikipedia.org/wiki/Black_Pyramid",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+            "citationDetail": "Pyramid of Amenemhat III (Dahshur)",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Pyramid of Amenemhat III (Dahshur).",
+            "otherIdentifier": " ",
+            "shortTitle": "Wikipedia (English)",
+            "type": "seeFurther"
+        },
+        {
+            "accessURI": "https://www.wikidata.org/wiki/Q284794",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+            "citationDetail": "Q284794: Pyramid of Amenemhat III",
+            "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+            "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Wikidata",
+            "type": "citesAsRelated"
+        },
+        {
+            "accessURI": "http://www.griffith.ox.ac.uk/topbib/pdf/pm3-2.pdf",
+            "alternateURI": "",
+            "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/Z94SZ7MM",
+            "citationDetail": "pp. 887-888",
+            "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+            "formattedCitation": "<div class=\"csl-entry\">Porter, Bertha, Rosalind Louisa Beaufort Moss, Ethel W. Burney, and Jaromir Málek. <i>Topographical Bibliography of Ancient Egyptian Hieroglyphic Texts, Reliefs, and Paintings. III. Memphis. Part 2. Ṣaqqâra to Dahshûr</i>. 2nd ed. 1931. Reprint, Oxford, 1981. http://www.griffith.ox.ac.uk/topbib/pdf/pm3-2.pdf.</div>",
+            "otherIdentifier": "",
+            "shortTitle": "Porter 1981",
+            "type": "seeFurther"
+        }
+    ],
+    "reprPoint": [
+        31.2239092366668,
+        29.791743074925343
+    ],
+    "review_state": "published",
+    "rights": "Copyright © The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+    "subject": [
+        "pyramid",
+        "extant remains"
+    ],
+    "title": "Black Pyramid",
+    "type": "FeatureCollection",
+    "uri": "https://pleiades.stoa.org/places/374122553"
+}
